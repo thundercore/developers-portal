@@ -1,0 +1,105 @@
+version: 2.1
+
+##############
+# Executors  #
+##############
+executors:
+  thunderci:
+    working_directory: ~/repo
+    docker:
+    - image: 085892847382.dkr.ecr.us-west-2.amazonaws.com/dev/apps-ci-docker
+
+##############
+# commands   #
+##############
+commands:
+  build:
+    steps:
+      - run:
+          name: Install tools missing in apps-ci-docker
+          command: sudo apk add autoconf automake
+      - restore_cache:
+          name: "Restoring yarn cache"
+          keys:
+          - yarn-packages-{{ .Branch }}
+      - run:
+          name: Build docusaurus site
+          command: cd website && yarn install && yarn build
+      - save_cache:
+          name: "Saving yarn cache"
+          paths:
+          - ~/.cache/yarn
+          key: yarn-packages-{{ .Branch }}
+
+  deploy:
+    steps:
+    - run:
+        name: Deploy to S3
+        command: |
+          if [ "${ENV}" == "prod" ]; then
+            echo "Exporting production AWS access keys"
+            export AWS_ACCESS_KEY_ID=${AWS_APP_PROD_ACCESS_KEY_ID}
+            export AWS_SECRET_ACCESS_KEY=${AWS_APP_PROD_SECRET_ACCESS_KEY}
+            export AWS_DEFAULT_REGION=${AWS_APP_PROD_DEFAULT_REGION}
+          fi
+          ./deploy/deploy.sh
+
+##############
+# Aliases    #
+##############
+
+master_branch_filter: &master_branch_filter
+  filters:
+    branches:
+      only:
+      - master
+
+precommit_filter: &precommit_filter
+  filters:
+    branches:
+      ignore:
+      - master
+
+##############
+# Workflows  #
+##############
+
+workflows:
+  version: 2
+
+  pre-commit-tests:
+    jobs:
+    - test:
+        <<: *precommit_filter
+
+  build-deploy-platform:
+    jobs:
+    - deploy:
+        env: dev
+        url: dev-portal.dev.tt-eng.com
+        <<: *master_branch_filter
+
+##############
+# Jobs       #
+##############
+jobs:
+  test:
+    executor: thunderci
+    steps:
+    - checkout
+    - build
+
+  deploy:
+    executor: thunderci
+    parameters:
+      url:
+        type: string
+      env:
+        type: string
+    environment:
+      URL: << parameters.url >>
+      ENV: << parameters.env >>
+    steps:
+    - checkout
+    - build
+    - deploy
