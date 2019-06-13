@@ -1,9 +1,9 @@
 {
   "docs": {
     "Tutorials": [
+      "migrate-to-thunder",
+      "get-tokens",
       "build_a_dapp_on_thundercore_testnet",
-      "migrate_an_ethereum_dapp_to_thundercore",
-      "get_thunder_test_tokens",
       "erc20_smart_contract"
     ],
     "Resources": [
