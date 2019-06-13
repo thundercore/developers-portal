@@ -13,6 +13,15 @@ Download MetaMask Google Chrome plugin at [https://metamask.io/](https://metamas
 
 [metamask tutorial](https://dls7rxd829s2x.cloudfront.net/data/f/60c543bf.mp4 ':include :type=video controls width=100%')
 
+<div style="position: relative; padding-bottom: 56.25%; /* 16:9 */ padding-top: 25px; height: 0;">
+    <video style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" controls>
+      <source src="https://dls7rxd829s2x.cloudfront.net/data/f/60c543bf.mp4" type="video/mp4">
+      <source src="https://dls7rxd829s2x.cloudfront.net/data/f/60c543bf.mp4" type="video/ogg">
+      Your browser does not support HTML5 video.
+    </video>
+</div>
+
+
 ## Connect to ThunderCore network
 - Click on the Network name next to the head of the fox in the upper right corner.
 - Select "Custom RPC" from the dropdown list.
