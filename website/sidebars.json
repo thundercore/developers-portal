@@ -1,6 +1,7 @@
 {
   "docs": {
     "Tutorials": [
+      "deploy_your_own_game",
       "migrate-to-thunder",
       "get-tokens",
       "build_a_dapp_on_thundercore_testnet",
