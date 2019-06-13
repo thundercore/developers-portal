@@ -24,7 +24,7 @@ const siteConfig = {
   ],
 
   /* path to images for header/footer */
-  headerIcon: 'img/thundercore_full.webp',
+  headerIcon: 'img/thundercore_icon.svg',
   footerIcon: 'img/thundercore_icon.svg',
 
   /* Colors for website */

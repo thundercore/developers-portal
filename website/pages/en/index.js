@@ -97,12 +97,14 @@ class Index extends React.Component {
           {
             content: 'links to dev tutorials....',
             image: `${baseUrl}img/tutorials.png`,
+            imageLink: `${baseUrl}docs/migrate-to-thunder`,
             imageAlign: 'top',
             title: 'Tutorials',
           },
           {
             content: 'List of FAQs, etc',
             image: `${baseUrl}img/resources.png`,
+            imageLink: `${baseUrl}docs/api`,
             imageAlign: 'top',
             title: 'Resources',
           },
