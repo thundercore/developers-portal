@@ -22,7 +22,7 @@ random number. The gas cost for each invocation is 26134. The invocation
 is the same as calling Ethereum precompiled contracts. Below is an example
 which can be embedded into smart contract.  ThunderCore also creates a
 library which can be imported from Github with URL
-http://github.com/thundercore/RandomLibrary/RandomLibrary.sol in Remix.
+github.com/thundercore/RandomLibrary/RandomLibrary.sol in Remix.
 The random number generator will always return a bytes32 value, so you
 will need to cast/convert this value as it best suits your needs.
 
@@ -47,7 +47,7 @@ contract pays the user their own bet plus 1.
 ```
 pragma solidity ^0.4.25;
 
-import "http://github.com/thundercore/RandomLibrary/RandomLibrary.sol";
+import "github.com/thundercore/RandomLibrary/RandomLibrary.sol";
 contract RandomExample {
     event didWin(bool);
     uint256 public contractBalance;
