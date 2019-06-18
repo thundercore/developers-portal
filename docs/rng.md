@@ -6,25 +6,25 @@ random numbers through Thunder trusted random number generator procompile
 contract.
 
 ## Motivation
-When developing smart contract for Ethereum, there's no builtin support to
-generate cryptographically secure random numbers. There are some possible
-solutions e.g. using Ethereum Alarm or Oraclize. While these solutions rely
-on external services and are not scalable. To address such requirements,
-ThunderCore implements builtin support to generate cryptographically secure
+When developing smart contract for Ethereum, there's no built-in support to
+generate cryptographically secure random numbers. While there are some possible
+solutions e.g. using Ethereum Alarm or Oraclize, these solutions rely
+on external services and are not scalable. To address this need,
+ThunderCore has implemented built-in support to generate cryptographically secure
 random numbers through precompiled contract.
 
 ## Specification
-ThunderCore implements a precompiled contract which resides at address
-0x8cC9C2e145d3AA946502964B1B69CE3cD066A9C7.  The address is the first 20
+ThunderCore has implemented a precompiled contract which resides at address
+0x8cC9C2e145d3AA946502964B1B69CE3cD066A9C7. The address is the first 20
 bytes of sha256("Thunder_Random"). Each invocation of fallback function
 of trusted random generator precompiled contract will return a 256-bit
 random number. The gas cost for each invocation is 26134. The invocation
 is the same as calling Ethereum precompiled contracts. Below is an example
-which can be embedded into smart contract.  ThunderCore also creates a
+which can be embedded into smart contract.  ThunderCore also provides a
 library which can be imported from Github with URL
 github.com/thundercore/RandomLibrary/RandomLibrary.sol in Remix.
 The random number generator will always return a bytes32 value, so you
-will need to cast/convert this value as it best suits your needs.
+will need to cast or convert this value as it best suits your needs.
 
 ```
 function rand() internal returns (uint256) {
