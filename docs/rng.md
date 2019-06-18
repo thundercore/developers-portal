@@ -1,13 +1,30 @@
 # ThunderCore RNGLibrary
 
 ## Summary
-ThunderCore blockchain supports generating cryptographically secure 256-bits random numbers through Thunder trusted randome number generator procompile contract.
+ThunderCore blockchain supports generating cryptographically secure 256-bit
+random numbers through Thunder trusted random number generator procompile
+contract.
 
 ## Motivation
-When developing smart contract for ethereum, there's no builtin support to generate cryptographically secure random numbers. There are some solutions e.g. using Ethereum Alarm or Oraclize, while it relys on some external services and is not scalable. So ThunderCore added builtin support to generate cryptographically secure random numbers through precompiled contract.
+When developing smart contract for Ethereum, there's no builtin support to
+generate cryptographically secure random numbers. There are some possible
+solutions e.g. using Ethereum Alarm or Oraclize. While these solutions rely
+on external services and are not scalable. To address such requirements,
+ThunderCore implements builtin support to generate cryptographically secure
+random numbers through precompiled contract.
 
 ## Specification
-ThunderCore implements a precompiled contracts which resides at address 0x8cC9C2e145d3AA946502964B1B69CE3cD066A9C7.  The address is the first 20 bytes of sha256("Thunder_Random"). Each invocation of fallback function of trusted random generator precompiled contract will return a 256-bits random number. The gas cost for each invocation is 26134. The invocation is the same as calling ethereum precompiled contracts. Below is an example which can be embedded into smart contract.  ThunderCore also creates a library which can be imported from github with URL http://github.com/thundercore/RandomLibrary/RandomLibrary.sol in Remix. The random number generator will always return a bytes32 value, so you will need to cast/convert this value as it best suits your needs.
+ThunderCore implements a precompiled contract which resides at address
+0x8cC9C2e145d3AA946502964B1B69CE3cD066A9C7.  The address is the first 20
+bytes of sha256("Thunder_Random"). Each invocation of fallback function
+of trusted random generator precompiled contract will return a 256-bit
+random number. The gas cost for each invocation is 26134. The invocation
+is the same as calling Ethereum precompiled contracts. Below is an example
+which can be embedded into smart contract.  ThunderCore also creates a
+library which can be imported from Github with URL
+http://github.com/thundercore/RandomLibrary/RandomLibrary.sol in Remix.
+The random number generator will always return a bytes32 value, so you
+will need to cast/convert this value as it best suits your needs.
 
 ```
 function rand() internal returns (uint256) {
@@ -22,7 +39,10 @@ function rand() internal returns (uint256) {
 ```
 
 ## Example
-In the basic example shown below, a random number is used to determine whether the contract will pay the user. If the number is greater than the bet from the user, the contract takes the user's wager. If not, the contract pays the user their own bet plus 1.
+In the basic example shown below, a random number is used to determine
+whether the contract will pay the user. If the number is greater than
+the bet from the user, the contract takes the user's wager. If not, the
+contract pays the user their own bet plus 1.
 
 ```
 pragma solidity ^0.4.25;
