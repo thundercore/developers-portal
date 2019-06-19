@@ -9,17 +9,18 @@ title: Migrate from Ethereum to ThunderCore
 
 ## Connecting to our network
 
-Our core engineering team is hard at work open sourcing our full nodes, but until that's complete, the only way to connect to our network is through our RPC endpoints below. You can perform any RPC available in Ethereum on these URLs.
+To connect to our network, see the RPC endpoints below. You can perform any RPC available in Ethereum on these URLs.
 
 Network|RPC endpoint                       |Network ID
 -------|-----------------------------------|----------
 Mainnet|https://mainnet-rpc.thundercore.com|108
 Testnet|https://testnet-rpc.thundercore.com|18
 
-So if you're using **MetaMask**, add a new network with these URLs.
+If you're using **MetaMask**, add a new network with these URLs.
 
 If you're using **Truffle**, add the following section to your `truffle.js` file.
 
+TODO - add context of where this goes in truffle.js
 ```
 thunder-mainnet: {
   provider: function() {
@@ -38,3 +39,5 @@ thunder-testnet: {
 ## Solidity version
 
 We're currently in the process of integrating the latest solidity version into our codebase, but until then we only support contracts written for compiler version 0.4.25 and below.
+
+TODO - Add concluding statment (it was that easy!)

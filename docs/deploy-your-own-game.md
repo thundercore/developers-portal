@@ -1,5 +1,5 @@
 ---
-id: deploy_your_own_game
+id: deploy-your-own-game
 title: Deploy Your Own Game on ThunderCore in Minutes
 ---
 Let's take 5-10 minutes and deploy a complete game powered by Thunder and accessible by your friends

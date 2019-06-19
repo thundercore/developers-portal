@@ -2,14 +2,19 @@
 id: get-tokens
 title: Get Tokens
 ---
-We run a faucet on both our mainnet and testnet networks.
+There are a few ways to get tokens so you can start utilizing the ThunderCore networks. With tokens you'll be able to interact with DApps [TODO link to page with our dapps], deploy smart contracts, and trade on exchanges. 
 
-## Mainnet
+## Free tokens
 
-Check out https://faucet.thundercore.com to receive 1 TT (ThunderToken) once (lifetime) per gmail address
+Network|Faucet                       	   |Limits
+-------|-----------------------------------|----------
+Mainnet|https://faucet.thundercore.com|Once per lifetime (gmail only)
+Testnet|https://faucet-testnet.thundercore.com|1 TT per hour
 
-You can also purchase TT on our partnered exchanges, including Huobi Global, Upbit, and ...
- 
-## Testnet 
+### ThunderCore Hub
 
-Check out https://faucet-testnet.thundercore.com to receive 1 TST (Thunder Test Token) per hour
+We have frequent user incentive and airdrop programs running on ThunderCore Hub, our mobile app. Install our app to never miss any incentive programs. TODO - links to app
+
+## Buying tokens
+
+You can also purchase TT at our partnered exchanges including Huobi and Upbit. TODO - link to these

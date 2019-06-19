@@ -1,5 +1,92 @@
 /* your custom css */
 
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("/fonts/ProximaNova-Regular.otf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("/fonts/ProximaNova-Semibold.otf");
+  font-weight: 600;
+}
+
+html, body {
+  color: #383838;
+  font-family: "Proxima Nova", serif;
+}
+
+/* Document */
+.docMainWrapper.wrapper {
+  padding: 0;
+}
+
+.docMainWrapper {
+  /*margin: 0;*/
+}
+
+.navPusher {
+  background: #F7F7EC;
+}
+
+.docMainWrapper > .mainContainer {
+  background: white;
+  padding: 40px 24px;
+}
+
+/* Left nav */
+.docsNavContainer {
+  background: #F7F7EC;
+  padding: 0 30px;
+}
+
+.separateOnPageNav .docsNavContainer {
+  flex: 0 0 350px;
+}
+
+.toc .toggleNav .navGroup .navGroupCategoryTitle {
+  font-weight: 800;
+  font-size: 22px;
+}
+
+.toc .toggleNav ul {
+  padding-left: 0;
+}
+
+.toc .toggleNav ul li a {
+  padding: 3px 0;
+  line-height: 1.2;
+  font-size: 16px;
+  color: #8D8D8D;
+}
+
+/* Header */
+.headerWrapper {
+  /*margin: 0;*/
+}
+
+.fixedHeaderContainer {
+  background: #4F4F4F;
+  padding: 10px 16px;
+}
+
+.navigationSlider .slidingNav ul li > a:focus, .navigationSlider .slidingNav ul li > a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive > a, .navigationSlider .slidingNav ul li.siteNavGroupActive > a {
+  background-color: transparent;
+}
+
+.navigationSlider .slidingNav ul li.siteNavGroupActive.siteNavItemActive > a {
+  font-weight: 600;
+  color: #FFE91A;
+}
+
+.toc .toggleNav ul li.navListItemActive a {
+  font-weight: 600;
+}
+
+header img.logo {
+  height: 25px;
+}
+
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
 

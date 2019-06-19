@@ -19,25 +19,27 @@ const siteConfig = {
   organizationName: 'ThunderCore',
 
   headerLinks: [
-    {doc: 'build_a_dapp_on_thundercore_testnet', label: 'Tutorials'},
-    {doc: 'api', label: 'Resources'},
+    {href: 'https://thundercore.com', label: 'ThunderCore.com'},
+    {doc: 'deploy-your-own-game', label: 'DOCS'},
+    {doc: 'faqs', label: 'FAQ'},
   ],
 
   /* path to images for header/footer */
-  headerIcon: 'img/thundercore_icon.svg',
+  headerIcon: 'img/TT_dev_logo.png',
   footerIcon: 'img/thundercore_icon.svg',
+
+  disableHeaderTitle: true,
 
   /* Colors for website */
   colors: {
-    primaryColor: '#ffe81c',
-    secondaryColor: '#fa7516',
+    primaryColor: '#fa7516',
+    secondaryColor: '#383838',
   },
 
   /* Custom fonts for website */
-  /*
   fonts: {
     myFont: [
-      "Times New Roman",
+      "Proxima Nova",
       "Serif"
     ],
     myOtherFont: [
@@ -45,10 +47,9 @@ const siteConfig = {
       "system-ui"
     ]
   },
-  */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} ThunderCore Inc`,
+  copyright: `© Thunder Token Ltd. All Rights Reserved.`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.

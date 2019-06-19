@@ -1,14 +1,12 @@
 {
   "docs": {
-    "Tutorials": [
-      "deploy_your_own_game",
-      "migrate-to-thunder",
-      "get-tokens",
-      "build_a_dapp_on_thundercore_testnet",
-      "erc20_smart_contract"
+    "Guides": [
+      "deploy-your-own-game",
+      "migrate-to-thunder"
     ],
-    "Resources": [
-      "api",
+    "Getting started": [
+      "wallet",
+      "get-tokens",
       "faqs"
     ]
   }

@@ -1,0 +1,167 @@
+.orangeButton {
+  width: 210px;
+  height: 45px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 22px;
+  background: #FF6E00;
+  color: white;
+
+  cursor: pointer;
+}
+
+.homeContainer {
+  background: #FFE81B;
+}
+
+.homeWrapper {
+  height: 500px;
+
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+}
+
+.index > .mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+}
+
+.startBlock {
+  display: flex;
+  flex-flow: column;
+  margin-top: 100px;
+
+  width: 400px;
+}
+
+.startBlock .startButton {
+  margin-top: 20px;
+  border-radius: 45px;
+}
+
+.bgLogo {
+  height: 400px;
+}
+
+.helpfulLinks {
+  width: 1050px;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+
+  grid-row-gap: 15px;
+  grid-column-gap: 100px;
+
+  position: relative;
+  top: -100px;
+}
+
+.helpfulLinksBlock {
+  background: white;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 0 5px 12px 0 rgba(174,174,174,0.5);
+}
+
+.helpfulLinksBlockTitle {
+  font-size: 22px;
+  color: #FF8E00;
+  font-weight: 800;
+
+  padding-bottom: 7px;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.helpfulLinksBlockLink {
+  margin: 20px 0;
+}
+
+.helpfulLinksBlockLink a {
+  color: #383838;
+  font-size: 16px;
+  display: inline-block;
+  width: 100%;
+}
+
+.helpfulLinksBlockLink a:hover {
+  color: #FF8E00;
+}
+
+.jumpStartContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F7F7EC;
+}
+
+.jumpStart {
+  width: 1050px;
+  padding: 25px 0;
+
+  display: grid;
+  grid-template-rows: auto 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.jumpStartTitle {
+  padding: 10px 0;
+
+  font-size: 28px;
+  font-weight: 800;
+
+  grid-column: 1 / span 3;
+}
+
+.jumpStartImg {
+  grid-row: 2 / span 2
+}
+
+.jumpStartContent {
+  font-size: 18px;
+  align-self: end;
+
+  grid-row: 2;
+  grid-column: 2 / span 2;
+}
+
+.jumpStartEmail {
+  grid-row: 3;
+  grid-column: 2 / span 2;
+
+  align-self: start;
+
+  display: flex;
+  align-items: center;
+}
+
+.jumpStartEmail input {
+  border: none;
+  border-radius: 10px;
+
+  height: 40px;
+  flex: 1 0 auto;
+
+  margin-right: 5px;
+
+  font-size: 18px;
+  padding: 10px;
+}
+
+.jumpStartEmail .subscribeButton {
+  border-radius: 5px;
+  height: 40px;
+  font-size: 18px;
+  width: 150px;
+}
+
+.over9000 {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+}

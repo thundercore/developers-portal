@@ -24,48 +24,38 @@ class Footer extends React.Component {
   render() {
     return (
       <footer className="nav-footer" id="footer">
-        <section className="sitemap">
-          <a href={this.props.config.baseUrl} className="nav-home">
-            {this.props.config.footerIcon && (
-              <img
-                src={this.props.config.baseUrl + this.props.config.footerIcon}
-                alt={this.props.config.title}
-                width="66"
-                height="58"
-              />
-            )}
+        <div className="content">
+          <a className="thunder-icon" href="http://thundercore.com">
+            <img
+              src="/img/thundercore_icon_white.svg"
+              alt={this.props.config.title}
+              width="66"
+              height="58"
+            />
           </a>
-          <div>
-            <a href="https://www.thundercore.com/team" target="_blank" rel="noreferrer noopener">
-              Team
-            </a>
-            <a href="https://jobs.lever.co/thundertoken" target="_blank" rel="noreferrer noopener">
-              Careers
-            </a>
+
+          <div className="site-links">
+            <div className="title">Resources</div>
+            <a href={this.docUrl('faqs')}>FAQ</a>
+            <a href="https://discordapp.com/invite/5EbxXfw">Get in Touch on Discord</a>
+            <a href="mailto:info@thundercore.com">Email Us</a>
           </div>
-          <div>
-            <a href="https://docs.thundercore.com/thunder-whitepaper.pdf" target="_blank" rel="noreferrer noopener">
-                Whitepaper
-            </a>
-            <a href="https://docs.thundercore.com/thunder-litepaper.pdf" target="_blank" rel="noreferrer noopener">
-                Litepaper
-            </a>
+
+          <div className="community">
+            <div className="title">Community</div>
+            <div className="icons">
+              <a href="https://twitter.com/ThunderProtocol"
+                 className="icon icon-twitter"></a>
+
+              <a href="https://medium.com/thunderofficial"
+                 className="icon icon-medium"></a>
+
+              <a href="https://www.reddit.com/r/thunder_official/"
+                 className="icon icon-reddit"></a>
+            </div>
           </div>
-          <div>
-            <a href="https://medium.com/thundercore">Medium</a>
-            <a href="https://twitter.com/thunderprotocol" target="_blank" rel="noreferrer noopener">
-              Twitter
-            </a>
-            <a href="https://www.reddit.com/r/thunder_official/" target="_blank" rel="noreferrer noopener">
-              Reddit
-            </a>
-            <a href="https://discordapp.com/invite/5EbxXfw" target="_blank" rel="noreferrer noopener">
-              Discord
-            </a>
-            <a href="https://github.com/">GitHub</a>
-          </div>
-        </section>
-        <section className="copyright">{this.props.config.copyright}</section>
+        </div>
+        <div className="copyright">{this.props.config.copyright}</div>
       </footer>
     );
   }
