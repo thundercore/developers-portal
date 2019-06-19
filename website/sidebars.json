@@ -1,15 +1,11 @@
 {
   "docs": {
-    "Guides": [
-      "deploy-your-own-game",
-      "migrate-to-thunder",
-      "rng",
-      "yell"
-    ],
-    "Getting started": [
-      "wallet",
-      "get-tokens",
-      "faqs"
+    "Guides": ["deploy-your-own-game", "migrate-to-thunder", "rng", "yell"],
+    "Getting started": ["wallet", "get-tokens"],
+    "Frequently Asked Questions": [
+      "faqs/general",
+      "faqs/technical",
+      "faqs/pre-release-mainnet"
     ]
   }
 }
