@@ -1,4 +1,7 @@
-# Yell Messages
+---
+id: yell
+title: Yell Messages 
+---
 ## Motivation
 The purpose of yell messages is to provide a mechanism for censorship resistance, in case of an evil accelerator. The intent is to allow other nodes (committee nodes, full nodes) to observe these yell transactions, and if a node determines that the tx was valid, but not put into a ThunderCore block, it can be determined that the accelerator is censoring some transactions.
 

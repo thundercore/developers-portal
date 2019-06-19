@@ -20,19 +20,27 @@ If you're using **MetaMask**, add a new network with these URLs.
 
 If you're using **Truffle**, add the following section to your `truffle.js` file.
 
-TODO - add context of where this goes in truffle.js
 ```
-thunder-mainnet: {
-  provider: function() {
-    return new HDWalletProvider(mnemonic, "https://mainnet-rpc.thundercore.com");
-  },
-  network_id: '108',
-},
-thunder-testnet: {
-  provider: function() {
-    return new HDWalletProvider(mnemonic, "https://testnet-rpc.thundercore.com");
-  },
-  network_id: '18',
+module.exports = {
+  networks: {
+    development: {
+      host: 'localhost',
+      port: 8545,
+      network_id: '*' // Match any network id
+    },
+    thunder-mainnet: {
+      provider: function() {
+    	return new HDWalletProvider(mnemonic, "https://mainnet-rpc.thundercore.com");
+      },
+      network_id: '108',
+    },
+    thunder-testnet: {
+      provider: function() {
+    	return new HDWalletProvider(mnemonic, "https://testnet-rpc.thundercore.com");
+      },
+      network_id: '18',
+    }
+  }
 }
 ```
 
@@ -40,4 +48,6 @@ thunder-testnet: {
 
 We're currently in the process of integrating the latest solidity version into our codebase, but until then we only support contracts written for compiler version 0.4.25 and below.
 
-TODO - Add concluding statment (it was that easy!)
+## Yup, that's it
+
+No need to rewrite your smart contracts or change any of your infrastructure code, you should be good to go! If you are having any problems, post in our [Discord](https://discordapp.com/invite/5EbxXfw) to access some of our developers.

@@ -2,7 +2,9 @@
   "docs": {
     "Guides": [
       "deploy-your-own-game",
-      "migrate-to-thunder"
+      "migrate-to-thunder",
+      "rng",
+      "yell"
     ],
     "Getting started": [
       "wallet",

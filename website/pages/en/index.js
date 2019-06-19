@@ -69,7 +69,7 @@ class HelpfulLinks extends React.Component {
 
         <Block title="Test on Testnet">
           <Link href="https://faucet-testnet.thundercore.com" title="Get Free Test Tokens"/>
-          <Link href="https://scan-testnet.thundercore.com" title="ThunderScan (Test)"/>
+          <Link href="https://scan-testnet.thundercore.com" title="ThunderScan (Testnet)"/>
         </Block>
 
         <Block title="Dev Tutorials">
@@ -104,7 +104,7 @@ class JumpStart extends React.Component {
           <img src={'/img/Jumpstart.png'}/>
         </div>
         <div className="jumpStartContent">
-          Subscribe to get access to our latest developer news and initiatives, including our upcoming <strong>Developer Jump Start Program! </strong> Learn more about how the program helped our early Beta participant increase revenue by over <div className="over9000">400%</div>
+          Subscribe to get access to our latest developer news and initiatives, including our upcoming <strong>Developer Jump Start Program! </strong> Learn more about how the program helped our early Beta participants increase revenue by over <div className="over9000">400%</div>
         </div>
         <div className="jumpStartEmail">
           <input type="text" />

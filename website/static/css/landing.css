@@ -116,19 +116,23 @@
   font-size: 28px;
   font-weight: 800;
 
-  grid-column: 1 / span 3;
+  grid-column: 2 / span 2;
+  margin-top: 15px;
 }
 
 .jumpStartImg {
-  grid-row: 2 / span 2
+  grid-row: 1 / span 3;
+  margin-right: 50px;
 }
 
 .jumpStartContent {
-  font-size: 18px;
+  line-height: 26px;
+  font-size: 22px;
   align-self: end;
 
   grid-row: 2;
   grid-column: 2 / span 2;
+  margin-bottom: 20px;
 }
 
 .jumpStartEmail {
@@ -145,7 +149,7 @@
   border: none;
   border-radius: 10px;
 
-  height: 40px;
+  height: 50px;
   flex: 1 0 auto;
 
   margin-right: 5px;
@@ -156,8 +160,8 @@
 
 .jumpStartEmail .subscribeButton {
   border-radius: 5px;
-  height: 40px;
-  font-size: 18px;
+  height: 50px;
+  font-size: 20px;
   width: 150px;
 }
 
