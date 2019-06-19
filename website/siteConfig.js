@@ -19,9 +19,9 @@ const siteConfig = {
   organizationName: 'ThunderCore',
 
   headerLinks: [
-    {href: 'https://thundercore.com', label: 'ThunderCore.com'},
-    {doc: 'deploy-your-own-game', label: 'DOCS'},
-    {doc: 'faqs', label: 'FAQ'},
+    { href: 'https://thundercore.com', label: 'ThunderCore.com' },
+    { doc: 'deploy-your-own-game', label: 'DOCS' },
+    { doc: 'faqs/general', label: 'FAQ' }
   ],
 
   /* path to images for header/footer */
@@ -33,19 +33,13 @@ const siteConfig = {
   /* Colors for website */
   colors: {
     primaryColor: '#fa7516',
-    secondaryColor: '#383838',
+    secondaryColor: '#383838'
   },
 
   /* Custom fonts for website */
   fonts: {
-    myFont: [
-      "Proxima Nova",
-      "Serif"
-    ],
-    myOtherFont: [
-      "-apple-system",
-      "system-ui"
-    ]
+    myFont: ['Proxima Nova', 'Serif'],
+    myOtherFont: ['-apple-system', 'system-ui']
   },
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
@@ -53,7 +47,7 @@ const siteConfig = {
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
-    theme: 'default',
+    theme: 'default'
   },
 
   // Add custom scripts here that would be placed in <script> tags.
@@ -66,7 +60,7 @@ const siteConfig = {
 
   // Open Graph and Twitter card images.
   ogImage: 'img/thundercore_icon.svg',
-  twitterImage: 'img/thundercore_icon.svg',
-};
+  twitterImage: 'img/thundercore_icon.svg'
+}
 
-module.exports = siteConfig;
+module.exports = siteConfig
