@@ -36,7 +36,7 @@ class Footer extends React.Component {
 
           <div className="site-links">
             <div className="title">Resources</div>
-            <a href={this.docUrl('faqs')}>FAQ</a>
+            <a href={this.docUrl('faqs/general')}>FAQ</a>
             <a href="https://discordapp.com/invite/5EbxXfw">Get in Touch on Discord</a>
             <a href="mailto:info@thundercore.com">Email Us</a>
           </div>
