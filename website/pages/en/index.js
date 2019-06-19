@@ -26,7 +26,7 @@ class HomeSplash extends React.Component {
           <div className="wrapper homeWrapper">
             <div className="startBlock">
               <img src="img/banner_headline.png"/>
-              <div className="startButton orangeButton">Start</div>
+              <a className="startButton orangeButton" href="/docs/deploy-your-own-game">Start</a>
             </div>
             <img className="bgLogo" src="img/build_dapps.png"/>
           </div>
