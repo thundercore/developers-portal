@@ -35,6 +35,7 @@
   align-items: center;
   justify-content: center;
   background: white;
+  padding: 0
 }
 
 .startBlock {
@@ -56,15 +57,12 @@
 
 .helpfulLinks {
   width: 1050px;
-  display: grid;
-  grid-template-rows: auto auto;
-  grid-template-columns: 1fr 1fr;
-
-  grid-row-gap: 15px;
-  grid-column-gap: 100px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 
   position: relative;
-  top: -100px;
+  top: -70px;
 }
 
 .helpfulLinksBlock {
@@ -72,6 +70,13 @@
   padding: 25px;
   border-radius: 5px;
   box-shadow: 0 5px 12px 0 rgba(174,174,174,0.5);
+
+  box-sizing: border-box;
+  margin-bottom: 50px;
+  width: calc(1/2*100% - (1 - 1/2)*50px);
+
+  flex: 0 0 475px;
+  /*margin: 15px 50px;*/
 }
 
 .helpfulLinksBlockTitle {
@@ -109,9 +114,22 @@
   width: 1050px;
   padding: 25px 0;
 
-  display: grid;
-  grid-template-rows: auto 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+}
+
+.jumpStartImg {
+  flex: 0 0 300px;
+  margin-right: 50px;
+}
+
+.jumpStartImg img {
+  width: 100%;
+}
+
+.jumpStartMain {
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
 }
 
 .jumpStartTitle {
@@ -120,31 +138,17 @@
   font-size: 28px;
   font-weight: 800;
 
-  grid-column: 2 / span 2;
   margin-top: 15px;
-}
-
-.jumpStartImg {
-  grid-row: 1 / span 3;
-  margin-right: 50px;
 }
 
 .jumpStartContent {
   line-height: 26px;
   font-size: 22px;
-  align-self: end;
 
-  grid-row: 2;
-  grid-column: 2 / span 2;
   margin-bottom: 20px;
 }
 
 .jumpStartEmail {
-  grid-row: 3;
-  grid-column: 2 / span 2;
-
-  align-self: start;
-
   display: flex;
   align-items: center;
 }
@@ -173,4 +177,101 @@
   display: inline-block;
   font-size: 24px;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 1200px) {
+  .helpfulLinksBlock {
+    width: calc(1/2*100% - (1 - 1/2)*50px);
+  }
+
+  .helpfulLinks {
+    width: 1000px;
+  }
+
+  .jumpStart {
+    width: 950px;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .homeWrapper {
+    flex-flow: row-reverse;
+    height: 300px
+  }
+
+  .startBlock {
+    margin-top: 20px;
+  }
+
+  .startBlock img {
+    margin-left: 20px;
+    width: 250px;
+  }
+
+  .startBlock a.startButton {
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bgLogo {
+    display: none;
+  }
+
+  .helpfulLinksBlock {
+    flex: 0 0 350px;
+  }
+
+  .helpfulLinks {
+    width: 350px;
+  }
+
+  .jumpStart {
+    width: 80%;
+  }
+
+  .jumpStartImg {
+    display: none;
+  }
+
+  .jumpStartMain {
+    width: 100%;
+  }
+
+  .jumpStartContent {
+    font-size: 18px;
+  }
+
+  .jumpStartEmail .subscribeButton {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+
+  header img.logo {
+    height: 20px;
+  }
+
+  .helpfulLinksBlock {
+    flex: 0 0 300px;
+  }
+
+  .helpfulLinks {
+    width: 300px;
+  }
+
+  .jumpStartContent {
+    font-size: 18px;
+  }
+
+  .jumpStartEmail .subscribeButton {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  .jumpStartEmail {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
 }

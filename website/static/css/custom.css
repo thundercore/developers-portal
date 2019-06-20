@@ -32,16 +32,21 @@ html, body {
 .docMainWrapper > .mainContainer {
   background: white;
   padding: 40px 24px;
+  margin: 0;
 }
 
 /* Left nav */
 .docsNavContainer {
   background: #F7F7EC;
-  padding: 0 30px;
 }
 
 .separateOnPageNav .docsNavContainer {
   flex: 0 0 350px;
+  margin: 0;
+}
+
+.onPageNav {
+  margin-bottom: 0;
 }
 
 .toc .toggleNav .navGroup .navGroupCategoryTitle {

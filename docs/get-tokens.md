@@ -13,4 +13,4 @@ Testnet|https://faucet-testnet.thundercore.com|1 TT per hour
 
 ## Buying tokens
 
-You can also purchase TT at our partnered exchanges including Huobi and Upbit. TODO - link to these
+You can also purchase TT at our partnered exchanges including Huobi and Upbit.

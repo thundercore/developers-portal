@@ -90,3 +90,12 @@
   color: white;
   padding-top: 2em;
 }
+@media only screen and (max-width: 375px) {
+  .nav-footer .community .icons {
+    flex-direction: column;
+  }
+
+  .nav-footer .community .icon {
+    margin-bottom: 5px;
+  }
+}

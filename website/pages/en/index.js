@@ -99,16 +99,21 @@ class JumpStart extends React.Component {
 
     return (
       <div className="jumpStart">
-        <div className="jumpStartTitle">Developer Jump Start Program</div>
         <div className="jumpStartImg">
           <img src={'/img/Jumpstart.png'}/>
         </div>
-        <div className="jumpStartContent">
-          Subscribe to get access to our latest developer news and initiatives, including our upcoming <strong>Developer Jump Start Program! </strong> Learn more about how the program helped our early Beta participants increase revenue by over <div className="over9000">400%</div>
-        </div>
-        <div className="jumpStartEmail">
-          <input type="text" />
-          <div className="subscribeButton orangeButton">Subscribe</div>
+
+        <div className="jumpStartMain">
+          <div className="jumpStartTitle">Developer Jump Start Program</div>
+
+          <div className="jumpStartContent">
+            Subscribe to get access to our latest developer news and initiatives, including our upcoming <strong>Developer Jump Start Program! </strong> Learn more about how the program helped our early Beta participants increase revenue by over <div className="over9000">400%</div>
+          </div>
+
+          <div className="jumpStartEmail">
+            <input type="text" />
+            <div className="subscribeButton orangeButton">Subscribe</div>
+          </div>
         </div>
       </div>
     )
