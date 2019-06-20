@@ -60,7 +60,9 @@ const siteConfig = {
 
   // Open Graph and Twitter card images.
   ogImage: 'img/thundercore_icon.svg',
-  twitterImage: 'img/thundercore_icon.svg'
+  twitterImage: 'img/thundercore_icon.svg',
+
+  gaTrackingId: 'UA-118758464-11'
 }
 
 module.exports = siteConfig
