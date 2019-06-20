@@ -234,11 +234,33 @@ Now, you can prepare to deploy your token to ThunderCore testnet and mainnet. Pl
 
 ## 5. Interacting with the new token
 
-Set the frontend 
+Now, we are preparing to set up our frontend web page for user interact our tokens. In this tutorial, we are focusing on smart contract creation but not on frontend and web3 communitcate contracts. Hence, we just give an example at https://github.com/LucienLee/thundercore-erc20/tree/master/client. If you're interested at the detail, you can look up the reference in the end.
+
+1. Copy all files in [https://github.com/LucienLee/thundercore-erc20/tree/master/client](https://github.com/LucienLee/thundercore-erc20/tree/master/client) to your local client folder. We recommend you pull the whole project and copy and past client folder to yours.
+
+2. Install frontend deps
+```bash
+cd client
+
+npm install 
+# or 
+yarn install
+```
+3. Run up the frontend page with `npm start` or `yarn start`. The UI page would host at http://localhost:1234.
+
+4. If you want to host on the internet, run `npm run build` or `yarn build`. Then, you will get the bundle UI at `client/dist` page and can host by any static server oo the internet. 
+
+![screenshot](/img/erc20-screenshot.png)
 
 
+## Learning more about DApps
+It’s beyond the scope of this tutorial to go over the code, but if you’d like to learn more about smart contract programming and building DApps in general, we recommend the official [Solidity](https://solidity.readthedocs.io/en/develop) documentation and [truffle tutorial](https://www.trufflesuite.com/tutorials).
 
+For questions, please go to our [Discord](https://discord.gg/5EbxXfw) channel.
+
+Happy Coding! 😆
 
 ### Reference
 - [building robust smart contracts with openzeppelin](https://www.trufflesuite.com/tutorials/robust-smart-contracts-with-openzeppelin)
 - [solidity](https://solidity.readthedocs.io/en/develop/)
+- [web3](https://github.com/ethereum/web3.js/)
