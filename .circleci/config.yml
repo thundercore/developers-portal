@@ -54,11 +54,12 @@ master_branch_filter: &master_branch_filter
       only:
       - master
 
-precommit_filter: &precommit_filter
+tag_filter: &tag_filter
   filters:
+    tags:
+      only: /^(\d+\.){2}\d+(-.*)?$/
     branches:
-      ignore:
-      - master
+      ignore: /.*/
 
 ##############
 # Workflows  #
@@ -67,17 +68,20 @@ precommit_filter: &precommit_filter
 workflows:
   version: 2
 
-  pre-commit-tests:
-    jobs:
-    - test:
-        <<: *precommit_filter
-
   build-deploy-platform:
     jobs:
     - deploy:
         env: dev
         url: dev-portal.dev.tt-eng.com
         <<: *master_branch_filter
+
+  build-deploy-prod:
+    jobs:
+    - deploy:
+        env: prod
+        url: developers.thundercore.com
+        <<: *tag_filter
+
 
 ##############
 # Jobs       #
