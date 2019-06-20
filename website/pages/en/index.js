@@ -6,7 +6,6 @@
  */
 
 const React = require('react');
-const axios = require('axios').default;
 
 const MAILCHIMP_LIST_ID = "";
 
@@ -87,12 +86,6 @@ class HelpfulLinks extends React.Component {
 }
 
 class JumpStart extends React.Component {
-
-  subscribe(email) {
-    axios.post(`https://api.mailchimp.com/3.0/lists/${MAILCHIMP_LIST_ID}/members`).subscribe(response => {
-
-    })
-  }
 
   render() {
 
