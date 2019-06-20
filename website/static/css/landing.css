@@ -146,6 +146,8 @@
   font-size: 22px;
 
   margin-bottom: 20px;
+
+  position: relative;
 }
 
 .jumpStartEmail {
@@ -153,15 +155,16 @@
   align-items: center;
 }
 
-.jumpStartEmail input {
-  border: none;
-  border-radius: 10px;
-
+.jumpStartEmail .emailInput {
   height: 50px;
   flex: 1 0 auto;
 
   margin-right: 5px;
+}
 
+.jumpStartEmail input {
+  border: none;
+  border-radius: 10px;
   font-size: 18px;
   padding: 10px;
 }
@@ -247,6 +250,19 @@
   }
 }
 
+
+@media only screen and (max-width: 500px) {
+  .jumpStartEmail .subscribeButton {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  .jumpStartEmail {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+}
+
 @media only screen and (max-width: 375px) {
 
   header img.logo {
@@ -263,15 +279,5 @@
 
   .jumpStartContent {
     font-size: 18px;
-  }
-
-  .jumpStartEmail .subscribeButton {
-    margin-top: 10px;
-    font-size: 18px;
-  }
-
-  .jumpStartEmail {
-    flex-flow: row wrap;
-    justify-content: center;
   }
 }

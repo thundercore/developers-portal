@@ -6,11 +6,9 @@
  */
 
 const React = require('react');
+const axios = require('axios').default;
 
-const CompLibrary = require('../../core/CompLibrary.js');
-
-const Container = CompLibrary.Container;
-const GridBlock = CompLibrary.GridBlock;
+const MAILCHIMP_LIST_ID = "";
 
 class HomeSplash extends React.Component {
   render() {
@@ -89,6 +87,13 @@ class HelpfulLinks extends React.Component {
 }
 
 class JumpStart extends React.Component {
+
+  subscribe(email) {
+    axios.post(`https://api.mailchimp.com/3.0/lists/${MAILCHIMP_LIST_ID}/members`).subscribe(response => {
+
+    })
+  }
+
   render() {
 
     const {siteConfig, language = ''} = this.props;
@@ -103,7 +108,16 @@ class JumpStart extends React.Component {
           <img src={'/img/Jumpstart.png'}/>
         </div>
 
-        <div className="jumpStartMain">
+        <form className="jumpStartMain"
+          action="https://thundercore.us18.list-manage.com/subscribe/post?u=9e820737f58c3f0aa1940427b&amp;id=3338803d92"
+          method="post" id="mc-embedded-subscribe-form"
+          name="mc-embedded-subscribe-form" className="validate" target="_blank"
+          noValidate>
+
+          <div style={{position: 'absolute', left: '-5000px'}} aria-hidden="true">
+            <input type="text" name="b_9e820737f58c3f0aa1940427b_3338803d92" tabIndex="-1" value="" />
+          </div>
+
           <div className="jumpStartTitle">Developer Jump Start Program</div>
 
           <div className="jumpStartContent">
@@ -111,10 +125,10 @@ class JumpStart extends React.Component {
           </div>
 
           <div className="jumpStartEmail">
-            <input type="text" />
-            <div className="subscribeButton orangeButton">Subscribe</div>
+            <input type="email" className="emailInput" value="" name="EMAIL" id="mce-EMAIL"/>
+            <input type="submit" className="subscribeButton orangeButton" value="Subscribe"/>
           </div>
-        </div>
+        </form>
       </div>
     )
   }
