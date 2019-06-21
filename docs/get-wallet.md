@@ -4,7 +4,7 @@ title: Getting a Wallet
 ---
 
 ## Getting started
-To use the ThunderCore blockchain (and most other block chains) you'll need a wallet address. This address works similar to a credit card number. It serves as a place  
+To use the ThunderCore blockchain (and most other block chains) you'll need a wallet address. This address works similar to a credit card number.
 
 ## MetaMask
 
@@ -44,20 +44,20 @@ This guide will help you set up Hardware Wallet Support for the Ledger Nano S.
 ### Set up your Ledger
 
 1. Create or synchronize a wallet on Ethereum Mainnet to Ledger Nano S.
-	- Skip this step if you already have a Ethereum wallet on Ledger Nano S.​
+	- Skip this step if you already have a Ethereum wallet on Ledger Nano S.
 2. Connect your Ledger to your computer.
 3. Open the Ethereum Application.  If the Ethereum Application is not installed:
  	- Visit https://www.ledger.com/pages/ledger-live to install Ledger Live on your computer.
  	- Install the Ethereum Application to your Ledger Nano S from the Ledger Live app.  Make sure contract data is turned on.
 4. Open MetaMask.
-5. Follow the instructions in this [well-written guide](https://medium.com/menlo-one/how-to-connect-your-ledger-nano-s-to-metamask-fa92402a0ed1) to connect your ledger to MetaMask
+5. Follow the instructions in this [well-written guide](https://medium.com/menlo-one/how-to-connect-your-ledger-nano-s-to-metamask-fa92402a0ed1) to connect your ledger to MetaMask.
  
 ### Connect to ThunderCore
 
 Now that you've connected MetaMask to your Ledger wallet, follow the instructions under the MetaMask section above to connect to the ThunderCore network.
 
 ## MyEtherWallet
-MyEtherWallet is a free and easy-to-use client-side interface that allows you to interact with your crypto-assets. This section will discuss three ways to access your Thunder Tokens
+MyEtherWallet is a free and easy-to-use client-side interface that allows you to interact with your crypto-assets. This section will discuss three ways to access your Thunder Tokens:
 ​
 1. Ledger
 2. Keystore
