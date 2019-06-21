@@ -10,6 +10,14 @@
   font-size: 14px;
 }
 
+.mainContainer .wrapper .post .postHeader {
+  margin-bottom: -10px;
+}
+
+.mainContainer .wrapper .post .postHeader .postHeaderTitle {
+  margin: 0;
+}
+
 .nav-footer .content {
   display: flex;
   flex-flow: row;

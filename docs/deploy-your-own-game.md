@@ -9,9 +9,12 @@ where the player gets double their bet if the coin lands face up. In the case th
 
 
 ## Getting Started
-First we need to [get a wallet](wallet.md) to gain access to the Thunder network. With either [Metamask](https://metamask.io/) 
-or [TrustWallet](https://trustwallet.com/) pointed to the Thunder RPC, navigate to [the completed game](http://jiang-yifan.github.io)
-and see the end result of this tutorial.
+To begin, we will [obtain a wallet](wallet.md) and gain access to the Thunder network. With either [Metamask](https://metamask.io/) 
+or [TrustWallet](https://trustwallet.com/) pointed to the Thunder RPC, navigate [here](http://jiang-yifan.github.io)
+to see the game we will be building in this tutorial.
+
+![game-image](assets/img/game/doubleOrNothing.png)
+
 
 To make your own version of the page, just check out the [repo](https://github.com/jiang-yifan/jiang-yifan.github.io)
 and follow the instructions in the readme.
