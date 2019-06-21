@@ -1,6 +1,6 @@
 ---
 id: rng
-title: How to Use Random Number Generator 
+title: Random Number Generator 
 ---
 ## Summary
 ThunderCore blockchain supports generating cryptographically secure 256-bit
