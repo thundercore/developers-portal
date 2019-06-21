@@ -1,11 +1,11 @@
 ---
 id: migrate-to-thunder
-title: Migrate from Ethereum to ThunderCore
+title: Migrate from Ethereum
 ---
 
 ## Overview
 
- Because ThunderCore is a fork of geth, our blockchain natively supports EVM compatible smart contracts. This document describes the steps required to port your existing Ethereum DApp to ThunderCore. If you haven't created a DApp before, checkout #some-link.
+Because ThunderCore is a fork of geth, our blockchain natively supports EVM compatible smart contracts. This document describes the steps required to port your existing Ethereum DApp to ThunderCore. If you haven't created a DApp before, checkout [deploy your own game](deploy-your-own-game.md) tutorial.
 
 ## Connecting to our network
 
@@ -44,9 +44,9 @@ module.exports = {
 }
 ```
 
-## Solidity version
+## Solidity Version
 
-We're currently in the process of integrating the latest solidity version into our codebase, but until then we only support contracts written for compiler version 0.4.25 and below.
+We're currently in the process of integrating the latest solidity version into our codebase, but until then we only support contracts written for compiler version 0.5.8 and below.
 
 ## Yup, that's it
 

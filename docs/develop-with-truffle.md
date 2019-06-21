@@ -1,14 +1,16 @@
 ---
 id: develop-with-truffle
-title: Develop ThunderCore Dapp with Truffle
+title: Develop with Truffle
 ---
 
-[Truffle](https://www.trufflesuite.com/) is one of most popular develop tools in ethereum community. ThunderCore is EVM-compatible and fast blockchain, so developers could still use solidity and Truffle to develop dapps on ThunderCore.
+## Overview
+
+[Truffle](https://www.trufflesuite.com/) is one of most popular development tools in ethereum community. ThunderCore is fast and EVM-compatible, so developers can use ethereum development tools, including solidity and Truffle, to develop dapps on ThunderCore.
 We prepared a truffle box, [thunder box](https://www.trufflesuite.com/boxes/thunder-box), for developers. This tutorial would help you use our thunder box to quick set up your dev environment. 
 
 ## Get Started
 
-First ensure you are in a new and empty directory. Besides, you have `nodejs` and `yarn` (optional) in your environment.
+First ensure you are in a new and empty directory adn that you have `nodejs` and `yarn` (optional) in your environment.
 
 1. Run the unbox command via npx and skip to step 3.
 
@@ -43,7 +45,7 @@ npm run compile (yarn comile)
 npm run migrate (yarn migrate)
 ```
 
-6. If you would like to clean up builded contracts, you can do:
+6. If you would like to clean up builded contracts, you can:
 
 ```bash
 npm clean (yarn clean)
@@ -51,7 +53,7 @@ npm clean (yarn clean)
 
 ## Develop on Thunder Testnet and Mainnet
 
-0. Get the thunder tokens. Please follow this [instruction](get-tokens.md) to get your tokens.
+0. Get thunder tokens. Please follow this [instruction](get-tokens.md) to get your tokens.
   
 1. Setup the control of accounts for deployment
   Either:
