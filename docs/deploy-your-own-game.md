@@ -2,10 +2,10 @@
 id: deploy-your-own-game
 title: Deploy Your Own Game on ThunderCore in Minutes
 ---
-Let's take 5-10 minutes and deploy a complete game powered by Thunder and accessible by your friends
+## Overview
+Let's take 5-10 minutes and deploy a complete game powered by ThunderCore and accessible by your friends
 and family - anyone with internet access. We will be launching a simple coin flip game
-where the player gets double their bet if the coin lands on the ThunderToken. It will even support
-the player doubling up their bet in the case that they should guess incorrectly.
+where the player gets double their bet if the coin lands face up. In the case that the coins lands face down, player loses their bet but will get the chance to double their bet.
 
 
 ## Getting Started
@@ -16,8 +16,8 @@ and see the end result of this tutorial.
 To make your own version of the page, just check out the [repo](https://github.com/jiang-yifan/jiang-yifan.github.io)
 and follow the instructions in the readme.
 
-Congratulations! At the end of those instructions, you should be able to access the game with either
-your mobile device through ThunderHub or your desktop browser with metamask.
+At the end of those instructions, you should be able to access the game with either
+your mobile device through Metamask or any ThunderCore compatible mobile DApp browsers.
 
 
 ## Deploying Your Own Contract
@@ -78,4 +78,4 @@ git commit -m 'add my own contract address'
 git push
 ```
 
-Voila! In 5-10 seconds, your webpage will be running on your contract!
+Voila! In 5-10 seconds, your webpage will be running on your contract. Congratulations! 
