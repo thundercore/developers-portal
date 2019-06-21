@@ -29,6 +29,18 @@ html, body {
   background: #F7F7EC;
 }
 
+article div span h2:first-child {
+  margin-top: 0;
+}
+
+.docs-prevnext {
+  margin: 0 -10px;
+}
+
+.docs-prev, .docs-next {
+  margin: 10px;
+}
+
 .docMainWrapper > .mainContainer {
   background: white;
   padding: 40px 24px;
