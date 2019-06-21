@@ -1,6 +1,6 @@
 ---
 id: migrate-to-thunder
-title: Migrate from Ethereum to ThunderCore
+title: Migrate from Ethereum
 ---
 
 ## Overview
