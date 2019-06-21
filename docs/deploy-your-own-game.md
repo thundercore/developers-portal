@@ -9,12 +9,11 @@ the player doubling up their bet in the case that they should guess incorrectly.
 
 
 ## Getting Started
-First we have to setup [Metamask](https://metamask.io/). It will be our wallet and our
-access point to the Thunder network. For mobile, you can just download [ThunderHub]()
-and navigate to [the game](http://jiang-yifan.github.io) to see the end result of this tutorial.
+First we need to [get a wallet](wallet.md) to gain access to the Thunder network. With either [Metamask](https://metamask.io/) 
+or [TrustWallet](https://trustwallet.com/) pointed to the Thunder RPC, navigate to [the completed game](http://jiang-yifan.github.io)
+and see the end result of this tutorial.
 
-
-Once we have this setup, all that is needed is to check out the [repo](https://github.com/jiang-yifan/jiang-yifan.github.io)
+To make your own version of the page, just check out the [repo](https://github.com/jiang-yifan/jiang-yifan.github.io)
 and follow the instructions in the readme.
 
 Congratulations! At the end of those instructions, you should be able to access the game with either
@@ -27,35 +26,56 @@ path to millions.
 
 First we will install of the dependencies.
 
-`cd ./smart-contracts`
-
-`yarn install` or `npm install`
+```
+cd ./smart-contracts
+```
+```
+yarn install
+# or 
+npm install
+```
 
 Next grab your mnemonic from Metamask or Trust Wallet and add it to the HDWallet in `truffle-config.js`
 
-`yarn migrate --network thunder` or `npm run migrate --network thunder`
+```
+yarn migrate --network thunder
+# or 
+npm run migrate --network thunder
+```
 
 In the console, you will see the price you've paid for its deployment, the contract address,
 and additional stats. Well done! Your contract is now up and running ready to be used by anyone.
 
 We must now update our UI to use this contract address.
 
-`cd ./frontend`
+```
+cd ./frontend
+```
 
-`yarn install` or `npm install`
+```
+yarn install
+# or 
+npm install
+```
 
 Find the `.env` file and change the `REACT_APP_CONTRACT_ADDRESS` to your new address.
 
-`yarn build`
+```
+yarn build
+```
 
-`git add -u` *Remember to not check in your mnemonic!!!!
+```
+git add -u
 
-`git commit -m 'add my own contract address'`
+*Remember to not check in your mnemonic!!!! 
+``` 
 
-`git push`
+```
+git commit -m 'add my own contract address'
+```
 
-Voila! In 5-10 seconds, your webpage will be using your contract!
+```
+git push
+```
 
-
-....\
-....
+Voila! In 5-10 seconds, your webpage will be running on your contract!
