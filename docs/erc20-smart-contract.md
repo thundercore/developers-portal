@@ -1,5 +1,5 @@
 ---
-id: erc20_smart_contract
+id: erc20-smart-contract
 title: Deploy Your Own ERC-20 on ThunderCore
 ---
 [ERC20](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) token is one of most popular dapps in the blockchan community.
