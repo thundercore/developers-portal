@@ -26,7 +26,7 @@ At the time of public launch, anyone will be able to run a ThunderCore full node
 ThunderCore blockchain is live now! It is already producing blocks. The public launch does not involve any alterations to the blockchain. All accounts will preserve their balance. Additionally all DApp states will be preserved.
 
 ## How do I get a ThunderCore address?
-ThunderCore is Ethereum/EVM compatible. Any address created for Ethereum will work on ThunderCore. One can use MetaMask and any other popular Etheruem wallet to create ThunderCore address. To access the ThunderCore blockchain all one has to do is to point network RPC to [https://mainnet-rpc.thundercore.com](https://mainnet-rpc.thundercore.com) instead of ethereum network. For detailed instructions, please check out: [https://www.thundercore.com/wallet-instructions](https://www.thundercore.com/wallet-instructions)
+ThunderCore is Ethereum/EVM compatible. Any address created for Ethereum will work on ThunderCore. One can use MetaMask and any other popular Etheruem wallet to create ThunderCore address. To access the ThunderCore blockchain all one has to do is to point network RPC to [https://mainnet-rpc.thundercore.com](https://mainnet-rpc.thundercore.com) instead of ethereum network. For detailed instructions, please check out our tutorial on getting your own [wallet](get-wallet.md)
 
 ## How can I get access to ThunderCore?
 The ThunderCore Pre-Release Mainnet was recently made available to a set of developers and users. We have observed that the performance continues to meet our expectations and have confidence in the throughput experienced. We would like to expand the group of developers and users on our chain.
