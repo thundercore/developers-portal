@@ -1,7 +1,8 @@
 {
   "docs": {
-    "Develop on ThunderCore": ["deploy-your-own-game", "migrate-to-thunder", "erc20-smart-contract", "rng", "yell", "develop-with-truffle"],
+    "Develop on ThunderCore": ["deploy-your-own-game", "migrate-to-thunder", "develop-with-truffle", "erc20-smart-contract"],
     "Get Started": ["wallet", "get-tokens"],
+    "Tools": ["rng", "yell"],
     "Frequently Asked Questions": [
       "faqs/general",
       "faqs/technical",
