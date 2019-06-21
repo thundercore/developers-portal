@@ -24,7 +24,7 @@ your mobile device through ThunderHub or your desktop browser with metamask.
 Now, let's get your game running on your own copy of the contract and get you started on your
 path to millions.
 
-First we will install of the dependencies.
+First we will install all the dependencies.
 
 ```
 cd ./smart-contracts
