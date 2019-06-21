@@ -1,6 +1,6 @@
 {
   "docs": {
-    "Guides": ["deploy-your-own-game", "migrate-to-thunder", "rng", "yell"],
+    "Guides": ["deploy-your-own-game", "migrate-to-thunder", "erc20-smart-contract", "rng", "yell"],
     "Getting started": ["wallet", "get-tokens"],
     "Frequently Asked Questions": [
       "faqs/general",
