@@ -1,14 +1,14 @@
 ---
 id: erc20-smart-contract
-title: Deploy Your Own ERC-20 on ThunderCore
+title: Deploy Your Own ERC-20
 ---
-[ERC20](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) token is one of most popular dapps in the blockchan community.
-This tuturial would take you 5 Simple steps to deploy an ERC-20 Smart Contract on ThunderCore. It's super easy and fast!
+[ERC20](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) token is one of most popular DApps in the blockchan community.
+This tuturial would take you 5 simple steps to deploy an ERC-20 Smart Contract on ThunderCore. It's super easy and fast!
 
 The final repo is here https://github.com/LucienLee/thundercore-erc20.
 
 ## Requirements
-This tutorial expects you to have some basic knowledge of Truffle, Ethereum, Metamask and Solidity. If you don't have basic 
+This tutorial expects you to have some basic knowledge of Truffle, Ethereum, Metamask and Solidity. 
 
 ###  Install development tools
 Please install the following:
@@ -28,13 +28,13 @@ To verify that Truffle is installed properly, type `truffle version` on a termin
 
 
 ### Install MetaMask
-MetaMask is a browser extension that serves as a “wallet” that safely stores your cryptocurrencies such as Ether (ETH) and Thunder Tokens. It also serves as a “bridge” that connects the web application with the blockchain. You can download and learn more metamask at [https://metamask.io/](https://metamask.io/).
+MetaMask is a browser extension that serves as a “wallet” that safely stores your cryptocurrencies such as Ether (ETH) and Thunder Tokens. It also serves as a “bridge” that connects the web application with the blockchain. You can download and learn more about Metamask at [https://metamask.io/](https://metamask.io/).
 
 ### Get Thunder Tokens or Thunder Test Token
 You need to get Thunder Tokens or Thunder Test Token to deploy your smart contracts on the ThunderCore. Please follow this [instruction](get-tokens.md) to get your tokens.
 
 
-# Overview
+# Steps
 In this tutorial we will be covering:
 
 - Unboxing the ThunderCore Boliterplate Box 
@@ -120,7 +120,7 @@ npm install -g ganache-cli
 yarn global add ganache-cli
 ```
 
-Then, double click the icon to launch the application or run command `ganache-cli` to launching a localchain.
+Then, double click the icon to launch the application or run command `ganache-cli` to launch a localchain.
 
 3. With our blockchain launched, you can run the following command to compile and deploy the contract:
 
@@ -199,9 +199,9 @@ Summary
 ```
 
 ## 4. Deploy to the ThunderCore testnet and mainnet
-Now, you can prepare to deploy your token to ThunderCore testnet and mainnet. Please make sure you have ThunderCore Testnet Token(TST) or ThunderToken (TT).
+Now, you can prepare to deploy your token to ThunderCore testnet or mainnet. Please make sure you have ThunderCore testnet Token(TST) or ThunderToken (TT).
 
-1. First you have set up the control of your account to truffle. You can set either by:
+1. First you set up the control of your account to truffle. You can set either by:
     - Write your 12-word mnemonic (seed phrase) to a file named .mnemonic
     - Export your account private keys, one per line, to a file named .private-keys
 
@@ -234,7 +234,7 @@ Now, you can prepare to deploy your token to ThunderCore testnet and mainnet. Pl
 
 ## 5. Interacting with the new token
 
-Now, we are preparing to set up our frontend web page for user interact our tokens. In this tutorial, we are focusing on smart contract creation but not on frontend and web3 communitcate contracts. Hence, we just give an example at https://github.com/LucienLee/thundercore-erc20/tree/master/client. If you're interested at the detail, you can look up the reference in the end.
+Now, we are preparing to set up our frontend web page for user interacting with our tokens. In this tutorial, we focus on smart contract creation but not on frontend and web3 communitcating with contracts. Hence, we just give an example at https://github.com/LucienLee/thundercore-erc20/tree/master/client. If you're interested in the detail, you can look up the reference in the end.
 
 1. Copy all files in [https://github.com/LucienLee/thundercore-erc20/tree/master/client](https://github.com/LucienLee/thundercore-erc20/tree/master/client) to your local client folder. We recommend you pull the whole project and copy and past client folder to yours.
 
@@ -246,9 +246,9 @@ npm install
 # or 
 yarn install
 ```
-3. Run up the frontend page with `npm start` or `yarn start`. The UI page would host at http://localhost:1234.
+3. Run up the frontend page with `npm start` or `yarn start`. The UI would be accessible at http://localhost:1234.
 
-4. If you want to host on the internet, run `npm run build` or `yarn build`. Then, you will get the bundle UI at `client/dist` page and can host by any static server oo the internet. 
+4. If you want to host on the internet, run `npm run build` or `yarn build`. Then, you will get the bundle UI at `client/dist` page and can host by any static server on the internet. 
 
 ![screenshot](/img/erc20-screenshot.png)
 
