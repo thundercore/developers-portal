@@ -1,7 +1,7 @@
 {
   "docs": {
     "Guides": ["deploy-your-own-game", "migrate-to-thunder", "erc20-smart-contract", "rng", "yell"],
-    "Getting started": ["wallet", "get-tokens"],
+    "Getting started": ["wallet", "get-tokens", "develop-with-truffle"],
     "Frequently Asked Questions": [
       "faqs/general",
       "faqs/technical",
