@@ -32,8 +32,8 @@ To build or migrate DApps, visit our tutorials - [Build](build_a_dapp_on_thunder
 
 You can always review live activity and performance on [ThunderScan(Mainnet)](https://scan.thundercore.com) and [ThunderScan(Testnet)](https://scan-testnet.thundercore.com).
 
-## What type of dApps are a good fit for ThunderCore?
-Any dApp which requires some form of real time interaction with its users is a perfect match for ThunderCore. Imagine a blockchain poker game fully hosted on the ThunderCore blockchain.
+## What type of DApps are a good fit for ThunderCore?
+Any DApp which requires some form of real time interaction with its users is a perfect match for ThunderCore. Imagine a blockchain poker game fully hosted on the ThunderCore blockchain.
 
 Additionally DApps which have lot of transactions will be perfectly suited for ThunderCore as gas costs on ThunderCore are 100x cheaper than Ethereum.
 
@@ -64,7 +64,7 @@ We minted a total of 10,000,000,000 Thunder Tokens divided into the following:
 15%, Incentivizing employees and advisors
 
 ## Do you have an ambassador program?
-Community-driven growth is important to us and aAmbassadors play a very important part.
+Community-driven growth is important to us and Ambassadors play a very important part.
 
 This is in the works.
 
