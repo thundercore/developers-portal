@@ -14,6 +14,22 @@
   cursor: pointer;
 }
 
+.main-title {
+  font-weight: bolder;
+  font-size: 50px;
+  margin-bottom: -8px;
+}
+
+.startBlock {
+  text-align: justify;
+}
+
+.main-title-sub {
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: -8px;
+}
+
 .orangeButton:hover {
   color: white;
 }
@@ -23,8 +39,8 @@
 }
 
 .homeWrapper {
-  height: 500px;
-
+  height: 535px;
+  align-items: center;
   display: flex;
   flex-flow: row;
   justify-content: space-evenly;
@@ -41,8 +57,6 @@
 .startBlock {
   display: flex;
   flex-flow: column;
-  margin-top: 100px;
-
   width: 400px;
 }
 
@@ -56,13 +70,14 @@
 }
 
 .helpfulLinks {
-  width: 1050px;
+  max-width: 1100px;
+  padding: 0 32px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
 
   position: relative;
-  top: -70px;
+  top: -80px;
 }
 
 .helpfulLinksBlock {
@@ -74,9 +89,6 @@
   box-sizing: border-box;
   margin-bottom: 50px;
   width: calc(1/2*100% - (1 - 1/2)*50px);
-
-  flex: 0 0 475px;
-  /*margin: 15px 50px;*/
 }
 
 .helpfulLinksBlockTitle {
@@ -182,27 +194,34 @@
   font-weight: bold;
 }
 
+.index > .mainContainer {
+  margin-bottom: -50px;
+}
+
 @media only screen and (max-width: 1200px) {
-  .helpfulLinksBlock {
-    width: calc(1/2*100% - (1 - 1/2)*50px);
-  }
-
-  .helpfulLinks {
-    width: 1000px;
-  }
-
   .jumpStart {
     width: 950px;
   }
 }
 
 @media only screen and (max-width: 1023px) {
+  .main-title {
+    font-size: 35px;
+    margin-bottom: -8px;
+  }
+
+  .main-title-sub {
+    font-size: 28px;
+    margin-bottom: -24px;
+  }
+
   .homeWrapper {
     flex-flow: row-reverse;
-    height: 300px
+    height: 400px;
   }
 
   .startBlock {
+    text-align: center;
     margin-top: 20px;
   }
 
@@ -219,14 +238,6 @@
 
   .bgLogo {
     display: none;
-  }
-
-  .helpfulLinksBlock {
-    flex: 0 0 350px;
-  }
-
-  .helpfulLinks {
-    width: 350px;
   }
 
   .jumpStart {
@@ -251,10 +262,23 @@
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 830px) {
+ .helpfulLinks {
+   flex-direction: column;
+ }
+  .helpfulLinksBlock {
+    width: initial;
+  }
+}
+
+@media only screen and (max-width: 453px) {
   .jumpStartEmail .subscribeButton {
     margin-top: 10px;
     font-size: 18px;
+  }
+
+  .homeWrapper {
+    height: 375px;
   }
 
   .jumpStartEmail {
@@ -264,7 +288,6 @@
 }
 
 @media only screen and (max-width: 375px) {
-
   header img.logo {
     height: 20px;
   }

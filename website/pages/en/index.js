@@ -19,14 +19,13 @@ class HomeSplash extends React.Component {
 
     return (
       <div className="homeContainer">
-        <div className="homeSplashFade">
-          <div className="wrapper homeWrapper">
-            <div className="startBlock">
-              <img src="img/banner_headline.png"/>
-              <a className="startButton orangeButton" href="/docs/deploy-your-own-game">Start</a>
-            </div>
-            <img className="bgLogo" src="img/build_dapps.png"/>
+        <div className="wrapper homeWrapper">
+          <div className="startBlock">
+            <div className="main-title">Build your DApps</div>
+            <div className="main-title-sub">on ThunderCore</div>
+            <a className="startButton orangeButton" href="/docs/deploy-your-own-game">Start</a>
           </div>
+          <img className="bgLogo" src="img/build_dapps.png"/>
         </div>
       </div>
     );
@@ -115,7 +114,7 @@ class JumpStart extends React.Component {
           <div className="jumpStartTitle">Developer Jump Start Program</div>
 
           <div className="jumpStartContent">
-            Subscribe to get access to our latest developer news and initiatives, including our upcoming <strong>Developer Jump Start Program! </strong> Learn more about how the program helped our early Beta participants increase revenue by over <div className="over9000">400%</div>
+            Subscribe to get access to our latest developer news and initiatives, including our upcoming <strong>Developer Jump Start Program! </strong> Learn more about how the program helped our early Beta participants increase revenue by over <div className="over9000">400%.</div>
           </div>
 
           <div className="jumpStartEmail">
