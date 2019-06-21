@@ -17,10 +17,10 @@ Yes, ThunderCore is based on decentralized trust. Users don’t have to trust th
 Yes. We are in process of releasing source code of ThunderCore full node before the public launch of the Mainnet.
 
 ## How do I write smart contracts for ThunderCore? 
-Since ThunderCore is compatible with Ethereum smart contracts, you can write smart contracts the same way you would for Ethereum. Most people use Truffle, but other tools should work as well. Check out our tutorial on [building DApps on ThunderCore](build_a_dapp_on_thundercore_testnet.md).
+Since ThunderCore is compatible with Ethereum smart contracts, you can write smart contracts the same way you would for Ethereum. Most people use Truffle, but other tools should work as well. Check out our tutorial on [building DApps on ThunderCore](deploy-your-own-game.md).
 
 ## How do I deploy smart contracts for ThunderCore? 
-The same way you deploy to Ethereum. Most people use Truffle, but other tools should work as well. See our tutorials on [building](build_a_dapp_on_thundercore_testnet.md) and [migrating Ethereum DApps](migrate-to-thunder.md) to ThunderCore.
+The same way you deploy to Ethereum. Most people use Truffle, but other tools should work as well. See our tutorials on [building](deploy-your-own-game.md) and [migrating Ethereum DApps](migrate-to-thunder.md) to ThunderCore.
 
 ## Is there a way to set up a local blockchain similar to the Ganache client? 
 Addressed in this [blog](https://medium.com/thundercore/introducing-thundercore-local-chain-af72cae9412f).

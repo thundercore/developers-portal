@@ -28,7 +28,7 @@ ThunderTokens (TT) for the ThunderCore Mainnet are available at the [ThunderCore
 
 Thunder Test Tokens (TST) are available for free at our Testnet faucet [here](https://faucet-testnet.thundercore.com/). Learn about [how to get Thunder Test Tokens (TST)](get-tokens.md).
 
-To build or migrate DApps, visit our tutorials - [Build](build_a_dapp_on_thundercore_testnet.md) and [Migrate](migrate-to-thunder.md).
+To build or migrate DApps, visit our tutorials - [Build](deploy-your-own-game.md) and [Migrate](migrate-to-thunder.md).
 
 You can always review live activity and performance on [ThunderScan(Mainnet)](https://scan.thundercore.com) and [ThunderScan(Testnet)](https://scan-testnet.thundercore.com).
 

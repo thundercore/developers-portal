@@ -43,7 +43,7 @@ class HelpfulLinks extends React.Component {
 
     const Link = props => (
       <div className="helpfulLinksBlockLink">
-        <a href={props.href} target="_blank">{props.title}</a>
+        <a href={props.href} target={props.target || '_blank'}>{props.title}</a>
       </div>
     );
 
@@ -59,7 +59,7 @@ class HelpfulLinks extends React.Component {
     return (
       <div className="helpfulLinks">
         <Block title="Build on Mainnet">
-          <Link href="https://faucet.thundercore.com" title="Get Free Thunder Tokens (TT)"/>
+          <Link href="https://faucet.thundercore.com"  title="Get Free Thunder Tokens (TT)"/>
           <Link href="https://scan.thundercore.com" title="ThunderScan (Mainnet)"/>
         </Block>
 
@@ -69,14 +69,14 @@ class HelpfulLinks extends React.Component {
         </Block>
 
         <Block title="Dev Tutorials">
-          <Link href={docUrl('deploy-your-own-game')} title="Build Your Own Game in Minutes"/>
-          <Link href={docUrl('migrate-to-thunder')} title="Migrate from Ethereum"/>
-          <Link href={docUrl('erc20-smart-contract')} title="Deploy Your Own ERC-20"/>
-          <Link href={docUrl('get-tokens')} title="How to Get Thunder Tokens"/>
+          <Link href={docUrl('deploy-your-own-game')} target="_self" title="Build Your Own Game in Minutes"/>
+          <Link href={docUrl('migrate-to-thunder')} target="_self" title="Migrate from Ethereum"/>
+          <Link href={docUrl('erc20-smart-contract')} target="_self" title="Deploy Your Own ERC-20"/>
+          <Link href={docUrl('get-tokens')} target="_self" title="How to Get Thunder Tokens"/>
         </Block>
 
         <Block title="Resources">
-          <Link href={docUrl('faqs/general')} title="Frequently Asked Questions (FAQ)"/>
+          <Link href={docUrl('faqs/general')} target="_self" title="Frequently Asked Questions (FAQ)"/>
           <Link href="https://discordapp.com/invite/5EbxXfw" title="Get in Touch on Discord"/>
           <Link href="mailto:info@thundercore.com" title="Email Us"/>
         </Block>
