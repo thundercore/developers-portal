@@ -1,5 +1,5 @@
 ---
-id: rng
+id: random-number-generator
 title: Random Number Generator 
 ---
 ## Summary

@@ -1,5 +1,5 @@
 ---
-id: wallet
+id: get-wallet
 title: Getting a Wallet
 ---
 

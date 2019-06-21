@@ -9,7 +9,7 @@ where the player gets double their bet if the coin lands face up. In the case th
 
 
 ## Exploring the Game
-To begin, we will [obtain a wallet](wallet.md) and gain access to the Thunder network. With either [Metamask](https://metamask.io/) 
+To begin, we will [obtain a wallet](get-wallet.md) and gain access to the Thunder network. With either [Metamask](https://metamask.io/) 
 or [TrustWallet](https://trustwallet.com/) pointed to the Thunder RPC, navigate [here](http://jiang-yifan.github.io)
 to see the game we will be building in this tutorial.
 
