@@ -69,9 +69,9 @@ class HelpfulLinks extends React.Component {
         </Block>
 
         <Block title="Dev Tutorials">
-          <Link href={docUrl('deploy-your-own-game')} title="Build Your Own Game on ThunderCore in Minutes"/>
-          <Link href={docUrl('migrate-to-thunder')} title="Migrate from Ethereum to ThunderCore"/>
-          <Link href={docUrl('erc20-smart-contract')} title="Deploy Your Own ERC-20 on ThunderCore"/>
+          <Link href={docUrl('deploy-your-own-game')} title="Build Your Own Game in Minutes"/>
+          <Link href={docUrl('migrate-to-thunder')} title="Migrate from Ethereum"/>
+          <Link href={docUrl('erc20-smart-contract')} title="Deploy Your Own ERC-20"/>
           <Link href={docUrl('get-tokens')} title="How to Get Thunder Tokens"/>
         </Block>
 
