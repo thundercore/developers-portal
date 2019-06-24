@@ -40,13 +40,26 @@ module.exports = {
       },
       network_id: '18',
     }
-  }
+  },
+  compilers: {
+      solc: {
+        version: "0.5.9",
+        settings: {
+          // see the solidity docs for advice about optimization and evmversion
+          optimizer: {
+            enabled: true,
+            runs: 200
+          },
+          evmVersion: "byzantium" // Current EVM on ThunderCore is fixed to "byzantium"
+        }
+      }
+    }
 }
 ```
 
-## Solidity Version
+## Solidity compiler
 
-We're currently in the process of integrating the latest solidity version into our codebase, but until then we only support contracts written for compiler version 0.5.8 and below.
+We're currently in the process of integrating the latest EVM changes (St. Petersberg) into our codebase, but until we'll have to lock the `evmVersion` of solc to `byzantium`. The relevant truffle config is shown above.
 
 ## Yup, that's it
 
