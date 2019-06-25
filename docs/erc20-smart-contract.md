@@ -111,8 +111,8 @@ module.exports = function(deployer) {
 };
 ```
 
-2. Launching a localchain to test your contract
-By the local blockchain, you can test your contract without cost real token on your computer. We recommend that use [Ganache](https://www.trufflesuite.com/ganache). You can download the Ganache GUI or install cli tool by the following command.
+2. Launching a localchain to test your contract  
+By the local blockchain, you can test your contract without cost real token on your computer. We recommend that use [Ganache](https://www.trufflesuite.com/ganache) GUI. If your are familiar with command line, you can install cli tool by the following command.
 
 ```bash
 npm install -g ganache-cli
@@ -120,7 +120,7 @@ npm install -g ganache-cli
 yarn global add ganache-cli
 ```
 
-Then, double click the icon to launch the application or run command `ganache-cli` to launch a localchain.
+Then, double click the icon to launch the application or run command `ganache-cli -p 9545 -i 5777` to launch a localchain.
 
 3. With our blockchain launched, you can run the following command to compile and deploy the contract:
 
@@ -249,6 +249,16 @@ yarn install
 3. Run up the frontend page with `npm start` or `yarn start`. The UI would be accessible at http://localhost:1234.
 
 4. If you want to host on the internet, run `npm run build` or `yarn build`. Then, you will get the bundle UI at `client/dist` page and can host by any static server on the internet. 
+
+### Note
+- If you try on you local ganache, make sure you set the custom network to your localchain. For exmaple, set rpc url to `http://localhost:9545` and chain id `5777`
+- If you rename the contract `class name`, make sure the import code at `client/src/app.js` line 7 is set to your artifacts.
+
+```js
+// If you change the name of contract, make sure you set the right reference here
+import TutorialTokenArtifact from "../contracts/<your token contract name>.json";
+```
+
 
 ![screenshot](/img/erc20-screenshot.png)
 
