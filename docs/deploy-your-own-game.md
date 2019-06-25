@@ -62,9 +62,19 @@ npm install
 ```
 
 Find the `.env` file and change the `REACT_APP_CONTRACT_ADDRESS` to your new address.
+```
+yarn start
+# or
+npm run start
+```
+This will start a local server with your changes.
+
+If you want to deploy this to your webpage run:
 
 ```
 yarn build
+# or 
+npm run build
 ```
 
 ```
