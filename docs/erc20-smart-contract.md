@@ -3,7 +3,7 @@ id: erc20-smart-contract
 title: Deploy Your Own ERC-20
 ---
 [ERC20](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) token is one of most popular DApps in the blockchan community.
-This tuturial would take you 5 simple steps to deploy an ERC-20 Smart Contract on ThunderCore. It's super easy and fast!
+This tutorial would take you 5 simple steps to deploy an ERC-20 Smart Contract on ThunderCore. It's super easy and fast!
 
 The final repo is here https://github.com/LucienLee/thundercore-erc20.
 
