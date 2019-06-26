@@ -43,7 +43,7 @@ Next grab your mnemonic from Metamask or Trust Wallet and add it to the HDWallet
 ```
 yarn migrate --network thunder --reset
 # or 
-npm run migrate --network thunder --reset
+npm run migrate -- --network thunder --reset
 ```
 
 In the console, you will see the price you've paid for its deployment, the contract address,
