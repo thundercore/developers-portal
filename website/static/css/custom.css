@@ -10,8 +10,18 @@
   src: url("/fonts/ProximaNova-Semibold.otf");
   font-weight: 600;
 }
+@font-face {
+  font-family: "DIN Condensed";
+  src: url("/fonts/DINPro-CondMedium.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "DIN";
+  src: url("/fonts/DINPro.otf");
+  font-weight: 400;
+}
 
-html, body {
+html, body, div {
   color: #383838;
   font-family: "Proxima Nova", serif;
 }
@@ -94,6 +104,9 @@ article div span h2:first-child {
 .navigationSlider .slidingNav ul li.siteNavGroupActive.siteNavItemActive > a {
   font-weight: 600;
   color: #FFE91A;
+}
+.navigationSlider .slidingNav ul li > a:hover {
+  color: #FF8E00;
 }
 
 .toc .toggleNav ul li.navListItemActive a {

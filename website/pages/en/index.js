@@ -23,7 +23,7 @@ class HomeSplash extends React.Component {
           <div className="startBlock">
             <div className="main-title">Build your DApps</div>
             <div className="main-title-sub">on ThunderCore</div>
-            <a className="startButton orangeButton" href="/docs/deploy-your-own-game">Start</a>
+            <a className="startButton orangeButton" href="/docs/deploy-your-own-game">START</a>
           </div>
           <img className="bgLogo" src="img/build_dapps.png"/>
         </div>
@@ -43,7 +43,13 @@ class HelpfulLinks extends React.Component {
 
     const Link = props => (
       <div className="helpfulLinksBlockLink">
-        <a href={props.href} target={props.target || '_blank'}>{props.title}</a>
+        <a href={props.href} target={props.target || '_blank'}>
+          {props.title}
+          <div className="icon-chevron">
+            <Chevron fill="#424242"/>
+          </div>
+          {/*<img className="icon-chevron" />*/}
+        </a>
       </div>
     );
 
@@ -143,6 +149,28 @@ class Index extends React.Component {
         </div>
       </div>
     );
+  }
+}
+
+class Chevron extends React.Component {
+
+  render() {
+    const {fill} = this.props;
+
+    return (
+      <svg width="9px" height="14px" viewBox="0 0 9 14" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <title>icon_chevron-right</title>
+        <g id="Page-1" stroke="none" strokeWidth="1" fill={fill} fillRule="evenodd">
+          <g id="dev_portal" transform="translate(-917.000000, -948.000000)">
+            <g id="panel_01" transform="translate(299.000000, 794.000000)">
+              <g id="icon_chevron-right" transform="translate(618.000000, 154.000000)">
+                <polygon id="Shape" points="1.6 0 2.0301221e-15 1.63333333 5.25714286 7 2.0301221e-15 12.3666667 1.6 14 8.45714286 7"></polygon>
+              </g>
+            </g>
+          </g>
+        </g>
+      </svg>
+    )
   }
 }
 
