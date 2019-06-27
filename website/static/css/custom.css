@@ -26,6 +26,10 @@ html, body, div {
   font-family: "Proxima Nova", serif;
 }
 
+body {
+  background: #4F4F4F;
+}
+
 /* Document */
 .docMainWrapper.wrapper {
   padding: 0;
@@ -115,6 +119,21 @@ article div span h2:first-child {
 
 header img.logo {
   height: 25px;
+}
+
+img[src="/docs/assets/img/wallet/metamask1.png"],
+img[src="/docs/assets/img/wallet/metamask2.png"],
+img[src="/docs/assets/img/wallet/metamask3.png"],
+img[src="/docs/assets/img/wallet/metamask4.png"],
+img[src="/docs/assets/img/wallet/metamask5.png"],
+img[src="/docs/assets/img/wallet/metamask6.png"],
+img[src="/docs/assets/img/wallet/trust1.png"],
+img[src="/docs/assets/img/wallet/trust2.png"],
+img[src="/docs/assets/img/game/doubleOrNothing.png"]
+{
+  border: 1px solid #D3D3D3;
+  border-radius: 7px;
+  box-shadow: 0 0 10px #d3d3d3;
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {

@@ -2,8 +2,7 @@
 id: erc20-smart-contract
 title: Deploy Your Own ERC-20
 ---
-[ERC20](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) token is one of most popular DApps in the blockchan community.
-This tutorial would take you 5 simple steps to deploy an ERC-20 Smart Contract on ThunderCore. It's super easy and fast!
+[ERC20](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) tokens are one of the most popular DApps in the blockchain community. This tutorial will guide you through deploying an ERC-20 Smart Contract on ThunderCore in 5 simple steps. It's super easy and fast!
 
 The final repo is here https://github.com/LucienLee/thundercore-erc20.
 
@@ -31,18 +30,18 @@ To verify that Truffle is installed properly, type `truffle version` on a termin
 MetaMask is a browser extension that serves as a “wallet” that safely stores your cryptocurrencies such as Ether (ETH) and Thunder Tokens. It also serves as a “bridge” that connects the web application with the blockchain. You can download and learn more about Metamask at [https://metamask.io/](https://metamask.io/).
 
 ### Get Thunder Tokens or Thunder Test Token
-You need to get Thunder Tokens or Thunder Test Token to deploy your smart contracts on the ThunderCore. Please follow this [instruction](get-tokens.md) to get your tokens.
+You need to get Thunder Tokens (Mainnet) or Thunder Test Tokens (Testnet) to deploy your smart contracts on ThunderCore. Please follow this [instruction](get-tokens.md) to get your tokens.
 
 
 # Steps
 In this tutorial we will be covering:
 
-- Unboxing the ThunderCore Boliterplate Box 
+- Unboxing the ThunderCore Boilerplate Box 
 - Creating the "MyToken" smart contract
 - Compiling and deploying the smart contract on ThunderCore
 - Interacting with the new token
 
-## 1. Unboxing the ThunderCore Boliterplate Box 
+## 1. Unboxing the ThunderCore Boilerplate Box 
 To make it easier to get started with ThunderCore, we’ve created a template, [Thunder Box](https://github.com/thundercore/thunder-box), for ThunderCore DApps that can be downloaded via Truffle.
 ​
 On a terminal, create a new project directory and navigate to it:
@@ -111,8 +110,7 @@ module.exports = function(deployer) {
 };
 ```
 
-2. Launching a localchain to test your contract  
-By the local blockchain, you can test your contract without cost real token on your computer. We recommend that use [Ganache](https://www.trufflesuite.com/ganache) GUI. If your are familiar with command line, you can install cli tool by the following command.
+2. Launching a local chain to test our contract. By using a local blockchain, we can test our contract without consuming real tokens. We recommend using [Ganache](https://www.trufflesuite.com/ganache). Download the Ganache GUI or install the CLI tool with the following command.
 
 ```bash
 npm install -g ganache-cli
@@ -120,9 +118,9 @@ npm install -g ganache-cli
 yarn global add ganache-cli
 ```
 
-Then, double click the icon to launch the application or run command `ganache-cli -p 9545 -i 5777` to launch a localchain.
+Then, double click the icon to launch the application or run the command `ganache-cli` to launch a local chain.
 
-3. With our blockchain launched, you can run the following command to compile and deploy the contract:
+3. With our blockchain launched, run the following command to compile and deploy the contract.
 
 ```
 truffle compile

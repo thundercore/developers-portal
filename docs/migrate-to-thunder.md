@@ -5,20 +5,20 @@ title: Migrate from Ethereum
 
 ## Overview
 
-Because ThunderCore is a fork of geth, our blockchain natively supports EVM compatible smart contracts. This document describes the steps required to port your existing Ethereum DApp to ThunderCore. If you haven't created a DApp before, checkout [deploy your own game](deploy-your-own-game.md) tutorial.
+Because ThunderCore is a fork of geth, our blockchain natively supports EVM-compatible smart contracts. This document describes the steps required to port your existing Ethereum DApp to ThunderCore. If you haven't created a DApp before, checkout [deploy your own game](deploy-your-own-game.md) tutorial.
 
 ## Connecting to our network
 
-To connect to our network, see the RPC endpoints below. You can perform any RPC available in Ethereum on these URLs.
+To connect to our network, see the RPC endpoints below. You can perform any RPC operation available in Ethereum on these URLs.
 
 Network|RPC endpoint                       |Network ID
 -------|-----------------------------------|----------
 Mainnet|https://mainnet-rpc.thundercore.com|108
 Testnet|https://testnet-rpc.thundercore.com|18
 
-If you're using **MetaMask**, add a new network with these URLs.
+If you're using MetaMask, specify one of these URLs as a new, custom RPC.
 
-If you're using **Truffle**, add the following section to your `truffle.js` file.
+If you're using **Truffle**, add the following section to your `truffle.js` file:
 
 ```
 module.exports = {
@@ -63,4 +63,4 @@ We're currently in the process of integrating the latest EVM changes (St. Peters
 
 ## Yup, that's it
 
-No need to rewrite your smart contracts or change any of your infrastructure code, you should be good to go! If you are having any problems, post in our [Discord](https://discordapp.com/invite/5EbxXfw) to access some of our developers.
+No need to rewrite your smart contracts or change any of your infrastructure code, you should be good to go! If you are having any problems, post in our [Discord](https://discordapp.com/invite/5EbxXfw) for direct access to, and immediate help from, some of our developers.
