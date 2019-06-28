@@ -10,10 +10,24 @@
   src: url("/fonts/ProximaNova-Semibold.otf");
   font-weight: 600;
 }
+@font-face {
+  font-family: "DIN Condensed";
+  src: url("/fonts/DINPro-CondMedium.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "DIN";
+  src: url("/fonts/DINPro.otf");
+  font-weight: 400;
+}
 
-html, body {
+html, body, div {
   color: #383838;
   font-family: "Proxima Nova", serif;
+}
+
+body {
+  background: #4F4F4F;
 }
 
 /* Document */
@@ -95,6 +109,9 @@ article div span h2:first-child {
   font-weight: 600;
   color: #FFE91A;
 }
+.navigationSlider .slidingNav ul li > a:hover {
+  color: #FF8E00;
+}
 
 .toc .toggleNav ul li.navListItemActive a {
   font-weight: 600;
@@ -102,6 +119,21 @@ article div span h2:first-child {
 
 header img.logo {
   height: 25px;
+}
+
+img[src="/docs/assets/img/wallet/metamask1.png"],
+img[src="/docs/assets/img/wallet/metamask2.png"],
+img[src="/docs/assets/img/wallet/metamask3.png"],
+img[src="/docs/assets/img/wallet/metamask4.png"],
+img[src="/docs/assets/img/wallet/metamask5.png"],
+img[src="/docs/assets/img/wallet/metamask6.png"],
+img[src="/docs/assets/img/wallet/trust1.png"],
+img[src="/docs/assets/img/wallet/trust2.png"],
+img[src="/docs/assets/img/game/doubleOrNothing.png"]
+{
+  border: 1px solid #D3D3D3;
+  border-radius: 7px;
+  box-shadow: 0 0 10px #d3d3d3;
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {

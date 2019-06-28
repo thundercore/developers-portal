@@ -25,6 +25,7 @@
 
 .nav-footer .content .title {
   font-weight: 600;
+  color: white;
 }
 
 .nav-footer .content .thunder-icon {
@@ -67,24 +68,39 @@
 }
 
 .icon-twitter {
-  background-image: url("/img/icon_twitter_normal.png");
+  width: 35px;
+  height: 35px;
 }
-.icon-twitter:hover {
-  background-image: url("/img/icon_twitter_hover.png");
+.icon-twitter circle {
+  fill: #C3C3C3;
+  transition: fill 100ms ease-in;
+}
+.icon-twitter:hover circle {
+  fill: #FA7516;
 }
 
 .icon-reddit {
-  background-image: url("/img/icon_reddit_normal.png");
+  width: 35px;
+  height: 35px;
 }
-.icon-reddit:hover {
-  background-image: url("/img/icon_reddit_hover.png");
+.icon-reddit circle {
+  fill: #C3C3C3;
+  transition: fill 100ms ease-in;
+}
+.icon-reddit:hover circle {
+  fill: #FA7516;
 }
 
 .icon-medium {
-  background-image: url("/img/icon_medium_normal.png");
+  width: 35px;
+  height: 35px;
 }
-.icon-medium:hover {
-  background-image: url("/img/icon_medium_hover.png");
+.icon-medium circle {
+  fill: #C3C3C3;
+  transition: fill 100ms ease-in;
+}
+.icon-medium:hover circle {
+  fill: #FA7516;
 }
 
 .nav-footer .copyright {

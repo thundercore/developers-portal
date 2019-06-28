@@ -3,9 +3,7 @@ id: deploy-your-own-game
 title: Deploy Your Own Game in Minutes
 ---
 ## Overview
-Let's take 5-10 minutes and deploy a complete game powered by ThunderCore and accessible by your friends
-and family - anyone with internet access. We will be launching a simple coin flip game
-where the player gets double their bet if the coin lands face up. In the case that the coins lands face down, player loses their bet but will get the chance to double their bet.
+Let's take 5-10 minutes and deploy a complete game that is powered by ThunderCore, and is accessible by your friends, family,and anyone with internet access! We will be launching a simple coin flip game where the player wins an equal amount to his or her bet if the coin lands face up. In the case that the coin lands face down, the player loses his or her bet, and is presented with the opportunity to double the previous bet.
 
 
 ## Exploring the Game
@@ -16,16 +14,13 @@ to see the game we will be building in this tutorial.
 ![game-image](assets/img/game/doubleOrNothing.png)
 
 
-To make your own version of the page, just check out the [repo](https://github.com/jiang-yifan/jiang-yifan.github.io)
-and follow the instructions in the readme.
+To make your own version of the page, just check out the [repo](https://github.com/jiang-yifan/jiang-yifan.github.io) and follow the instructions in the readme.
 
-At the end of those instructions, you should be able to access the game with either
-your mobile device through Metamask or any ThunderCore compatible mobile DApp browsers.
+At the end of those instructions, you should be able to access the game with either your mobile device through Metamask or any ThunderCore compatible mobile DApp browsers.
 
 
 ## Deploying Your Own Contract
-Now, let's get your game running on your own copy of the contract and get you started on your
-path to millions.
+Now, let's get your game running on your own copy of the contract, so you can get started developing your own killer DApp!
 
 First we will install all the dependencies.
 
@@ -46,8 +41,7 @@ yarn migrate --network thunder --reset
 npm run migrate -- --network thunder --reset
 ```
 
-In the console, you will see the price you've paid for its deployment, the contract address,
-and additional stats. Well done! Your contract is now up and running ready to be used by anyone.
+In the console, you will see the price you've paid for its deployment, the contract address, and additional stats. Well done! Your contract is now up and running ready to be used by anyone.
 
 We must now update our UI to use this contract address.
 
