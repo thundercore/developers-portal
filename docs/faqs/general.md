@@ -42,7 +42,7 @@ Towards that end, ThunderCore is working on adding the following features native
 
 1) DApp developer funded gas costs: This feature allows developers to have freemium models for their DApps with select users not needing to even pay for gas when interacting with a DApp.
 
-2) Cross-chain assets on ThunderCore: Being EVM-compatible, ThunderCore already makes it super easy for Ethereum developers to port their Eth DApps to ThunderCore. … Basically, DApps can immediately and fully fully leverage the mature ecosystem of Ethereum, while enjoying the scalability of ThunderCore.
+2) Cross-chain assets on ThunderCore: Being EVM-compatible, ThunderCore already makes it super easy for Ethereum developers to port their Eth DApps to ThunderCore. Cross-chain assets allow DApps on ThunderCore to leverage existing Ethereum assets like DAI and Crypto Kitties. Basically, DApps will be able to fully leverage the mature ecosystem of Ethereum immediately upon migration while enjoying the scalability of ThunderCore.
 
 3) Native random number support: Most blockchain gaming applications need random number support. Till now on Ethereum, each DApp has come up with their own scheme for generating random numbers. ThunderCore blockchain will provide random numbers generated natively to the DApps, or any smart contract.
 
