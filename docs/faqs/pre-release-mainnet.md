@@ -9,7 +9,7 @@ ThunderCore launched its Pre-Release Mainnet on February 28th. The timing also c
 ## What is the Pre-Release Mainnet?
 The Pre-Release Mainnet is the ThunderCore Mainnet chain with full functionality. It is different from the "public" launch because it lacks a few key features, such as the ability for the public to stake tokens.
 
-Public launch of the Mainnet will not impact the Mainnet blockchain in anyway, which means that DApp states, account balances, smart contracts, etc. will be preserved. Upon the public release of Mainnet (expected in Q3 2019) we will release the full node source code for the public launch.
+Public launch of the Mainnet will not impact the Mainnet blockchain in any way, which means that DApp states, account balances, smart contracts, etc. will be preserved. Upon the public release of Mainnet (expected in Q3 2019) we will release the full node source code for the public launch.
 
 ## Why did you decide to do a pre-launch and release tokens instead of waiting for the actual official mainnet launch?
 We decided to do a pre-release of our Mainnet because we wanted users and developers to be able to experience the thundering speed of the ThunderCore blockchain, and to get started with  building DApps with real tokens on our platform as soon as possible.
@@ -28,7 +28,7 @@ ThunderCore blockchain is live now! It is already producing blocks. The public l
 For detailed instructions, please check out our tutorial on getting your own [wallet](get-wallet.md).
 
 ## How do I get a ThunderCore address?
-ThunderCore is Ethereum/EVM compatible. Any address created for Ethereum will work on ThunderCore. One can use MetaMask and any other popular Etheruem wallet to create ThunderCore address. To access the ThunderCore blockchain all one has to do is to point network RPC to [https://mainnet-rpc.thundercore.com](https://mainnet-rpc.thundercore.com) instead of ethereum network. For detailed instructions, please check out our tutorial on getting your own [wallet](get-wallet.md)
+ThunderCore is Ethereum/EVM compatible. Any address created for Ethereum will work on ThunderCore. One can use MetaMask and any other popular Etheruem wallet to create ThunderCore address. To access the ThunderCore blockchain all one has to do is to point network RPC to [https://mainnet-rpc.thundercore.com](https://mainnet-rpc.thundercore.com) instead of the ethereum network. For detailed instructions, please check out our tutorial on getting your own [wallet](get-wallet.md)
 
 ## How can I get access to ThunderCore?
 ThunderCore is a public chain. The Pre-Release Mainnet is easily accessible via the published network addresses found [here](migrate-to-thunder.md).
@@ -36,7 +36,7 @@ ThunderCore is a public chain. The Pre-Release Mainnet is easily accessible via 
 The ThunderCore Pre-Release Mainnet is available to developers and users. We have observed that the performance continues to meet our expectations and have confidence in the throughput experienced. If you are interested in developing or using the chain, please visit our tutorials on [building](deploy-your-own-game.md) or [migrating](migrate-to-thunder.md) to ThunderCore.
 
 ## Where can I buy Thunder Tokens?
-Currently, you can purchase Thunder Tokens (TT) on a few major exchanges including Huobi and Upbit. More will be coming, please follow our [Medium](https://medium.com/thunderofficial) and [Twitter](https://twitter.com/ThunderProtocol) for announcements.
+Currently, you can purchase Thunder Tokens (TT) on a few major exchanges, including Huobi and Upbit. More will be coming, please follow our [Medium](https://medium.com/thunderofficial) and [Twitter](https://twitter.com/ThunderProtocol) for announcements.
 
 If you’re a developer or you just want to experience the thundering speed of ThunderCore, you can get free Thunder Tokens from our [Mainnet Faucet](https://faucet.thundercore.com).
 
@@ -52,7 +52,7 @@ Right now you will have to configure most of the wallets to point to the custom 
 ## Is Thunder Token an ERC-20 token?
 No. Thunder Token is the native currency of an independent public blockchain, ThunderCore.
 
-ThunderCore is Ethereum Virtual Machine (EVM) compliant blockchain. Tokens based on ERC-20 standard can be minted and deployed on ThunderCore.
+ThunderCore is an Ethereum Virtual Machine (EVM) compliant blockchain. Tokens based on the ERC-20 standard can be minted and deployed on ThunderCore.
 
 ## Is ThunderCore planning an Initial Coin Offering (ICO)?
 ThunderCore has completed raising a round of financing via private placement with accredited and experienced blockchain investors. Subsequently, the project will not be conducting an ICO.

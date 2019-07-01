@@ -16,9 +16,9 @@ Public launch of the Mainnet in Q3 2019 is code named ThunderCore Jupiter.
 
 At the beginning of Q1 2020, ThunderCore Haikili will be released. It will introduce features that make the lives of developers and end users exponentially easier. This includes support for cross-chain assets (especially assets on Ethereum), developer-funded gas, and blockchain-native random number generation.
 
-In Q3 2020, ThunderCore Indra will be released. It will increase the scale of ThunderCore blockchain to 10000+ tx/s. It will also add eWASM support.
+In Q3 2020, ThunderCore Indra will be released. It will increase the scale of the ThunderCore blockchain to 10000+ tx/s. It will also add eWASM support.
 
-In Q2 2021, ThunderCore Raijin will be released, allowing ThunderCore to use multiple types of public blockchain as the "slow chain".
+In Q2 2021, ThunderCore Raijin will be released, allowing ThunderCore to use multiple types of public blockchains as the "slow chain".
 
 ## How fast is ThunderCore? 
 ThunderCore offers confirmation time of 1-2 seconds. ThunderCore achieved a peak transactions per second of over 1,200. You can see live activity and performance on [ThunderScan](https://scan.thundercore.com).
