@@ -22,7 +22,18 @@ At the end of those instructions, you should be able to access the game with eit
 ## Deploying Your Own Contract
 Now, let's get your game running on your own copy of the contract, so you can get started developing your own killer DApp!
 
-First we will install all the dependencies.
+First we will install all the dependencies. 
+```
+node -v
+# Lets make sure our node is v8 or v10
+```
+If your version is incompatible, install it with [HomeBrew](https://brew.sh/), 
+```
+brew install node@10
+```
+or go to [Node.js](https://nodejs.org/en/download/package-manager/) to install the correct version.
+
+
 
 ```
 cd ./smart-contracts
