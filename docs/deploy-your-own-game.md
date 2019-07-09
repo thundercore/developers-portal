@@ -8,7 +8,8 @@ Let's take 5-10 minutes and deploy a complete game that is powered by ThunderCor
 
 ## Exploring the Game
 To begin, we will [obtain a wallet](get-wallet.md) and gain access to the Thunder network. With either [Metamask](https://metamask.io/) 
-or [TrustWallet](https://trustwallet.com/) pointed to the Thunder RPC, [let's try out our game](http://jiang-yifan.github.io)!
+or [TrustWallet](https://trustwallet.com/) pointed to the Thunder RPC, navigate [HERE](http://jiang-yifan.github.io)
+to play the game we will build in this tutorial!
 
 ![game-image](assets/img/game/double.png)
 
