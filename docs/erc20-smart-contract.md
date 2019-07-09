@@ -196,6 +196,8 @@ Summary
 > Final cost:          0.02024838 ETH
 ```
 
+Now, your `MyToken` is deployed and mint to your first address in ganache.
+
 ## 4. Deploy to the ThunderCore testnet and mainnet
 Now, you can prepare to deploy your token to ThunderCore testnet or mainnet. Please make sure you have ThunderCore testnet Token(TST) or ThunderToken (TT).
 
@@ -217,6 +219,8 @@ Now, you can prepare to deploy your token to ThunderCore testnet or mainnet. Ple
     # In .mnemonic file, put your mnemonic
     dog cat apple bird ...
     ```
+
+    If you use metamask to control your address, you can check how to export private key [here](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key). The address your used will be filled your `MyToken`.
 
 2. Compile and migrate your contract for testnet and mainnet
 
@@ -248,14 +252,16 @@ yarn install
 
 4. If you want to host on the internet, run `npm run build` or `yarn build`. Then, you will get the bundle UI at `client/dist` page and can host by any static server on the internet. 
 
+5. Switch metamask account, which you used to deployed, you'll see your tokens and can transfer to other accounts.
+
 ### Note
-- If you try on you local ganache, make sure you set the custom network to your localchain. For exmaple, set rpc url to `http://localhost:9545` and chain id `5777`
+- If you try on you local ganache, make sure you set the custom network to your localchain. For exmaple, set rpc url to `http://localhost:9545` and chain id `5777`. Then you can import private key from ganache to metamask or open a browser without metamask (like incognito window) to see your tokens.
 - If you rename the contract `class name`, make sure the import code at `client/src/app.js` line 7 is set to your artifacts.
 
-```js
-// If you change the name of contract, make sure you set the right reference here
-import TutorialTokenArtifact from "../contracts/<your token contract name>.json";
-```
+  ```js
+  // If you change the name of contract, make sure you set the right reference here
+  import TutorialTokenArtifact from "../contracts/<your token contract name>.json";
+  ```
 
 
 ![screenshot](/img/erc20-screenshot.png)

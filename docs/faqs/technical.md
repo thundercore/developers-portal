@@ -11,7 +11,7 @@ Furthermore, ThunderCore exposes Ethereum's [JSON RPC](https://github.com/ethere
 In general, any DApp that runs on Ethereum can be made to run on ThunderCore with very few or no modifications. Visit the [tutorial](migrate-to-thunder.md) on how to migrate from Ethereum to ThunderCore.
 
 ## Is ThunderCore decentralized?
-Yes, ThunderCore is based on decentralized trust. Users don’t have to trust the consensus nodes nor the accelerator. Users only need to trust the honest majority for ThunderCore to be secure (which is the same for standard blockchains). To understand the consensus algorithm, see the [Whitepaper](https://docs.thundercore.com/thunder-whitepaper.pdf).
+Yes, ThunderCore is based on decentralized trust. Users have to trust neither the consensus nodes, nor the accelerator. Users only need to trust the honest majority for ThunderCore to be secure (which is the same for standard blockchains). To understand the consensus algorithm, see the [Whitepaper](https://docs.thundercore.com/thunder-whitepaper.pdf).
 
 ## Will ThunderCore be open source? 
 Yes. We are in the process of releasing the source code of ThunderCore full node before the public launch of the Mainnet.
