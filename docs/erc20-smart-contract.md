@@ -264,7 +264,7 @@ yarn install
   ```
 
 
-![screenshot](/img/erc20-screenshot.png)
+![screenshot](assets/img/erc20/erc20-screenshot.png)
 
 
 ## Learning more about DApps
