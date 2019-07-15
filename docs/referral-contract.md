@@ -1,6 +1,6 @@
 ---
 id: referral-contract
-title: Get more transactions with referral solidity
+title: Get more users with referral solidity
 ---
 
 There is no better marketing strategy than referral marketing, when one of your existing customers raves about you in front of their friends. Lots of popular dapps, including, [Fomo3d](https://exitscam.me/), [My Crypto Heroes](https://www.mycryptoheroes.net), [HyperSnake](https://www.hypersnakes.io/e/e/d/index.html)..., has referral mechanism.
@@ -102,9 +102,9 @@ Hence, assume that:
 
 The referral sequence A ← B ← C ← D. A has referee 25 ppl, B has 6 ppl and C has 1 ppl. When D bets 1 TT, 3% of bet will be in referral pool, 0.03 TT. Then each upline will get :
 
-- A: 1 _ 0.03 _ 0.1 \* 1 = 0.003
-- B: 1 _ 0.03 _ 0.3 \* 0.75 = 0.00675
-- C: 1 _ 0.03 _ 0.6 \* 0.5 = 0.009
+- A: 1 \* 0.03 \* 0.1 \* 1 = 0.003
+- B: 1 \* 0.03 \* 0.3 \* 0.75 = 0.00675
+- C: 1 \* 0.03 \* 0.6 \* 0.5 = 0.009
 
 So the parameters we pass to constructor wil be:
 
@@ -114,7 +114,7 @@ So the parameters we pass to constructor wil be:
 
 Alright, that's setup our contract to enable referral in our dapps.
 
-### contract
+### Contract
 
 First import and pass parameters to our referral contract:
 
