@@ -5,7 +5,7 @@ title: Get more users with referral solidity
 
 There is no better marketing strategy than referral marketing, when one of your existing customers raves about you in front of their friends. Lots of popular dapps, including, [Fomo3d](https://exitscam.me/), [My Crypto Heroes](https://www.mycryptoheroes.net), [HyperSnake](https://www.hypersnakes.io/e/e/d/index.html)..., has referral mechanism.
 
-Hence, we build a referral library, [Referral Solidity](https://github.com/thundercore/referral-solidity), in order to help dapps developer to quick build referral mechanism. We're talking about how to use our library. We also integrate to our tutorila [demo](https://jiang-yifan.github.io).
+Hence, we build a referral library, [Referral Solidity](https://github.com/thundercore/referral-solidity), in order to help dapps developers to quick build their own referral mechanisms. We're talking about how to use our library. We also integrate to our tutorial [demo](https://jiang-yifan.github.io).
 
 ## Referral Solidity Library
 
@@ -24,7 +24,7 @@ First, install our library with the following command.
 npm install @thundercore/referral-solidity
 ```
 
-Then integrate referral solidity with your dapp by importing, initializing, binding referral relationship with `addReferrer` function and trigger referral payment by `payReferral`.
+Then, integrate referral solidity with your dapp by importing, initializing, binding referral relationship with `addReferrer` function and trigger referral payment by `payReferral`.
 
 ```solidity
 pragma solidity ^0.5.0;
@@ -47,7 +47,7 @@ contracts YourGame is Referral {
 }
 ```
 
-In the line of `constructor() Referral (10000, 500, 1 days, true, [6000, 3000, 1000], [1, 10000])`, you might confused what are those paramters meaning. Now, we will explain that. First, the parameters of constructor is corresponding to the following:
+In the line of `constructor() Referral (10000, 500, 1 days, true, [6000, 3000, 1000], [1, 10000])`, you might be confused what are those paramters meaning. Now, we're gonna explain the parameters of constructor in the following:
 
 ```solidity
 Referral(decimals, referralBonus, secondsUntilInactive, onlyRewardActiveReferrers, levelRate, refereeBonusRateMap)
@@ -70,7 +70,7 @@ The seconds that how long a user will be inactive. For example, `one days`.
 
 ##### onlyRewardActiveReferrers `<bool>`
 
-The flag to enable whether paying to inactive uplines.
+The flag to enable whether not paying to inactive uplines.
 
 ##### levelRate `<uint[]>`
 
@@ -95,8 +95,12 @@ That's see the real example to make it clear.
 
 ![game-image](assets/img/referral/screenshot.png)
 
-In this [instruction](deploy-your-own-game.md), you can deploy and build a double and nothing by your ownself. Now we're add referral to this dapps!
-Let we set an user would pay 3% for referral, in different referral level would get 60%, 30%, 10% of 3%. Besides, a user only get 50% of referal bonus when they refer less than 5 people, 75% less than 25 people and get all 100% need to refer over 25 people. In addidtion, an user need to play in one day as active user to get referral, which means if a user didn't play once a day, he cannot get the referral.
+In this [instruction](deploy-your-own-game.md), you can deploy and build double and nothing bet game by yourself. Now we're add referral to this dapps!
+
+Let's set up our referral rule first:
+- an user would pay 3% for referral, in different referral level would get 60%, 30%, 10% of 3%.
+- an user only get 50% of referal bonus when they refer less than 5 people, 75% less than 25 people and get all 100% need to refer over 25 people.
+- an user need to play in one day as active user to get referral, which means if a user didn't play once a day, he cannot get the referral.
 
 Hence, assume that:
 
