@@ -43,6 +43,29 @@ commands:
             export AWS_DEFAULT_REGION=${AWS_APP_PROD_DEFAULT_REGION}
           fi
           ./deploy/deploy.sh
+    - run:
+        name: Build Success
+        when: on_success
+        command: |
+            # notify success
+            SLACK_URL=${SLACK_URL} \
+            COMMIT=${IMAGE_TAG} \
+            AUTHOR=${COMMIT_NAME} \
+            BUILD_URL=${CIRCLE_BUILD_URL} \
+            MESSAGE=${COMMIT_MESSAGE} \
+            APP_URL=${url} \
+            STATUS="SUCCESS" \
+            deploy/notify.sh
+    - run:
+        name: Build Failed
+        when: on_fail
+        command: |
+            SLACK_URL=${SLACK_URL} \
+            COMMIT=${IMAGE_TAG} \
+            AUTHOR=${COMMIT_NAME} \
+            BUILD_URL=${CIRCLE_BUILD_URL} \
+            MESSAGE=${COMMIT_MESSAGE} \
+            deploy/notify.sh
 
 ##############
 # Aliases    #
