@@ -18,6 +18,8 @@ const siteConfig = {
   projectName: 'dev-portal',
   organizationName: 'ThunderCore',
 
+  favicon: 'img/favicon/favicon.ico',
+
   headerLinks: [
     { href: 'https://thundercore.com', label: 'ThunderCore.com' },
     { doc: 'deploy-your-own-game', label: 'DOCS' },
