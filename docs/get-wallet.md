@@ -41,10 +41,10 @@ Download the MetaMask Google Chrome plugin at https://metamask.io/ and follow th
 1. Start up MetaMask in your browser.
  
 ![alt-text](assets/img/wallet/metamask1.png)
-​
-2. Click on the circular icon on the top right (your screen will have a different icon, however it will work the same way).
-​
-![alt-text](assets/img/wallet/metamask2.png)​
+
+2. Click on the circular icon on the top right.
+
+![alt-text](assets/img/wallet/metamask2.png)
 
 3. Click on `Settings` on the bottom of this window and scroll down to `Networks` to add a new network.
 
