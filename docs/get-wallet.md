@@ -6,6 +6,30 @@ title: Getting a Wallet
 ## Getting started
 To use the ThunderCore blockchain (and most other blockchains) you'll need a wallet address. This address works similar to a credit card number.
 
+## ThunderCore Hub
+
+ThunderCore Hub is a secure and easy to use crypto wallet with full Dapp browser capability.
+
+### Install ThunerCore Hub
+Download the ThunderCore Hub on [App Store](https://apps.apple.com/tw/app/thundercore-hub/id1471222243) or [Google Play](https://play.google.com/store/apps/details?id=com.thundercore.mobile) and follow the instructions below.
+
+### Overview about ThunderCore Hub
+1. After open the App, you can sign in the wallet via 3 ways.
+
+![alt-text](assets/img/wallet/hubbit1.PNG)
+
+2. Then you will see the Browser page. You can enter the DApp or website URL in the search bar.
+
+![alt-text](assets/img/wallet/hubbit2.PNG)
+
+3. Click the Wallet tab, then you will see the Wallet page. This page will display the balance of your Thunder Token (TT) and all the transactions you made. Also, you can send or receive your TT via this page.
+
+![alt-text](assets/img/wallet/hubbit3.PNG)
+
+4. You can contact us or Log out on the Settings page.
+
+![alt-text](assets/img/wallet/hubbit4.PNG)
+
 ## MetaMask
 
 MetaMask is a digital wallet that can be used to hold your Thunder Tokens. The following instructions show you how to enable MetaMask for use with the ThunderCore platform.
