@@ -64,7 +64,7 @@ You can set a amount if you want to receive a specific amount from another addre
  
  ![alt-text](assets/img/wallet/hubbit12.PNG)
  
- Just copy it and paste to your note or whereever you want to.
+ Just copy it and paste to your note or wherever you want to.
 
 5. You can contact us or Log out on the Settings page.
 
