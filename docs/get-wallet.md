@@ -26,16 +26,19 @@ Download the ThunderCore Hub on [App Store](https://apps.apple.com/tw/app/thunde
 
 ![alt-text](assets/img/wallet/hubbit5.PNG)
 
-### Send/Receive token
+### Send token
 
 To send out token, click the `Send` button then you will see as below:
 
 ![alt-text](assets/img/wallet/hubbit6.PNG)
 
 You can also use the scanner to scan another QR code to send out your token.
-If it's all correct, click `Confirm` to proceed.
 
 ![alt-text](assets/img/wallet/hubbit7.PNG)
+
+If it's all correct, click `Confirm` to proceed.
+
+### Receive token
 
 To receive token, click the `Receive` button then you will see as below:
 
@@ -43,9 +46,9 @@ To receive token, click the `Receive` button then you will see as below:
 
 ![alt-text](assets/img/wallet/hubbit8-1.PNG)
 
-You can also set a amount if you want to receive a specific amount from another address:
-
 ![alt-text](assets/img/wallet/hubbit9.PNG)
+
+You can also set a amount if you want to receive a specific amount from another address
 
  ### Buy Thunder Token 
  
