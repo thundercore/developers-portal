@@ -22,15 +22,19 @@ Download the ThunderCore Hub on [App Store](https://apps.apple.com/tw/app/thunde
 
 ![alt-text](assets/img/wallet/hubbit2.PNG)
 
-3. Click the Wallet tab, then you will see the Wallet page. This page will display the balance of your Thunder Token (TT) and all the transactions you made. 
-
-Also, you can `Send` or `Receive` your TT  and `buy TT` via this page.
+3. Click the Wallet tab, then you will see the Wallet page. This page will display the balance of your Thunder Token (TT) and all the transactions you made. Also, you can `Send` or `Receive` your TT  and `buy TT` via this page.
 
 ![alt-text](assets/img/wallet/hubbit5.PNG)
 
+4. You can contact us or Log out on the Settings page.
+
+![alt-text](assets/img/wallet/hubbit4.PNG)
+
+### Features of ThunderCore Hub
+
 #### Send token
 
-To send out token, click the `Send` button then you will see as below:
+ To send out token, click the `Send` button then you will see as below:
 
 ![alt-text](assets/img/wallet/hubbit6.PNG)
 
@@ -48,9 +52,11 @@ To receive token, click the `Receive` button then you will see as below:
 
 ![alt-text](assets/img/wallet/hubbit5.PNG)
 
+You can set a amount if you want to receive a specific amount from another address.
+
 ![alt-text](assets/img/wallet/hubbit8-1.PNG)
 
-You can set a amount if you want to receive a specific amount from another address.
+The recipient will receive the same amount as you entered. 
 
 ![alt-text](assets/img/wallet/hubbit9.PNG)
 
@@ -65,10 +71,6 @@ You can set a amount if you want to receive a specific amount from another addre
  ![alt-text](assets/img/wallet/hubbit12.PNG)
  
  Just copy it and paste to your note or wherever you want to.
-
-5. You can contact us or Log out on the Settings page.
-
-![alt-text](assets/img/wallet/hubbit4.PNG)
 
 ## MetaMask
 
