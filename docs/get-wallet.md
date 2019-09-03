@@ -64,7 +64,7 @@ The recipient will receive the same amount as you entered.
  
  If you don't have any Thunder Token (TT). [Try get some](https://www.appcenter.games/ttget) now.
  
- #### How to get my wallet address?
+ #### How to share my wallet address?
  
  Please go to receive page and click on the icon at the top right then you will see as below:
  
