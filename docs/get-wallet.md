@@ -22,11 +22,44 @@ Download the ThunderCore Hub on [App Store](https://apps.apple.com/tw/app/thunde
 
 ![alt-text](assets/img/wallet/hubbit2.PNG)
 
-3. Click the Wallet tab, then you will see the Wallet page. This page will display the balance of your Thunder Token (TT) and all the transactions you made. Also, you can send or receive your TT via this page.
+3. Click the Wallet tab, then you will see the Wallet page. This page will display the balance of your Thunder Token (TT) and all the transactions you made. Also, you can send or receive your TT  and buy TT via this page.
 
-![alt-text](assets/img/wallet/hubbit3.PNG)
+![alt-text](assets/img/wallet/hubbit5.PNG)
 
-4. You can contact us or Log out on the Settings page.
+### Send/Receive token
+
+To send out token, click the `Send` button then you will see as below:
+
+![alt-text](assets/img/wallet/hubbit6.PNG)
+
+You can also use the scanner to scan another QR code to send out your token.
+If it's all correct, click `Confirm` to proceed.
+
+![alt-text](assets/img/wallet/hubbit7.PNG)
+
+To receive token, click the `Receive` button then you will see as below:
+
+![alt-text](assets/img/wallet/hubbit5.PNG)
+
+![alt-text](assets/img/wallet/hubbit8-1.PNG)
+
+You can also set a amount if you want to receive a specific amount from another address:
+
+![alt-text](assets/img/wallet/hubbit9.PNG)
+
+ ### Buy Thunder Token 
+ 
+ If you don't have any Thunder Token (TT). [Try get some](https://www.appcenter.games/ttget) now.
+ 
+ ### Where is my wallet address?
+ 
+ Please go to receive page and click on the icon at the top right then you will see as below:
+ 
+ ![alt-text](assets/img/wallet/hubbit12.PNG)
+ 
+ Just copy it and paste to your note or whereever you want to.
+
+5. You can contact us or Log out on the Settings page.
 
 ![alt-text](assets/img/wallet/hubbit4.PNG)
 
