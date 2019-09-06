@@ -14,7 +14,7 @@ to play the game we will build in this tutorial!
 ![game-image](assets/img/game/double.png)
 
 
-To make your own version of the page, just check out the [repo](https://github.com/jiang-yifan/jiang-yifan.github.io) and follow the instructions in the readme.
+To make your own version of the page, just check out the [repo](https://github.com/thundercore/DoubleOrNothing) and follow the instructions in the readme.
 
 At the end of those instructions, you should be able to access the game with either your mobile device through Metamask or any ThunderCore compatible mobile DApp browsers.
 

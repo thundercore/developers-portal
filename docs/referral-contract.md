@@ -5,7 +5,7 @@ title: Get more users with referral solidity
 
 There is no better marketing strategy than referral marketing, when one of your existing customers raves about you in front of their friends. Lots of popular dapps, including, [Fomo3d](https://exitscam.me/), [My Crypto Heroes](https://www.mycryptoheroes.net), [HyperSnake](https://www.hypersnakes.io/e/e/d/index.html)..., has referral mechanism.
 
-Hence, we build a referral library, [Referral Solidity](https://github.com/thundercore/referral-solidity), in order to help dapps developers to quick build their own referral mechanisms. We're talking about how to use our library. We also integrate to our tutorial [demo](https://jiang-yifan.github.io).
+Hence, we build a referral library, [Referral Solidity](https://github.com/thundercore/referral-solidity), in order to help dapps developers to quick build their own referral mechanisms. We're talking about how to use our library. We also integrate to our tutorial [demo](https://thundercore.github.io/DoubleOrNothing).
 
 ## Referral Solidity Library
 
@@ -211,5 +211,5 @@ this.props.contract.accounts(this.props.address).then((info: any) => {
 });
 ```
 
-Then, you can parse url to get referrer, like `https://jiang-yifan.github.io?referrer=0x26b067f40696c97a058658949ec011ed6a84afe3`. Then, trigger smart contract by `contract.bet(address)` to bind uplines and `contract.bet()` for normal bet. The referral will pay directly when bet.
-For the detail, you can see the code [here](https://github.com/jiang-yifan/jiang-yifan.github.io/blob/master/frontend/src/containers/GameContainer/GameContainer.tsx).
+Then, you can parse url to get referrer, like `https://thundercore.github.io/DoubleOrNothing?referrer=0x26b067f40696c97a058658949ec011ed6a84afe3`. Then, trigger smart contract by `contract.bet(address)` to bind uplines and `contract.bet()` for normal bet. The referral will pay directly when bet.
+For the detail, you can see the code [here](https://github.com/thundercore/DoubleOrNothing).
