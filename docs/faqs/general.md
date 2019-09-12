@@ -6,9 +6,6 @@ title: General
 ## What is ThunderCore?
 ThunderCore combines high performance with decentralized trust. Made possible by years of rigorous academic research, ThunderCore is an EVM-compatible public blockchain that offers higher throughput, faster confirmation times, and lower costs to make it quick and easy for DApps to deploy and scale.
 
-## Who is the team behind ThunderCore? 
-See our [team](https://thundercore.com/team) page.
-
 ## What is the roadmap for ThunderCore? 
 Testnet went live in July 2018. Pre-Release Mainnet was launched in Feb 2019. Public launch of the Mainnet will be carried out in Q3 2019.
 
