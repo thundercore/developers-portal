@@ -47,7 +47,7 @@ contracts YourGame is Referral {
 }
 ```
 
-In the line of `constructor() Referral (10000, 500, 1 days, true, [6000, 3000, 1000], [1, 10000])`, you might be confused what are those paramters mean. Pleasee see the explination for the parameters below:
+In the line of `constructor() Referral (10000, 500, 1 days, true, [6000, 3000, 1000], [1, 10000])`, you might be confused what are those paramters mean. Pleasee see the explanation for the parameters below:
 
 ```solidity
 Referral(decimals, referralBonus, secondsUntilInactive, onlyRewardActiveReferrers, levelRate, refereeBonusRateMap)
