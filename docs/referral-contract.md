@@ -1,20 +1,20 @@
 ---
 id: referral-contract
-title: Get more users with referral solidity
+title: Get More Users with Referral Library
 ---
 
-There is no better marketing strategy than referral marketing, when one of your existing customers raves about you in front of their friends. Lots of popular dapps, including, [Fomo3d](https://exitscam.me/), [My Crypto Heroes](https://www.mycryptoheroes.net), [HyperSnake](https://www.hypersnakes.io/e/e/d/index.html)..., has referral mechanism.
+Referral is one of the best effective marketing. Lots of popular dapps, including, [Fomo3d](https://exitscam.me/), [My Crypto Heroes](https://www.mycryptoheroes.net), [HyperSnake](https://www.hypersnakes.io/e/e/d/index.html)..., use referral mechanisms to drive success.
 
-Hence, we build a referral library, [Referral Solidity](https://github.com/thundercore/referral-solidity), in order to help dapps developers to quick build their own referral mechanisms. We're talking about how to use our library. We also integrate to our tutorial [demo](https://thundercore.github.io/DoubleOrNothing).
+Hence, we build a referral library, [Referral Solidity](https://github.com/thundercore/referral-solidity), in order to help dapps developers to quickly build their own referral mechanisms. In this document we will share how to use our library. We have also integrated referral to our tutorial [demo](https://thundercore.github.io/DoubleOrNothing).
 
 ## Referral Solidity Library
 
-We build a basic multi-level referral solidty at [https://github.com/thundercore/referral-solidity/](https://github.com/thundercore/referral-solidity/). With this library, you can have the following features in mins:
+Check out our basic multi-level referral: [https://github.com/thundercore/referral-solidity/](https://github.com/thundercore/referral-solidity/). With this library, you can have the following features in minutes:
 
-- multiple levels referral (3 as Max now) system with native token (ETH, TT...)
-- pay referral bonus based referee amount
-- pay instantly when downline joins
-- only active user can get referral bonus
+- Up to three levels referral system with native token (ETH, TT...)
+- Pay referral bonus base referee amount
+- Pay instantly when downline joins
+- Only active user will get referral bonus
 
 ### How to Use
 
@@ -47,13 +47,11 @@ contracts YourGame is Referral {
 }
 ```
 
-In the line of `constructor() Referral (10000, 500, 1 days, true, [6000, 3000, 1000], [1, 10000])`, you might be confused what are those paramters meaning. Now, we're gonna explain the parameters of constructor in the following:
+In the line of `constructor() Referral (10000, 500, 1 days, true, [6000, 3000, 1000], [1, 10000])`, you might be confused what are those paramters mean. Pleasee see the explination for the parameters below:
 
 ```solidity
 Referral(decimals, referralBonus, secondsUntilInactive, onlyRewardActiveReferrers, levelRate, refereeBonusRateMap)
 ```
-
-Here is the detail:
 
 ##### decimals `<uint>`
 
@@ -62,19 +60,19 @@ For example, if `decimals` equals to `10000`, and `referralBonus` is `500`, that
 
 ##### referralBonus `<uint>`
 
-The total referral bonus rate, which will divide by `decimals`. For example, If you will like to set as `5%`, it can set as `50` when `decimals` is `1000`.
+The total referral bonus rate, which will divide by `decimals`. For example, If you will like to set a rate of `5%`, then set `referralBonus` as `50` when `decimals` is `1000`.
 
 ##### secondsUntilInactive `<uint>`
 
-The seconds that how long a user will be inactive. For example, `one days`.
+How long, in seconds, a user will be inactive. For example, `one days`.
 
 ##### onlyRewardActiveReferrers `<bool>`
 
-The flag to enable whether not paying to inactive uplines.
+The flag to enable whether not to pay inactive uplines.
 
 ##### levelRate `<uint[]>`
 
-The bonus rate for each level, which will divide by decimals too. The max level depth is 3. For example, set `levelRate` as `[6000, 3000, 1000]` when `decimals` is `10000` for the following case:
+The bonus rate for each level, which will divide by decimals. The max level depth is 3. For example, set `levelRate` as `[6000, 3000, 1000]` when `decimals` is `10000` for the following case:
 
 |      | level1 | level2 | level3 |
 | ---- | ------ | ------ | ------ |
@@ -89,18 +87,18 @@ The map should be pass as [ `<lower amount>`, `<rate>`, ... ]. For example, you 
 | ---- | ----- | ----- | ---- |
 | Rate | 25%   | 50%   | 100% |
 
-That's see the real example to make it clear.
+That's see a real example for more clarity.
 
 ## Example - integrate to double and nothing
 
 ![game-image](assets/img/referral/screenshot.png)
 
-In this [instruction](deploy-your-own-game.md), you can deploy and build double and nothing bet game by yourself. Now we're add referral to this dapps!
+In this [instruction](deploy-your-own-game.md), you can deploy and build double and nothing bet game by yourself. Now we wil add referral to this game!
 
-Let's set up our referral rule first:
+Let's set up our referral rules first:
 - an user would pay 3% for referral, in different referral level would get 60%, 30%, 10% of 3%.
-- an user only get 50% of referal bonus when they refer less than 5 people, 75% less than 25 people and get all 100% need to refer over 25 people.
-- an user need to play in one day as active user to get referral, which means if a user didn't play once a day, he cannot get the referral.
+- an user  get 50% of referral bonus when they refer less than 5 people, 75% for less than 25 people, and g100% when over 25 people.
+- an user need to play within 24hrs to remain an active user, which means if a user didn't play once a day, he cannot get the referral.
 
 Hence, assume that:
 
@@ -116,7 +114,7 @@ So the parameters we pass to constructor wil be:
 | ----- | -------- | ------------- | -------------------- | ------------------------- | --------------- | -------------------------- |
 | value | 1000     | 30            | 86400                | true                      | [600, 200, 100] | [1, 500, 5, 750, 25, 1000] |
 
-Alright, that's setup our contract to enable referral in our dapps.
+Alright, now let's enable the referral!
 
 ### Contract
 
@@ -212,4 +210,5 @@ this.props.contract.accounts(this.props.address).then((info: any) => {
 ```
 
 Then, you can parse url to get referrer, like `https://thundercore.github.io/DoubleOrNothing?referrer=0x26b067f40696c97a058658949ec011ed6a84afe3`. Then, trigger smart contract by `contract.bet(address)` to bind uplines and `contract.bet()` for normal bet. The referral will pay directly when bet.
-For the detail, you can see the code [here](https://github.com/thundercore/DoubleOrNothing).
+
+For more detail, please check out the code [here](https://github.com/thundercore/DoubleOrNothing).
