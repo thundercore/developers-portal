@@ -117,10 +117,6 @@ article div span h2:first-child {
   font-weight: 600;
 }
 
-header img.logo {
-  height: 25px;
-}
-
 img[src="/docs/assets/img/wallet/metamask1.png"],
 img[src="/docs/assets/img/wallet/metamask2.png"],
 img[src="/docs/assets/img/wallet/metamask3.png"],
@@ -136,7 +132,19 @@ img[src="/docs/assets/img/game/doubleOrNothing.png"]
   box-shadow: 0 0 10px #d3d3d3;
 }
 
-@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+header a[href="/"] {
+  overflow: hidden;
+}
+
+header img.logo {
+  height: 25px;
+  max-width: initial;
+}
+
+@media only screen and (max-width: 650px) {
+  header a[href="/"] {
+    width: 25px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
