@@ -9,6 +9,11 @@
 // site configuration options.
 
 const siteConfig = {
+  algolia: {
+    apiKey: 'ad42c341c731590d636ad2312eea32ed',
+    indexName: 'thundercore_developers',
+    algoliaOptions: {} // Optional, if provided by Algolia
+  },
   title: 'Developer Portal', // Title for your website.
   tagline: 'Power your DApps with ThunderCore',
   url: 'https://www.thundercore.com',
