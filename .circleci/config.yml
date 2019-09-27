@@ -13,6 +13,17 @@ executors:
 # commands   #
 ##############
 commands:
+  basic_env:
+    steps:
+      - run:
+          name: "Setup the environment"
+          command: |
+            NAME=`git log -1 --pretty=format:'%an'`
+            IMAGE_TAG=`echo $CIRCLE_SHA1 | cut -c -8`
+            MESSAGE=`git log --format=%B -n 1 $CIRCLE_SHA1`
+            echo "export IMAGE_TAG=\"${IMAGE_TAG}\"" >> $BASH_ENV
+            echo "export COMMIT_NAME=\"${NAME}\"" >> $BASH_ENV
+            echo "export COMMIT_MESSAGE=\"${MESSAGE}\"" >> $BASH_ENV
   build:
     steps:
       - run:
@@ -53,7 +64,7 @@ commands:
             AUTHOR=${COMMIT_NAME} \
             BUILD_URL=${CIRCLE_BUILD_URL} \
             MESSAGE=${COMMIT_MESSAGE} \
-            APP_URL=${url} \
+            APP_URL=${URL} \
             STATUS="SUCCESS" \
             deploy/notify.sh
     - run:
@@ -129,4 +140,5 @@ jobs:
     steps:
     - checkout
     - build
+    - basic_env
     - deploy
