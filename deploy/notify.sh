@@ -8,7 +8,7 @@ MESSAGE=${MESSAGE?You should specify the commit message}
 APP_URL=${APP_URL}
 STATUS=${STATUS:FAIL}
 
-DESCRIPTION="The deploy information about ttflow, check the ${APP_URL} to see latest version"
+DESCRIPTION="The deploy information about dev-portal, check the ${APP_URL} to see latest version"
 COLOR="good"
 EXIT_CODE=0
 if [ "$STATUS" != "SUCCESS" ] ; then
