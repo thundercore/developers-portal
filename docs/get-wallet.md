@@ -121,23 +121,8 @@ Field | Value
 Since MetaMask was originally developed for Ethereum, certain info displayed in MetaMask can be somewhat misleading when you are using it for the ThunderCore Mainnet. Notably, there are multiple places in the UI that uses ETH (ether) as the unit, when they are really referring to Thunder Tokens. By extension, the USD numbers are incorrect too, since they are computed using the price of ether.
 
 ## Ledger Nano S
-This guide will help you set up Hardware Wallet Support for the Ledger Nano S.
-​
-### Set up your Ledger
-
-1. Create or synchronize a wallet on Ethereum Mainnet to Ledger Nano S.
-	- Skip this step if you already have a Ethereum wallet on Ledger Nano S.
-2. Connect your Ledger to your computer.
-3. Open the Ethereum Application.  If the Ethereum Application is not installed:
- 	- Visit https://www.ledger.com/pages/ledger-live to install Ledger Live on your computer.
- 	- Install the Ethereum Application to your Ledger Nano S from the Ledger Live app.  Make sure contract data is turned on.
-4. Open MetaMask.
-5. Follow the instructions in this [well-written guide](https://medium.com/menlo-one/how-to-connect-your-ledger-nano-s-to-metamask-fa92402a0ed1) to connect your ledger to MetaMask.
+To learn more information about how to set up your Ledger Nano S, please refer to [here](https://developers.thundercore.com/docs/ledger-nano-s/)
  
-### Connect to ThunderCore
-
-Now that you've connected MetaMask to your Ledger wallet, follow the instructions under the MetaMask section above to connect to the ThunderCore network.
-​
 ## Trust Wallet
 Trust Wallet is a mobile Ethereum wallet that supports many ERC20, ERC223, ERC721 tokens, Ethereum, Ethereum Classic, Callisto and Thunder Token. Currently more than 20,000 tokens that are built on Ethereum are accessible through Trust Wallet. Trust Wallet is also Binance’s official user-controlled crypto wallet.
  
