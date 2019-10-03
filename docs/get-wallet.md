@@ -105,11 +105,10 @@ Field | Value
 **ChainID** | 108
 **Symbol** | TT
 
+6. The MetaMask account information on the main screen will be updated once the Thunder Tokens are received.
+
 ![alt-text](assets/img/wallet/metamask5.png)
 
-
-6. The MetaMask account information on the main screen will be updated once the Thunder Tokens are received. 
-​
 
 7. Click on the X on the top right to return to the main screen.
 
