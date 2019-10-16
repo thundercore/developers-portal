@@ -44,40 +44,52 @@ commands:
 
   deploy:
     steps:
-    - run:
-        name: Deploy to S3
-        command: |
-          if [ "${ENV}" == "prod" ]; then
-            echo "Exporting production AWS access keys"
-            export AWS_ACCESS_KEY_ID=${AWS_APP_PROD_ACCESS_KEY_ID}
-            export AWS_SECRET_ACCESS_KEY=${AWS_APP_PROD_SECRET_ACCESS_KEY}
-            export AWS_DEFAULT_REGION=${AWS_APP_PROD_DEFAULT_REGION}
-          fi
-          ./deploy/deploy.sh
-    - run:
-        name: Build Success
-        when: on_success
-        command: |
-            # notify success
-            SLACK_URL=${SLACK_URL} \
-            COMMIT=${IMAGE_TAG} \
-            AUTHOR=${COMMIT_NAME} \
-            BUILD_URL=${CIRCLE_BUILD_URL} \
-            MESSAGE=${COMMIT_MESSAGE} \
-            APP_URL=${URL} \
-            STATUS="SUCCESS" \
-            deploy/notify.sh
-    - run:
-        name: Build Failed
-        when: on_fail
-        command: |
-            SLACK_URL=${SLACK_URL} \
-            COMMIT=${IMAGE_TAG} \
-            AUTHOR=${COMMIT_NAME} \
-            BUILD_URL=${CIRCLE_BUILD_URL} \
-            MESSAGE=${COMMIT_MESSAGE} \
-            deploy/notify.sh
-
+      - run:
+          name: Deploy to S3
+          command: |
+            if [ "${ENV}" == "prod" ]; then
+              echo "Exporting production AWS access keys"
+              export AWS_ACCESS_KEY_ID=${AWS_APP_PROD_ACCESS_KEY_ID}
+              export AWS_SECRET_ACCESS_KEY=${AWS_APP_PROD_SECRET_ACCESS_KEY}
+              export AWS_DEFAULT_REGION=${AWS_APP_PROD_DEFAULT_REGION}
+            fi
+            ./deploy/deploy.sh
+      - run:
+          name: Build Success
+          when: on_success
+          command: |
+              # notify success
+              SLACK_URL=${SLACK_URL} \
+              COMMIT=${IMAGE_TAG} \
+              AUTHOR=${COMMIT_NAME} \
+              BUILD_URL=${CIRCLE_BUILD_URL} \
+              MESSAGE=${COMMIT_MESSAGE} \
+              APP_URL=${URL} \
+              STATUS="SUCCESS" \
+              deploy/notify.sh
+      - run:
+          name: Build Failed
+          when: on_fail
+          command: |
+              SLACK_URL=${SLACK_URL} \
+              COMMIT=${IMAGE_TAG} \
+              AUTHOR=${COMMIT_NAME} \
+              BUILD_URL=${CIRCLE_BUILD_URL} \
+              MESSAGE=${COMMIT_MESSAGE} \
+              deploy/notify.sh
+  purge_cdn:
+    steps:
+      - run:
+          name: purge CloudFront cache
+          command: |
+            if [ "${ENV}" == "prod" ]; then
+              echo "Exporting production AWS access keys"
+              export AWS_ACCESS_KEY_ID=${AWS_APP_PROD_ACCESS_KEY_ID}
+              export AWS_SECRET_ACCESS_KEY=${AWS_APP_PROD_SECRET_ACCESS_KEY}
+              export AWS_DEFAULT_REGION=${AWS_APP_PROD_DEFAULT_REGION}
+            fi
+            aws cloudfront create-invalidation --distribution-id ${DISTRIBUTION_ID} --paths '/*'
+  
 ##############
 # Aliases    #
 ##############
@@ -104,14 +116,14 @@ workflows:
 
   build-deploy-platform:
     jobs:
-    - deploy:
+    - deploy-dev:
         env: dev
         url: dev-portal.dev.tt-eng.com
         <<: *master_branch_filter
 
   build-deploy-prod:
     jobs:
-    - deploy:
+    - deploy-prod:
         env: prod
         url: developers.thundercore.com
         <<: *tag_filter
@@ -127,7 +139,7 @@ jobs:
     - checkout
     - build
 
-  deploy:
+  deploy-dev:
     executor: thunderci
     parameters:
       url:
@@ -142,3 +154,20 @@ jobs:
     - build
     - basic_env
     - deploy
+
+  deploy-prod:
+    executor: thunderci
+    parameters:
+      url:
+        type: string
+      env:
+        type: string
+    environment:
+      URL: << parameters.url >>
+      ENV: << parameters.env >>
+    steps:
+    - checkout
+    - build
+    - basic_env
+    - deploy
+    - purge_cdn
