@@ -25,6 +25,8 @@ Before you begin:
 7. Your device will display Processing…
 8. The app installation is confirmed.
 
+*Once Ethereum App is updated, please navigate to ThunderCore App and turn on contract data in settings again. This can avoid the error message of "Bitcoin and Ethereum apps required Install the latest Bitcoin and Ethereum apps first.*
+
 ## Check Balance/Receive Funds
 - Account balances can be viewed on the MyCrypto Web Wallet or MEW Web Wallet interfaces.
 - To receive crypto assets, use the addresses displayed to you from the list on MEW or MyCrypto,
