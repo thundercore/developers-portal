@@ -10,7 +10,7 @@ To use the ThunderCore blockchain (and most other blockchains) you'll need a wal
 
 ThunderCore Hub is a secure and easy to use crypto wallet with full Dapp browser capability.
 
-### Install ThunerCore Hub
+### Install ThunderCore Hub
 Download the ThunderCore Hub on [App Store](https://apps.apple.com/tw/app/thundercore-hub/id1471222243) or [Google Play](https://play.google.com/store/apps/details?id=com.thundercore.mobile) and follow the instructions below.
 
 ### Overview about ThunderCore Hub
