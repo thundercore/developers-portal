@@ -10,4 +10,4 @@ Please check the tutorial [here](https://docs.thundercore.com/Deposit_StableCoin
 
 ## Withdraw
 
-Please check the tutorial [here](https://docs.thundercore.com/Deposit_StableCoin_to_ThunderCore_Hub.pdf)
+Please check the tutorial [here](https://docs.thundercore.com/Withdraw_StableCoin_from_ThunderCore_Hub.pdf)
