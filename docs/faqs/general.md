@@ -18,7 +18,7 @@ In Q3 2020, ThunderCore Indra will be released. It will increase the scale of th
 In Q2 2021, ThunderCore Raijin will be released, allowing ThunderCore to use multiple types of public blockchains as the "slow chain".
 
 ## How fast is ThunderCore? 
-ThunderCore offers confirmation time of 1-2 seconds. ThunderCore achieved a peak transactions per second of over 1,200. You can see live activity and performance on [ThunderScan](https://scan.thundercore.com).
+ThunderCore offers confirmation time of 1-2 seconds. ThunderCore achieved a peak transactions per second of over 4,000. You can see live activity and performance on [ThunderScan](https://scan.thundercore.com).
 
 ## How can I try ThunderCore?
 ThunderTokens (TT) for the ThunderCore Mainnet are available at the [ThunderCore Mainnet Faucet](https://faucet.thundercore.com).
