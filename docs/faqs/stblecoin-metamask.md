@@ -7,6 +7,7 @@ title: Add TT-StableCoin to MetaMask
 Here’s a guide to show you how to add TT-USDT or TT-DAI to your MetaMask. Please note that MetaMask is a third party Web3 wallet, if you have questions about the wallet, please [contact](https://metamask.zendesk.com/hc/en-us) with wallet provider directly.
 
 *TT-StableCon: TT-USDT, TT-DAI (learn [more](https://www.wikiwand.com/en/Stablecoin) about stablecoin)*
+
 *If you want to know how to set up and use your MetaMask, please refer to [here](https://developers.thundercore.com/docs/get-wallet/#metamask)*
 
 ## Add TT-USDT to MetaMask
