@@ -8,7 +8,8 @@
       "faqs/technical",
       "faqs/pre-release-mainnet",
       "faqs/stablecoin",
-      "faqs/stblecoin-trustwallet"
+      "faqs/stblecoin-trustwallet",
+      "faqs/stblecoin-metamask"
     ]
   }
 }
