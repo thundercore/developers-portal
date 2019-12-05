@@ -16,7 +16,7 @@ Here’s a guide to show you how to add TT-USDT or TT-DAI to your MetaMask. Plea
 
 ![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-1.png)
 
-<img src="assets/img/stablecoin-metamask/stablecoin-metamask-1.png" width="353" height="764" />
+<img src="https://github.com/thundercore/dev-portal/blob/master/docs/assets/img/stablecoin-metamask/stablecoin-metamask-1.png" width="440" height="764" />
 
 2. Click Menu 
 
