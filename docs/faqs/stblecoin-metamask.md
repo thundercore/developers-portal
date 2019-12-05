@@ -14,8 +14,8 @@ Here’s a guide to show you how to add TT-USDT or TT-DAI to your MetaMask. Plea
 
 1. Open your MetaMask and make sure the Networks has switched to ThunderCore 
 
-![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-1.png)
-<img src="/assets/img/stablecoin-metamask/stablecoin-metamask-1.png" width="353" height="764">
+![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-1.png =353x764)
+<img src="/assets/img/stablecoin-metamask/stablecoin-metamask-1.png", width="353", height="764">
 
 2. Click Menu 
 
