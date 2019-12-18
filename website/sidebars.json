@@ -11,5 +11,18 @@
       "faqs/stblecoin-trustwallet",
       "faqs/stblecoin-metamask"
     ]
+  },
+  "suppoer-center": {
+    "Develop on ThunderCore": ["deploy-your-own-game", "migrate-to-thunder", "develop-with-truffle", "erc20-smart-contract"],
+    "Get Started": ["get-wallet", "get-tokens", "ledger-nano-s", "financial-service-landscape"],
+    "Tools": ["random-number-generator", "referral-contract", "yell"],
+    "Frequently Asked Questions": [
+      "faqs/general",
+      "faqs/technical",
+      "faqs/pre-release-mainnet",
+      "faqs/stablecoin",
+      "faqs/stblecoin-trustwallet",
+      "faqs/stblecoin-metamask"
+    ]
   }
 }
