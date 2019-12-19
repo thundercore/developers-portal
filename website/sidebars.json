@@ -12,6 +12,8 @@
     ]
   },
   "support-center": {
-    "Get Started": ["get-wallet", "get-tokens", "ledger-nano-s", "financial-service-landscape"]
+    "Support Center": [
+      "Get Started": ["get-wallet", "get-tokens", "ledger-nano-s", "financial-service-landscape"]
+    ]
   }
 }
