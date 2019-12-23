@@ -27,9 +27,8 @@ const siteConfig = {
 
   headerLinks: [
     { href: 'https://thundercore.com', label: 'ThunderCore.com' },
-    { doc: 'deploy-your-own-game', label: 'DOCS' },
-    { doc: 'get-wallet', label: 'Support Center' },
-    { doc: 'faqs/general', label: 'FAQ' },
+    { doc: 'dev-portal/develop-on-thundercore/deploy-your-own-game', label: 'DOCS' },
+    { doc: 'support-center/faqs/general', label: 'Support Center' },
     { href: 'https://developer-cn.thundercore.com', label: '🌐简体中文'}
   ],
 
@@ -60,7 +59,10 @@ const siteConfig = {
   },
 
   // Add custom scripts here that would be placed in <script> tags.
-  scripts: ['https://buttons.github.io/buttons.js'],
+  scripts: [
+    'https://buttons.github.io/buttons.js',
+    '/js/change-header.js'
+    ],
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
@@ -70,6 +72,8 @@ const siteConfig = {
   // Open Graph and Twitter card images.
   ogImage: 'img/thundercore_icon.svg',
   twitterImage: 'img/thundercore_icon.svg',
+
+//  docsSideNavCollapsible: true,
 
   gaTrackingId: 'UA-118758464-11'
 }

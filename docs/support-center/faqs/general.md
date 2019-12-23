@@ -23,9 +23,9 @@ ThunderCore offers confirmation time of 1-2 seconds. ThunderCore achieved a peak
 ## How can I try ThunderCore?
 ThunderTokens (TT) for the ThunderCore Mainnet are available at the [ThunderCore Mainnet Faucet](https://faucet.thundercore.com).
 
-Thunder Test Tokens (TST) are available for free at our Testnet faucet [here](https://faucet-testnet.thundercore.com/). Learn about [how to get Thunder Test Tokens (TST)](get-tokens.md).
+Thunder Test Tokens (TST) are available for free at our Testnet faucet [here](https://faucet-testnet.thundercore.com/). Learn about [how to get Thunder Test Tokens (TST)](support-center/get-tokens/get-tokens.md).
 
-To build or migrate DApps, visit our tutorials - [Build](deploy-your-own-game.md) and [Migrate](migrate-to-thunder.md).
+To build or migrate DApps, visit our tutorials - [Build](dev-portal/develop-on-thundercore/deploy-your-own-game.md) and [Migrate](dev-portal/develop-on-thundercore/migrate-to-thunder.md).
 
 You can always review live activity and performance on [ThunderScan(Mainnet)](https://scan.thundercore.com) and [ThunderScan(Testnet)](https://scan-testnet.thundercore.com).
 

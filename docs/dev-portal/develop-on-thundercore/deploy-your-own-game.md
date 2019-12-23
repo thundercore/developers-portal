@@ -7,7 +7,7 @@ Let's take 5-10 minutes and deploy a complete game that is powered by ThunderCor
 
 
 ## Exploring the Game
-To begin, we will [obtain a wallet](get-wallet.md) and gain access to the Thunder network. With either [Metamask](https://metamask.io/) 
+To begin, we will [obtain a wallet](support-center/wallet/get-wallet.md) and gain access to the Thunder network. With either [Metamask](https://metamask.io/) 
 or [TrustWallet](https://trustwallet.com/) pointed to the Thunder RPC, navigate [HERE](https://thundercore.github.io/DoubleOrNothing/)
 to play the game we will build in this tutorial!
 

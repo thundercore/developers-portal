@@ -1,17 +1,40 @@
 {
   "docs": {
-    "Develop on ThunderCore": ["deploy-your-own-game", "migrate-to-thunder", "develop-with-truffle", "erc20-smart-contract"],
-    "Tools": ["random-number-generator", "referral-contract", "yell"],
+    "Develop on ThunderCore": [
+      "dev-portal/develop-on-thundercore/deploy-your-own-game",
+      "dev-portal/develop-on-thundercore/migrate-to-thunder",
+      "dev-portal/develop-on-thundercore/erc20-smart-contract"
+    ],
+    "Tools": [
+      "dev-portal/tools/random-number-generator",
+      "dev-portal/tools/develop-with-truffle",
+      "dev-portal/tools/referral-contract"
+    ],
+    "Get Tokens": [
+      "dev-portal/tools/get-tokens"
+    ],
     "Frequently Asked Questions": [
-      "faqs/general",
-      "faqs/technical",
-      "faqs/pre-release-mainnet",
-      "faqs/stablecoin",
-      "faqs/stblecoin-trustwallet",
-      "faqs/stblecoin-metamask"
+      "dev-portal/faqs/technical",
+      "dev-portal/faqs/pre-release-mainnet"
     ]
   },
-  "support-center": {
-    "Get Started": ["get-wallet", "get-tokens", "ledger-nano-s", "financial-service-landscape"]
+  "support center": {
+    "Frequently Asked Questions": [
+      "support-center/faqs/general",
+      "support-center/faqs/pre-release-mainnet"
+    ],
+    "Defi": [
+      "support-center/DeFi/financial-service-landscape",
+      "support-center/DeFi/stablecoin",
+      "support-center/DeFi/stblecoin-metamask",
+      "support-center/DeFi/stblecoin-trustwallet"
+    ],
+    "Get Tokens": [
+      "support-center/get-tokens/get-tokens"
+    ],
+    "Wallet": [
+      "support-center/wallet/get-wallet",
+      "support-center/wallet/ledger-nano-s"
+    ]
   }
 }
