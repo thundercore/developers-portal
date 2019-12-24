@@ -23,7 +23,7 @@ ThunderCore offers confirmation time of 1-2 seconds. ThunderCore achieved a peak
 ## How can I try ThunderCore?
 ThunderTokens (TT) for the ThunderCore Mainnet are available at the [ThunderCore Mainnet Faucet](https://faucet.thundercore.com).
 
-Thunder Test Tokens (TST) are available for free at our Testnet faucet [here](https://faucet-testnet.thundercore.com/). Learn about [how to get Thunder Test Tokens (TST)](support-center/get-tokens/get-tokens.md).
+Test Thunder Tokens are available for free at our Testnet faucet [here](https://faucet-testnet.thundercore.com/). Learn about how to get [Test Thunder Tokens](support-center/get-tokens/get-tokens.md).
 
 To build or migrate DApps, visit our tutorials - [Build](dev-portal/develop-on-thundercore/deploy-your-own-game.md) and [Migrate](dev-portal/develop-on-thundercore/migrate-to-thunder.md).
 
@@ -60,7 +60,5 @@ This is in the works.
 
 ## So, are you guys ThunderCore or Thunder Token? What gives?
 Good question.
-
 ThunderCore is the blockchain. Thunder Token is the native currency of the ThunderCore blockchain.
-
 Thunder Token is to ThunderCore what Ether is to Ethereum.
