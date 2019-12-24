@@ -36,7 +36,7 @@ ThunderCore is a public chain. The Pre-Release Mainnet is easily accessible via 
 The ThunderCore Pre-Release Mainnet is available to developers and users. We have observed that the performance continues to meet our expectations and have confidence in the throughput experienced. If you are interested in developing or using the chain, please visit our tutorials on [building](deploy-your-own-game.md) or [migrating](migrate-to-thunder.md) to ThunderCore.
 
 ## Where can I buy Thunder Tokens?
-Currently, you can purchase Thunder Tokens (TT) on a few major exchanges, including Huobi and Upbit. More will be coming, please follow our [Medium](https://medium.com/thunderofficial) and [Twitter](https://twitter.com/ThunderProtocol) for announcements.
+Currently, you can purchase Thunder Tokens (TT) via [TTGet](https://ttget.appcenter.games/) or on a few major exchanges, including Huobi and Upbit. More will be coming, please follow our [Medium](https://medium.com/thunderofficial) and [Twitter](https://twitter.com/ThunderProtocol) for announcements.
 
 If you’re a developer or you just want to experience the thundering speed of ThunderCore, you can get free Thunder Tokens from our [Mainnet Faucet](https://faucet.thundercore.com).
 
@@ -54,9 +54,6 @@ No. Thunder Token is the native currency of an independent public blockchain, Th
 
 ThunderCore is an Ethereum Virtual Machine (EVM) compliant blockchain. Tokens based on the ERC-20 standard can be minted and deployed on ThunderCore.
 
-## Is ThunderCore planning an Initial Coin Offering (ICO)?
-ThunderCore has completed raising a round of financing via private placement with accredited and experienced blockchain investors. Subsequently, the project will not be conducting an ICO.
-
 ## What can I do with Thunder Tokens?
 Thunder Token is the native currency of an independent public blockchain, ThunderCore. Thunder Token can be used to build and monetize decentralized applications on the ThunderCore blockchain. Thunder Tokens can be used to pay for gas costs, execute transactions and underwrite smart contracts on the ThunderCore blockchain.
 
@@ -73,7 +70,3 @@ You can use any of the existing Ethereum wallets to store, receive and send Thun
 Right now you will have to configure most of the wallets to point to custom RPC url of ThunderCore ([https://mainnet-rpc.thundercore.com](https://mainnet-rpc.thundercore.com)).
 
 We are working on getting ThunderCore natively integrated in most popular wallets.
-
-## When will ThunderCore have its own wallet?
-
-Work is being done to create our own mobile wallet. Stay tuned.
