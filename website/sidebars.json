@@ -34,7 +34,10 @@
     ],
     "Wallet": [
       "support-center/wallet/get-wallet",
+      "support-center/wallet/metamask",
+      "support-center/wallet/trust-wallet",
       "support-center/wallet/ledger-nano-s"
+      
     ]
   }
 }
