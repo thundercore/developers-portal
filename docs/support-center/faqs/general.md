@@ -10,7 +10,7 @@ ThunderCore combines high performance with decentralized trust. Made possible by
 ThunderCore Hub is a secure and easy to use crypto wallet with full DApp browser capability. Manage your assets and experience the fast, scalable, user-centric Web3 decentralized apps made only possible on ThunderCore's high performance blockchain. [Learn more](https://www.thundercore.com/thundercore-hub/) about ThunderCore Hub.
 
 ## What is the roadmap for ThunderCore? 
-Please check out it on our official site [here](https://www.thundercore.com/roadmap/).
+Please check it on our official site [here](https://www.thundercore.com/roadmap/).
 
 ## How fast is ThunderCore? 
 ThunderCore offers confirmation time of 1-2 seconds. ThunderCore achieved a peak transactions per second of over 4,000. You can see live activity and performance on [ThunderScan](https://scan.thundercore.com).
