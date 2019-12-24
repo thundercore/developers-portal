@@ -1,5 +1,5 @@
 ---
-id: thundercore-wallet
+id: get-wallet
 title: ThunderCore Hub
 ---
 
