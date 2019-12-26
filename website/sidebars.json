@@ -20,10 +20,9 @@
   },
   "support center": {
     "Frequently Asked Questions": [
-      "support-center/faqs/general",
-      "support-center/faqs/pre-release-mainnet"
+      "support-center/faqs/general"
     ],
-    "Defi": [
+    "DeFi": [
       "support-center/DeFi/financial-service-landscape",
       "support-center/DeFi/stablecoin",
       "support-center/DeFi/stblecoin-metamask",
@@ -34,7 +33,10 @@
     ],
     "Wallet": [
       "support-center/wallet/get-wallet",
+      "support-center/wallet/metamask",
+      "support-center/wallet/trust-wallet",
       "support-center/wallet/ledger-nano-s"
+      
     ]
   }
 }

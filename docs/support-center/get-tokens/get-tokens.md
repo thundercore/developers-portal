@@ -2,7 +2,7 @@
 id: get-tokens
 title: Get Tokens
 ---
-There are a few ways to get tokens so you can start utilizing the ThunderCore networks. With tokens you'll be able to interact with [DApps](https://www.thundercore.com/dapps), deploy smart contracts, and trade on exchanges. 
+There are a few ways to get tokens so you can start utilizing the ThunderCore networks. With tokens you'll be able to interact with [DApps](https://dapps.thundercore.com/), deploy smart contracts, and trade on exchanges. 
 
 ## Free tokens
 
@@ -13,4 +13,4 @@ Testnet|https://faucet-testnet.thundercore.com|1 TT per hour
 
 ## Buying tokens
 
-You can also purchase TT at our partnered exchanges including Huobi and Upbit.
+You can purchase Thunder Tokens (TT) via [TTGet](https://ttget.appcenter.games/) or on a few major exchanges, including Huobi and Upbit.
