@@ -41,5 +41,4 @@ _If you don’t have any crypto_
   2. [IndaCoin](https://indacoin.com/en_TW/change/buy-thundertoken-with-cardusd?amount_pay=100) - To get TT with a credit card or debit card instantly (not available for the location such as the US, China, Japan, etc.)
 
 * If you don’t have any TT or TT-StableCoin,
-You can buy them via a crypto exchange (eg. Huobi, Upbit)
-You can get them via OTC 
+You can buy them via a crypto exchange (eg. Huobi, Upbit) or you can get them via OTC.
