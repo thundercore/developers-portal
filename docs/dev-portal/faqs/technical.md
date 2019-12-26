@@ -1,6 +1,6 @@
 ---
 id: technical
-title: Technical
+title: General
 ---
 
 ## Is ThunderCore compatible with Ethereum?
