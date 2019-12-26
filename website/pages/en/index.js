@@ -23,7 +23,7 @@ class HomeSplash extends React.Component {
           <div className="startBlock">
             <div className="main-title">Build your DApps</div>
             <div className="main-title-sub">on ThunderCore</div>
-            <a className="startButton orangeButton" href="/docs/deploy-your-own-game">START</a>
+            <a className="startButton orangeButton" href="dev-portal/docs/dev-portal/develop-on-thundercore/deploy-your-own-game">START</a>
           </div>
           <img className="bgLogo" src="img/build_dapps.png"/>
         </div>
@@ -122,7 +122,6 @@ class JumpStart extends React.Component {
           <div className="jumpStartContent">
               Subscribe to get access to our latest developer news and initiatives!
           </div>
-
           <div className="jumpStartEmail">
             <input type="email" className="emailInput" value="" name="EMAIL" id="mce-EMAIL"/>
             <input type="submit" className="subscribeButton orangeButton" value="Subscribe"/>
