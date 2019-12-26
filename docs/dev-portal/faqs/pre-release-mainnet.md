@@ -3,9 +3,6 @@ id: pre-release-mainnet
 title: Pre-release Mainnet
 ---
 
-## What does this FAQ address?
-ThunderCore launched its Pre-Release Mainnet on February 28th. The timing also coincides with the news release of ThunderCore’s $50 Million funding round. This document answers questions related to the ThunderCore Pre-Release Mainnet.
-
 ## What is the Pre-Release Mainnet?
 The Pre-Release Mainnet is the ThunderCore Mainnet chain with full functionality. It is different from the "public" launch because it lacks a few key features, such as the ability for the public to stake tokens.
 
@@ -73,7 +70,3 @@ You can use any of the existing Ethereum wallets to store, receive and send Thun
 Right now you will have to configure most of the wallets to point to custom RPC url of ThunderCore ([https://mainnet-rpc.thundercore.com](https://mainnet-rpc.thundercore.com)).
 
 We are working on getting ThunderCore natively integrated in most popular wallets.
-
-## When will ThunderCore have its own wallet?
-
-Work is being done to create our own mobile wallet. Stay tuned.
