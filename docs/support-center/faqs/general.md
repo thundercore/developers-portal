@@ -12,6 +12,14 @@ ThunderCore Hub is a secure and easy to use crypto wallet with full DApp browser
 ## What is the roadmap for ThunderCore? 
 Please check it on our official site [here](https://www.thundercore.com/roadmap/).
 
+## Is Thunder Token an ERC-20 token?
+No. Thunder Token is the native currency of an independent public blockchain, ThunderCore.
+
+ThunderCore is an Ethereum Virtual Machine (EVM) compliant blockchain. Tokens based on the ERC-20 standard can be minted and deployed on ThunderCore.
+
+## What can I do with Thunder Tokens?
+Thunder Token is the native currency of an independent public blockchain, ThunderCore. Thunder Token can be used to build and monetize decentralized applications on the ThunderCore blockchain. Thunder Tokens can be used to pay for gas costs, execute transactions and underwrite smart contracts on the ThunderCore blockchain.
+
 ## How fast is ThunderCore? 
 ThunderCore offers confirmation time of 1-2 seconds. ThunderCore achieved a peak transactions per second of over 4,000. You can see live activity and performance on [ThunderScan](https://scan.thundercore.com).
 
