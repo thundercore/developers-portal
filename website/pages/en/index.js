@@ -117,11 +117,11 @@ class JumpStart extends React.Component {
             <input type="text" name="b_9e820737f58c3f0aa1940427b_3338803d92" tabIndex="-1" value="" />
           </div>
 
-          <div className="jumpStartTitle">Subscribe to our newsletter for more and latest developer news</div>
+          <div className="jumpStartTitle">Subscribe to our newsletter for more and latest developer news </div>
 
           <div className="jumpStartContent">
-            Subscribe to get access to our latest developer news and initiatives </div>!
-          </div>
+            Subscribe to get access to our latest developer news and initiatives!
+                </div>
 
           <div className="jumpStartEmail">
             <input type="email" className="emailInput" value="" name="EMAIL" id="mce-EMAIL"/>
