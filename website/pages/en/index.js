@@ -117,10 +117,10 @@ class JumpStart extends React.Component {
             <input type="text" name="b_9e820737f58c3f0aa1940427b_3338803d92" tabIndex="-1" value="" />
           </div>
 
-          <div className="jumpStartTitle">Developer Jump Start Program</div>
+          <div className="jumpStartTitle">Subscribe to our newsletter for more and latest developer news</div>
 
           <div className="jumpStartContent">
-            Subscribe to get access to our latest developer news and initiatives, including our upcoming <strong>Developer Jump Start Program! </strong> Early beta participants have seen their revenue increase by over <div className="over9000">400%</div>.
+              Subscribe to get access to our latest developer news and initiatives!
           </div>
 
           <div className="jumpStartEmail">
