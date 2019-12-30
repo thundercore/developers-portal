@@ -28,7 +28,7 @@ Since ThunderCore is compatible with Ethereum, it’s easy to migrate DApps and 
 ## How much does it cost to use ThunderCore? 
 On the ThunderCore Mainnet, Thunder Tokens (TT) are used to pay gas fees. ThunderCore doesn't rely on an expensive proof-of-work (PoW) algorithm and is therefore able to produce blocks at a lower cost.
 
-Get free Thunder Tokens (TT) and Thunder Test Tokens [here](get.tokens.md)
+Get free Thunder Tokens (TT) and Thunder Test Tokens [here](get-tokens.md)
 
 ## Can I mine or stake Thunder Tokens (TT)?
 ThunderCore utilizes Proof of Stake. As such, Thunder Tokens are premined. No new tokens can be mined as we do not mint new tokens as part of our consensus process. ThunderCore validators, called committee node members, earn rewards through gas/txn fees. People can take part in the ThunderCore consensus mechanism and participate in securing the ThunderCore blockchain upon its public launch. 

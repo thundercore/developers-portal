@@ -36,6 +36,9 @@ commands:
       - run:
           name: Build docusaurus site
           command: |
+            pwd
+            ls -la
+            echo ${SITENAME}
             cd ${SITENAME} && yarn install && yarn build
       - save_cache:
           name: "Saving yarn cache"
