@@ -2,8 +2,8 @@
 #set -ex
 #URL="dev-portal.dev.tt-eng.com"
 #REDIRECT_URL="sc-portal.dev.tt-eng.com"
-url=${URL}
-redirect_url=${REDIRECT_URL}
+url=${A_URL}
+redirect_url=${B_URL}
 
 # from dev to sc
 declare -a file_id_list=("faqs/general" "get-wallet" "ledger-nano-s" "financial-service-landscape" "faqs/stablecoin" "faqs/stblecoin-trustwallet" "faqs/stblecoin-metamask")
@@ -37,8 +37,7 @@ aws s3 cp $filename.html s3://$redirect_url/docs/$redirect_path --website-redire
 aws s3 cp --recursive $filename s3://$redirect_url/docs/$redirect_path --website-redirect "$url/docs/$path"
 
 # direct to sc
-#redirect_path="faqs/general"
-#touch index.html
+redirect_path="faqs/general"
+touch index.html
 
-#aws s3 cp index.html s3://$redirect_url/ --website-redirect "$redirect_url/docs/$redirect_path"
-#aws s3 cp --recursive $filename s3://$url/docs/$path --website-redirect "$redirect_url/docs/$redirect_path"
+aws s3 cp index.html s3://$redirect_url/ --website-redirect "$redirect_url/docs/$redirect_path"

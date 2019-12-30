@@ -124,15 +124,18 @@ workflows:
     - deploy-dev:
         env: dev
         url: dev-portal.dev.tt-eng.com
-        redirect_url: sc-portal.dev.tt-eng.com
+        A_url: dev-portal.dev.tt-eng.com
+        B_url: sc-portal.dev.tt-eng.com
         sitename: dev-portal
         <<: *master_branch_filter
     - deploy-dev:
         env: dev
         url: sc-portal.dev.tt-eng.com
-        redirect_url: dev-portal.dev.tt-eng.com
+        A_url: dev-portal.dev.tt-eng.com
+        B_url: sc-portal.dev.tt-eng.com
         sitename: sc-portal
         <<: *master_branch_filter
+
 
   build-deploy-prod:
     jobs:
@@ -157,7 +160,9 @@ jobs:
     parameters:
       url:
         type: string
-      redirect_url:
+      A_url:
+        type: string
+      B_url:
         type: string
       env:
         type: string
@@ -165,7 +170,8 @@ jobs:
         type: string
     environment:
       URL: << parameters.url >>
-      REDIRECT_URL: << parameters.redirect_url >>
+      A_URL: << parameters.A_url >>
+      B_URL: << parameters.B_url >>
       ENV: << parameters.env >>
       SITENAME: << parameters.sitename >>
     steps:
