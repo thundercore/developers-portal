@@ -1,0 +1,23 @@
+{
+  "support center": {
+    "Frequently Asked Questions": [
+      "faqs/general"
+    ],
+    "DeFi": [
+      "financial-service-landscape",
+      "stablecoin",
+      "stblecoin-metamask",
+      "stblecoin-trustwallet"
+    ],
+    "Get Tokens": [
+      "sc-get-tokens"
+    ],
+    "Wallet": [
+      "get-wallet",
+      "metamask",
+      "trust-wallet",
+      "ledger-nano-s"
+      
+    ]
+  }
+}

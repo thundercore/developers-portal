@@ -1,0 +1,345 @@
+.orangeButton {
+  width: 210px;
+  height: 45px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  line-height: 0;
+  font-size: 22px;
+  background: #FF6E00;
+  color: white;
+
+  cursor: pointer;
+}
+
+.orangeButton:hover {
+  color: white;
+}
+
+.homeContainer {
+  background: #FFE81B;
+}
+
+.homeWrapper {
+  height: 535px;
+  align-items: center;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+}
+
+.index > .mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  padding: 0
+}
+
+.startBlock {
+  display: flex;
+  flex-flow: column;
+  width: 450px;
+}
+
+.startBlock .startButton.orangeButton {
+  margin-top: 20px;
+  border-radius: 45px;
+  font-size: 26px;
+  width: 320px;
+  height: 60px;
+}
+
+.main-title {
+  font-family: 'DIN Condensed', serif;
+  font-size: 80px;
+  font-weight: 600;
+
+  letter-spacing: -1px;
+
+  margin-bottom: -20px;
+}
+
+.startBlock {
+  text-align: justify;
+}
+
+.main-title-sub {
+  font-family: 'DIN', serif;
+  font-size: 40px;
+  font-weight: 400;
+
+  letter-spacing: -1px;
+
+  margin-bottom: 5px;
+}
+
+.bgLogo {
+  height: 400px;
+}
+
+.helpfulLinks {
+  width: 100%;
+  max-width: 1150px;
+  padding: 0 32px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+  position: relative;
+  top: -80px;
+}
+
+.helpfulLinksBlock {
+  background: white;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 0 5px 12px 0 rgba(174,174,174,0.5);
+
+  box-sizing: border-box;
+  margin-bottom: 50px;
+  width: calc(1/2*100% - (1 - 1/2)*50px);
+  /*flex: 0 0 475px;*/
+}
+
+.helpfulLinksBlockTitle {
+  font-size: 22px;
+  color: #FF8E00;
+  font-weight: 800;
+
+  padding-bottom: 7px;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.helpfulLinksBlockLink {
+  margin: 20px 0;
+}
+
+.icon-chevron {
+  margin-left: auto;
+  width: 10px;
+}
+
+.helpfulLinksBlockLink:hover svg g {
+  fill: #FF8E00;
+}
+
+.helpfulLinksBlockLink a {
+  color: #383838;
+  font-size: 16px;
+  display: flex;
+  width: 100%;
+}
+
+.helpfulLinksBlockLink a:hover {
+  color: #FF8E00;
+}
+
+.jumpStartContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F7F7EC;
+}
+
+.jumpStart {
+  width: 1050px;
+  padding: 40px 0;
+
+  display: flex;
+}
+
+.jumpStartImg {
+  flex: 0 0 300px;
+  margin-right: 50px;
+}
+
+.jumpStartImg img {
+  width: 100%;
+}
+
+.jumpStartMain {
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+}
+
+.jumpStartTitle {
+  padding: 10px 0;
+
+  font-size: 28px;
+  font-weight: 800;
+
+  margin-top: 15px;
+}
+
+.jumpStartContent {
+  line-height: 26px;
+  font-size: 22px;
+
+  margin-bottom: 20px;
+
+  position: relative;
+}
+
+.jumpStartEmail {
+  display: flex;
+  align-items: center;
+}
+
+.jumpStartEmail .emailInput {
+  height: 50px;
+  flex: 1 0 auto;
+
+  margin-right: 5px;
+}
+
+.jumpStartEmail input {
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.jumpStartEmail .subscribeButton {
+  -webkit-appearance: none;
+  border-radius: 5px;
+  height: 50px;
+  font-size: 20px;
+  width: 150px;
+}
+
+.over9000 {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.index > .mainContainer {
+  margin-bottom: -50px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .jumpStart {
+    width: 950px;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .mainContainer .wrapper .post {
+    margin-top: 12px;
+  }
+
+  .main-title {
+    font-size: 60px;
+    margin-bottom: -8px;
+  }
+
+  .main-title-sub {
+    font-size: 30px;
+    margin-bottom: -16px;
+  }
+
+  .homeWrapper {
+    flex-flow: row-reverse;
+    height: 400px;
+  }
+
+  .startBlock {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .startBlock img {
+    margin-left: 20px;
+    width: 250px;
+  }
+
+  .startBlock a.startButton.orangeButton {
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 20px;
+    height: 50px;
+    width: 220px;
+  }
+
+  .bgLogo {
+    display: none;
+  }
+
+  .jumpStart {
+    width: 80%;
+  }
+
+  .jumpStartImg {
+    display: none;
+  }
+
+  .jumpStartMain {
+    width: 100%;
+  }
+
+  .jumpStartContent {
+    font-size: 18px;
+  }
+
+  .jumpStartEmail .subscribeButton {
+    font-size: 18px;
+  }
+}
+
+
+@media only screen and (max-width: 830px) {
+ .helpfulLinks {
+   flex-direction: column;
+ }
+  .helpfulLinksBlock {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 453px) {
+  .jumpStartEmail .subscribeButton {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  .homeWrapper {
+    height: 375px;
+  }
+
+  .jumpStartEmail {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  header img.logo {
+    height: 20px;
+  }
+
+  .jumpStartContent {
+    font-size: 18px;
+  }
+
+  .main-title {
+    font-size: 50px;
+    margin-bottom: -8px;
+  }
+
+  .main-title-sub {
+    font-size: 25px;
+    margin-bottom: -16px;
+  }
+
+  .startBlock a.startButton.orangeButton {
+    font-size: 20px;
+    height: 50px;
+    width: 220px;
+  }
+}

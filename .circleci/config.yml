@@ -25,6 +25,9 @@ commands:
             echo "export COMMIT_NAME=\"${NAME}\"" >> $BASH_ENV
             echo "export COMMIT_MESSAGE=\"${MESSAGE}\"" >> $BASH_ENV
   build:
+    parameters:
+      sitename:
+        type: string
     steps:
       - run:
           name: Install tools missing in apps-ci-docker
@@ -35,7 +38,8 @@ commands:
           - yarn-packages-{{ .Branch }}
       - run:
           name: Build docusaurus site
-          command: cd website && yarn install && yarn build
+          command: |
+            cd ${SITENAME} && yarn install && yarn build
       - save_cache:
           name: "Saving yarn cache"
           paths:
@@ -119,6 +123,12 @@ workflows:
     - deploy-dev:
         env: dev
         url: dev-portal.dev.tt-eng.com
+        sitename: dev-portal
+        <<: *master_branch_filter
+    - deploy-dev:
+        env: dev
+        url: sc-portal.dev.tt-eng.com
+        sitename: sc-portal
         <<: *master_branch_filter
 
   build-deploy-prod:
@@ -146,9 +156,12 @@ jobs:
         type: string
       env:
         type: string
+      sitename:
+        type: string
     environment:
       URL: << parameters.url >>
       ENV: << parameters.env >>
+      SITENAME: << parameters.sitename >>
     steps:
     - checkout
     - build
