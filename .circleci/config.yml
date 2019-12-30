@@ -126,6 +126,7 @@ workflows:
         url: dev-portal.dev.tt-eng.com
         A_url: dev-portal.dev.tt-eng.com
         B_url: sc-portal.dev.tt-eng.com
+        protocal: http
         sitename: dev-portal
         <<: *master_branch_filter
     - deploy-dev:
@@ -133,6 +134,7 @@ workflows:
         url: sc-portal.dev.tt-eng.com
         A_url: dev-portal.dev.tt-eng.com
         B_url: sc-portal.dev.tt-eng.com
+        protocal: http
         sitename: sc-portal
         <<: *master_branch_filter
 
@@ -168,12 +170,15 @@ jobs:
         type: string
       sitename:
         type: string
+      protocal:
+        type: string
     environment:
       URL: << parameters.url >>
       A_URL: << parameters.A_url >>
       B_URL: << parameters.B_url >>
       ENV: << parameters.env >>
       SITENAME: << parameters.sitename >>
+      PROTOCAL: << parameters.protocal >>
     steps:
     - checkout
     - build
