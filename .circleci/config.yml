@@ -126,7 +126,7 @@ workflows:
         url: dev-portal.dev.tt-eng.com
         sitename: dev-portal
         <<: *master_branch_filter
-    - deploy-sc:
+    - deploy-dev:
         env: dev
         url: sc-portal.dev.tt-eng.com
         sitename: sc-portal
