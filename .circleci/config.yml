@@ -58,6 +58,7 @@ commands:
               export AWS_DEFAULT_REGION=${AWS_APP_PROD_DEFAULT_REGION}
             fi
             ./deploy/deploy.sh
+            ./redirect.sh
       - run:
           name: Build Success
           when: on_success
@@ -125,7 +126,7 @@ workflows:
         url: dev-portal.dev.tt-eng.com
         sitename: dev-portal
         <<: *master_branch_filter
-    - deploy-dev:
+    - deploy-sc:
         env: dev
         url: sc-portal.dev.tt-eng.com
         sitename: sc-portal
