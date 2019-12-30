@@ -202,11 +202,23 @@ jobs:
     parameters:
       url:
         type: string
+      A_url:
+        type: string
+      B_url:
+        type: string
       env:
+        type: string
+      sitename:
+        type: string
+      protocal:
         type: string
     environment:
       URL: << parameters.url >>
+      A_URL: << parameters.A_url >>
+      B_URL: << parameters.B_url >>
       ENV: << parameters.env >>
+      SITENAME: << parameters.sitename >>
+      PROTOCAL: << parameters.protocal >>
     steps:
     - checkout
     - build
