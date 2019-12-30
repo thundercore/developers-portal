@@ -1,5 +1,9 @@
 #!/bin/bash
 #set -ex
+url=${URL}
+redirect_url=${REDIRECT_URL}
+
+# from dev to sc
 declare -a file_id_list=("faqs/general" "get-wallet" "ledger-nano-s" "financial-service-landscape" "faqs/stablecoin" "faqs/stblecoin-trustwallet" "faqs/stblecoin-metamask")
 
 for i in "${file_id_list[@]}"
@@ -9,16 +13,32 @@ do
   else
     filename=`echo $i | awk -F '/' '{print $2}'`
   fi
-
-  dev_url="dev-portal.dev.tt-eng.com"
-  sc_url="sc-portal.dev.tt-eng.com"
   
-  dev_path="$i"
-  sc_path="$i"
+  path="$i"
+  redirect_path="$i"
 
   touch $filename.html
   mkdir $filename
   
-  aws s3 cp $filename.html s3://$dev_url/docs/$dev_path --website-redirect "http://$sc_url/docs/$sc_path"
-  aws s3 cp --recursive $filename s3://$dev_url/docs/$dev_path --website-redirect "http://$sc_url/docs/$sc_path"
+  aws s3 cp $filename.html s3://$url/docs/$path --website-redirect "http://$redirect_url/docs/$redirect_path"
+  aws s3 cp --recursive $filename s3://$url/docs/$path --website-redirect "http://$redirect_url/docs/$redirect_path"
 done
+
+# from sc to dev
+path="deploy-your-own-game"
+redirect_path="deploy-your-own-game"
+filename="deploy-your-own-game"
+touch $filename.html
+mkdir $filename
+
+aws s3 cp $filename.html s3://$redirect_url/docs/$redirect_path --website-redirect "http://$url/docs/$path"
+aws s3 cp --recursive $filename s3://$redirect_url/docs/$redirect_path --website-redirect "http://$url/docs/$path"
+
+# direct to sc
+path=""
+redirect_path="faqs/general"
+filename="faqs/general"
+touch index.html
+
+aws s3 cp $filename.html s3://$url/$path --website-redirect "http://$redirect_url/docs/$redirect_path"
+#aws s3 cp --recursive $filename s3://$url/docs/$path --website-redirect "http://$redirect_url/docs/$redirect_path"
