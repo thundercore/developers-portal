@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 URL=${URL?url not set}
+SITENAME=${SITENAME?url not set}
 
 function write-policy() {
   cat <<EOF >policy.json
@@ -33,9 +34,9 @@ if [ "$res" == "[]" ]; then
   aws s3api put-bucket-policy --bucket ${URL} --policy file://${PWD}/policy.json
 fi
 
-# Delete old contents from bucket
+## Delete old contents from bucket
 aws s3 rm s3://${URL}/ --recursive
 aws s3 ls s3://${URL}/ --recursive
 # Copy newly built website to bucket
-aws s3 cp website/build/dev-portal/ s3://${URL}/ --recursive
+aws s3 cp ${SITENAME}/build/${SITENAME}/ s3://${URL}/ --recursive
 aws s3 ls s3://${URL}/ --recursive
