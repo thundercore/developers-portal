@@ -25,9 +25,6 @@ commands:
             echo "export COMMIT_NAME=\"${NAME}\"" >> $BASH_ENV
             echo "export COMMIT_MESSAGE=\"${MESSAGE}\"" >> $BASH_ENV
   build:
-    parameters:
-      sitename:
-        type: string
     steps:
       - run:
           name: Install tools missing in apps-ci-docker
