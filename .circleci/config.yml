@@ -144,6 +144,18 @@ workflows:
     - deploy-prod:
         env: prod
         url: developers.thundercore.com
+        A_url: developers.thundercore.com 
+        B_url: support-center.thundercore.com 
+        protocal: https
+        sitename: dev-portal
+        <<: *tag_filter
+    - deploy-prod:
+        env: prod
+        url: support-center.thundercore.com
+        A_url: developers.thundercore.com 
+        B_url: support-center.thundercore.com
+        protocal: https
+        sitename: sc-portal
         <<: *tag_filter
 
 
