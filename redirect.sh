@@ -35,10 +35,8 @@ aws s3 cp $filename.html s3://$redirect_url/docs/$redirect_path --website-redire
 aws s3 cp --recursive $filename s3://$redirect_url/docs/$redirect_path --website-redirect "http://$url/docs/$path"
 
 # direct to sc
-path=""
 redirect_path="faqs/general"
-filename="faqs/general"
 touch index.html
 
-aws s3 cp $filename.html s3://$url/$path --website-redirect "http://$redirect_url/docs/$redirect_path"
+aws s3 cp index.html s3://$redirect_url/ --website-redirect "http://$redirect_url/docs/$redirect_path"
 #aws s3 cp --recursive $filename s3://$url/docs/$path --website-redirect "http://$redirect_url/docs/$redirect_path"
