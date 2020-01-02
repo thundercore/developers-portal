@@ -14,7 +14,7 @@ const siteConfig = {
     indexName: 'thundercore_developers',
     algoliaOptions: {} // Optional, if provided by Algolia
   },
-  title: 'Developer Portal', // Title for your website.
+  title: 'Support Center', // Title for your website.
   tagline: 'Power your DApps with ThunderCore',
   url: 'https://www.thundercore.com',
   baseUrl: '/', // Base URL for your project */
