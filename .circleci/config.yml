@@ -93,9 +93,9 @@ commands:
               export AWS_SECRET_ACCESS_KEY=${AWS_APP_PROD_SECRET_ACCESS_KEY}
               export AWS_DEFAULT_REGION=${AWS_APP_PROD_DEFAULT_REGION}
             fi
-            if [ "{$SITENAME}" == "dev-portal" ]; then 
+            if [ "${SITENAME}" == "dev-portal" ]; then 
               CDN_ID=${DISTRIBUTION_ID}
-            elif [ "{$SITENAME}" == "sc-portal" ]; then 
+            elif [ "${SITENAME}" == "sc-portal" ]; then 
               CDN_ID=${SC_DISTRIBUTION_ID}
             fi
             aws cloudfront create-invalidation --distribution-id ${CDN_ID} --paths '/*'
