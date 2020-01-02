@@ -136,7 +136,6 @@ workflows:
         B_url: sc-portal.dev.tt-eng.com
         protocal: http
         sitename: sc-portal
-        aws_s3_region: ap-south-1
         <<: *master_branch_filter
 
 
@@ -149,6 +148,7 @@ workflows:
         B_url: support-center.thundercore.com 
         protocal: https
         sitename: dev-portal
+        aws_s3_region: ap-south-1
         <<: *tag_filter
     - deploy-prod:
         env: prod
