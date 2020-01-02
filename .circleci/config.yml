@@ -93,8 +93,7 @@ commands:
               export AWS_SECRET_ACCESS_KEY=${AWS_APP_PROD_SECRET_ACCESS_KEY}
               export AWS_DEFAULT_REGION=${AWS_APP_PROD_DEFAULT_REGION}
             fi
-            aws cloudfront create-invalidation --distribution-id ${DISTRIBUTION_ID} --paths '/*'
-            aws cloudfront create-invalidation --distribution-id ${SC_DISTRIBUTION_ID} --paths '/*'
+            aws cloudfront create-invalidation --distribution-id ${CDN_ID} --paths '/*'
   
 ##############
 # Aliases    #
@@ -150,6 +149,7 @@ workflows:
         protocal: https
         sitename: dev-portal
         aws_s3_region: ap-south-1
+        cdn_id: ${DISTRIBUTION_ID}
         <<: *tag_filter
     - deploy-prod:
         env: prod
@@ -159,6 +159,7 @@ workflows:
         protocal: https
         sitename: sc-portal
         aws_s3_region: us-east-1
+        cdn_id: ${SC_DISTRIBUTION_ID}
         <<: *tag_filter
 
 
@@ -217,6 +218,8 @@ jobs:
         type: string
       aws_s3_region:
         type: string
+      cdn_id:
+        type: string
     environment:
       URL: << parameters.url >>
       A_URL: << parameters.A_url >>
@@ -225,6 +228,7 @@ jobs:
       SITENAME: << parameters.sitename >>
       PROTOCAL: << parameters.protocal >>
       AWS_S3_REGION: << parameters.aws_s3_region >> 
+      CDN_ID: << parameters.cdn_id >>
     steps:
     - checkout
     - build
