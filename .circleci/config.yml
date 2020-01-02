@@ -136,6 +136,7 @@ workflows:
         B_url: sc-portal.dev.tt-eng.com
         protocal: http
         sitename: sc-portal
+        aws_s3_region: ap-south-1
         <<: *master_branch_filter
 
 
@@ -156,6 +157,7 @@ workflows:
         B_url: support-center.thundercore.com
         protocal: https
         sitename: sc-portal
+        aws_s3_region: us-east-1
         <<: *tag_filter
 
 
@@ -212,6 +214,8 @@ jobs:
         type: string
       protocal:
         type: string
+      aws_s3_region:
+        type: string
     environment:
       URL: << parameters.url >>
       A_URL: << parameters.A_url >>
@@ -219,6 +223,7 @@ jobs:
       ENV: << parameters.env >>
       SITENAME: << parameters.sitename >>
       PROTOCAL: << parameters.protocal >>
+      AWS_S3_REGION: << parameters.aws_s3_region >> 
     steps:
     - checkout
     - build
