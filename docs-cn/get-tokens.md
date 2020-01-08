@@ -2,7 +2,7 @@
 id: get-tokens
 title: 获得代币
 ---
-有几种获取代币以让你可以使用 ThunderCore 网络的方法。 有了代币，你将能够与 [DApps](https://www.thundercore.com/dapps) 进行互动、部署智能合约以及在交易所进行交易。 
+有几种获取代币以让你可以使用 ThunderCore 网络的方法。 有了代币，你将能够与 [DApps](https://dapps.thundercore.com/) 进行互动、部署智能合约以及在交易所进行交易。 
 
 ## 免费代币
 
