@@ -232,8 +232,8 @@ jobs:
       PROTOCAL: << parameters.protocal >>
     steps:
     - checkout
-    - build
     - basic_env
+    - build
     - deploy
 
   deploy-prod:
@@ -263,7 +263,7 @@ jobs:
       AWS_S3_REGION: << parameters.aws_s3_region >> 
     steps:
     - checkout
-    - build
     - basic_env
+    - build
     - deploy
     - purge_cdn
