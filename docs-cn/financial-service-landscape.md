@@ -14,7 +14,7 @@ title: ThunderCore 金融服务
 _如果你是一个数字货币持有者_
 
 * 如果你想透过 USDT 或 BTC 获得 TT： 
-  1. 你可以从[这里](https://coinmarketcap.com/currencies/thunder-token/#markets)获得 TT  
+  1. 你可以从[这里] (https://coinmarketcap.com/currencies/thunder-token/#markets)获得 TT  
   2. 点击 “Pair” 将引导您到交易对进行交易
 
 * 通过[TokenBridge](https://stablecoin.thundercore.com/)将您的USDT / DAI 转换为 TT-StableCoin (TT-稳定币)
