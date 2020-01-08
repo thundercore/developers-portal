@@ -1,0 +1,23 @@
+{
+  "support center": {
+    "常见问题": [
+      "faqs/general"
+    ],
+    "去中心化金融": [
+      "financial-service-landscape",
+      "stablecoin",
+      "stblecoin-metamask",
+      "stblecoin-trustwallet"
+    ],
+    "获取代币": [
+      "sc-get-tokens"
+    ],
+    "钱包": [
+      "get-wallet",
+      "metamask",
+      "trust-wallet",
+      "ledger-nano-s"
+      
+    ]
+  }
+}

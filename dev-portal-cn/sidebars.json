@@ -1,0 +1,12 @@
+{
+  "docs": {
+    "在 ThunderCore 上开发": ["deploy-your-own-game", "migrate-to-thunder", "develop-with-truffle", "erc20-smart-contract"],
+    "开始入门": ["get-wallet", "get-tokens", "ledger-nano-s", "iOS-install", "Android-install"],
+    "工具": ["random-number-generator", "referral-contract", "yell"],
+    "常见问题": [
+      "faqs/general",
+      "faqs/technical",
+      "faqs/pre-release-mainnet"
+    ]
+  }
+}

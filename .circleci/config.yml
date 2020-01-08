@@ -176,6 +176,26 @@ workflows:
         protocal: http
         sitename: sc-portal
         <<: *master_branch_filter
+    - deploy-dev:
+        name: dev-portal-cn
+        env: dev
+        url: dev-portal-cn.dev.tt-eng.com
+        A_url: dev-portal-cn.dev.tt-eng.com
+        B_url: sc-portal-cn.dev.tt-eng.com
+        protocal: http
+        sitename: dev-portal-cn
+        aws_s3_region: us-west-2
+        <<: *master_branch_filter
+    - deploy-dev:
+        name: sc-portal-cn
+        env: dev
+        url: sc-portal-cn.dev.tt-eng.com
+        A_url: dev-portal-cn.dev.tt-eng.com
+        B_url: sc-portal-cn.dev.tt-eng.com
+        protocal: http
+        sitename: sc-portal-cn
+        aws_s3_region: us-east-1
+        <<: *master_branch_filter
 
 
   build-deploy-prod:

@@ -1,0 +1,118 @@
+.nav-footer {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100%;
+
+  background: #4F4F4F;
+  color: white;
+
+  font-size: 14px;
+}
+
+.nav-footer .content {
+  display: flex;
+  flex-flow: row;
+  margin: 0 32px;
+  max-width: 800px;
+  width: calc(100% - 32px);
+  padding-bottom: 2em;
+
+  justify-content: center;
+
+  border-bottom: 1px solid #949494;
+}
+
+.nav-footer .content .title {
+  font-weight: 600;
+  color: white;
+}
+
+.nav-footer .content .thunder-icon {
+  margin-right: 75px;
+}
+
+.nav-footer .site-links {
+  display: flex;
+  flex-flow: column;
+
+  margin-right: 75px;
+}
+
+.nav-footer .site-links a {
+  color: white;
+}
+
+.nav-footer .site-links a:hover {
+  color: #fa7516;
+}
+
+.nav-footer .community .title {
+  margin-bottom: 10px;
+}
+
+.nav-footer .community .icons {
+  display: flex;
+  flex-flow: row;
+}
+
+.nav-footer .community .icon {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+  width: 35px;
+  height: 35px;
+
+  margin-right: 20px
+}
+
+.icon-twitter {
+  width: 35px;
+  height: 35px;
+}
+.icon-twitter circle {
+  fill: #C3C3C3;
+  transition: fill 100ms ease-in;
+}
+.icon-twitter:hover circle {
+  fill: #FA7516;
+}
+
+.icon-reddit {
+  width: 35px;
+  height: 35px;
+}
+.icon-reddit circle {
+  fill: #C3C3C3;
+  transition: fill 100ms ease-in;
+}
+.icon-reddit:hover circle {
+  fill: #FA7516;
+}
+
+.icon-medium {
+  width: 35px;
+  height: 35px;
+}
+.icon-medium circle {
+  fill: #C3C3C3;
+  transition: fill 100ms ease-in;
+}
+.icon-medium:hover circle {
+  fill: #FA7516;
+}
+
+.nav-footer .copyright {
+  color: white;
+  padding-top: 2em;
+}
+@media only screen and (max-width: 375px) {
+  .nav-footer .community .icons {
+    flex-direction: column;
+  }
+
+  .nav-footer .community .icon {
+    margin-bottom: 5px;
+  }
+}
