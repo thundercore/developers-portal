@@ -40,7 +40,8 @@ commands:
       - circle-compare-url/use:
           step-name: build image and push to docker
           custom-logic: |
-            if [[ `git diff $COMMIT_RANGE ${SITENAME} 2>&1` != "" ]];
+            echo "${SITENAME}"
+            if [[ `git diff $COMMIT_RANGE "${SITENAME}" 2>&1` != "" ]];
               then
                 echo "Install tools missing in apps-ci-docker"
                 sudo apk add autoconf automake
@@ -66,7 +67,8 @@ commands:
       - circle-compare-url/use:
           step-name: build image and push to docker
           custom-logic: |
-            if [[ `git diff $COMMIT_RANGE ${SITENAME} 2>&1` != "" ]];
+            echo "${SITENAME}"
+            if [[ `git diff $COMMIT_RANGE "${SITENAME}" 2>&1` != "" ]];
               then
                 echo "Deploy to S3" 
                 if [ "${ENV}" == "prod" ]; then
