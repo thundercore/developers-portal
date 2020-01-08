@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  circle-compare-url: iynere/compare-url@1.2.0 #oshimayoan/compare-url@1.2.4
+  circle-compare-url: oshimayoan/compare-url@1.2.4
 
 ##############
 # Executors  #
