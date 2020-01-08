@@ -1,5 +1,8 @@
 version: 2.1
 
+orbs:
+  circle-compare-url: oshimayoan/compare-url@1.2.4
+
 ##############
 # Executors  #
 ##############
@@ -26,20 +29,31 @@ commands:
             echo "export COMMIT_MESSAGE=\"${MESSAGE}\"" >> $BASH_ENV
   build:
     steps:
-      - run:
-          name: Install tools missing in apps-ci-docker
-          command: sudo apk add autoconf automake
+#      - run:
+#          name: Install tools missing in apps-ci-docker
+#          command: sudo apk add autoconf automake
       - restore_cache:
           name: "Restoring yarn cache"
           keys:
-          - yarn-packages-{{ .Branch }}
-      - run:
-          name: Build docusaurus site
-          command: |
-            pwd
-            ls -la
-            echo ${SITENAME}
-            cd ${SITENAME} && yarn install && yarn build
+            - yarn-packages-{{ .Branch }}
+      - circle-compare-url/reconstruct
+      - circle-compare-url/use:
+          step-name: build image and push to docker
+          custom-logic: |
+            if [[ `git diff $COMMIT_RANGE ${SITENAME} 2>&1` != "" ]];
+              then
+                echo "Install tools missing in apps-ci-docker"
+                sudo apk add autoconf automake
+                echo "Build docusaurus site"
+                cd ${SITENAME} && yarn install && yarn build
+            fi
+#      - run:
+#          name: Build docusaurus site
+#          command: |
+#            pwd
+#            ls -la
+#            echo ${SITENAME}
+#            cd ${SITENAME} && yarn install && yarn build
       - save_cache:
           name: "Saving yarn cache"
           paths:
@@ -48,17 +62,33 @@ commands:
 
   deploy:
     steps:
-      - run:
-          name: Deploy to S3
-          command: |
-            if [ "${ENV}" == "prod" ]; then
-              echo "Exporting production AWS access keys"
-              export AWS_ACCESS_KEY_ID=${AWS_APP_PROD_ACCESS_KEY_ID}
-              export AWS_SECRET_ACCESS_KEY=${AWS_APP_PROD_SECRET_ACCESS_KEY}
-              export AWS_DEFAULT_REGION=${AWS_APP_PROD_DEFAULT_REGION}
+      - circle-compare-url/reconstruct
+      - circle-compare-url/use:
+          step-name: build image and push to docker
+          custom-logic: |
+            if [[ `git diff $COMMIT_RANGE ${SITENAME} 2>&1` != "" ]];
+              then
+                echo "Deploy to S3" 
+                if [ "${ENV}" == "prod" ]; then
+                  echo "Exporting production AWS access keys"
+                  export AWS_ACCESS_KEY_ID=${AWS_APP_PROD_ACCESS_KEY_ID}
+                  export AWS_SECRET_ACCESS_KEY=${AWS_APP_PROD_SECRET_ACCESS_KEY}
+                  export AWS_DEFAULT_REGION=${AWS_APP_PROD_DEFAULT_REGION}
+                fi
+                ./deploy/deploy.sh
+                ./redirect.sh
             fi
-            ./deploy/deploy.sh
-            ./redirect.sh
+#      - run:
+#          name: Deploy to S3
+#          command: |
+#            if [ "${ENV}" == "prod" ]; then
+#              echo "Exporting production AWS access keys"
+#              export AWS_ACCESS_KEY_ID=${AWS_APP_PROD_ACCESS_KEY_ID}
+#              export AWS_SECRET_ACCESS_KEY=${AWS_APP_PROD_SECRET_ACCESS_KEY}
+#              export AWS_DEFAULT_REGION=${AWS_APP_PROD_DEFAULT_REGION}
+#            fi
+#            ./deploy/deploy.sh
+#            ./redirect.sh
       - run:
           name: Build Success
           when: on_success
@@ -127,6 +157,7 @@ workflows:
   build-deploy-platform:
     jobs:
     - deploy-dev:
+        name: dev-portal
         env: dev
         url: dev-portal.dev.tt-eng.com
         A_url: dev-portal.dev.tt-eng.com
@@ -135,6 +166,7 @@ workflows:
         sitename: dev-portal
         <<: *master_branch_filter
     - deploy-dev:
+        name: sc-portal
         env: dev
         url: sc-portal.dev.tt-eng.com
         A_url: dev-portal.dev.tt-eng.com

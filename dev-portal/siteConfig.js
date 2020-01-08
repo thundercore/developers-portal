@@ -74,7 +74,8 @@ const siteConfig = {
 
 //  docsSideNavCollapsible: true,
 
-  gaTrackingId: 'UA-118758464-11'
+  gaTrackingId: 'UA-118758464-11',
+  customDocsPath: 'docs-en'
 }
 
 module.exports = siteConfig
