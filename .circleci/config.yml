@@ -116,21 +116,37 @@ commands:
               deploy/notify.sh
   purge_cdn:
     steps:
-      - run:
-          name: purge CloudFront cache
-          command: |
-            if [ "${ENV}" == "prod" ]; then
-              echo "Exporting production AWS access keys"
-              export AWS_ACCESS_KEY_ID=${AWS_APP_PROD_ACCESS_KEY_ID}
-              export AWS_SECRET_ACCESS_KEY=${AWS_APP_PROD_SECRET_ACCESS_KEY}
-              export AWS_DEFAULT_REGION=${AWS_APP_PROD_DEFAULT_REGION}
+      - circle-compare-url/reconstruct
+      - circle-compare-url/use:
+          step-name: build image and push to docker
+          custom-logic: |
+            echo "${SITENAME}"
+            if [[ `git diff $COMMIT_RANGE "${SITENAME}" 2>&1` != "" ]];
+              then
+                echo "purge CloudFront cache"
+                if [ "${ENV}" == "prod" ]; then
+                  echo "Exporting production AWS access keys"
+                  export AWS_ACCESS_KEY_ID=${AWS_APP_PROD_ACCESS_KEY_ID}
+                  export AWS_SECRET_ACCESS_KEY=${AWS_APP_PROD_SECRET_ACCESS_KEY}
+                  export AWS_DEFAULT_REGION=${AWS_APP_PROD_DEFAULT_REGION}
+                fi
+                aws cloudfront create-invalidation --distribution-id ${CDN_ID} --paths '/*'
             fi
-            if [ "${SITENAME}" == "dev-portal" ]; then 
-              CDN_ID=${DISTRIBUTION_ID}
-            elif [ "${SITENAME}" == "sc-portal" ]; then 
-              CDN_ID=${SC_DISTRIBUTION_ID}
-            fi
-            aws cloudfront create-invalidation --distribution-id ${CDN_ID} --paths '/*'
+#      - run:
+#          name: purge CloudFront cache
+#          command: |
+#            if [ "${ENV}" == "prod" ]; then
+#              echo "Exporting production AWS access keys"
+#              export AWS_ACCESS_KEY_ID=${AWS_APP_PROD_ACCESS_KEY_ID}
+#              export AWS_SECRET_ACCESS_KEY=${AWS_APP_PROD_SECRET_ACCESS_KEY}
+#              export AWS_DEFAULT_REGION=${AWS_APP_PROD_DEFAULT_REGION}
+#            fi
+#            if [ "${SITENAME}" == "dev-portal" ]; then 
+#              CDN_ID=${DISTRIBUTION_ID}
+#            elif [ "${SITENAME}" == "sc-portal" ]; then 
+#              CDN_ID=${SC_DISTRIBUTION_ID}
+#            fi
+#            aws cloudfront create-invalidation --distribution-id ${CDN_ID} --paths '/*'
   
 ##############
 # Aliases    #
@@ -210,6 +226,7 @@ workflows:
         protocal: https
         sitename: dev-portal
         aws_s3_region: ap-south-1
+        cdn_id: ${DISTRIBUTION_ID}
         <<: *tag_filter
     - deploy-prod:
         env: prod
@@ -219,6 +236,27 @@ workflows:
         protocal: https
         sitename: sc-portal
         aws_s3_region: us-east-1
+        cdn_id: ${SC_DISTRIBUTION_ID}
+        <<: *tag_filter
+    - deploy-prod:
+        env: prod
+        url: developers-cn.thundercore.com
+        A_url: developers-cn.thundercore.com
+        B_url: support-center-cn.thundercore.com
+        protocal: https
+        sitename: dev-portal-cn
+        aws_s3_region: ap-south-1
+        cdn_id: ${CN_DISTRIBUTION_ID}
+        <<: *tag_filter
+    - deploy-prod:
+        env: prod
+        url: support-center-cn.thundercore.com
+        A_url: developers-cn.thundercore.com
+        B_url: support-center-cn.thundercore.com
+        protocal: https
+        sitename: sc-portal-cn
+        aws_s3_region: us-east-1
+        cdn_id: ${CN_SC_DISTRIBUTION_ID}
         <<: *tag_filter
 
 
@@ -279,6 +317,8 @@ jobs:
         type: string
       aws_s3_region:
         type: string
+      cdn_id:
+        type: string
     environment:
       URL: << parameters.url >>
       A_URL: << parameters.A_url >>
@@ -287,6 +327,7 @@ jobs:
       SITENAME: << parameters.sitename >>
       PROTOCAL: << parameters.protocal >>
       AWS_S3_REGION: << parameters.aws_s3_region >> 
+      CDN_ID: << parameters.cdn_id >> 
     steps:
     - checkout
     - basic_env
