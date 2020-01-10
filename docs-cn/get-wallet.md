@@ -11,7 +11,8 @@ title: 获得 TT 站
 ThunderCore Hub 是一款安全且易于使用的加密钱包，具有完整的 DApp 浏览器功能。
 
 ### 装载 ThunerCore Hub
-在 [App Store](https://apps.apple.com/tw/app/thundercore-hub/id1471222243) 或 [Google Play](https://play.google.com/store/apps/details?id=com.thundercore.mobile) 装载 ThunderCore Hub 并按照以下说明操作。
+在 [iOS](https://0x7.me/HIF4) 及 [Android](https://static.hljwlrd.com/apk/thundercore-hub) 装载 ThunderCore Hub 并按照以下说明操作。
+亦可从 [App Store](https://apps.apple.com/tw/app/thundercore-hub/id1471222243) 或 [Google Play](https://play.google.com/store/apps/details?id=com.thundercore.mobile) 装载。
 
 ### 有关 ThunderCore Hub 的概览
 1. 打开应用程序后，您可以通过3种方式登录钱包。
@@ -56,20 +57,18 @@ ThunderCore Hub 是一款安全且易于使用的加密钱包，具有完整的 
 
 ![alt-text](assets/img/wallet/hubbit8_cn.PNG)
 
-接收方将收到与您输入的金额相同的金额。 
+接收方将收到与您输入的金额相同的金额。
 
 ![alt-text](assets/img/wallet/hubbit9_cn.PNG)
 
- #### 购买 Thunder Token 
- 
+ #### 购买 Thunder Token
+
  如果您没有任何 Thunder Token (TT)，[现在就购买](https://www.appcenter.games/ttget)。
- 
+
  #### 如何分享我的钱包地址？
- 
+
  请转到接收页面并单击右上角的图标，您将看到如下所示：
- 
+
  ![alt-text](assets/img/wallet/hubbit10_cn.PNG)
- 
+
  只需将其复制并粘贴到您的笔记本或任何您想要的位置即可。
-
-
