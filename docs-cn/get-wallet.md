@@ -72,3 +72,4 @@ ThunderCore Hub 是一款安全且易于使用的加密钱包，具有完整的 
  ![alt-text](assets/img/wallet/hubbit10_cn.PNG)
 
  只需将其复制并粘贴到您的笔记本或任何您想要的位置即可。
+
