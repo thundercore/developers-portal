@@ -303,7 +303,8 @@ jobs:
       SITENAME: << parameters.sitename >>
       PROTOCAL: << parameters.protocal >>
     steps:
-    - checkout
+    - checkout:
+        path: ~/project
     - basic_env
     - build
     - deploy
@@ -337,7 +338,8 @@ jobs:
       AWS_S3_REGION: << parameters.aws_s3_region >> 
       CDN_ID: << parameters.cdn_id >> 
     steps:
-    - checkout
+    - checkout:
+        path: ~/project
     - basic_env
     - build
     - deploy
