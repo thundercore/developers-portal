@@ -40,8 +40,9 @@ commands:
       - circle-compare-url/use:
           step-name: build image and push to docker
           custom-logic: |
-            echo "${SITENAME}"
-            if [[ `git diff $COMMIT_RANGE "${SITENAME}" 2>&1` != "" ]] || [[ `git diff $COMMIT_RANGE "${DOCSNAME}" 2>&1` != "" ]];
+            echo "site:      ${SITENAME}"
+            echo "docs path: ${DOCSNAME}"
+            if [[ "${FORCE_DEPLOY}" = "true" ]] || [[ `git diff $COMMIT_RANGE "${SITENAME}" 2>&1` != "" ]] || [[ `git diff $COMMIT_RANGE "${DOCSNAME}" 2>&1` != "" ]];
               then
                 echo "Install tools missing in apps-ci-docker"
                 sudo apk add autoconf automake
@@ -69,7 +70,7 @@ commands:
           custom-logic: |
             echo "site:      ${SITENAME}"
             echo "docs path: ${DOCSNAME}"
-            if [[ `git diff $COMMIT_RANGE "${SITENAME}" 2>&1` != "" ]] || [[ `git diff $COMMIT_RANGE "${DOCSNAME}" 2>&1` != "" ]];
+            if [[ "${FORCE_DEPLOY}" = "true" ]] || [[ `git diff $COMMIT_RANGE "${SITENAME}" 2>&1` != "" ]] || [[ `git diff $COMMIT_RANGE "${DOCSNAME}" 2>&1` != "" ]];
               then
                 echo "Deploy to S3" 
                 if [ "${ENV}" == "prod" ]; then
@@ -129,7 +130,9 @@ commands:
       - circle-compare-url/use:
           step-name: build image and push to docker
           custom-logic: |
-            if [[ `git diff $COMMIT_RANGE "${SITENAME}" 2>&1` != "" ]] || [[ `git diff $COMMIT_RANGE "${DOCSNAME}" 2>&1` != "" ]];
+            echo "site:      ${SITENAME}"
+            echo "docs path: ${DOCSNAME}"
+            if [[ "${FORCE_DEPLOY}" = "true" ]] || [[ `git diff $COMMIT_RANGE "${SITENAME}" 2>&1` != "" ]] || [[ `git diff $COMMIT_RANGE "${DOCSNAME}" 2>&1` != "" ]];
               then
                 echo "purge CloudFront cache"
                 if [ "${ENV}" == "prod" ]; then
@@ -241,6 +244,7 @@ workflows:
         docsname: docs-en 
         aws_s3_region: ap-south-1
         cdn_id: ${DISTRIBUTION_ID}
+        force_deploy: true
         <<: *tag_filter
     - deploy-prod:
         name: sc-portal
@@ -253,6 +257,7 @@ workflows:
         docsname: docs-en 
         aws_s3_region: us-east-1
         cdn_id: ${SC_DISTRIBUTION_ID}
+        force_deploy: true
         <<: *tag_filter
     - deploy-prod:
         name: dev-portal-cn
@@ -265,6 +270,7 @@ workflows:
         docsname: docs-cn 
         aws_s3_region: ap-south-1
         cdn_id: ${CN_DISTRIBUTION_ID}
+        force_deploy: true
         <<: *tag_filter
     - deploy-prod:
         name: sc-portal-cn
@@ -277,6 +283,7 @@ workflows:
         docsname: docs-cn 
         aws_s3_region: us-east-1
         cdn_id: ${CN_SC_DISTRIBUTION_ID}
+        force_deploy: true
         <<: *tag_filter
 
 
@@ -344,6 +351,9 @@ jobs:
         type: string
       cdn_id:
         type: string
+      force_deploy:
+        default: false
+        type: boolean
     environment:
       URL: << parameters.url >>
       A_URL: << parameters.A_url >>
@@ -354,6 +364,7 @@ jobs:
       PROTOCAL: << parameters.protocal >>
       AWS_S3_REGION: << parameters.aws_s3_region >> 
       CDN_ID: << parameters.cdn_id >> 
+      FORCE_DEPLOY: << parameters.force_deploy >> 
     steps:
     - checkout
     - basic_env
