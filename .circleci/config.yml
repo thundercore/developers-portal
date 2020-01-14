@@ -8,7 +8,7 @@ orbs:
 ##############
 executors:
   thunderci:
-    working_directory: ~/repo
+    working_directory: ~/project
     docker:
     - image: 085892847382.dkr.ecr.us-west-2.amazonaws.com/dev/apps-ci-docker
 
