@@ -132,6 +132,7 @@ commands:
           custom-logic: |
             echo "site:      ${SITENAME}"
             echo "docs path: ${DOCSNAME}"
+            echo "cdn id:    ${CDN_ID}"
             if [[ "${FORCE_DEPLOY}" = "true" ]] || [[ `git diff $COMMIT_RANGE "${SITENAME}" 2>&1` != "" ]] || [[ `git diff $COMMIT_RANGE "${DOCSNAME}" 2>&1` != "" ]];
               then
                 echo "purge CloudFront cache"
@@ -141,7 +142,7 @@ commands:
                   export AWS_SECRET_ACCESS_KEY=${AWS_APP_PROD_SECRET_ACCESS_KEY}
                   export AWS_DEFAULT_REGION=${AWS_APP_PROD_DEFAULT_REGION}
                 fi
-                aws cloudfront create-invalidation --distribution-id ${CDN_ID} --paths '/*'
+                aws cloudfront create-invalidation --distribution-id "${CDN_ID}" --paths '/*'
             fi
 #      - run:
 #          name: purge CloudFront cache
