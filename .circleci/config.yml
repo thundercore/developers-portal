@@ -41,7 +41,7 @@ commands:
           step-name: build image and push to docker
           custom-logic: |
             echo "${SITENAME}"
-            if [[ `git diff $COMMIT_RANGE "${SITENAME}" 2>&1` != "" ]];
+            if [[ `git diff $COMMIT_RANGE "${SITENAME}" 2>&1` != "" ]] || [[ `git diff $COMMIT_RANGE "${DOCSNAME}" 2>&1` != "" ]];
               then
                 echo "Install tools missing in apps-ci-docker"
                 sudo apk add autoconf automake
@@ -68,7 +68,7 @@ commands:
           step-name: build image and push to docker
           custom-logic: |
             echo "${SITENAME}"
-            if [[ `git diff $COMMIT_RANGE "${SITENAME}" 2>&1` != "" ]];
+            if [[ `git diff $COMMIT_RANGE "${SITENAME}" 2>&1` != "" ]] || [[ `git diff $COMMIT_RANGE "${DOCSNAME}" 2>&1` != "" ]];
               then
                 echo "Deploy to S3" 
                 if [ "${ENV}" == "prod" ]; then
@@ -128,8 +128,7 @@ commands:
       - circle-compare-url/use:
           step-name: build image and push to docker
           custom-logic: |
-            echo "${SITENAME}"
-            if [[ `git diff $COMMIT_RANGE "${SITENAME}" 2>&1` != "" ]];
+            if [[ `git diff $COMMIT_RANGE "${SITENAME}" 2>&1` != "" ]] || [[ `git diff $COMMIT_RANGE "${DOCSNAME}" 2>&1` != "" ]];
               then
                 echo "purge CloudFront cache"
                 if [ "${ENV}" == "prod" ]; then
@@ -190,6 +189,7 @@ workflows:
         B_url: sc-portal.dev.tt-eng.com
         protocal: http
         sitename: dev-portal
+        docsname: docs-en 
         aws_s3_region: us-west-2 
         <<: *master_branch_filter
     - deploy-dev:
@@ -200,6 +200,7 @@ workflows:
         B_url: sc-portal.dev.tt-eng.com
         protocal: http
         sitename: sc-portal
+        docsname: docs-en 
         aws_s3_region: us-west-2 
         <<: *master_branch_filter
     - deploy-dev:
@@ -210,6 +211,7 @@ workflows:
         B_url: sc-portal-cn.dev.tt-eng.com
         protocal: http
         sitename: dev-portal-cn
+        docsname: docs-cn 
         aws_s3_region: us-west-2
         <<: *master_branch_filter
     - deploy-dev:
@@ -220,6 +222,7 @@ workflows:
         B_url: sc-portal-cn.dev.tt-eng.com
         protocal: http
         sitename: sc-portal-cn
+        docsname: docs-cn 
         aws_s3_region: us-east-1
         <<: *master_branch_filter
 
@@ -227,42 +230,50 @@ workflows:
   build-deploy-prod:
     jobs:
     - deploy-prod:
+        name: dev-portal
         env: prod
         url: developers.thundercore.com
         A_url: developers.thundercore.com 
         B_url: support-center.thundercore.com 
         protocal: https
         sitename: dev-portal
+        docsname: docs-en 
         aws_s3_region: ap-south-1
         cdn_id: ${DISTRIBUTION_ID}
         <<: *tag_filter
     - deploy-prod:
+        name: sc-portal
         env: prod
         url: support-center.thundercore.com
         A_url: developers.thundercore.com 
         B_url: support-center.thundercore.com
         protocal: https
         sitename: sc-portal
+        docsname: docs-en 
         aws_s3_region: us-east-1
         cdn_id: ${SC_DISTRIBUTION_ID}
         <<: *tag_filter
     - deploy-prod:
+        name: dev-portal-cn
         env: prod
         url: developers-cn.thundercore.com
         A_url: developers-cn.thundercore.com
         B_url: support-center-cn.thundercore.com
         protocal: https
         sitename: dev-portal-cn
+        docsname: docs-cn 
         aws_s3_region: ap-south-1
         cdn_id: ${CN_DISTRIBUTION_ID}
         <<: *tag_filter
     - deploy-prod:
+        name: sc-portal-cn
         env: prod
         url: support-center-cn.thundercore.com
         A_url: developers-cn.thundercore.com
         B_url: support-center-cn.thundercore.com
         protocal: https
         sitename: sc-portal-cn
+        docsname: docs-cn 
         aws_s3_region: us-east-1
         cdn_id: ${CN_SC_DISTRIBUTION_ID}
         <<: *tag_filter
@@ -291,6 +302,8 @@ jobs:
         type: string
       sitename:
         type: string
+      docsname:
+        type: string
       protocal:
         type: string
       aws_s3_region:
@@ -301,6 +314,7 @@ jobs:
       B_URL: << parameters.B_url >>
       ENV: << parameters.env >>
       SITENAME: << parameters.sitename >>
+      DOCSNAME: << parameters.docsname >>
       PROTOCAL: << parameters.protocal >>
     steps:
     - checkout
@@ -321,6 +335,8 @@ jobs:
         type: string
       sitename:
         type: string
+      docsname:
+        type: string
       protocal:
         type: string
       aws_s3_region:
@@ -333,6 +349,7 @@ jobs:
       B_URL: << parameters.B_url >>
       ENV: << parameters.env >>
       SITENAME: << parameters.sitename >>
+      DOCSNAME: << parameters.docsname >>
       PROTOCAL: << parameters.protocal >>
       AWS_S3_REGION: << parameters.aws_s3_region >> 
       CDN_ID: << parameters.cdn_id >> 
