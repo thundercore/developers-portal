@@ -7,10 +7,10 @@ title: 总览
 ThunderCore 结合了高性能与分散式信任，并经过多年严谨的学术研究後，ThunderCore 成为一个与以太坊虚拟机兼容的公链，其提供了更高的吞吐量、更快的确认时间和更低的成本，也使 DApps 可以快速轻松地进行部署和扩容。
 
 ## TT 站是什么？
-TT站是具有完整 DAp p浏览器功能的安全且易于使用的加密钱包。您可快速管理您的资产并体验、可扩展、以用户为中心的 Web3 去中心化应用程序，只有在TT站的高性能区块链上才有可能。了解有关[TT站](https://www.thundercore.com/thundercore-hub/?lang=zh-hans) 的更多信息。
+TT站是具有完整 DApp 浏览器功能的安全且易于使用的加密钱包。您可快速管理您的资产并体验、可扩展、以用户为中心的 Web3 去中心化应用程序，只有在TT站的高性能区块链上才有可能。了解有关[TT站](https://www.thundercore.com/thundercore-hub/?lang=zh-hans) 的更多信息。
 
 ## ThunderCore 的发展蓝图是什么？ 
-点击[这里](https://www.thundercore.com/roadmap/?lang=zh-hans) 查看。
+点击 [这里](https://www.thundercore.com/roadmap/?lang=zh-hans) 查看。
 
 ## ThunderCore 速度有多快？ 
 ThunderCore 提供1-2秒的确认时间， 并达成了每秒完成超过 4,000 笔的峰值交易，你可以在 [ThunderScan](https://scan.thundercore.com) 上看到实时活动与其表现。
