@@ -37,7 +37,7 @@ _如果你没有任何数字货币_
      * 查看 “How to Buy” 以了解有关 TTGet 的更多信息
      * 点击 “Buy now” 将自动与您的 MetaMask 连接
      * 选择您要购买的方案
-     * 如果您对 TTGet 有其他疑问，请查看[FAQ]（https://ttget.appcenter.games/）
+     * 如果您对 TTGet 有其他疑问，请查看 [FAQ](https://ttget.appcenter.games/)
   2. [IndaCoin](https://indacoin.com/en_TW/change/buy-thundertoken-with-cardusd?amount_pay=100) - 立即使用信用卡或借记卡获取 TT (不适用于美国、中国、日本等国家/地区)
 * 如果你没有任何 TT 或 TT-稳定币：
 您可以通过加密货币交易所(如 Huobi、Upbit 或 Pionex)购买，也可以自行透过场外交易获得。
