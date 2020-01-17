@@ -132,7 +132,6 @@ commands:
           custom-logic: |
             echo "site:      ${SITENAME}"
             echo "docs path: ${DOCSNAME}"
-            echo "cdn id:    ${CDN_ID}"
             if [[ "${FORCE_DEPLOY}" = "true" ]] || [[ `git diff $COMMIT_RANGE "${SITENAME}" 2>&1` != "" ]] || [[ `git diff $COMMIT_RANGE "${DOCSNAME}" 2>&1` != "" ]];
               then
                 echo "purge CloudFront cache"
@@ -141,6 +140,15 @@ commands:
                   export AWS_ACCESS_KEY_ID=${AWS_APP_PROD_ACCESS_KEY_ID}
                   export AWS_SECRET_ACCESS_KEY=${AWS_APP_PROD_SECRET_ACCESS_KEY}
                   export AWS_DEFAULT_REGION=${AWS_APP_PROD_DEFAULT_REGION}
+                fi
+                if [ "${SITENAME}" == "dev-portal" ]; then 
+                  CDN_ID=${DISTRIBUTION_ID}
+                elif [ "${SITENAME}" == "sc-portal" ]; then 
+                  CDN_ID=${SC_DISTRIBUTION_ID}
+                elif [ "${SITENAME}" == "dev-portal-cn" ]; then 
+                  CDN_ID=${CN_DISTRIBUTION_ID}
+                elif [ "${SITENAME}" == "sc-portal-cn" ]; then 
+                  CDN_ID=${CN_SC_DISTRIBUTION_ID}
                 fi
                 aws cloudfront create-invalidation --distribution-id "${CDN_ID}" --paths '/*'
             fi
@@ -244,7 +252,6 @@ workflows:
         sitename: dev-portal
         docsname: docs-en 
         aws_s3_region: ap-south-1
-        cdn_id: ${DISTRIBUTION_ID}
         force_deploy: true
         <<: *tag_filter
     - deploy-prod:
@@ -257,7 +264,6 @@ workflows:
         sitename: sc-portal
         docsname: docs-en 
         aws_s3_region: us-east-1
-        cdn_id: ${SC_DISTRIBUTION_ID}
         force_deploy: true
         <<: *tag_filter
     - deploy-prod:
@@ -270,7 +276,6 @@ workflows:
         sitename: dev-portal-cn
         docsname: docs-cn 
         aws_s3_region: ap-south-1
-        cdn_id: ${CN_DISTRIBUTION_ID}
         force_deploy: true
         <<: *tag_filter
     - deploy-prod:
@@ -283,7 +288,6 @@ workflows:
         sitename: sc-portal-cn
         docsname: docs-cn 
         aws_s3_region: us-east-1
-        cdn_id: ${CN_SC_DISTRIBUTION_ID}
         force_deploy: true
         <<: *tag_filter
 
@@ -350,8 +354,6 @@ jobs:
         type: string
       aws_s3_region:
         type: string
-      cdn_id:
-        type: string
       force_deploy:
         default: false
         type: boolean
@@ -364,7 +366,6 @@ jobs:
       DOCSNAME: << parameters.docsname >>
       PROTOCAL: << parameters.protocal >>
       AWS_S3_REGION: << parameters.aws_s3_region >> 
-      CDN_ID: << parameters.cdn_id >> 
       FORCE_DEPLOY: << parameters.force_deploy >> 
     steps:
     - checkout
