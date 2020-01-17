@@ -1,6 +1,6 @@
 ---
 id: get-wallet
-title: 获得 TT 站
+title: TT 站
 ---
 
 ## 准备入门
