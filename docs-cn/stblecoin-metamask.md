@@ -8,7 +8,7 @@ title: 将 TT-稳定币添加到 MetaMask
 
 *TT-稳定币： TT-USDT, TT-DAI (了解 [更多](https://www.wikiwand.com/zh-cn/%E7%A8%B3%E5%AE%9A%E5%B8%81) 关于稳定币)*
 
-*如果您想知道如何设置和使用您的 MetaMask，请参考 [这里]（https://developers.thundercore.com/docs/get-wallet/#metamask）*
+*如果您想知道如何设置和使用您的 MetaMask，请参考 [这里](https://developers.thundercore.com/docs/get-wallet/#metamask)*
 
 ## 将 TT-USDT 添加到 MetaMask
 
