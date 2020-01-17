@@ -4,11 +4,11 @@ title: 将 TT-稳定币添加到 MetaMask
 ---
 
 ## 介绍
-这是向您展示如何将 TT-USDT 或 TT-DAI 添加到您的 MetaMask 的指南。请注意，MetaMask 是一款第三方 Web3 钱包，如果对钱包有疑问，请直接与钱包提供商[联系][https://metamask.zendesk.com/hc/zh-cn]。
+这是向您展示如何将 TT-USDT 或 TT-DAI 添加到您的 MetaMask 的指南。请注意，MetaMask 是一款第三方 Web3 钱包，如果对钱包有疑问，请直接与钱包提供商[联系](https://metamask.zendesk.com/hc/zh-cn)。
 
 *TT-稳定币： TT-USDT, TT-DAI (了解 [更多](https://www.wikiwand.com/zh-cn/%E7%A8%B3%E5%AE%9A%E5%B8%81) 关于稳定币)*
 
-*如果您想知道如何设置和使用您的 MetaMask，请参考[这里]（https://developers.thundercore.com/docs/get-wallet/#metamask）*
+*如果您想知道如何设置和使用您的 MetaMask，请参考 [这里]（https://developers.thundercore.com/docs/get-wallet/#metamask）*
 
 ## 将 TT-USDT 添加到 MetaMask
 
