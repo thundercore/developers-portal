@@ -6,16 +6,11 @@ title: 总览
 ## ThunderCore 是什么？
 ThunderCore 结合了高性能与分散式信任，并经过多年严谨的学术研究後，ThunderCore 成为一个与以太坊虚拟机兼容的公链，其提供了更高的吞吐量、更快的确认时间和更低的成本，也使 DApps 可以快速轻松地进行部署和扩容。
 
+## TT 站是什么？
+TT站是具有完整 DAp p浏览器功能的安全且易于使用的加密钱包。您可快速管理您的资产并体验、可扩展、以用户为中心的 Web3 去中心化应用程序，只有在TT站的高性能区块链上才有可能。了解有关[TT站](https://www.thundercore.com/thundercore-hub/?lang=zh-hans) 的更多信息。
+
 ## ThunderCore 的发展蓝图是什么？ 
-我们的测试网已于2018年7月上线，预备主网络亦于2019年2月推出，而公开主网的发布将于2019年第三季度开始实施。
-
-2019年第三季度的主网公开启动代号为 ThunderCore Jupiter。
-
-ThunderCore Haikili 将会在2020年第一季度初期发布。 这个版本将导入一些功能，使开发人员和用户更加地容易运用于生活中。这包括对跨链资产 (尤其是以太坊资产)、开发者的矿工费以及区块链本地随机数生成的支持。
-
-ThunderCore Indra 将会在2020年第三季度发布， 这个版本将把 ThunderCore 的扩容性增加到10000+ tx / s， 并支持 eWASM。
-
-ThunderCore Raijin 将在2021年第二季度释出，其允许 ThunderCore 使用多种类型的公链作为其 "慢速链"。
+点击[这里](https://www.thundercore.com/roadmap/?lang=zh-hans) 查看。
 
 ## ThunderCore 速度有多快？ 
 ThunderCore 提供1-2秒的确认时间， 并达成了每秒完成超过 4,000 笔的峰值交易，你可以在 [ThunderScan](https://scan.thundercore.com) 上看到实时活动与其表现。
@@ -28,6 +23,9 @@ Thunder Test Tokens (TST) 可在我们的 [测试网渠道](https://faucet-testn
 要建立或迁移 DApps，请访问我们的教程 - [建立](deploy-your-own-game.md) 和 [迁移](migrate-to-thunder.md)。
 
 你可以在 [ThunderScan](https://scan.thundercore.com) 與 [ThunderScan(Testnet)](https://scan-testnet.thundercore.com) 上看到实时活动与其表现。
+
+## 我在哪里可以购买 Thunder Token？
+目前，您可以通过 [TTGet](https://ttget.appcenter.games/) 或在包括 [Huobi](https://www.huobi.com/en-us/exchange/tt_usdt/) 和 Upbit 在内的一些主要交易所购买 Thunder Token（TT)。
 
 ## 什么类型的 DApps 适合 ThunderCore？
 任何需要与用户进行某种形式的实时交互的 DApp 都是 ThunderCore 的完美搭档。 想像一个完全架构在 ThunderCore 链上的区块链扑克牌游戏。
@@ -55,7 +53,6 @@ Thunder Test Tokens (TST) 可在我们的 [测试网渠道](https://faucet-testn
 
 ## ThunderCore 有大使计划吗？
 以社区为中心的增长对我们而言相当重要，而大使们也在其中扮演着非常重要的角色，目前该计划正在规划中。
-
 
 ## 你们是 ThunderCore 还是 Thunder Token？两者分别代表着什么？
 这是个好问题！
