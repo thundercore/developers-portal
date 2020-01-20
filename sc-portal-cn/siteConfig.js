@@ -27,13 +27,13 @@ const siteConfig = {
 
   headerLinks: [
     { href: 'https://thundercore.com', label: 'ThunderCore.com' },
-    { doc: 'deploy-your-own-game', label: '文档' },
+    { href: 'https://developers-cn.thundercore.com/', label: '开发者中心' },
     { doc: 'faqs/general', label: '常问问题' },
     { href: 'https://developer.thundercore.com', label: '🌐English'}
   ],
 
   /* path to images for header/footer */
-  headerIcon: 'img/support center_header img_cn@2x.png',
+  headerIcon: 'img/support center_header_image.png',
   footerIcon: 'img/thundercore_icon.svg',
 
   disableHeaderTitle: true,
