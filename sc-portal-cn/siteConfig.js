@@ -33,7 +33,7 @@ const siteConfig = {
   ],
 
   /* path to images for header/footer */
-  headerIcon: 'img/TT_dev_logo.png',
+  headerIcon: 'img/support center_header img_cn@2x.png',
   footerIcon: 'img/thundercore_icon.svg',
 
   disableHeaderTitle: true,
