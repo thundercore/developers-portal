@@ -16,9 +16,6 @@ We decided to do a pre-release of our Mainnet because we wanted users and develo
 
 The only difference between now and the public launch is that the public will be able to easily participate in the ThunderCore consensus process by running full nodes, and staking.
 
-## When is the public launch of the ThunderCore Mainnet planned?
-ThunderCore is planning for a public launch of its Mainnet in Q3 2019. It is important to note, however, that the Pre-Release Mainnet contains full functionality.
-
 ## How will the public launch of the Mainnet impact the chain?
 At the time of public launch, the chain will continue to operate uninterrupted and anyone will be able to run a ThunderCore full node. Full node source code will be made publicly available at that time.
 
@@ -63,10 +60,3 @@ When adding a custom RPC URL in MetaMask, MetaMask by default treats any token/c
 To correct this, use the "Show Advanced Options" menu when adding the custom URL for Thunder Core ([https://mainnet-rpc.thundercore.com](https://mainnet-rpc.thundercore.com)). Add 108 as ChainId and TT as Symbol.
 
 Once you do that your ThunderTokens will appear as TT on the MetaMask.
-
-## How can I send and receive Thunder Tokens (TT)?
-You can use any of the existing Ethereum wallets to store, receive and send Thunder Tokens.
-
-Right now you will have to configure most of the wallets to point to custom RPC url of ThunderCore ([https://mainnet-rpc.thundercore.com](https://mainnet-rpc.thundercore.com)).
-
-We are working on getting ThunderCore natively integrated in most popular wallets.
