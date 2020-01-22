@@ -28,7 +28,7 @@ const siteConfig = {
   headerLinks: [
     { href: 'https://thundercore.com', label: 'ThunderCore.com' },
     { href: 'https://developers-cn.thundercore.com/', label: '开发者中心' },
-    { doc: 'faqs/general', label: '常问问题' },
+    { doc: 'faqs/general', label: '用户支持中心' },
     { href: 'https://developer.thundercore.com', label: '🌐English'}
   ],
 
