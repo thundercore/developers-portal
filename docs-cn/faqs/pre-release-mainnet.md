@@ -16,9 +16,6 @@ ThunderCore 于2月28日推出了预发主网。 当时也恰逢 ThunderCore 获
 
 现在和公开发布之间的唯一区别是：公开主网将能够以运行完整节点和押注节点，轻松地参与 ThunderCore 共识过程。
 
-## 计划何时公开发布 ThunderCore 主网？
-ThunderCore 计划在2019年第三季度公开发布其主网。值得注意的是，将会是包含完整功能的预发布主网。
-
 ## 主网的公开发布将对链本身造成什么影响？
 在公开发布时，该链将继续不间断地运行，期间任何人都可以运行 ThunderCore 完整节点， 完整的节点源代码将在那时公开发布。
 
@@ -73,7 +70,3 @@ Thunder Token 是 ThunderCore 区块链的原生代币，其可用于 ThunderCor
 现在，你必须将大多数钱包设置为指向 ThunderCore 的自定义 RPC URL ([https://mainnet-rpc.thundercore.com](https://mainnet-rpc.thundercore.com))。
 
 我们正致力于将 ThunderCore 原生地整合至最受欢迎的钱包中。
-
-## ThunderCore 何时将会有自己的钱包？
-
-我们正努力创建我们自己的行动钱包，敬请关注。
