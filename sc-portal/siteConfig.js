@@ -26,7 +26,7 @@ const siteConfig = {
   favicon: 'img/favicon/favicon.ico',
 
   headerLinks: [
-    { href: 'https://thundercore.com', label: 'ThunderCore.com' },
+    { href: 'https://www.thundercore.com', label: 'ThunderCore.com' },
     { doc: 'deploy-your-own-game', label: 'Developers' },
     { doc: 'faqs/general', label: 'Support Center' },
     { href: 'https://developer-cn.thundercore.com', label: '🌐简体中文'}
