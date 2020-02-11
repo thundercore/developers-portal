@@ -29,7 +29,7 @@ const siteConfig = {
     { href: 'https://www.thundercore.com', label: 'ThunderCore.com' },
     { doc: 'deploy-your-own-game', label: 'Developers' },
     { doc: 'faqs/general', label: 'Support Center' },
-    { href: 'https://developer-cn.thundercore.com', label: '🌐简体中文'}
+    { href: 'https://support-center-cn.thundercore.com/docs/faqs/general/', label: '🌐简体中文'}
   ],
 
   /* path to images for header/footer */
