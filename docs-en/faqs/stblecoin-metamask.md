@@ -8,7 +8,7 @@ Here’s a guide to show you how to add TT-USDT or TT-DAI to your MetaMask. Plea
 
 *TT-StableCon: TT-USDT, TT-DAI (learn [more](https://www.wikiwand.com/en/Stablecoin) about stablecoin)*
 
-*If you want to know how to set up and use your MetaMask, please refer to [here](https://developers.thundercore.com/docs/get-wallet/#metamask)*
+*If you want to know how to set up and use your MetaMask, please refer to [here](https://support-center.thundercore.com/docs/metamask/)*
 
 ## Add TT-USDT to MetaMask
 
