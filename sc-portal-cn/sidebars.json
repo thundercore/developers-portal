@@ -10,7 +10,8 @@
       "stblecoin-trustwallet"
     ],
     "获取代币": [
-      "get-tokens"
+      "get-tokens",
+      "buyingTT"
     ],
     "钱包": [
       "get-wallet",
