@@ -10,7 +10,7 @@
       "stblecoin-trustwallet"
     ],
     "Get Tokens": [
-      "sc-get-tokens"
+      "get-tokens"
     ],
     "Wallet": [
       "get-wallet",
