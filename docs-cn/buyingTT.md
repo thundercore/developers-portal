@@ -1,6 +1,6 @@
 ---
 id: buyingTT
-title: 如何用火币上的 USDT 在 ThunderCore Hub 里购买 TT
+title: 用火币上的 USDT 在 ThunderCore Hub 里购买 TT
 ---
 
 ### 下载  ThunderCore Hub
