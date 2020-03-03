@@ -2,7 +2,7 @@
   "support center": {
     "Frequently Asked Questions": [
       "faqs/general",
-      "passcode"
+      "faqs/passcode"
     ],
     "DeFi": [
       "financial-service-landscape",
