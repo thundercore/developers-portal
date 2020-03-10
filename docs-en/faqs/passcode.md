@@ -12,4 +12,4 @@ Please provide the information as below to help us verify your identity:
 * A selfie with a note which including `For ThunderCore Hub only` and `date` 
 * Briefly describe any recent operations on the wallet 
 
-After submit your request to [us](support@thundercore.com), we will start the reviewing process which may take 5-7 working days.
+After submit your request to <a href="mailto:support@thundercore.com">us</a>, we will start the reviewing process which may take 5-7 working days.
