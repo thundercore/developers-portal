@@ -1,10 +1,39 @@
 ---
 id: passcode
-title: If you forgot your passcode on ThunderCore Hub 
+title: Setup your own passcode on ThunderCore Hub 
 ---
-Here is a guide to help you unlock your wallet if you forgot your passcode. 
+This is a guide to help you setup passcode on your own wallet to protect your assets and account.
 
-## Information you should provide 
+## Setup passcode
+
+1. After logging your wallet, tap `Settings` in the right corner 
+
+![img](assets/img/passcode/passcode_1.PNG)
+
+2. Set your passcide (4 digits)
+
+![img](assets/img/passcode/passcode_2.PNG)
+
+3. Retype your passcode again
+
+![img](assets/img/passcode/passcode_3.PNG)
+
+4. Then you will see your passcode has setup successfully 
+
+![img](assets/img/passcode/passcode_4.PNG)
+
+## Dismiss passcode
+
+1. Tap `Settings` in the right corner and turn off the passcode. Then you need to enter your passcode to proceed
+
+![img](assets/img/passcode/passcode_5.PNG)
+
+2. Enter your passcode and the passcode will be dismissed
+
+![img](assets/img/passcode/passcode_6.PNG)
+
+
+## If you forget your passcode 
 
 Please provide the information as below to help us verify your identity:
 
