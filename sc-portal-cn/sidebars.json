@@ -1,7 +1,8 @@
 {
   "support center": {
     "常见问题": [
-      "faqs/general"
+      "faqs/general",
+      "passcode"
     ],
     "去中心化金融": [
       "financial-service-landscape",
