@@ -14,4 +14,4 @@ Check the tutorial [here](https://docs.thundercore.com/Deposit_StableCoin_to_Thu
 
 Learn how to transfer TT-StableCoin from ThunderCore Hub to other wallet.
 
-Check the tutorial [here](https://docs.thundercore.com/Withdraw_StableCoin_from_ThunderCore_Hub.pdf)
+Check the tutorial [here](https://drive.google.com/a/thundertoken.com/file/d/19j5UmHm3egp5lQtG494bjv2TS_-BvgXj/view?usp=sharing)
