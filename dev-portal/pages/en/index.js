@@ -84,7 +84,7 @@ class HelpfulLinks extends React.Component {
         <Block title="Resources">
           <Link href={docUrl('faqs/general')} target="_self" title="Frequently Asked Questions (FAQ)"/>
           <Link href="https://discordapp.com/invite/5EbxXfw" title="Get in Touch on Discord"/>
-          <Link href="mailto:info@thundercore.com" title="Email Us"/>
+          <Link href="mailto:support@thundercore.com" title="Email Us"/>
         </Block>
       </div>
     )
