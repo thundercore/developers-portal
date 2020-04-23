@@ -18,7 +18,8 @@
       "get-wallet",
       "metamask",
       "trust-wallet",
-      "ledger-nano-s"
+      "ledger-nano-s",
+      "tt20-withdraw"
       
     ]
   }
