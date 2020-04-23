@@ -8,7 +8,8 @@
       "financial-service-landscape",
       "stablecoin",
       "stblecoin-metamask",
-      "stblecoin-trustwallet"
+      "stblecoin-trustwallet",
+       "tt20-withdraw"
     ],
     "获取代币": [
       "get-tokens",
@@ -18,8 +19,8 @@
       "get-wallet",
       "metamask",
       "trust-wallet",
-      "ledger-nano-s",
-      "tt20-withdraw"
+      "ledger-nano-s"
+  
       
     ]
   }
