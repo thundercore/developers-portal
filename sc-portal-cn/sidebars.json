@@ -9,7 +9,7 @@
       "stablecoin",
       "stblecoin-metamask",
       "stblecoin-trustwallet",
-       "tt20-withdraw"
+       "faqs/tt20-withdraw"
     ],
     "获取代币": [
       "get-tokens",
