@@ -1,14 +1,14 @@
 ---
 id: stblecoin-trustwallet
-title: Add TT-StableCoin to Trust wallet
+title: Add TT20-StableCoin to Trust wallet
 ---
 
 ## Intro
-Here’s a guide to show you how to add TT-USDT or TT-DAI to your Trust wallet. Please note that Trust wallet is a third party wallet, if you have questions about the wallet, please contact with wallet provider directly.
+Here’s a guide to show you how to add TT20-USDT or TT20-DAI to your Trust wallet. Please note that Trust wallet is a third party wallet, if you have questions about the wallet, please contact with wallet provider directly.
 
-*TT-StableCon: TT-USDT, TT-DAI (learn [more](https://www.wikiwand.com/en/Stablecoin) about stablecoin)*
+*TT20-StableCon: TT20-USDT, TT20-DAI (learn [more](https://www.wikiwand.com/en/Stablecoin) about stablecoin)*
 
-## Add TT-USDT to Trust wallet
+## Add TT20-USDT to Trust wallet
 
 1. Open Trust wallet and click on the “+” in the top right corner.
 
@@ -38,7 +38,7 @@ Item | Field
 
 ![alt-text](assets/img/stablecoin-trustwallet/stablecoin-trustwallet-6.png)
 
-## Add TT-DAI to Trust wallet
+## Add TT20-DAI to Trust wallet
 
 1. Open Trust wallet and click on the “+” in the top right corner 
 
