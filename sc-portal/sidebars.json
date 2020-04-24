@@ -19,7 +19,8 @@
       "get-wallet",
       "metamask",
       "trust-wallet",
-      "ledger-nano-s"
+      "ledger-nano-s",
+      "wallet-loss-policy"
       
     ]
   }
