@@ -11,8 +11,9 @@
       "stblecoin-trustwallet",
       "tt20-withdraw"
     ],
-    "Get Tokens": [
-      "get-tokens"
+    "Tokens": [
+      "get-tokens",
+      "asset-loss-policy"
     ],
     "Wallet": [
       "get-wallet",
