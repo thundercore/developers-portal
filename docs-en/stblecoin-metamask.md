@@ -1,16 +1,16 @@
 ---
 id: stblecoin-metamask
-title: Add TT-StableCoin to MetaMask 
+title: Add TT20-StableCoin to MetaMask 
 ---
 
 ## Intro
-Here’s a guide to show you how to add TT-USDT or TT-DAI to your MetaMask. Please note that MetaMask is a third party Web3 wallet, if you have questions about the wallet, please [contact](https://metamask.zendesk.com/hc/en-us) with wallet provider directly.
+Here’s a guide to show you how to add TT20-USDT or TT20-DAI to your MetaMask. Please note that MetaMask is a third party Web3 wallet, if you have questions about the wallet, please [contact](https://metamask.zendesk.com/hc/en-us) with wallet provider directly.
 
-*TT-StableCon: TT-USDT, TT-DAI (learn [more](https://www.wikiwand.com/en/Stablecoin) about stablecoin)*
+*TT20-StableCon: TT20-USDT, TT20-DAI (learn [more](https://www.wikiwand.com/en/Stablecoin) about stablecoin)*
 
 *If you want to know how to set up and use your MetaMask, please refer to [here](https://developers.thundercore.com/docs/get-wallet/#metamask)*
 
-## Add TT-USDT to MetaMask
+## Add TT20-USDT to MetaMask
 
 1. Open your MetaMask and make sure the Networks has switched to ThunderCore 
 
@@ -40,7 +40,7 @@ Here’s a guide to show you how to add TT-USDT or TT-DAI to your MetaMask. Plea
 
 ![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-7.png)
 
-## Add TT-DAI to MetaMask
+## Add TT20-DAI to MetaMask
 
 1. Open your MetaMask and make sure the Networks has switched to ThunderCore
 
@@ -66,6 +66,6 @@ Here’s a guide to show you how to add TT-USDT or TT-DAI to your MetaMask. Plea
 
 ![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-13.png)
 
-7. Then you will see TT-DAI be listed on your MetaMask
+7. Then you will see TT20-DAI be listed on your MetaMask
 
 ![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-14.png)
