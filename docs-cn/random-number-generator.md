@@ -58,13 +58,13 @@ contract RandomExample {
 }
 ```
 
-### 阻止「输钱就还原交易」攻击
+### 阻止「输钱就撤销交易」攻击
 
 有一种观念上简单的攻击方法，适用于 EVM 上的任何机率游戏。攻击者布署一个合约，内容是：
 
 1. 玩某种机率游戏
 1. 检查攻击用合约馀额是否减少
-1. 若馀额减少、输钱了，则还原交易 (revert transaction)
+1. 若馀额减少、输钱了，则撤销交易 (revert transaction)
 
 用 Solidity 语言表达成代码：
 ```
@@ -75,7 +75,7 @@ function attack(uint256 v) public  {
 }
 ```
 
-在 `bet` 函式开头加上 `require(msg.sender == tx.origin)` 检查会阻止别的合约呼叫 `bet` 函式，攻击者不能用合约还原交易，就阻止了此攻击。
+在 `bet` 函式开头加上 `require(msg.sender == tx.origin)` 检查会阻止别的合约呼叫 `bet` 函式，攻击者不能用合约撤销交易，就阻止了此攻击。
 
 详见 [Solidity in Depth](https://solidity.readthedocs.io/en/v0.4.25/solidity-in-depth.html) 书中 [Block and Transaction Properties](https://solidity.readthedocs.io/en/v0.4.25/units-and-global-variables.html#block-and-transaction-properties) 一节:
 
