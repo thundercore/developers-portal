@@ -13,7 +13,7 @@ TT站是具有完整 DApp 浏览器功能的安全且易于使用的加密钱包
 点击 [这里](https://www.thundercore.com/roadmap/?lang=zh-hans) 查看。
 
 ## ThunderCore 速度有多快？ 
-ThunderCore 提供1-2秒的确认时间， 并达成了每秒完成超过 4,000 笔的峰值交易，你可以在 [ThunderScan](https://scan.thundercore.com) 上看到实时活动与其表现。
+ThunderCore 提供1-2秒的确认时间， 并达成了每秒完成超过 4,000 笔的峰值交易，你可以在 [ThunderCore Scan](https://scan.thundercore.com) 上看到实时活动与其表现。
 
 ## 我如何尝试使用 ThunderCore？
 ThunderCore 主网的 ThunderTokens (TT) 可在 [ThunderCore 主网渠道](https://faucet.thundercore.com) 上获得。
@@ -22,7 +22,7 @@ Thunder Test Tokens (TST) 可在我们的 [测试网渠道](https://faucet-testn
 
 要建立或迁移 DApps，请访问我们的教程 - [建立](deploy-your-own-game.md) 和 [迁移](migrate-to-thunder.md)。
 
-你可以在 [ThunderScan](https://scan.thundercore.com) 與 [ThunderScan(Testnet)](https://scan-testnet.thundercore.com) 上看到实时活动与其表现。
+你可以在 [ThunderCore Scan](https://scan.thundercore.com) 與 [ThunderCore Scan(Testnet)](https://scan-testnet.thundercore.com) 上看到实时活动与其表现。
 
 ## 我在哪里可以购买 Thunder Token？
 目前，您可以通过 [TTGet](https://ttget.appcenter.games/) 或在包括 [Huobi](https://www.huobi.com/en-us/exchange/tt_usdt/) 和 Upbit 在内的一些主要交易所购买 Thunder Token（TT)。
