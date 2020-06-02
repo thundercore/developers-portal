@@ -21,7 +21,7 @@ ThunderCore is an Ethereum Virtual Machine (EVM) compliant blockchain. Tokens ba
 Thunder Token is the native currency of an independent public blockchain, ThunderCore. Thunder Token can be used to build and monetize decentralized applications on the ThunderCore blockchain. Thunder Tokens can be used to pay for gas costs, execute transactions and underwrite smart contracts on the ThunderCore blockchain.
 
 ## How fast is ThunderCore? 
-ThunderCore offers confirmation time of 1-2 seconds. ThunderCore achieved a peak transactions per second of over 4,000. You can see live activity and performance on [ThunderScan](https://scan.thundercore.com).
+ThunderCore offers confirmation time of 1-2 seconds. ThunderCore achieved a peak transactions per second of over 4,000. You can see live activity and performance on [ThunderCoreScan](https://scan.thundercore.com).
 
 ## How can I try ThunderCore?
 ThunderTokens (TT) for the ThunderCore Mainnet are available at the [ThunderCore Mainnet Faucet](https://faucet.thundercore.com).
@@ -30,7 +30,7 @@ Test Thunder Tokens are available for free at our Testnet faucet [here](https://
 
 To build or migrate DApps, visit our tutorials - [Build](deploy-your-own-game.md) and [Migrate](migrate-to-thunder.md).
 
-You can always review live activity and performance on [ThunderScan(Mainnet)](https://scan.thundercore.com) and [ThunderScan(Testnet)](https://scan-testnet.thundercore.com).
+You can always review live activity and performance on [ThunderCoreScan(Mainnet)](https://scan.thundercore.com) and [ThunderCoreScan(Testnet)](https://scan-testnet.thundercore.com).
 
 ## Where can I buy Thunder Tokens?
 Currently, you can purchase Thunder Tokens (TT) via [TTGet](https://ttget.appcenter.games/) or on a few major exchanges, including Huobi and Upbit. More will be coming, please follow our [Medium](https://medium.com/thunderofficial) and [Twitter](https://twitter.com/ThunderProtocol) for announcements.
