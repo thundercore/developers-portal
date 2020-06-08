@@ -11,7 +11,7 @@ title: TT 站
 ThunderCore Hub 是一款安全且易于使用的加密钱包，具有完整的 DApp 浏览器功能。
 
 ### 装载 ThunerCore Hub
-在 [iOS](https://0x7.me/HIF4) 及 [Android](https://static.hljwlrd.com/apk/thundercore-hub) 装载 ThunderCore Hub 并按照以下说明操作。
+在 [iOS](https://0x7.me/HIF4) 及 [Android](https://static.qilunkeji.com/apk/thundercore-hub-weixin.html) 装载 ThunderCore Hub 并按照以下说明操作。
 亦可从 [App Store](https://apps.apple.com/tw/app/thundercore-hub/id1471222243) 或 [Google Play](https://play.google.com/store/apps/details?id=com.thundercore.mobile) 装载。
 
 ### 有关 ThunderCore Hub 的概览
