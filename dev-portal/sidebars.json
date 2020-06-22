@@ -8,7 +8,8 @@
     "Tools": [
       "random-number-generator",
       "develop-with-truffle",
-      "referral-contract"
+      "referral-contract",
+      "guideline-submit"
     ],
     "Get Tokens": [
       "dev-get-tokens"
