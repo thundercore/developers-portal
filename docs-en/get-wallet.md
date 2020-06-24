@@ -20,11 +20,11 @@ Check out [ThunderCore Hub](https://www.thundercore.com/thundercore-hub/) on Thu
 
 ![alt-text](assets/img/wallet/hubbit1.PNG)
 
-2. Then you will see the Browser page. You can enter the DApp or website URL in the search bar.
+2. Then you will see the Home tab. You can enter the DApp or website URL in the search bar.
 
 ![alt-text](assets/img/new_hub_en/hubbit_en.PNG)
 
-3. Click the Wallet tab, then you will see the Wallet page. This page will display the balance of your Thunder Token (TT) and all the transactions you made. Also, you can `Send` or `Receive` your TT  and `buy TT` via this page.
+3. Click the Wallet tab, then you will see the Wallet page. This page will display the balance of your Thunder Token (TT) or TT20 tokens and all the transactions you made. Also, you can `Send` or `Receive` your TT  and `buy TT` via this page.
 
 ![alt-text](assets/img/new_hub_en/wallet_en.jpg)
 
@@ -40,7 +40,7 @@ Check out [ThunderCore Hub](https://www.thundercore.com/thundercore-hub/) on Thu
 
 ![alt-text](assets/img/new_hub_en/send_en.PNG)
 
-This page shows the balance of your TT. You can enter the address you want to send to in the blank.
+This page shows the balance of your TT. You can enter the address you want to send to in the field.
 
 You can also send out your token to another address via QR code scanner.
 
@@ -62,10 +62,6 @@ The recipient will receive the same amount as you entered.
 
 ![alt-text](assets/img/wallet/hubbit9.PNG)
 
- #### Buy Thunder Token 
- 
- If you don't have any Thunder Token (TT). [Try get some](https://www.appcenter.games/ttget) now.
- 
  #### How to share my wallet address?
  
  Please go to receive page and click on the icon at the top right then you will see as below:
