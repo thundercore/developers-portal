@@ -28,7 +28,7 @@ Check out [ThunderCore Hub](https://www.thundercore.com/thundercore-hub/) on Thu
 
 ![alt-text](assets/img/new_hub_en/wallet_en.jpg)
 
-4. You can contact us or Log out on the Settings page.
+4. You can check out announcement, change your wallet language or set up the passcode on the Settings page.
 
 ![alt-text](assets/img/new_hub_en/setting_en.PNG)
 
@@ -46,7 +46,7 @@ You can also send out your token to another address via QR code scanner.
 
 ![alt-text](assets/img/new_hub_en/send_confirm_en.PNG)
 
-Click `Confirm` to proceed if it is all correct.
+Click `Send` to proceed if it is all correct.
 
 #### Receive token
 
