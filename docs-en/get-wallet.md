@@ -22,15 +22,15 @@ Check out [ThunderCore Hub](https://www.thundercore.com/thundercore-hub/) on Thu
 
 2. Then you will see the Browser page. You can enter the DApp or website URL in the search bar.
 
-![alt-text](assets/img/wallet/hubbit2.PNG)
+![alt-text](assets/img/new_hub_en/hubbit_en.PNG)
 
 3. Click the Wallet tab, then you will see the Wallet page. This page will display the balance of your Thunder Token (TT) and all the transactions you made. Also, you can `Send` or `Receive` your TT  and `buy TT` via this page.
 
-![alt-text](assets/img/wallet/hubbit5.PNG)
+![alt-text](assets/img/new_hub_en/wallet_en.jpg)
 
 4. You can contact us or Log out on the Settings page.
 
-![alt-text](assets/img/wallet/hubbit4.PNG)
+![alt-text](assets/img/new_hub_en/setting_en.PNG)
 
 ### Features of ThunderCore Hub
 
@@ -38,13 +38,13 @@ Check out [ThunderCore Hub](https://www.thundercore.com/thundercore-hub/) on Thu
 
  To send out token, click the `Send` button then you will see as below:
 
-![alt-text](assets/img/wallet/hubbit6.PNG)
+![alt-text](assets/img/new_hub_en/send_en.PNG)
 
 This page shows the balance of your TT. You can enter the address you want to send to in the blank.
 
 You can also send out your token to another address via QR code scanner.
 
-![alt-text](assets/img/wallet/hubbit7.PNG)
+![alt-text](assets/img/new_hub_en/send_confirm_en.PNG)
 
 Click `Confirm` to proceed if it is all correct.
 
@@ -52,7 +52,7 @@ Click `Confirm` to proceed if it is all correct.
 
 To receive token, click the `Receive` button then you will see as below:
 
-![alt-text](assets/img/wallet/hubbit5.PNG)
+![alt-text](assets/img/new_hub_en/wallet_en.jpg)
 
 You can set a amount if you want to receive a specific amount from another address.
 
