@@ -19,7 +19,7 @@ ThunderCore Hub 是一款安全且易于使用的加密钱包，具有完整的 
 
 ![alt-text](assets/img/wallet/hubbit1_cn.PNG)
 
-2. 然后，您将看到“浏览器”页面，您可以在搜索栏中输入 DApp 或网站的 URL。
+2. 然后，您将看到“主页”页面，您可以在搜索栏中输入 DApp 或网站的 URL。
 
 ![alt-text](assets/img/new_hub_sc/hubbit_sc.PNG)
 
