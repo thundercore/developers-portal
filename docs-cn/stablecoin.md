@@ -50,6 +50,6 @@ title: 存入 / 提领 TT20-稳定币
 
 6. 您的 USDT 已成功发送。
 
-* 如果要检查 USDT 交易，请转到[Etherscan](https://etherscan.io/) 而不是 ThunderCore Scan（您无法在 ThunderCore Scan 上看到内部转移的交易记录）。
+* 如果要检查 USDT 交易，请转到[以太坊区块链浏览器](https://etherscan.io/) 而不是 ThunderCore Scan（您无法在 ThunderCore Scan 上看到内部转移的交易记录）。
 
 ![alt-text](assets/img/withdraw_stablecoin_cn/6.PNG)
