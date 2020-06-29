@@ -10,7 +10,7 @@ In order to give our users a better experience of ThunderCore's ecosystem, when 
 
 1. After withdraw your USDT (or DAI) from your 3rd party wallet. Open ThunderCore Hub and go to wallet tab then tap USDT and you will see the transactions progress bar as below.
 
-* This step may take a while due to Ethereum network 
+* This step may take a while due to Ethereum network. 
 
 ![alt-text](assets/img/deposit_stablecoin_en/deposit_en.PNG)
 
@@ -18,7 +18,7 @@ In order to give our users a better experience of ThunderCore's ecosystem, when 
 
 ![alt-text](assets/img/deposit_stablecoin_en/processing_en.PNG)
 
-3. You will see the screen as below once your transaction is completed 
+3. You will see the screen as below once your transaction is completed. 
 
 ![alt-text](assets/img/deposit_stablecoin_en/complete_en.PNG)
 
