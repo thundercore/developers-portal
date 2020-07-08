@@ -8,9 +8,9 @@ title: Basic Information
 * The ThunderCore's external protocol is compatible with Ethereum
 Your existing code supporting Ethereum has a good chance to work as-is
 
-
-|Official Website |[https://www.thundercore.com](https://www.thundercore.com)
+Item             | References
 -----------------|----------------------------------------------------------------------------
+|Official Website |[https://www.thundercore.com](https://www.thundercore.com)
 | Block Explorer  |[https://scan.thundercore.com/](https://www.thundercore.com)
 | JSON-RPC        | [https://mainnet-rpc.thundercore.com](https://mainnet-rpc.thundercore.com)
 |                 | wss://mainnet-ws.thundercore.com
@@ -20,12 +20,12 @@ Your existing code supporting Ethereum has a good chance to work as-is
 
 ### Gas Price
 
-* Use the [eth_gasPrice RPC](https://github.com/ethereum/wiki/wiki/JSON-RPC#eth_gasprice) call to get the moving average of recent price
+* Use the [eth_gasPrice RPC](https://eth.wiki/json-rpc/API) call to get the moving average of recent price
 
 
 ### Gas Limit
 
-* Use the [eth_estimateGas RPC](https://eth.wiki/json-rpc/API) call to estimate the computation and storage cost required by the transaction.
+* Use the [eth_estimateGas RPC](https://github.com/ethereum/wiki/wiki/JSON-RPC#eth_estimategas) call to estimate the computation and storage cost required by the transaction.
 If you know for sure the destination address is a regular account and not a smart contract, you can use specify a gas limit of 21 KWei (21,000 Wei)
 
 
@@ -44,8 +44,9 @@ If you know for sure the destination address is a regular account and not a smar
 ## Sending Transactions
 
 
+Protocol| Transfers                   | References
+----|---------------------------------|-----------------------------------------------------------------------------------------------------------------------------
 TT  | Native Cryptocurrency Transfers | See [submitTx()](https://github.com/thundercore/field-support/blob/transfer/src/transfer.js#L29) example [(test)](https://github.com/thundercore/field-support/blob/transfer/test/testTransfer.js#L11)
-----|---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 TT20| TT20 Token Transfers            | See [transferToken()](https://github.com/thundercore/field-support/blob/transfer/src/transfer.js#L54) example [(test)](https://github.com/thundercore/field-support/blob/transfer/test/testTransfer.js#L13)
 
 
@@ -53,8 +54,8 @@ TT20| TT20 Token Transfers            | See [transferToken()](https://github.com
 
 ## Where to Ask Questions
 
-* For short questions, ThunderCore [Discord](https://discord.gg/6gyk6S)
-* For longer questions, use the [thundercore] tag on [StackOverflow](https://stackoverflow.com/questions/tagged/thundercore](https://stackoverflow.com/questions/tagged/thundercore)
+* For short questions, ThunderCore [Discord](https://discordapp.com/invite/5EbxXfw)
+* For longer questions, use the "thundercore" tag on [StackOverflow](https://stackoverflow.com/questions/tagged/thundercore)
 
 
 
