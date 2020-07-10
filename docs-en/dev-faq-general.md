@@ -1,6 +1,6 @@
 ---
-id: basic-information
-title: Basic Information
+id: dev-faq-general
+title: General
 ---
 
 ## Basic Information
