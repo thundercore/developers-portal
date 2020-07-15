@@ -9,6 +9,7 @@
     "获取代币": ["get-tokens"],
   
     "常问问题": [
+      "dev-faq-general",
       "faqs/technical",
       "faqs/pre-release-mainnet"
     ]
