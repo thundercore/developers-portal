@@ -20,8 +20,8 @@ title: 基本资讯
 
 
 ## 生成地址
-* TT鏈地址格式與 Ethereum 相同 e.g. **0x519A3B21130Eb8496F7a8E4782fa3106aE4cFF27**
-* 多幣錢包(HD Wallet)從「記憶助詞」到 private Key 的推導路徑 (BIP32 Derivation Path): m/44'/1001'/0'/0
+* TT 鏈地址格式與 Ethereum 相同 e.g. **0x519A3B21130Eb8496F7a8E4782fa3106aE4cFF27**
+* 多幣錢包 (HD Wallet) 從「記憶助詞」到 private key 的推導路徑 (BIP32 Derivation Path): m/44'/1001'/0'/0
 
 代碼:
 
@@ -30,10 +30,10 @@ title: 基本资讯
 |[crtypo.GenerateKey()](https://github.com/ethereum/go-ethereum/blob/v1.9.12/crypto/crypto.go#L193)| [web3.eth.accounts.create()](https://github.com/thundercore/field-support/blob/private-key-to-address/src/key.js#L9)
 |                                                                                                  |[test](https://github.com/thundercore/field-support/blob/private-key-to-address/test/testPrivateKeyToAddress.js#L12)
 
-| `安全考量，建議不要使用 geth 的 **personal RPC** 模組建立地址，而是用上面代碼中的方式，如此建立出的 private key 不會存在節點內，減少攻擊面積。`|
-|----------------------------------------------------------------------------------------|
+**注意:** 安全考量，建議不要使用 geth 的 **personal RPC** 模組建立地址，而是用上面代碼中的方式，如此建立出的 private key 不會存在節點內，減少攻擊面積。
 
-## 手续费gas怎么设置
+
+## 手续费 gas 怎么设置
 TT 鏈上 transaction 的手續費，分成 gas price 與 gas limit 與 Ethereum 相同。
 * gas price
   * 可用 [eth_gasPrice RPC](https://eth.wiki/json-rpc/API) 呼叫查詢最近均價
@@ -55,7 +55,7 @@ TT 鏈上 transaction 的手續費，分成 gas price 與 gas limit 與 Ethereum
 ### 汇集、提币
 * 從交易所角度，匯集、提幣操作都是從交易所控制 private key 的地址轉帳
 
-|Chain|Item                   | Reference
+|链   |项目                    | 參考
 |-----|-----------------------|--------------------------------------------------------
 |TT  |提交一般交易              |見 **[submitTx()](https://github.com/thundercore/field-support/blob/transfer/src/transfer.js#L29)** 範例 [(test)](https://github.com/thundercore/field-support/blob/transfer/test/testTransfer.js#L11)     |
 |TT20|呼叫 TT20 合約的 transfer |見 **[transferToken()](https://github.com/thundercore/field-support/blob/transfer/src/transfer.js#L54)** 範例 [(test)](https://github.com/thundercore/field-support/blob/transfer/test/testTransfer.js#L13)|
@@ -66,7 +66,7 @@ TT 鏈上 transaction 的手續費，分成 gas price 與 gas limit 與 Ethereum
 * **TT20-USDT** 在 TT 鏈上的地址是 **0x4f3c8e20942461e2c3bdd8311ac57b0c222f2b82**
 
 ### TT20 USDT
-Item             | References
+项目             | 參考
 -----------------|----------------------------------------------------------------------------
 | 合約地址  | **[0x4f3C8E20942461e2c3Bdd8311AC57B0c222f2b82](https://viewblock.io/thundercore/address/0x4f3c8e20942461e2c3bdd8311ac57b0c222f2b82?tab=code)**
 | 名稱     | **TT-USDT**
