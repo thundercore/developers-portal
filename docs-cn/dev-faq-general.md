@@ -10,8 +10,8 @@ title: 基本资讯
   * [https://mainnet-rpc.thundercore.com](https://mainnet-rpc.thundercore.com)
   * wss://mainnet-ws.thundercore.com
 * Thunder Token 是 TT 鏈上的原生加密貨幣，簡稱 **TT**
-  * 單位: 1 TT  = 10<sup>18</sup> Ella
-  * (就像 1 ETH = 10<sup>18</sup> Wei)
+  * 單位: 1 TT  = 10¹⁸ Ella
+  * (就像 1 ETH = 10¹⁸ Wei)
 
 
 ## 如何跑自己的節點
