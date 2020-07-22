@@ -41,4 +41,4 @@ Ledger Nano S 是一款硬件钱包，普遍被认为非常安全，并可在区
     - 就是这样！您的交易应发送到 ThunderCore 网络，您可以通过访问 https://scan.thundercore.com 并搜索交易哈希值来监视交易。
       
 ## 支持
-如果您在 Ledge 设备和钱包上遇到任何问题，请加入我们的 [电报](http://t.me/thunder_official) 并回报问题。 谢谢！ 
+如果您在 Ledger 设备和钱包上遇到任何问题，请加入我们的 [电报](http://t.me/thunder_official) 并回报问题。 谢谢！ 
