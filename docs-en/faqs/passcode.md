@@ -10,7 +10,7 @@ This is a guide to help you setup passcode on your own wallet to protect your as
 
 ![img](assets/img/passcode/passcode_1.PNG)
 
-2. Set your passcide (4 digits)
+2. Set your passcode (4 digits)
 
 ![img](assets/img/passcode/passcode_2.PNG)
 

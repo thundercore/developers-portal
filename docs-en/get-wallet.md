@@ -8,7 +8,7 @@ To use the ThunderCore blockchain (and most other blockchains) you'll need a wal
 
 ## ThunderCore Hub
 
-ThunderCore Hub is a secure and easy to use crypto wallet with full Dapp browser capability.
+ThunderCore Hub is a secure and easy to use crypto wallet with full DApp browser capability.
 
 ### Install ThunderCore Hub
 Download the ThunderCore Hub on [App Store](https://apps.apple.com/tw/app/thundercore-hub/id1471222243) or [Google Play](https://play.google.com/store/apps/details?id=com.thundercore.mobile) and follow the instructions below.
@@ -16,7 +16,7 @@ Download the ThunderCore Hub on [App Store](https://apps.apple.com/tw/app/thunde
 Check out [ThunderCore Hub](https://www.thundercore.com/thundercore-hub/) on ThunderCore official site.
 
 ### Overview about ThunderCore Hub
-1. After open the App, you can sign in the wallet via 3 ways.
+1. After opening the App, you can sign in to the wallet via 3 ways.
 
 ![alt-text](assets/img/wallet/hubbit1.PNG)
 
@@ -24,7 +24,7 @@ Check out [ThunderCore Hub](https://www.thundercore.com/thundercore-hub/) on Thu
 
 ![alt-text](assets/img/new_hub_en/hubbit_en.PNG)
 
-3. Click the Wallet tab, then you will see the Wallet page. This page will display the balance of your Thunder Token (TT) or TT20 tokens and all the transactions you made. Also, you can `Send` or `Receive` your TT  and `buy TT` via this page.
+3. Click the Wallet tab, then you will see the Wallet page. This page will display the balance of your Thunder Token (TT) or TT20 tokens and all the transactions you make. Also, you can `Send` or `Receive` your TT  and `buy TT` via this page.
 
 ![alt-text](assets/img/new_hub_en/wallet_en.jpg)
 
