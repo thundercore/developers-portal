@@ -3,7 +3,7 @@ id: deploy-your-own-game
 title: Deploy Your Own Game in Minutes
 ---
 ## Overview
-Let's take 5-10 minutes and deploy a complete game that is powered by ThunderCore, and is accessible by your friends, family,and anyone with internet access! We will be launching a simple coin flip game where the player wins an equal amount to his or her bet if the coin lands face up. In the case that the coin lands face down, the player loses his or her bet, and is presented with the opportunity to double the previous bet.
+Let's take 5-10 minutes and deploy a complete game that is powered by ThunderCore, and is accessible by your friends, family, and anyone with internet access! We will be launching a simple coin flip game where the player wins an equal amount to his or her bet if the coin lands face up. In the case that the coin lands face down, the player loses his or her bet, and is presented with the opportunity to double the previous bet.
 
 
 ## Exploring the Game

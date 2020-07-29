@@ -54,7 +54,7 @@ We minted a total of 10,000,000,000 Thunder Tokens divided into the following:
 15%, Incentivizing employees and advisors
 
 ## Do you have an ambassador program?
-Community-driven growth is important to us and Ambassadors play a very important part. Please see our [telegram] (https://t.me/thunder_official) for more inforamtion. 
+Community-driven growth is important to us and Ambassadors play a very important part. Please see our [Telegram](https://t.me/thunder_official) for more information. 
 
 This is in the works.
 
