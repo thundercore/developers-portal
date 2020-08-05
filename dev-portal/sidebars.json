@@ -2,6 +2,7 @@
   "docs": {
     "Develop on ThunderCore": [
       "deploy-your-own-game",
+      "add-console",
       "migrate-to-thunder",
       "erc20-smart-contract"
     ],
