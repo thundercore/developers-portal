@@ -1,6 +1,6 @@
 {
   "docs": {
-    "在 ThunderCore 上开发": ["deploy-your-own-game", "migrate-to-thunder", "develop-with-truffle", "erc20-smart-contract"],
+    "在 ThunderCore 上开发": ["deploy-your-own-game", "add-console", "migrate-to-thunder", "develop-with-truffle", "erc20-smart-contract"],
    
     "钱包": ["get-wallet", "ledger-nano-s", "iOS-install", "Android-install"],
   
