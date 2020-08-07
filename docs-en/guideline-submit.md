@@ -1,13 +1,13 @@
 ---
 id: guideline-submit
-title: Submit guideline for Dapp
+title: Submit guideline for DApp
 ---
-## Dapp submit
-You should follow this guideline before submit your Dapp to [TT-Radar](https://dapps.thundercore.com/submit).
+## DApp submit
+You should follow this guideline before submitting your DApp to [TT-Radar](https://dapps.thundercore.com/submit).
 
 
 ## Cover The Carousel Banner Ad Size
-The ThunderCore system will serve banner ad size across the platform. The main banner ad size is as follow:
+The ThunderCore system will serve banner ad size across the platform. The main banner ad size is as follows:
 
 ![guideline_1](assets/img/guideline/guideline_1.png)
 
@@ -18,11 +18,11 @@ Dimension: All standard dimensions font size:
 
 * H3 14px
 
-* Font sizes do not less than 14 px
+* Do not use font sizes less than 14 px
 
 * Format: Jpeg, jpg, PNG. 
 
-* FileSize: 297Wx108H 
+* File Size: 297Wx108H 
 
 **Please submit @2x file**
 

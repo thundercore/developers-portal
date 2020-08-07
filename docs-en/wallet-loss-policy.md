@@ -7,7 +7,7 @@ title: Wallet loss recovery policy
 To recover your ThunderCore Hub, we strongly recommend you set up the passcode that in the setting of ThunderCore Hub. This will increase the chance of the wallet being recovered. 
 
 ## Submit a recovery request
-If you have problems with signal sign-on, please contact the SSO provider first. If you loss the access to your ThunderCore Hub, please contact [Support](mailto:support@thundercore.com), providing the following: 
+If you have problems with single sign-on, please contact the SSO provider first. If you lose access to your ThunderCore Hub, please contact [Support](mailto:support@thundercore.com), providing the following: 
 
 1. Any recent operations in the wallet (please briefly describe); 
 2. SSO adopted of your ThunderCore Hub;

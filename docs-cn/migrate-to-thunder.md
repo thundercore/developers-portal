@@ -5,7 +5,7 @@ title: 从以太坊中迁移
 
 ## 概观
 
-因为 ThunderCore 是 geth 的一个分叉，我们的区块链原生地支援与以太坊虚拟机兼容的智能合约。 这份文件叙述了现存的以太坊 Dapp 移植到 ThunderCore 所需要的步骤。如果你先前尚未创建过 Dapp，请查看 [快速部署你的游戏](deploy-your-own-game.md) 这份教程。
+因为 ThunderCore 是 geth 的一个分叉，我们的区块链原生地支援与以太坊虚拟机兼容的智能合约。 这份文件叙述了现存的以太坊 DApp 移植到 ThunderCore 所需要的步骤。如果你先前尚未创建过 DApp，请查看 [快速部署你的游戏](deploy-your-own-game.md) 这份教程。
 
 ## 连结至我们的网络
 

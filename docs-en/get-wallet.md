@@ -11,7 +11,7 @@ To use the ThunderCore blockchain (and most other blockchains) you'll need a wal
 ThunderCore Hub is a secure and easy to use crypto wallet with full DApp browser capability.
 
 ### Install ThunderCore Hub
-Download the ThunderCore Hub on [App Store](https://apps.apple.com/tw/app/thundercore-hub/id1471222243) or [Google Play](https://play.google.com/store/apps/details?id=com.thundercore.mobile) and follow the instructions below.
+Download the ThunderCore Hub on the [App Store](https://apps.apple.com/tw/app/thundercore-hub/id1471222243) or [Google Play](https://play.google.com/store/apps/details?id=com.thundercore.mobile) and follow the instructions below.
 
 Check out [ThunderCore Hub](https://www.thundercore.com/thundercore-hub/) on ThunderCore official site.
 
@@ -54,7 +54,7 @@ To receive token, click the `Receive` button then you will see as below:
 
 ![alt-text](assets/img/new_hub_en/wallet_en.jpg)
 
-You can set a amount if you want to receive a specific amount from another address.
+You can set an amount if you want to receive a specific amount from another address.
 
 ![alt-text](assets/img/wallet/hubbit8-1.PNG)
 
@@ -64,8 +64,8 @@ The recipient will receive the same amount as you entered.
 
  #### How to share my wallet address?
  
- Please go to receive page and click on the icon at the top right then you will see as below:
+ Please go to the receive page and click on the icon at the top right then you will see as below:
  
  ![alt-text](assets/img/wallet/hubbit12.PNG)
  
- Just copy it and paste to your note or wherever you want to.
+ Just copy and paste it to your note or wherever you want to.

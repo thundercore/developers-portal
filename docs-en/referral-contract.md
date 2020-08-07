@@ -3,18 +3,18 @@ id: referral-contract
 title: Get More Users with Referral Library
 ---
 
-Referral is one of the best effective marketing. Lots of popular dapps, including, [Fomo3d](https://exitscam.me/), [My Crypto Heroes](https://www.mycryptoheroes.net), [HyperSnake](https://www.hypersnakes.io/e/e/d/index.html)..., use referral mechanisms to drive success.
+Referral is one of the best effective marketing. Lots of popular DApps, including: [Fomo3d](https://exitscam.me/), [My Crypto Heroes](https://www.mycryptoheroes.net), [HyperSnake](https://www.hypersnakes.io/e/e/d/index.html)..., use referral mechanisms to drive success.
 
-Hence, we build a referral library, [Referral Solidity](https://github.com/thundercore/referral-solidity), in order to help dapps developers to quickly build their own referral mechanisms. In this document we will share how to use our library. We have also integrated referral to our tutorial [demo](https://thundercore.github.io/DoubleOrNothing).
+Hence, we build a referral library, [Referral Solidity](https://github.com/thundercore/referral-solidity), in order to help DApp developers to quickly build their own referral mechanisms. In this document we will share how to use our library. We have also integrated referral to our tutorial [demo](https://thundercore.github.io/DoubleOrNothing).
 
 ## Referral Solidity Library
 
 Check out our basic multi-level referral: [https://github.com/thundercore/referral-solidity/](https://github.com/thundercore/referral-solidity/). With this library, you can have the following features in minutes:
 
 - Up to three levels referral system with native token (ETH, TT...)
-- Pay referral bonus base referee amount
+- Pay referral bonus based on referee amount
 - Pay instantly when downline joins
-- Only active user will get referral bonus
+- Only active users will get the referral bonus
 
 ### How to Use
 
@@ -24,7 +24,7 @@ First, install our library with the following command.
 npm install @thundercore/referral-solidity
 ```
 
-Then, integrate referral solidity with your dapp by importing, initializing, binding referral relationship with `addReferrer` function and trigger referral payment by `payReferral`.
+Then, integrate referral solidity with your DApp by importing, initializing, binding referral relationship with `addReferrer` function and trigger referral payment by `payReferral`.
 
 ```solidity
 pragma solidity ^0.5.0;
@@ -89,11 +89,11 @@ The map should be pass as [ `<lower amount>`, `<rate>`, ... ]. For example, you 
 
 That's see a real example for more clarity.
 
-## Example - integrate to double and nothing
+## Example - Integrate to Double or Nothing
 
 ![game-image](assets/img/referral/screenshot.png)
 
-In this [instruction](deploy-your-own-game.md), you can deploy and build double and nothing bet game by yourself. Now we wil add referral to this game!
+In this [instruction](deploy-your-own-game.md), you can deploy and build double or nothing bet game by yourself. Now we wil add referral to this game!
 
 Let's set up our referral rules first:
 - an user would pay 3% for referral, in different referral level would get 60%, 30%, 10% of 3%.
@@ -176,7 +176,7 @@ Next, add `payReferral in bet function.
   }
 ```
 
-Finally, to deploy our double and nothing, we need to pass parameters in the migrations. 
+Finally, to deploy our double or nothing, we need to pass parameters in the migrations. 
 
 ```js
 // migrations/1_initial_migration.js
@@ -209,6 +209,6 @@ this.props.contract.accounts(this.props.address).then((info: any) => {
 });
 ```
 
-Then, you can parse url to get referrer, like `https://thundercore.github.io/DoubleOrNothing?referrer=0x26b067f40696c97a058658949ec011ed6a84afe3`. Then, trigger smart contract by `contract.bet(address)` to bind uplines and `contract.bet()` for normal bet. The referral will pay directly when bet.
+Then, you can paste url to get referrer, like `https://thundercore.github.io/DoubleOrNothing?referrer=0x26b067f40696c97a058658949ec011ed6a84afe3`. Then, trigger smart contract by `contract.bet(address)` to bind uplines and `contract.bet()` for normal bet. The referral will pay directly when bet.
 
-For more detail, please check out the code [here](https://github.com/thundercore/DoubleOrNothing).
+For more details, please check out the code [here](https://github.com/thundercore/DoubleOrNothing).

@@ -5,7 +5,8 @@ title: General
 
 ## Basic Information
 
-* The ThunderCore's external protocol is compatible with Ethereum
+* The ThunderCore's external protocol is compatible with Ethereum 
+
 Your existing code supporting Ethereum has a good chance to work as-is
 
 Item             | References

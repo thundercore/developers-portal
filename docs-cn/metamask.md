@@ -42,6 +42,7 @@ Field | Value
 **New RPC URL** | https://mainnet-rpc.thundercore.com
 **ChainID** | 108
 **Symbol** | TT
+**Block Explorer URL (optional)**| https://scan.thundercore.com
 
 6. 收到 Thunder Token (TT) 后，主屏幕上的 MetaMask 帐户信息将会更新。
 

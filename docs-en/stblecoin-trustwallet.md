@@ -1,16 +1,16 @@
 ---
 id: stblecoin-trustwallet
-title: Add TT20-StableCoin to Trust wallet
+title: Add TT20-StableCoin to Trust Wallet
 ---
 
 ## Intro
-Here’s a guide to show you how to add TT20-USDT or TT20-DAI to your Trust wallet. Please note that Trust wallet is a third party wallet, if you have questions about the wallet, please contact with wallet provider directly.
+Here’s a guide to show you how to add TT20-USDT or TT20-DAI to your Trust Wallet. Please note that Trust wallet is a third party wallet, if you have questions about the wallet, please contact the wallet provider directly.
 
 *TT20-StableCon: TT20-USDT, TT20-DAI (learn [more](https://www.wikiwand.com/en/Stablecoin) about stablecoin)*
 
-## Add TT20-USDT to Trust wallet
+## Add TT20-USDT to Trust Wallet
 
-1. Open Trust wallet and click on the “+” in the top right corner.
+1. Open Trust Wallet and click on the “+” in the top right corner.
 
 ![alt-text](assets/img/stablecoin-trustwallet/stablecoin-trustwallet-1.png)
 
@@ -18,7 +18,7 @@ Here’s a guide to show you how to add TT20-USDT or TT20-DAI to your Trust wall
 
 ![alt-text](assets/img/stablecoin-trustwallet/stablecoin-trustwallet-2.png)
 
-3. Please switch the Network from Ethereum to Thunder token
+3. Please switch the Network from Ethereum to Thunder Token
 
 ![alt-text](assets/img/stablecoin-trustwallet/stablecoin-trustwallet-3.png)
 
@@ -38,9 +38,9 @@ Item | Field
 
 ![alt-text](assets/img/stablecoin-trustwallet/stablecoin-trustwallet-6.png)
 
-## Add TT20-DAI to Trust wallet
+## Add TT20-DAI to Trust Wallet
 
-1. Open Trust wallet and click on the “+” in the top right corner 
+1. Open Trust Wallet and click on the “+” in the top right corner 
 
 ![alt-text](assets/img/stablecoin-trustwallet/stablecoin-trustwallet-7.png)
 
@@ -48,7 +48,7 @@ Item | Field
 
 ![alt-text](assets/img/stablecoin-trustwallet/stablecoin-trustwallet-8.png)
 
-3. Please switch the Network from Ethereum to Thunder token
+3. Please switch the Network from Ethereum to Thunder Token
 
 ![alt-text](assets/img/stablecoin-trustwallet/stablecoin-trustwallet-9.png)
 

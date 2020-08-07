@@ -5,7 +5,7 @@ title: Develop with Truffle
 
 ## Overview
 
-[Truffle](https://www.trufflesuite.com/) is one of the most popular development tools in the Ethereum community. ThunderCore is fast and EVM-compatible, so developers can use Ethereum development tools, including Solidity and Truffle, to develop dapps on ThunderCore. We prepared a Truffle box, [thunder-box](https://www.trufflesuite.com/boxes/thunder-box), for developers. This tutorial will help you use our thunder box to quickly set up your dev environment.
+[Truffle](https://www.trufflesuite.com/) is one of the most popular development tools in the Ethereum community. ThunderCore is fast and EVM-compatible, so developers can use Ethereum development tools, including Solidity and Truffle, to develop DApps on ThunderCore. We prepared a Truffle box, [thunder-box](https://www.trufflesuite.com/boxes/thunder-box), for developers. This tutorial will help you use our thunder box to quickly set up your dev environment.
 
 ## Get Started
 

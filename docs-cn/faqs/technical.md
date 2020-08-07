@@ -20,10 +20,10 @@ ThunderCore 与以太坊采用了相同的虚拟机 (EVM)，因此，在以太�
 因为 ThunderCore 与以太坊智能合约兼容，你可以用在以太坊编写的方式在 ThunderCore 上编写， 大多人使用 Truffle，但其他的工具也可使用。請查看我们的教程以 [快速部署你的游戏](deploy-your-own-game.md)。
 
 ## 我如何在 ThunderCore 上部署智能合约？ 
-与你在以太坊上部署的方式完全一样，大多人使用 Truffle，但其他的工具也可使用。請查看我们的教程以了解 [快速部署你的游戏](deploy-your-own-game.md) 与 [自以太坊迁移 Dapps ](migrate-to-thunder.md) 到 ThunderCore。
+与你在以太坊上部署的方式完全一样，大多人使用 Truffle，但其他的工具也可使用。請查看我们的教程以了解 [快速部署你的游戏](deploy-your-own-game.md) 与 [自以太坊迁移 DApps ](migrate-to-thunder.md) 到 ThunderCore。
 
-## 如果我已经在以太坊部署了 Dapp 或智能合约怎么办？
-由于 ThunderCore 与以太坊兼容，在以太坊迁移 Dapp 或智能合约至 ThunderCore 是十分简单的。查看我们的教程以了解 [自以太坊迁移 Dapps](migrate-to-thunder.md)。
+## 如果我已经在以太坊部署了 DApp 或智能合约怎么办？
+由于 ThunderCore 与以太坊兼容，在以太坊迁移 DApp 或智能合约至 ThunderCore 是十分简单的。查看我们的教程以了解 [自以太坊迁移 DApps](migrate-to-thunder.md)。
 
 ## 使用 ThunderCore 的成本是多少？ 
 在 ThunderCore 主网中，Thunder Tokens (TT) 用于支付矿工费。ThunderCore 并不依赖昂贵的工作量证明 (PoW) 算法，因此能够以较低的成本产生区块。

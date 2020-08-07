@@ -28,7 +28,7 @@ Here’s a guide to show you how to add TT20-USDT or TT20-DAI to your MetaMask. 
 
 ![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-4.png)
 
-5. Copy `0x4f3C8E20942461e2c3Bdd8311AC57B0c222f2b82` to the Token Contract Address then other blanks will be filled in automatically. Press Next to proceed
+5. Copy `0x4f3C8E20942461e2c3Bdd8311AC57B0c222f2b82` to the Token Contract Address then the other blanks will be filled in automatically. Press Next to proceed
 
 ![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-5.png)
 
@@ -36,7 +36,7 @@ Here’s a guide to show you how to add TT20-USDT or TT20-DAI to your MetaMask. 
 
 ![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-6.png)
 
-7. Then you will see TT-USDT be listed on your MetaMask
+7. Then you will see TT-USDT listed on your MetaMask
 
 ![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-7.png)
 
@@ -58,7 +58,7 @@ Here’s a guide to show you how to add TT20-USDT or TT20-DAI to your MetaMask. 
 
 ![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-11.png)
 
-5. Copy `0x2b31e3b88847f03c1335E99A0d1274A2c72059DE` to the Token Contract Address then other blanks will be filled in automatically. Press Next to proceed
+5. Copy `0x2b31e3b88847f03c1335E99A0d1274A2c72059DE` to the Token Contract Address then the other blanks will be filled in automatically. Press Next to proceed
 
 ![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-12.png)
 
@@ -66,6 +66,6 @@ Here’s a guide to show you how to add TT20-USDT or TT20-DAI to your MetaMask. 
 
 ![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-13.png)
 
-7. Then you will see TT20-DAI be listed on your MetaMask
+7. Then you will see TT20-DAI listed on your MetaMask
 
 ![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-14.png)
