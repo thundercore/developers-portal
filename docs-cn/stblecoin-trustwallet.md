@@ -1,14 +1,14 @@
 ---
 id: stblecoin-trustwallet
-title: 将 TT-稳定币添加到 Trust wallet
+title: 将 TT-稳定币添加到 Trust Wallet
 ---
 
 ## 介绍
-这里将向您展示如何将 TT-USDT 或 TT-DAI 添加到您的 Trust wallet。请注意，Trust wallet 是一款第三方钱包，如果对钱包有疑问，请直接与钱包提供商联系。
+这里将向您展示如何将 TT-USDT 或 TT-DAI 添加到您的 Trust Wallet。请注意，Trust Wallet 是一款第三方钱包，如果对钱包有疑问，请直接与钱包提供商联系。
 
 *TT-稳定币： TT-USDT, TT-DAI (了解 [更多](https://www.wikiwand.com/zh-cn/%E7%A8%B3%E5%AE%9A%E5%B8%81) 关于稳定币)*
 
-## 将 TT-USDT 添加到 Trust wallet
+## 将 TT-USDT 添加到 Trust Wallet
 
 1. 打开 Trust wallet，然后单击右上角的 `+` 
 
@@ -38,9 +38,9 @@ Item | Field
 
 ![alt-text](assets/img/stablecoin-trustwallet/stablecoin-trustwallet-6.png)
 
-## 将 TT-DAI 添加到 Trust wallet
+## 将 TT-DAI 添加到 Trust Wallet
 
-1. 打开 Trust wallet，然后单击右上角的 `+` 
+1. 打开 Trust Wallet，然后单击右上角的 `+` 
 
 ![alt-text](assets/img/stablecoin-trustwallet/stablecoin-trustwallet-7.png)
 

@@ -6,7 +6,7 @@ title: Financial Service Landscape
 There are different ways to get ERC-20 tokens on ThunderCore, you can find a way that suits you to enter ThunderCore and start to experience the ultra-fast and secure blockchain. 
 
 ## Landscape
-It’s all bidirectional of each line:
+Each line is bidirectional:
 
 ![alt-text](assets/img/financial-service-landscape.png)
 
@@ -38,7 +38,7 @@ _If you don’t have any crypto_
      * Click `Buy now` will auto-connect with your MetaMask
      * Select the package you want to purchase
      * Check out the [FAQ](https://ttget.appcenter.games/) if you have other questions about TTGet
-  2. [IndaCoin](https://indacoin.com/en_TW/change/buy-thundertoken-with-cardusd?amount_pay=100) - To get TT with a credit card or debit card instantly (not available for the location such as the US, China, Japan, etc.)
+  2. [IndaCoin](https://indacoin.com/en_TW/change/buy-thundertoken-with-cardusd?amount_pay=100) - To get TT with a credit card or debit card instantly (not available for locations such as the US, China, Japan, etc.)
 
 * If you don’t have any TT or TT-StableCoin,
 You can buy them via a crypto exchange (eg. Huobi, Upbit) or you can get them via OTC.

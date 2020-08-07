@@ -8,7 +8,7 @@ title: 快速部署你的游戏
 
 ## 游戏探索
 我们需要获取一个 [钱包](get-wallet.md) 并存取 ThunderCore 的网络以开始游戏。 使用 [Metamask](https://metamask.io/) 
-或 [TrustWallet](https://trustwallet.com/) 所指向的 Thunder RPC，并浏览 [这里](https://thundercore.github.io/DoubleOrNothing/)
+或 [Trust Wallet](https://trustwallet.com/) 所指向的 Thunder RPC，并浏览 [这里](https://thundercore.github.io/DoubleOrNothing/)
 以探索我们在教程中设计的游戏。
 
 ![game-image](assets/img/game/double.png)

@@ -63,4 +63,4 @@ We're currently in the process of integrating the latest EVM changes (St. Peters
 
 ## Yup, that's it
 
-No need to rewrite your smart contracts or change any of your infrastructure code, you should be good to go! If you are having any problems, post in our [Discord](https://discordapp.com/invite/5EbxXfw) for direct access to, and immediate help from, some of our developers.
+No need to rewrite your smart contracts or change any of your infrastructure code, you should be good to go! If you are facing any problems, post it in our [Discord](https://discordapp.com/invite/5EbxXfw) for direct access to, and immediate help from, some of our developers.
