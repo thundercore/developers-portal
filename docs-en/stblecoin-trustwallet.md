@@ -4,9 +4,9 @@ title: Add TT20-StableCoin to Trust Wallet
 ---
 
 ## Intro
-Here’s a guide to show you how to add TT20-USDT or TT20-DAI to your Trust Wallet. Please note that Trust wallet is a third party wallet, if you have questions about the wallet, please contact the wallet provider directly.
+Here’s a guide to show you how to add TT20-USDT or TT20-SAI to your Trust Wallet. Please note that Trust wallet is a third party wallet, if you have questions about the wallet, please contact the wallet provider directly.
 
-*TT20-StableCon: TT20-USDT, TT20-DAI (learn [more](https://www.wikiwand.com/en/Stablecoin) about stablecoin)*
+*TT20-StableCon: TT20-USDT, TT20-SAI (learn [more](https://www.wikiwand.com/en/Stablecoin) about stablecoin)*
 
 ## Add TT20-USDT to Trust Wallet
 
@@ -38,13 +38,13 @@ Item | Field
 
 ![alt-text](assets/img/stablecoin-trustwallet/stablecoin-trustwallet-6.png)
 
-## Add TT20-DAI to Trust Wallet
+## Add TT20-SAI to Trust Wallet
 
 1. Open Trust Wallet and click on the “+” in the top right corner 
 
 ![alt-text](assets/img/stablecoin-trustwallet/stablecoin-trustwallet-7.png)
 
-2. Search for DAI or any text in the search bar, then tap the “Add Custom Token” 
+2. Search for SAI or any text in the search bar, then tap the “Add Custom Token” 
 
 ![alt-text](assets/img/stablecoin-trustwallet/stablecoin-trustwallet-8.png)
 
@@ -60,8 +60,8 @@ Item | Field
 
 Item | Field
 ----- | -----
-**Name** | USDT
-**Symbol** | TT-DAI
+**Name** | SAI
+**Symbol** | TT-SAI
 **Decimals** | 18
 
 ![alt-text](assets/img/stablecoin-trustwallet/stablecoin-trustwallet-12.png)
