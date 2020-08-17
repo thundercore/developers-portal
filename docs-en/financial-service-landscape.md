@@ -17,7 +17,7 @@ _If you are a crypto holder or user_
   1. You can get your TT via [here](https://coinmarketcap.com/currencies/thunder-token/#markets) 
   2. Clicking on `Pair` will direct you to the trading pair for the exchange
 
-* Convert your USDT/DAI to TT-StableCoin via [TokenBridge](https://stablecoin.thundercore.com/)
+* Convert your USDT/SAI to TT-StableCoin via [TokenBridge](https://stablecoin.thundercore.com/)
   1. Refer to [TokenBridge](https://stablecoin.thundercore.com/) and enable the Web3 wallet (such as MetaMask) to start 
   2. Input the amount of USDT/DAI you want to transfer 
    3. Wait for the block confirmation then you will see the Success page if the transaction is complete 
