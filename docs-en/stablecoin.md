@@ -4,11 +4,11 @@ title: Deposit / Withdraw TT20 stablecoin
 ---
 ## Intro about TT20 stablecoin
 
-In order to give our users a better experience of ThunderCore's ecosystem, when you use USDT/DAI to deposit into ThunderCore Hub, it will be automatically converted to TT20 stablecoin. **Please don't worry**, this process is reversible, and when you try to withdraw TT20 stablecoin to your other wallet, it will be converted back to USDT/DAI. 
+In order to give our users a better experience of ThunderCore's ecosystem, when you use USDT/SAI to deposit into ThunderCore Hub, it will be automatically converted to TT20 stablecoin. **Please don't worry**, this process is reversible, and when you try to withdraw TT20 stablecoin to your other wallet, it will be converted back to USDT/SAI. 
 
 ## Deposit stablecoin from a 3rd party wallet to ThunderCore Hub 
 
-1. After withdrawing your USDT (or DAI) from your 3rd party wallet. Open ThunderCore Hub and go to wallet tab then tap USDT and you will see the transactions progress bar as below.
+1. After withdrawing your USDT (or SAI) from your 3rd party wallet. Open ThunderCore Hub and go to wallet tab then tap USDT and you will see the transactions progress bar as below.
 
 * This step may take a while due to the Ethereum network. 
 
