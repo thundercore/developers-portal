@@ -2,7 +2,7 @@
 id: erc20-smart-contract
 title: Deploy Your Own ERC-20
 ---
-[ERC20](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) tokens are one of the most popular DApps in the blockchain community. This tutorial will guide you through deploying an ERC-20 Smart Contract on ThunderCore in 5 simple steps. It's super easy and fast!
+[ERC20](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) tokens are one of the most popular DApps in the blockchain community. This tutorial will guide you through deploying an ERC-20 smart contract on ThunderCore in 5 simple steps. It's super easy and fast!
 
 The final repo is here https://github.com/LucienLee/thundercore-erc20.
 
@@ -44,7 +44,7 @@ In this tutorial we will be covering:
 ## 1. Unboxing the ThunderCore Boilerplate Box 
 To make it easier to get started with ThunderCore, we’ve created a template, [Thunder Box](https://github.com/thundercore/thunder-box), for ThunderCore DApps that can be downloaded via Truffle.
 ​
-On a terminal, create a new project directory and navigate to it:
+ On a terminal, create a new project directory and navigate to it:
 
 ```bash
 truffle unbox thundercore/thunder-box
@@ -61,7 +61,7 @@ yarn add openzeppelin-solidity
 ## 2. Creating the "MyToken" smart contract
 Let's build our token contracts first. We build our token by extending `StandardToken` contract. 
 
-1. In the contracts/ directory of your Truffle Box, create the file `MyToken.sol` and add the following contents:
+1. In the contracts/directory of your Truffle Box, create the file `MyToken.sol` and add the following contents:
 
 ```solidity
 pragma solidity ^0.5.0;
@@ -100,7 +100,7 @@ Now, we have our own tokens!
 
 ## 3. Compiling and deploying the smart contract
 
-1. In the migrations/ directory, create the file `2_deploy_contracts.js` and add the following content:
+1. In the migrations/directory, create the file `2_deploy_contracts.js` and add the following content:
 
 ```js
 var MyToken = artifacts.require("MyToken");
@@ -220,7 +220,7 @@ Now, you can prepare to deploy your token to ThunderCore testnet or mainnet. Ple
     dog cat apple bird ...
     ```
 
-    If you use metamask to control your address, you can check how to export private key [here](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key). The address your used will be filled your `MyToken`.
+    If you use metamask to control your address, you can check how to export the private key [here](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key). The address your used will be filled your `MyToken`.
 
 2. Compile and migrate your contract for testnet and mainnet
 
@@ -236,7 +236,7 @@ Now, you can prepare to deploy your token to ThunderCore testnet or mainnet. Ple
 
 ## 5. Interacting with the new token
 
-Now, we are preparing to set up our frontend web page for user interacting with our tokens. In this tutorial, we focus on smart contract creation but not on frontend and web3 communitcating with contracts. Hence, we just give an example at https://github.com/LucienLee/thundercore-erc20/tree/master/client. If you're interested in the details, you can look up the references in the end.
+Now, we are preparing to set up our frontend web page for user interacting with our tokens. In this tutorial, we focus on smart contract creation and not on frontend and web3 communitcating with contracts. Hence, we just provide an example at https://github.com/LucienLee/thundercore-erc20/tree/master/client. If you're interested in the details, you can look up the references in the end of this page.
 
 1. Copy all files in [https://github.com/LucienLee/thundercore-erc20/tree/master/client](https://github.com/LucienLee/thundercore-erc20/tree/master/client) to your local client folder. We recommend you pull the whole project and copy and past client folder to yours.
 
@@ -248,7 +248,7 @@ npm install
 # or 
 yarn install
 ```
-3. Run up the frontend page with `npm start` or `yarn start`. The UI would be accessible at http://localhost:1234.
+3. Run up the frontend page with `npm start` or `yarn start`. The UI will be accessible at http://localhost:1234.
 
 4. If you want to host on the internet, run `npm run build` or `yarn build`. Then, you will get the bundle UI at `client/dist` page and can host by any static server on the internet. 
 
@@ -275,6 +275,6 @@ For questions, please join to our [Discord](https://discord.gg/5EbxXfw) channel.
 Happy Coding! 😆
 
 ### References
-- [building robust smart contracts with openzeppelin](https://www.trufflesuite.com/tutorials/robust-smart-contracts-with-openzeppelin)
-- [solidity](https://solidity.readthedocs.io/en/develop/)
-- [web3](https://github.com/ethereum/web3.js/)
+- [Building Robust Smart Contracts with openzeppelin](https://www.trufflesuite.com/tutorials/robust-smart-contracts-with-openzeppelin)
+- [Solidity](https://solidity.readthedocs.io/en/develop/)
+- [Web3](https://github.com/ethereum/web3.js/)

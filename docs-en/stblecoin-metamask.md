@@ -4,7 +4,7 @@ title: Add TT20-StableCoin to MetaMask
 ---
 
 ## Intro
-Here’s a guide to show you how to add TT20-USDT or TT20-SAI to your MetaMask. Please note that MetaMask is a third party Web3 wallet, if you have questions about the wallet, please [contact](https://metamask.zendesk.com/hc/en-us) with wallet provider directly.
+Here’s a guide to show you how to add TT20-USDT or TT20-SAI to your MetaMask. Please note that MetaMask is a third party Web3 wallet, if you have questions about the wallet, please [contact](https://metamask.zendesk.com/hc/en-us) the wallet provider directly.
 
 *TT20-StableCon: TT20-USDT, TT20-SAI (learn [more](https://www.wikiwand.com/en/Stablecoin) about stablecoin)*
 
@@ -28,7 +28,7 @@ Here’s a guide to show you how to add TT20-USDT or TT20-SAI to your MetaMask. 
 
 ![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-4.png)
 
-5. Copy `0x4f3C8E20942461e2c3Bdd8311AC57B0c222f2b82` to the Token Contract Address then the other blanks will be filled in automatically. Press Next to proceed
+5. Copy `0x4f3C8E20942461e2c3Bdd8311AC57B0c222f2b82` to the Token Contract Address and then the other blanks will be filled in automatically. Press Next to proceed
 
 ![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-5.png)
 
@@ -42,7 +42,7 @@ Here’s a guide to show you how to add TT20-USDT or TT20-SAI to your MetaMask. 
 
 ## Add TT20-SAI to MetaMask
 
-1. Open your MetaMask and make sure the Networks has switched to ThunderCore
+1. Open your MetaMask and make sure the Networks has been switched to ThunderCore
 
 ![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-8.png)
 
@@ -58,7 +58,7 @@ Here’s a guide to show you how to add TT20-USDT or TT20-SAI to your MetaMask. 
 
 ![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-11.png)
 
-5. Copy `0x2b31e3b88847f03c1335E99A0d1274A2c72059DE` to the Token Contract Address then the other blanks will be filled in automatically. Press Next to proceed
+5. Copy `0x2b31e3b88847f03c1335E99A0d1274A2c72059DE` to the Token Contract Address and then the other blanks will be filled in automatically. Press Next to proceed
 
 ![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-12.png)
 
@@ -66,6 +66,6 @@ Here’s a guide to show you how to add TT20-USDT or TT20-SAI to your MetaMask. 
 
 ![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-13.png)
 
-7. Then you will see TT20-DAI listed on your MetaMask
+7. Then you will see TT20-SAI listed on your MetaMask
 
 ![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-14.png)
