@@ -6,7 +6,7 @@ title: Add TT20-StableCoin to MetaMask
 ## Intro
 Here’s a guide to show you how to add TT20-USDT or TT20-SAI to your MetaMask. Please note that MetaMask is a third party Web3 wallet, if you have questions about the wallet, please [contact](https://metamask.zendesk.com/hc/en-us) the wallet provider directly.
 
-*TT20-StableCon: TT20-USDT, TT20-SAI (learn [more](https://www.wikiwand.com/en/Stablecoin) about stablecoin)*
+*TT20-StableCoin: TT20-USDT, TT20-SAI (learn [more](https://www.wikiwand.com/en/Stablecoin) about stablecoin)*
 
 *If you want to know how to set up and use your MetaMask, please refer to [here](https://developers.thundercore.com/docs/get-wallet/#metamask)*
 

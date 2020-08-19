@@ -8,7 +8,7 @@ There are a few ways to get tokens so you can start utilizing the ThunderCore ne
 
 Network|Faucet                       	   |Limits
 -------|-----------------------------------|----------
-Mainnet|https://faucet.thundercore.com|Once per lifetime (gmail only)
+Mainnet|https://faucet.thundercore.com|Once per lifetime (Gmail only)
 Testnet|https://faucet-testnet.thundercore.com|1 TT per hour
 
 ## Buying tokens
