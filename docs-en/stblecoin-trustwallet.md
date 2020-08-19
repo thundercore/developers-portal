@@ -6,7 +6,7 @@ title: Add TT20-StableCoin to Trust Wallet
 ## Intro
 Here’s a guide to show you how to add TT20-USDT or TT20-SAI to your Trust Wallet. Please note that Trust Wallet is a third party wallet, if you have questions about the wallet, please contact the wallet provider directly.
 
-*TT20-StableCon: TT20-USDT, TT20-SAI (learn [more](https://www.wikiwand.com/en/Stablecoin) about stablecoin)*
+*TT20-StableCoin: TT20-USDT, TT20-SAI (learn [more](https://www.wikiwand.com/en/Stablecoin) about stablecoin)*
 
 ## Add TT20-USDT to Trust Wallet
 
