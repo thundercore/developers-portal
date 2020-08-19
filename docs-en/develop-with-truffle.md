@@ -5,11 +5,11 @@ title: Develop with Truffle
 
 ## Overview
 
-[Truffle](https://www.trufflesuite.com/) is one of the most popular development tools in the Ethereum community. ThunderCore is fast and EVM-compatible, so developers can use Ethereum development tools, including Solidity and Truffle, to develop DApps on ThunderCore. We prepared a Truffle box, [thunder-box](https://www.trufflesuite.com/boxes/thunder-box), for developers. This tutorial will help you use our thunder box to quickly set up your dev environment.
+[Truffle](https://www.trufflesuite.com/) is one of the most popular development tools in the Ethereum community. ThunderCore is fast and EVM-compatible, so developers can use Ethereum development tools, including Solidity and Truffle, to develop DApps on ThunderCore. We have prepared a Truffle box: [thunder-box](https://www.trufflesuite.com/boxes/thunder-box), for developers. This tutorial will help you to use our thunder box to quickly set up your dev environment.
 
 ## Get Started
 
-First, ensure you are in a new and empty directory and that you have `nodejs` in your environment.
+First, ensure that you are in a new and empty directory and that you have `nodejs` in your environment.
 
 1. Run the unbox command via npx and skip to step 3.
 
@@ -30,7 +30,7 @@ truffle unbox thundercore/thunder-box
 truffle develop
 ```
 
-4. Compile and migrate the smart contracts. Note inside the development console we don't preface commands with `truffle`.
+4. Compile and migrate the smart contracts. Note that inside the development console we don't preface commands with `truffle`.
 
 ```bash
 compile
@@ -52,9 +52,9 @@ npm clean
 
 ## Develop on Thunder Testnet and Mainnet
 
-1. Get thunder tokens. Please follow this [instruction](get-tokens.md) to get your tokens.
+1. Get Thunder Tokens. Please follow this [instruction](get-tokens.md) to get your tokens.
   
-2. To set up the control of accounts for deployment do **one** of the following:
+2. To set up the control of accounts for deployment do **ONE** of the following:
 
    1. Write your 12-word mnemonic (seed phrase) to a file named .mnemonic
    2. Export your account private keys, one per line, to a file named .private-keys

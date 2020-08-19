@@ -3,15 +3,15 @@ id: referral-contract
 title: Get More Users with Referral Library
 ---
 
-Referral is one of the best effective marketing. Lots of popular DApps, including: [Fomo3d](https://exitscam.me/), [My Crypto Heroes](https://www.mycryptoheroes.net), [HyperSnake](https://www.hypersnakes.io/e/e/d/index.html)..., use referral mechanisms to drive success.
+Referral is one of the best effective form of marketing. Lots of popular DApps, including: [Fomo3d](https://exitscam.me/), [My Crypto Heroes](https://www.mycryptoheroes.net), [HyperSnake](https://www.hypersnakes.io/e/e/d/index.html), as well as many others use referral mechanisms to drive success.
 
-Hence, we build a referral library, [Referral Solidity](https://github.com/thundercore/referral-solidity), in order to help DApp developers to quickly build their own referral mechanisms. In this document we will share how to use our library. We have also integrated referral to our tutorial [demo](https://thundercore.github.io/DoubleOrNothing).
+Hence, we built a referral library: [Referral Solidity](https://github.com/thundercore/referral-solidity), to help DApp developers to quickly build their own referral mechanisms. In this document we will share how to use our library. We have also integrated referral to our tutorial [demo](https://thundercore.github.io/DoubleOrNothing).
 
 ## Referral Solidity Library
 
 Check out our basic multi-level referral: [https://github.com/thundercore/referral-solidity/](https://github.com/thundercore/referral-solidity/). With this library, you can have the following features in minutes:
 
-- Up to three levels referral system with native token (ETH, TT...)
+- Up to three levels of referral system with native token (ETH, TT...)
 - Pay referral bonus based on referee amount
 - Pay instantly when downline joins
 - Only active users will get the referral bonus
@@ -47,7 +47,7 @@ contracts YourGame is Referral {
 }
 ```
 
-In the line of `constructor() Referral (10000, 500, 1 days, true, [6000, 3000, 1000], [1, 10000])`, you might be confused what are those paramters mean. Pleasee see the explanation for the parameters below:
+In the line of `constructor() Referral (10000, 500, 1 days, true, [6000, 3000, 1000], [1, 10000])`. You may be confused what those paramters mean, thus please refer to the explanation for the parameters below:
 
 ```solidity
 Referral(decimals, referralBonus, secondsUntilInactive, onlyRewardActiveReferrers, levelRate, refereeBonusRateMap)
@@ -56,11 +56,11 @@ Referral(decimals, referralBonus, secondsUntilInactive, onlyRewardActiveReferrer
 ##### decimals `<uint>`
 
 Base decimals for all rate calculation in referral.
-For example, if `decimals` equals to `10000`, and `referralBonus` is `500`, that means referral bonus rate is `5%`.
+For example, if `decimals` equals to `10000`, and `referralBonus` is `500`, that means the referral bonus rate is `5%`.
 
 ##### referralBonus `<uint>`
 
-The total referral bonus rate, which will divide by `decimals`. For example, If you will like to set a rate of `5%`, then set `referralBonus` as `50` when `decimals` is `1000`.
+The total referral bonus rate, which will be divided by `decimals`. For example, If you will like to set a rate of `5%`, then set `referralBonus` as `50` when `decimals` is `1000`.
 
 ##### secondsUntilInactive `<uint>`
 
@@ -72,7 +72,7 @@ The flag to enable whether not to pay inactive uplines.
 
 ##### levelRate `<uint[]>`
 
-The bonus rate for each level, which will divide by decimals. The max level depth is 3. For example, set `levelRate` as `[6000, 3000, 1000]` when `decimals` is `10000` for the following case:
+The bonus rate for each level, which will be divided by decimals. The max level depth is 3. For example, set `levelRate` as `[6000, 3000, 1000]` when `decimals` is `10000` for the following case:
 
 |      | level1 | level2 | level3 |
 | ---- | ------ | ------ | ------ |
@@ -80,8 +80,8 @@ The bonus rate for each level, which will divide by decimals. The max level dept
 
 ##### refereeBonusRateMap `<uint[]>`
 
-The bonus rate mapping to each referree amount, which will divide by decimals too. The max depth is 3.
-The map should be pass as [ `<lower amount>`, `<rate>`, ... ]. For example, you should pass `[1, 2500, 5, 5000, 10, 10000]` when decimals is `10000` for the following case:
+The bonus rate mapping to each referree amount, will be divided by decimals too. The max depth is 3.
+The map should be passed as [ `<lower amount>`, `<rate>`, ... ]. For example, you should pass `[1, 2500, 5, 5000, 10, 10000]` when decimals is `10000` for the following case:
 
 |      | 1 - 4 | 5 - 9 | 10+  |
 | ---- | ----- | ----- | ---- |
@@ -93,22 +93,22 @@ That's see a real example for more clarity.
 
 ![game-image](assets/img/referral/screenshot.png)
 
-In this [instruction](deploy-your-own-game.md), you can deploy and build double or nothing bet game by yourself. Now we wil add referral to this game!
+In this [instruction](deploy-your-own-game.md), you can deploy and build the double or nothing bet game by yourself. Now we will add referrals to this game!
 
 Let's set up our referral rules first:
-- an user would pay 3% for referral, in different referral level would get 60%, 30%, 10% of 3%.
-- an user  get 50% of referral bonus when they refer less than 5 people, 75% for less than 25 people, and g100% when over 25 people.
-- an user need to play within 24hrs to remain an active user, which means if a user didn't play once a day, he cannot get the referral.
+- A user would pay 3% for referral, in different referral levels would get 60%, 30%, 10% of 3%.
+- A user gets 50% of referral bonus when they refer less than 5 people, 75% for less than 25 people, and 100% when over 25 people.
+- A user needs to play within 24 hours to remain an active user, which means that if a user does not play once a day, he cannot get the referral.
 
 Hence, assume that:
 
-The referral sequence A ← B ← C ← D. A has referee 25 ppl, B has 6 ppl and C has 1 ppl. When D bets 1 TT, 3% of bet will be in referral pool, 0.03 TT. Then each upline will get :
+The referral sequence A ← B ← C ← D. A has referred 25 people, B has 6 people and C has 1 person. When D bets 1 TT, 3% of bet will go to the referral pool (0.03 TT). Then each upline will get:
 
 - A: 1 \* 0.03 \* 0.1 \* 1 = 0.003
 - B: 1 \* 0.03 \* 0.3 \* 0.75 = 0.00675
 - C: 1 \* 0.03 \* 0.6 \* 0.5 = 0.009
 
-So the parameters we pass to constructor wil be:
+So the parameters we pass to constructor will be:
 
 |       | decimals | referralBonus | secondsUntilInactive | onlyRewardActiveReferrers | levelRate       | refereeBonusRateMap        |
 | ----- | -------- | ------------- | -------------------- | ------------------------- | --------------- | -------------------------- |
@@ -196,7 +196,7 @@ module.exports = function(deployer) {
 
 ### Frontend
 
-Now, you can get the referral data from public accounts in the contract, including total amount of referee and total referral bonus of an user.
+Now, you can get the referral data from public accounts in the contract, including the total amount of referees and the total referral bonus of a user.
 
 ```js
 this.props.contract.accounts(this.props.address).then((info: any) => {
@@ -209,6 +209,6 @@ this.props.contract.accounts(this.props.address).then((info: any) => {
 });
 ```
 
-Then, you can paste url to get referrer, like `https://thundercore.github.io/DoubleOrNothing?referrer=0x26b067f40696c97a058658949ec011ed6a84afe3`. Then, trigger smart contract by `contract.bet(address)` to bind uplines and `contract.bet()` for normal bet. The referral will pay directly when bet.
+Then, you can paste the url to get referrer, like `https://thundercore.github.io/DoubleOrNothing?referrer=0x26b067f40696c97a058658949ec011ed6a84afe3`. Then, trigger smart contract by `contract.bet(address)` to bind uplines and `contract.bet()` for normal bet. The referral will pay directly when bet.
 
 For more details, please check out the code [here](https://github.com/thundercore/DoubleOrNothing).
