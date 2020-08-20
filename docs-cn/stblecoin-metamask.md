@@ -46,26 +46,22 @@ title: 将 TT-稳定币添加到 MetaMask
 
 ![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-8.png)
 
-2. 点击菜单
+2. 点击添加代币
 
 ![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-9.png)
 
-3. 点击添加代币
+3. 在标签中选择自定义代币
 
 ![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-10.png)
 
-4. 在标签中选择自定义代币
+4. 将 `0x2b31e3b88847f03c1335E99A0d1274A2c72059DE` 复制到代币合约地址，其他空白栏位将自动填入，按下一步继续
 
 ![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-11.png)
 
-5. 将 `0x2b31e3b88847f03c1335E99A0d1274A2c72059DE` 复制到代币合约地址，其他空白栏位将自动填入，按下一步继续
+5. 按添加代币继续
 
 ![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-12.png)
 
-6. 按添加代币继续
+6. 然后，您将看到 TT-SAI 列在您的 MetaMask 中
 
 ![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-13.png)
-
-7. 然后，您将看到 TT-SAI 列在您的 MetaMask 中
-
-![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-14.png)

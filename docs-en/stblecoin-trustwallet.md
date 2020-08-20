@@ -60,7 +60,7 @@ Item | Field
 
 Item | Field
 ----- | -----
-**Name** | SAI
+**Name** | TT-SAI
 **Symbol** | TT-SAI
 **Decimals** | 18
 

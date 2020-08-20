@@ -62,7 +62,7 @@ Item | Field
 
 Item | Field
 ----- | -----
-**Name** | USDT
+**Name** | TT-SAI
 **Symbol** | TT-SAI
 **Decimals** | 18
 
