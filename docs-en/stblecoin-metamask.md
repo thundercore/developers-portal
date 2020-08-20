@@ -46,26 +46,22 @@ Here’s a guide to show you how to add TT20-USDT or TT20-SAI to your MetaMask. 
 
 ![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-8.png)
 
-2. Click Menu
+2. Click Add Token 
 
 ![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-9.png)
 
-3. Click Add Token 
+3. Select Custom Token in the tab
 
 ![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-10.png)
 
-4. Select Custom Token in the tab
+4. Copy `0x2b31e3b88847f03c1335E99A0d1274A2c72059DE` to the Token Contract Address and then the other blanks will be filled in automatically. Press Next to proceed
 
 ![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-11.png)
 
-5. Copy `0x2b31e3b88847f03c1335E99A0d1274A2c72059DE` to the Token Contract Address and then the other blanks will be filled in automatically. Press Next to proceed
+5. Press Add Tokens to proceed
 
 ![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-12.png)
 
-6. Press Add Tokens to proceed
+6. Then you will see TT20-SAI listed on your MetaMask
 
 ![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-13.png)
-
-7. Then you will see TT20-SAI listed on your MetaMask
-
-![alt-text](assets/img/stablecoin-metamask/stablecoin-metamask-14.png)
