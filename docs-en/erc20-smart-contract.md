@@ -50,12 +50,12 @@ To make it easier to get started with ThunderCore, we’ve created a template, [
 truffle unbox thundercore/thunder-box
 ```
 
-Next, we'll install OpenZeppelin. The most recent version of OpenZeppelin can be found as an npm package.
+Next, we'll install OpenZeppelin 2.x. The most recent version of OpenZeppelin can be found as an npm package.
 
 ```bash
-npm install openzeppelin-solidity 
+npm install openzeppelin-solidity@2.5.1
 # or 
-yarn add openzeppelin-solidity 
+yarn add openzeppelin-solidity@2.5.1
 ```
 
 ## 2. Creating the "MyToken" smart contract
