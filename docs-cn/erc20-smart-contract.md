@@ -48,12 +48,12 @@ MetaMask 作为钱包的浏览器插件，其可安全地存储您的加密货�
 truffle unbox thundercore/thunder-box
 ```
 
-接下来，我们将安装 OpenZeppelin。最新版本的 OpenZeppelin 可以在 npm 组件包中找到。
+接下来，我们将安装 OpenZeppelin 2.x。最新版本的 OpenZeppelin 可以在 npm 组件包中找到。
 
 ```bash
-npm install openzeppelin-solidity 
+npm install openzeppelin-solidity@2.5.1
 # or 
-yarn add openzeppelin-solidity 
+yarn add openzeppelin-solidity@2.5.1
 ```
 
 ## 2. 创建 "MyToken" 智能合约
