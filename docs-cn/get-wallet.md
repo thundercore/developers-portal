@@ -25,7 +25,7 @@ ThunderCore Hub 是一款安全且易于使用的加密钱包，具有完整的 
 
 3. 点击钱包分页，然后您会看到钱包页面，此页面将显示您的 Thunder Token（TT）余额和您所做过的所有交易。同时，您可以透过这个页面 `发送` 、 `接收` 或 `获取 TT`。
 
-![alt-text](assets/img/new_hub_sc/wallet_sc.PNG)
+![alt-text](assets/img/new_hub_sc/wallet_sc.png)
 
 4. 您可以在设置页面查看公告，切换钱包语言或设置密码。
 
@@ -51,7 +51,7 @@ ThunderCore Hub 是一款安全且易于使用的加密钱包，具有完整的 
 
 要接收代币，请单击 `接收` 按钮，然后您将看到如下所示：
 
-![alt-text](assets/img/new_hub_sc/wallet_sc.PNG)
+![alt-text](assets/img/new_hub_sc/wallet_sc.png)
 
 如果您想让其他地址收到特定金额，可以自己设置金额。
 
