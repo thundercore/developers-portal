@@ -30,7 +30,7 @@ Check out [ThunderCore Hub](https://www.thundercore.com/thundercore-hub/) on Thu
 
 Also, you can `Send` or `Receive` your TT  and `buy TT` via this page.
 
-![alt-text](assets/img/new_hub_en/wallet_en.PNG)
+![alt-text](assets/img/new_hub_en/wallet_en.png)
 
 4. You can check out announcement, change your wallet language or set up the passcode on the Settings page.
 
@@ -56,7 +56,7 @@ Click `Send` to proceed if it is all correct.
 
 To receive token, click the `Receive` button then you will see as below:
 
-![alt-text](assets/img/new_hub_en/wallet_en.PNG)
+![alt-text](assets/img/new_hub_en/wallet_en.png)
 
 You can set an amount if you want to receive a specific amount from another address.
 
