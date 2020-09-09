@@ -22,11 +22,15 @@ Check out [ThunderCore Hub](https://www.thundercore.com/thundercore-hub/) on Thu
 
 2. Then you will see the Home tab. You can enter the DApp or website URL in the search bar.
 
-![alt-text](assets/img/new_hub_en/hubbit_en.PNG)
+![alt-text](assets/img/new_hub_en/hubbit_en.jpg)
 
-3. Click the Wallet tab, then you will see the Wallet page. This page will display the balance of your Thunder Token (TT) or TT20 tokens and all the transactions you make. Also, you can `Send` or `Receive` your TT  and `buy TT` via this page.
+3. Click the Wallet tab, then you will see the Wallet page. This page will display the balance of your Thunder Token (TT) or TT20 tokens and all the transactions you make. 
 
-![alt-text](assets/img/new_hub_en/wallet_en.jpg)
+![alt-text](assets/img/new_hub_en/hubbit_wallet_en.jpg)
+
+Also, you can `Send` or `Receive` your TT  and `buy TT` via this page.
+
+![alt-text](assets/img/new_hub_en/wallet_en.PNG)
 
 4. You can check out announcement, change your wallet language or set up the passcode on the Settings page.
 
@@ -52,7 +56,7 @@ Click `Send` to proceed if it is all correct.
 
 To receive token, click the `Receive` button then you will see as below:
 
-![alt-text](assets/img/new_hub_en/wallet_en.jpg)
+![alt-text](assets/img/new_hub_en/wallet_en.PNG)
 
 You can set an amount if you want to receive a specific amount from another address.
 

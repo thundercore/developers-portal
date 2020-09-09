@@ -17,6 +17,7 @@
     ],
     "Wallet": [
       "get-wallet",
+      "quest",
       "metamask",
       "trust-wallet",
       "ledger-nano-s",
