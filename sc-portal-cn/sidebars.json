@@ -12,8 +12,7 @@
        "faqs/tt20-withdraw"
     ],
     "获取代币": [
-      "get-tokens",
-      "buyingTT"
+      "get-tokens"
     ],
     "钱包": [
       "get-wallet",
