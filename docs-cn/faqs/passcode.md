@@ -30,7 +30,7 @@ title: 在 TT 站设置您的密码
 
 2. 输入您的密码，密码将被取消
 
-![img](assets/img/passcode_cn/passcode_cn6.PNG)
+![img](assets/img/passcode_cn/passcode_cn6.png)
 
 
 ## 如果您忘记密码
