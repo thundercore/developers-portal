@@ -42,3 +42,5 @@ _If you don’t have any crypto_
 
 * If you don’t have any TT or TT-StableCoin,
 You can buy them via a crypto exchange (eg. Huobi, Upbit) or you can get them via OTC.
+
+* If you would like to learn more about WBTC, feel free to check out more information [here](https://wbtc.network/).
