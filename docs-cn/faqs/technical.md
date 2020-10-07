@@ -13,9 +13,6 @@ ThunderCore 与以太坊采用了相同的虚拟机 (EVM)，因此，在以太�
 ## ThunderCore 是去中心化的网络吗？
 是的，ThunderCore 奠基于去中心化的信任机制，其用户既不需要信任共识节点，也不需要信任加速器，只需要相信 ThunderCore 上的诚实多数节点即可确认安全性(一般的区块链亦如此)。若想了解其共识演算法，请参考 ThunderCore 的 [白皮书](https://docs.thundercore.com/thunder-whitepaper.pdf)。
 
-## ThunderCore 未来会开源吗？ 
-是的，我们正在释出 ThunderCore 完整节点源代码的过程中，并希望能够在公开主网之前发布。
-
 ## 我如何在 ThunderCore 编写智能合约？ 
 因为 ThunderCore 与以太坊智能合约兼容，你可以用在以太坊编写的方式在 ThunderCore 上编写， 大多人使用 Truffle，但其他的工具也可使用。請查看我们的教程以 [快速部署你的游戏](deploy-your-own-game.md)。
 
@@ -33,10 +30,7 @@ ThunderCore 与以太坊采用了相同的虚拟机 (EVM)，因此，在以太�
 ## 我可以开采或押注 Thunder Tokens (TT) 吗？
 ThunderCore 采用持有量证明机制，因此，Thunder Tokens (TT) 是预先被开采的，而不会有新的代币可供开采，因为我们不会将新代币作为我们产生共识过程中的一部分。 ThunderCore 的节点验证者，即所谓的节点委员会成员，将透过矿工/交易的费用而获得奖励。人们可以参与 ThunderCore 的共识机制，并在公开发布时参与保护 ThunderCore 公链。 
 
-你可以在 [这里](https://medium.com/thundercore/thundercore-launches-staking-pool-service-25316085b808) 了解更多关于我们的权益池服务！并到 [这里](https://staking.thundercore.com/) 押注你的 Thunder Tokens (TT) 获得高达 30% 的年化收益。
-
-## ThunderCore 似乎非常快速，这是因为它没有去中心化或还没有 DApps 吗？一旦有了真正的 DApp 和用户，它会变慢吗？
-在我们的测试之下，ThunderCore 可以支持高达每秒1000笔的交易，且在最坏情况下，其确认时间仍保持在2-3秒。为了充分利用 ThunderCore 的吞吐量，它将需要当前100倍的以太坊交易负载量。当达成这种目标时，其增加的交易数将不会对确认时间造成影响。
+你可以在 [这里](https://medium.com/thundercore/thundercore-super-node-staking-pool-service-launched-c391c1dbcaff) 了解更多关于我们的权益池服务！并到 [这里](https://supernode.thundercore.com/) 押注你的 Thunder Tokens (TT) 获得高达 24% 的年化收益。
 
 ## 仍有其他问题吗？ 
 请在 [Discord channel](https://discord.gg/5EbxXfw) 与我们的团队保持联系。针对紧急问题，请联系 [support@thundercore.com](mailto:support@thundercore.com)

@@ -24,7 +24,7 @@ ThunderCore blockchain is live now! It is already producing blocks. The public l
 
 For detailed instructions, please check out our tutorial on getting your own [wallet](get-wallet.md).
 
-## How do I get a ThunderCore address?
+## How do I get a ThunderCore address? (COPY)
 ThunderCore is Ethereum/EVM compatible. Any address created for Ethereum will work on ThunderCore. One can use MetaMask and any other popular Ethereum wallet to create ThunderCore address. To access the ThunderCore blockchain all one has to do is to point network RPC to [https://mainnet-rpc.thundercore.com](https://mainnet-rpc.thundercore.com) instead of the ethereum network. For detailed instructions, please check out our tutorial on getting your own [wallet](get-wallet.md)
 
 ## How can I get access to ThunderCore?
@@ -39,7 +39,7 @@ If you’re a developer or you just want to experience the thundering speed of T
 
 You can also get our test tokens at our [Testnet Faucet](https://faucet-testnet.thundercore.com).
 
-## Is ThunderCore available for DApp development?
+## Is ThunderCore available for DApp development? (COPY)
 Yes. We encourage DApp developers to experience a boost in performance while leveraging full EVM compatibility. DApps can be migrated to ThunderCore in as little as five minutes.
 
 Thunder Tokens are available to individuals and teams desiring to try the ThunderCore Mainnet. The ThunderCore Testnet has been running and available since February 2019 for DApp development.  You can get started by obtaining free ThunderTokens from the [ThunderCore Mainnet Faucet](https://faucet.thundercore.com). Please also stay on the lookout for incentives to port your DApps to ThunderCore.

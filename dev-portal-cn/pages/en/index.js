@@ -75,16 +75,17 @@ class HelpfulLinks extends React.Component {
         </Block>
 
         <Block title="开发教程">
+          <Link href={docUrl('dev-faq-general')} target="_self" title="基本资讯"/>
           <Link href={docUrl('deploy-your-own-game')} target="_self" title="快速部署你的游戏"/>
           <Link href={docUrl('migrate-to-thunder')} target="_self" title="从以太坊迁移"/>
           <Link href={docUrl('erc20-smart-contract')} target="_self" title="部署你自己的 ERC-20 代币"/>
-          <Link href={docUrl('get-tokens')} target="_self" title="获得 TT 代币"/>
         </Block>
 
         <Block title="开发资源">
-          <Link href={docUrl('faqs/general')} target="_self" title="常见问题"/>
-          <Link href="https://discordapp.com/invite/5EbxXfw" title="去 Discord 参与讨论"/>
-          <Link href="mailto:support@thundercore.com" title="联系我们"/>
+          <Link href="https://solidity.readthedocs.io/en/develop/" title="Solidity"/>
+          <Link href={docUrl('metamask')} target="_self" title="如何使用 Metamask"/>
+          <Link href="https://discordapp.com/invite/5EbxXfw" title="去 Discord 参与讨论"/> 或 <Link href="mailto:support@thundercore.com" title="联系我们"/>
+          <Link href="https://wj.qq.com/s2/5812973/29f6" title="Token Listing Submission"/>
         </Block>
       </div>
     )

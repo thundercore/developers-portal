@@ -1,6 +1,6 @@
 ---
 id: general
-title: General
+title: General Information
 ---
 
 ## What is ThunderCore?

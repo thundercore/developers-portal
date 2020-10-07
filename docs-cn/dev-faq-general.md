@@ -13,6 +13,33 @@ title: 基本资讯
   * 單位: 1 TT  = 10¹⁸ Ella
   * (就像 1 ETH = 10¹⁸ Wei)
 
+## 我如何获得 ThunderCore 地址？
+ThunderCore 与以太坊/以太坊虚拟机兼容，任何在以太坊上创建的地址将可在 ThunderCore 上运作。任何人可用 MetaMask 或其他任何受欢迎的以太坊钱包去创建 ThunderCore 地址。要访问 ThunderCore，所有人必须做的就是将网络 RPC 选择 [https://mainnet-rpc.thundercore.com](https://mainnet-rpc.thundercore.com) 而不是以太坊网络。有关详细说明，请查看我们关于获取自己 [钱包](get-wallet.md) 的教程。
+
+## 如何访问 ThunderCore？
+ThunderCore 是一个公链，你可以透过 [此处](migrate-to-thunder.md) 轻松地访问预发主网。
+
+## ThunderCore 可用于 DApp 开发吗？
+是的，我们鼓励 DApps 开发人员在充分利用 EVM 兼容性的同时体验 ThunderCore 的优越性能。你的 DApps 可以在短短五分钟内迁移到 ThunderCore。
+
+Thunder Tokens 适用于希望尝试使用 ThunderCore 主网的个人和团队。ThunderCore 测试网自2019年2月开始运行并可用于 DApp 开发，你可以从 ThunderCore [主网渠道](https://faucet.thundercore.com) 中获得免费的 ThunderTokens。请持续留意我们对于将 DApps 移植到 ThunderCore 的激励措施。
+
+现在，你必须将大多数钱包设置为指向 ThunderCore 的自定义 RPC (https://mainnet-rpc.thundercore.com) 。
+
+## Thunder Token 是 ERC-20 代币吗？
+不是，Thunder Token 是 ThunderCore 区块链的原生代币。
+
+ThunderCore 是符合以太坊虚拟机 (EVM) 的区块链，凡可以在 ERC-20 上创建和部署的代币也适用于 ThunderCore。
+
+## 我可以用 Thunder Tokens 做什么？
+Thunder Token 是 ThunderCore 区块链的原生代币，其可用于 ThunderCore 区块链上建立去中心化应用程序，并可从其中获利，也可用于支付矿工费、执行交易并可在 ThunderCore 区块链上承销智能合约。
+
+## 为何 MetaMask 将我的代币以 ETH 显示并将大量美元金额作为其估值？
+在 MetaMask 中添加自定义 RPC URL 时，MetaMask 默认将任何代币/硬币视为 ETH，并使用 ETH 的 USD 价格显示其估值。
+
+欲更正此问题，请在 ThunderCore 的自定义 URL 时使用 “显示高级选项” 菜单 ([https://mainnet-rpc.thundercore.com](https://mainnet-rpc.thundercore.com)) 添加 108 作为 ChainId 和 TT 作为标示符号。
+
+一旦你这么做了，你的 ThunderTokens 将在 MetaMask 上显示为 TT。
 
 ## 如何跑自己的節點
 * 建議直接用 mainnet-rpc.thundercore.com RPC 端口
