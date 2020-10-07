@@ -4,7 +4,7 @@
       "deploy-your-own-game",
       "migrate-to-thunder",
       "erc20-smart-contract",
-      "guideline-submit"
+      "guideline-submit",
     ],
     "Tools": [
       "random-number-generator",
@@ -12,7 +12,7 @@
       "referral-contract",
     ],
     "Get Tokens": [
-      "dev-get-tokens"
+      "dev-get-tokens",
     ],
     "Frequently Asked Questions": [
       "dev-faq-general",
