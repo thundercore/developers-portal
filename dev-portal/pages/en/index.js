@@ -75,16 +75,17 @@ class HelpfulLinks extends React.Component {
         </Block>
 
         <Block title="Dev Tutorials">
+          <Link href={docUrl('dev-faq-general')} target="_self" title="General Information"/>
+          <Link href={docUrl('guideline-submit')} target="_self" title="Submit guideline for DApp"/>
           <Link href={docUrl('deploy-your-own-game')} target="_self" title="Deploy Your Own Game in Minutes"/>
           <Link href={docUrl('migrate-to-thunder')} target="_self" title="Migrate from Ethereum"/>
-          <Link href={docUrl('erc20-smart-contract')} target="_self" title="Deploy Your Own ERC-20"/>
-          <Link href={docUrl('get-tokens')} target="_self" title="How to Get Thunder Tokens"/>
         </Block>
 
         <Block title="Resources">
-          <Link href={docUrl('faqs/general')} target="_self" title="Frequently Asked Questions (FAQ)"/>
-          <Link href="https://discordapp.com/invite/5EbxXfw" title="Get in Touch on Discord"/>
-          <Link href="mailto:support@thundercore.com" title="Email Us"/>
+          <Link href="https://solidity.readthedocs.io/en/develop/" title="Solidity"/>
+          <Link href={docUrl('metamask')} target="_self" title="How to use Metamask"/>
+          Get in Touch on <Link href="https://discordapp.com/invite/5EbxXfw" title="Discord"/> or <Link href="mailto:support@thundercore.com" title="Email Us"/>
+          <Link href="https://wj.qq.com/s2/5812973/29f6" title="Token Listing Submission"/>
         </Block>
       </div>
     )

@@ -1,6 +1,6 @@
 ---
 id: dev-faq-general
-title: General
+title: General Information
 ---
 
 ## Basic Information
@@ -17,6 +17,35 @@ Item             | References
 |                 | wss://mainnet-ws.thundercore.com
 |Chain ID         |thunder-mainnet: 108
          
+
+## How do I get a ThunderCore address?
+ThunderCore is Ethereum/EVM compatible. Any address created for Ethereum will work on ThunderCore. One can use MetaMask and any other popular Ethereum wallet to create ThunderCore address. To access the ThunderCore blockchain all one has to do is to point network RPC to [https://mainnet-rpc.thundercore.com](https://mainnet-rpc.thundercore.com) instead of the ethereum network. For detailed instructions, please check out our tutorial on getting your own [wallet](get-wallet.md)
+
+## How can I get access to ThunderCore?
+ThunderCore is a public chain. The Pre-Release Mainnet is easily accessible via the published network addresses found [here](migrate-to-thunder.md).
+
+## Is ThunderCore available for DApp development?
+Yes. We encourage DApp developers to experience a boost in performance while leveraging full EVM compatibility. DApps can be migrated to ThunderCore in as little as five minutes.
+
+Thunder Tokens are available to individuals and teams desiring to try the ThunderCore Mainnet. The ThunderCore Testnet has been running and available since February 2019 for DApp development.  You can get started by obtaining free ThunderTokens from the [ThunderCore Mainnet Faucet](https://faucet.thundercore.com). Please also stay on the lookout for incentives to port your DApps to ThunderCore.
+
+Right now you will have to configure most of the wallets to point to the custom RPC url of ThunderCore (https://mainnet-rpc.thundercore.com).
+
+## Is Thunder Token an ERC-20 token?
+No. Thunder Token is the native currency of an independent public blockchain, ThunderCore.
+
+ThunderCore is an Ethereum Virtual Machine (EVM) compliant blockchain. Tokens based on the ERC-20 standard can be minted and deployed on ThunderCore.
+
+## What can I do with Thunder Tokens?
+Thunder Token is the native currency of an independent public blockchain, ThunderCore. Thunder Token can be used to build and monetize decentralized applications on the ThunderCore blockchain. Thunder Tokens can be used to pay for gas costs, execute transactions and underwrite smart contracts on the ThunderCore blockchain.
+
+## Why is MetaMask showing my tokens as ETH and a large USD amount as its value?
+When adding a custom RPC URL in MetaMask, MetaMask by default treats any token/coin as ETH and shows the portfolio value using the USD price of ETH.
+
+To correct this, use the "Show Advanced Options" menu when adding the custom URL for Thunder Core ([https://mainnet-rpc.thundercore.com](https://mainnet-rpc.thundercore.com)). Add 108 as ChainId and TT as Symbol.
+
+Once you do that your Thunder Tokens will appear as TT on the MetaMask.
+
 ## Gas Fees
 
 ### Gas Price

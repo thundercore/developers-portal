@@ -2,23 +2,21 @@
   "docs": {
     "Develop on ThunderCore": [
       "deploy-your-own-game",
-      "add-console",
       "migrate-to-thunder",
-      "erc20-smart-contract"
+      "erc20-smart-contract",
+      "guideline-submit"
     ],
     "Tools": [
       "random-number-generator",
       "develop-with-truffle",
       "referral-contract",
-      "guideline-submit"
     ],
     "Get Tokens": [
       "dev-get-tokens"
     ],
     "Frequently Asked Questions": [
       "dev-faq-general",
-      "technical",
-      "pre-release-mainnet"
+      "faqs/technical",
     ]
   }
 }

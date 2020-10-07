@@ -1,17 +1,16 @@
 {
   "docs": {
-    "在 ThunderCore 上开发": ["deploy-your-own-game", "add-console", "migrate-to-thunder", "develop-with-truffle", "erc20-smart-contract"],
+    "在 ThunderCore 上开发": ["deploy-your-own-game", "migrate-to-thunder", "erc20-smart-contract"],
    
     "钱包": ["get-wallet", "ledger-nano-s", "iOS-install", "Android-install"],
   
-    "工具": ["random-number-generator", "referral-contract", "yell"],
+    "工具": ["random-number-generator", "develop-with-truffle", "referral-contract", "yell"],
   
     "获取代币": ["get-tokens"],
   
     "常问问题": [
       "dev-faq-general",
-      "faqs/technical",
-      "faqs/pre-release-mainnet"
+      "faqs/technical"
     ]
   }
 }
