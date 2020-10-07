@@ -83,8 +83,8 @@ class HelpfulLinks extends React.Component {
 
         <Block title="开发资源">
           <Link href="https://solidity.readthedocs.io/en/develop/" title="Solidity"/>
-          <Link href={docUrl('metamask')} target="_self" title="如何使用 Metamask"/>
-          <Link href="https://wj.qq.com/s2/5812973/29f6" title="Token Listing Submission"/>
+          <Link href="https://support-center-cn.thundercore.com/docs/metamask/" title="如何使用 Metamask"/>
+          <Link href="https://wj.qq.com/s2/5812973/29f6" title="上币申请"/>
         </Block>
       </div>
     )
