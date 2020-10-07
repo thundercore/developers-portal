@@ -4,7 +4,7 @@
    
     "钱包": ["get-wallet", "ledger-nano-s", "iOS-install", "Android-install"],
   
-    "工具": ["random-number-generator", "develop-with-truffle", "referral-contract", "yell"],
+    "工具": ["random-number-generator", "develop-with-truffle", "referral-contract"],
   
     "获取代币": ["get-tokens"],
   
