@@ -37,7 +37,7 @@ class Footer extends React.Component {
           <div className="site-links">
             <div className="title">Resources</div>
             <a href={this.docUrl('faqs/general')}>FAQ</a>
-            <a href="https://stackoverflow.com/questions/tagged/thundercore" target=_blank">Stack Overflow</a>
+            <a href="https://stackoverflow.com/questions/tagged/thundercore" target="_blank">Stack Overflow</a>
             <a href="https://discordapp.com/invite/5EbxXfw" target="_blank">Get
               in Touch on Discord</a>
             <a href="mailto:info@thundercore.com">Email Us</a>
