@@ -10,7 +10,7 @@
 
 const siteConfig = {
   algolia: {
-    apiKey: 'ad42c341c731590d636ad2312eea32ed',
+    apiKey: process.env.ALGOLIA_API_KEY,
     indexName: 'thundercore_developers',
     algoliaOptions: {} // Optional, if provided by Algolia
   },
