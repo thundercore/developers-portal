@@ -1,7 +1,5 @@
 #!/bin/bash
 #set -ex
-#URL="dev-portal.dev.tt-eng.com"
-#REDIRECT_URL="sc-portal.dev.tt-eng.com"
 url=${A_URL}
 redirect_url=${B_URL}
 
