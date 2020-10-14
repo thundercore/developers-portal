@@ -70,7 +70,7 @@ const siteConfig = {
   ogImage: 'img/thundercore_icon.svg',
   twitterImage: 'img/thundercore_icon.svg',
 
-  gaTrackingId: 'UA-134150236-9',
+  gaTrackingId: process.env.GA_ID_CN,
   customDocsPath: 'docs-cn'
 }
 

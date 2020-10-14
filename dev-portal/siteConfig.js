@@ -74,7 +74,7 @@ const siteConfig = {
 
 //  docsSideNavCollapsible: true,
 
-  gaTrackingId: 'UA-118758464-11',
+  gaTrackingId: process.env.GA_ID,
   customDocsPath: 'docs-en'
 }
 
