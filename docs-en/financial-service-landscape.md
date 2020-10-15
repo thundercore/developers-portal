@@ -26,7 +26,7 @@ _If you are a crypto holder or user_
 * Exchange TT with TT-StableCoin via [TTSwap](https://ttswap.space/#/swap)
   1. Refer to [TTSwap](https://ttswap.space/#/swap) and enable the Web3 wallet (such as MetaMask) to start 
   2. Select the Input and Output of token to start the process  
-  3. Wait for the process and you will get the tokens accordingly 
+  3. Wait for the process and you will get the tokens accordingly  
   4. Check out the [Tutorial](https://ttswap.space/TTswapTutorial.pdf) for more information
 
 _If you don’t have any crypto_
