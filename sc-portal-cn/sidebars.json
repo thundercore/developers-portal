@@ -1,0 +1,27 @@
+{
+  "support center": {
+    "常见问题": [
+      "faqs/general",
+      "faqs/passcode"
+    ],
+    "去中心化金融": [
+      "financial-service-landscape",
+      "stablecoin",
+      "stblecoin-metamask",
+      "stblecoin-trustwallet",
+       "faqs/tt20-withdraw"
+    ],
+    "获取代币": [
+      "get-tokens"
+    ],
+    "钱包": [
+      "get-wallet",
+      "quest",
+      "metamask",
+      "trust-wallet",
+      "ledger-nano-s"
+  
+      
+    ]
+  }
+}

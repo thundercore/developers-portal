@@ -1,0 +1,163 @@
+/* your custom css */
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("/fonts/ProximaNova-Regular.otf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("/fonts/ProximaNova-Semibold.otf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "DIN Condensed";
+  src: url("/fonts/DINPro-CondMedium.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "DIN";
+  src: url("/fonts/DINPro.otf");
+  font-weight: 400;
+}
+
+html, body, div {
+  color: #383838;
+  font-family: "Proxima Nova", "san-serif";
+}
+
+body {
+  background: #4F4F4F;
+}
+
+/* Document */
+.docMainWrapper.wrapper {
+  padding: 0;
+}
+
+.docMainWrapper {
+  /*margin: 0;*/
+}
+
+.navPusher {
+  background: #F7F7EC;
+}
+
+article div span h2:first-child {
+  margin-top: 0;
+}
+
+.docs-prevnext {
+  margin: 0 -10px;
+}
+
+.docs-prev, .docs-next {
+  margin: 20px 10px;
+}
+
+.docMainWrapper > .mainContainer {
+  background: white;
+  padding: 40px 24px;
+  margin: 0;
+}
+
+/* Left nav */
+.docsNavContainer {
+  background: #F7F7EC;
+}
+
+.separateOnPageNav .docsNavContainer {
+  flex: 0 0 350px;
+  margin: 0;
+}
+
+.onPageNav {
+  margin-bottom: 0;
+}
+
+.toc .toggleNav .navGroup .navGroupCategoryTitle {
+  font-weight: 800;
+  font-size: 22px;
+}
+
+.toc .toggleNav ul {
+  padding-left: 0;
+}
+
+.toc .toggleNav ul li a {
+  padding: 3px 0;
+  line-height: 1.2;
+  font-size: 16px;
+  color: #8D8D8D;
+}
+
+/* Header */
+.headerWrapper {
+  /*margin: 0;*/
+}
+
+.fixedHeaderContainer {
+  background: #4F4F4F;
+  padding: 10px 16px;
+}
+
+.navigationSlider .slidingNav ul li > a:focus, .navigationSlider .slidingNav ul li > a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive > a, .navigationSlider .slidingNav ul li.siteNavGroupActive > a {
+  background-color: transparent;
+}
+
+.navigationSlider .slidingNav ul li.siteNavGroupActive.siteNavItemActive > a {
+  font-weight: 600;
+  color: #FFE91A;
+}
+.navigationSlider .slidingNav ul li > a:hover {
+  color: #FF8E00;
+}
+
+.toc .toggleNav ul li.navListItemActive a {
+  font-weight: 600;
+}
+
+img[src="/docs/assets/img/wallet/metamask1.png"],
+img[src="/docs/assets/img/wallet/metamask2.png"],
+img[src="/docs/assets/img/wallet/metamask3.png"],
+img[src="/docs/assets/img/wallet/metamask4.png"],
+img[src="/docs/assets/img/wallet/metamask5.png"],
+img[src="/docs/assets/img/wallet/metamask6.png"],
+img[src="/docs/assets/img/wallet/trust1.png"],
+img[src="/docs/assets/img/wallet/trust2.png"],
+img[src="/docs/assets/img/game/doubleOrNothing.png"]
+{
+  border: 1px solid #D3D3D3;
+  border-radius: 7px;
+  box-shadow: 0 0 10px #d3d3d3;
+}
+
+header a[href="/"] {
+  overflow: hidden;
+}
+
+header img.logo {
+  height: 25px;
+  max-width: initial;
+}
+
+@media only screen and (max-width: 650px) {
+  header a[href="/"] {
+    width: 25px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .toc {
+    padding-left: 24px;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}

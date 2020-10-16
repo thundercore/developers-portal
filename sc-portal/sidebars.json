@@ -1,0 +1,28 @@
+{
+  "support center": {
+    "Frequently Asked Questions": [
+      "faqs/general",
+      "faqs/passcode"
+    ],
+    "DeFi": [
+      "financial-service-landscape",
+      "stablecoin",
+      "stblecoin-metamask",
+      "stblecoin-trustwallet",
+      "faqs/tt20-withdraw"
+    ],
+    "Tokens": [
+      "get-tokens",
+      "asset-loss-policy"
+    ],
+    "Wallet": [
+      "get-wallet",
+      "quest",
+      "metamask",
+      "trust-wallet",
+      "ledger-nano-s",
+      "wallet-loss-policy"
+      
+    ]
+  }
+}
