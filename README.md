@@ -5,7 +5,7 @@
 [![Website developers.thundercore.com](https://img.shields.io/website-up-down-green-red/http/developers.thundercore.com.svg)](https://developers.thundercore.com/)
 [![GitHub license](https://img.shields.io/github/license/thundercore/developers-portal.svg)](https://github.com/thundercore/developers-portal/blob/master/LICENSE)
 
-ThunderCore is a blockchain that is 
+`ThunderCore` is a blockchain that is 
 - EVM Compatible
 - Fast
 - Scalable 
