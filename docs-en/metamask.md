@@ -3,7 +3,7 @@ id: metamask
 title: MetaMask
 ---
 
-## Getting started
+## Getting Started
 To use the ThunderCore blockchain (and most other blockchains) you'll need a wallet address. This address works similar to a credit card number.
 
 ## MetaMask
