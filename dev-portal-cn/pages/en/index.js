@@ -23,7 +23,7 @@ class HomeSplash extends React.Component {
           <div className="startBlock">
             <div className="main-title">在 ThunderCore 上</div>
             <div className="main-title-sub">搭建你的 DApps</div>
-            <a className="startButton orangeButton" href="/docs/deploy-your-own-game">开始开发</a>
+            <a className="startButton orangeButton" href="/docs/dev-faq-general/">开始开发</a>
           </div>
           <img className="bgLogo" src="img/build_dapps.png"/>
         </div>
