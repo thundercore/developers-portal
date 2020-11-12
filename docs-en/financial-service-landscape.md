@@ -21,7 +21,7 @@ _If you are a crypto holder or user_
   1. Refer to [TokenBridge](https://stablecoin.thundercore.com/) and enable the Web3 wallet (such as MetaMask) to start 
   2. Input the amount of USDT/SAI you want to transfer 
   3. Wait for the block confirmation and then you will see the Success page if the transaction is complete 
-  4. Check out the [Tutorial](https://thunder-docs.s3-us-west-2.amazonaws.com/ThunderStableCoinTutorial.pdf) if you have other questions about [TokenBridge](https://stablecoin.thundercore.com/)
+  4. Check out the [Tutorial](https://docs.thundercore.com/docs/ThunderStableCoinTutorial.pdf) if you have other questions about [TokenBridge](https://stablecoin.thundercore.com/)
 
 * Exchange TT with TT-StableCoin via [TTSwap](https://ttswap.space/#/swap)
   1. Refer to [TTSwap](https://ttswap.space/#/swap) and enable the Web3 wallet (such as MetaMask) to start 
