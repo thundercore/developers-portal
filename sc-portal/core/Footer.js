@@ -56,12 +56,6 @@ class Footer extends React.Component {
                  className="icon icon-medium">
                 <MediumIcon />
               </a>
-
-              <a href="https://www.reddit.com/r/thunder_official/"
-                 target="_blank"
-                 className="icon icon-reddit">
-                <RedditIcon />
-              </a>
             </div>
           </div>
         </div>
