@@ -16,9 +16,9 @@ Download the ThunderCore Hub on the [App Store](https://apps.apple.com/tw/app/th
 Check out [ThunderCore Hub](https://www.thundercore.com/thundercore-hub/) on ThunderCore official site.
 
 ### Overview about ThunderCore Hub
-1. After opening the App, you can sign in to the wallet via 3 ways.
+1. After opening the App, you can sign in to the wallet via 4 ways.
 
-![alt-text](assets/img/wallet/hubbit1.PNG)
+![alt-text](assets/img/wallet/hubbit1.jpg)
 
 2. Then you will see the Home tab. You can enter the DApp or website URL in the search bar.
 

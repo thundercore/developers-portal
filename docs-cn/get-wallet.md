@@ -15,7 +15,7 @@ ThunderCore Hub 是一款安全且易于使用的加密钱包，具有完整的 
 亦可从 [App Store](https://apps.apple.com/tw/app/thundercore-hub/id1471222243) 或 [Google Play](https://play.google.com/store/apps/details?id=com.thundercore.mobile) 装载。
 
 ### 有关 ThunderCore Hub 的概览
-1. 打开应用程序后，您可以通过 3 种方式登录钱包。
+1. 打开应用程序后，您可以通过 4 种方式登录钱包。
 
 ![alt-text](assets/img/wallet/hubbit1_cn.PNG)
 
