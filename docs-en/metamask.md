@@ -30,13 +30,13 @@ Download the MetaMask Google Chrome plugin at https://metamask.io/ and follow th
 
 ![alt-text](assets/img/wallet/metamask4.png)​
 
-5. In the next screen, enter the following information
+5. In the next screen, enter the following information:
 
 Field | Value
 ----- | -----
 **Network name** | ThunderCore
 **New RPC URL** | https://mainnet-rpc.thundercore.com
-**ChainID** | 108
+**ChainID** | 0x6c
 **Symbol** | TT
 **Block Explorer URL (optional)**| https://scan.thundercore.com
 
