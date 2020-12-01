@@ -15,7 +15,7 @@ Item             | References
 | Block Explorer  |[https://scan.thundercore.com/](https://www.thundercore.com)
 | JSON-RPC        | [https://mainnet-rpc.thundercore.com](https://mainnet-rpc.thundercore.com)
 |                 | wss://mainnet-ws.thundercore.com
-|Chain ID         |thunder-mainnet: 108
+|Chain ID         |thunder-mainnet: 108 (0x6c)
          
 
 ## How do I get a ThunderCore address?
@@ -42,7 +42,7 @@ Thunder Token is the native currency of an independent public blockchain, Thunde
 ## Why is MetaMask showing my tokens as ETH and a large USD amount as its value?
 When adding a custom RPC URL in MetaMask, MetaMask by default treats any token/coin as ETH and shows the portfolio value using the USD price of ETH.
 
-To correct this, use the "Show Advanced Options" menu when adding the custom URL for Thunder Core ([https://mainnet-rpc.thundercore.com](https://mainnet-rpc.thundercore.com)). Add 108 as ChainId and TT as Symbol.
+To correct this, use the "Show Advanced Options" menu when adding the custom URL for Thunder Core ([https://mainnet-rpc.thundercore.com](https://mainnet-rpc.thundercore.com)). Add 108 (0x6c) as Chain ID and TT as the Symbol.
 
 Once you do that your Thunder Tokens will appear as TT on the MetaMask.
 

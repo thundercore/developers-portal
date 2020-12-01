@@ -37,7 +37,7 @@ Thunder Token 是 ThunderCore 区块链的原生代币，其可用于 ThunderCor
 ## 为何 MetaMask 将我的代币以 ETH 显示并将大量美元金额作为其估值？
 在 MetaMask 中添加自定义 RPC URL 时，MetaMask 默认将任何代币/硬币视为 ETH，并使用 ETH 的 USD 价格显示其估值。
 
-欲更正此问题，请在 ThunderCore 的自定义 URL 时使用 “显示高级选项” 菜单 ([https://mainnet-rpc.thundercore.com](https://mainnet-rpc.thundercore.com)) 添加 108 作为 ChainId 和 TT 作为标示符号。
+欲更正此问题，请在 ThunderCore 的自定义 URL 时使用 “显示高级选项” 菜单 ([https://mainnet-rpc.thundercore.com](https://mainnet-rpc.thundercore.com)) 添加 108 (0x6c) 作为 Chain ID 和 TT 作为标示符号。
 
 一旦你这么做了，你的 ThunderTokens 将在 MetaMask 上显示为 TT。
 
