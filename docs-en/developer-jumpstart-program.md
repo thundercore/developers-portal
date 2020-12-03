@@ -34,7 +34,7 @@ Through the **_TT Social Promoter_** in the ThunderCore Hub Quest System, users 
 ![social](assets/img/developer-jumpstart/ttsocial.jpg)
 
 
-## How do I participate?
+## How do I Participate?
 
 We want to learn about your project! Submit your application [here](https://forms.gle/8vcPhMKLSXGPxnJVA).
 
