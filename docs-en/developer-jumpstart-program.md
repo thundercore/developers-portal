@@ -25,7 +25,7 @@ Through the **_Interactive Quests_** in the ThunderCore Hub Quest System, we **d
 
 We are so confident that we can funnel at least 10,000 crypto users to your DApp, and that confidence comes from the fact that ThunderCore has one of the largest active user bases in the entire crypto space, and you can see the success of existing DApps on ranking sites like [DappRadar](https://dappradar.com/rankings/protocol/thundercore) and [dapp.com](https://www.dapp.com/dapps/thundercore).
 
-<img src="assets/img/developer-jumpstart/quest.jpg" alt="drawing" width="300"/>
+![alt-text](assets/img/developer-jumpstart/quest.jpg)
 
 
 ### **2. TT Social Promoter: unparalleled crypto marketing infrastructure**
@@ -51,13 +51,13 @@ Here's a brief summary of Punchline's journey:
 	* **New alert**: Punchline also get a *“New!”* alert next to its logo and shows up on the top of the list
 	* **Banner promotion**: The banner that Punchline submitted in step 1 goes live in ThunderCore Hub, and tens of thousands of Daily Active Users can immediately see Punchline's banner upon opening ThunderCore Hub!
 
-<img src="assets/img/developer-jumpstart/punchline_hub.jpg" alt="drawing" width="300"/>
+![alt-text](assets/img/developer-jumpstart/punchline_hub.jpg)
 
 4. **See numbers moon with the Quest System** 🚀 
 
 And recently, Punchline is already live on the Quest System with an [Interactive Quest](#1-interactive-quests-direct-crypto-user-acquisition) that incentivize users to try out the DApp, and that immediately lead to a huge influx of users for Punchline!
 
-<img src="assets/img/developer-jumpstart/punchline.png" alt="drawing" width="500"/>
+![alt-text](assets/img/developer-jumpstart/punchline.png)
 
 
 ___
