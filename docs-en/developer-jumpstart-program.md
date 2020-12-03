@@ -31,7 +31,7 @@ We are so confident that we can funnel at least 10,000 crypto users to your DApp
 ### **2. TT Social Promoter: unparalleled crypto marketing infrastructure**
 
 Through the **_TT Social Promoter_** in the ThunderCore Hub Quest System, users are directly incentivized to help you promote your socials, for instance retweeting a tweet you posted. Users become affiliates and they will help you spread the word and kickstart the network effects. The news of the grand launch of your DApp will be the talk of the town in no time!
-![social](assets/img/developer-jumpstart/ttsocial.jpg)
+![social](assets/img/developer-jumpstart/ttsocial.png)
 
 
 ## How do I Participate?
