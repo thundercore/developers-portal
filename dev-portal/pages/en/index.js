@@ -104,11 +104,11 @@ class JumpStart extends React.Component {
     return (
       <div className="jumpStart">
         <div className="jumpStartImg">
-          <img src={'/img/Jumpstart.png'}/>
+          <img src={'/img/ttsocial.png'}/>
         </div>
 
         <form className="jumpStartMain"
-          action="https://thundercore.us18.list-manage.com/subscribe/post?u=9e820737f58c3f0aa1940427b&amp;id=3338803d92"
+          action="https://forms.gle/8vcPhMKLSXGPxnJVA"
           method="post" id="mc-embedded-subscribe-form"
           name="mc-embedded-subscribe-form" className="validate" target="_blank"
           noValidate>
@@ -117,14 +117,14 @@ class JumpStart extends React.Component {
             <input type="text" name="b_9e820737f58c3f0aa1940427b_3338803d92" tabIndex="-1" value="" />
           </div>
 
-          <div className="jumpStartTitle">Subscribe to our newsletter for more and latest developer news</div>
+          <div className="jumpStartTitle">Developer Jumpstart Program</div>
 
           <div className="jumpStartContent">
-              Subscribe to get access to our latest developer news and initiatives!
+              We want to learn about your project! Submit your application!
           </div>
           <div className="jumpStartEmail">
             <input type="email" className="emailInput" value="" name="EMAIL" id="mce-EMAIL"/>
-            <input type="submit" className="subscribeButton orangeButton" value="Subscribe"/>
+            <input type="submit" className="subscribeButton orangeButton" value="Submit Application"/>
           </div>
         </form>
       </div>
