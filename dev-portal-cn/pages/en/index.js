@@ -108,7 +108,7 @@ class JumpStart extends React.Component {
         </div>
 
         <form className="jumpStartMain"
-          action="https://thundercore.us18.list-manage.com/subscribe/post?u=9e820737f58c3f0aa1940427b&amp;id=3338803d92"
+          action="https://docs.google.com/forms/d/e/1FAIpQLSeHfya9a8MqO3h015hvH6JG9t57kowIFwZFW0IdZ6XufvEOLA/viewform"
           method="post" id="mc-embedded-subscribe-form"
           name="mc-embedded-subscribe-form" className="validate" target="_blank"
           noValidate>
@@ -117,15 +117,14 @@ class JumpStart extends React.Component {
             <input type="text" name="b_9e820737f58c3f0aa1940427b_3338803d92" tabIndex="-1" value="" />
           </div>
 
-          <div className="jumpStartTitle">开发者快速推动计划</div>
+          <div className="jumpStartTitle">Developer Jumpstart Program</div>
 
           <div className="jumpStartContent">
-            订阅以获取我们最新的开发人员新闻和计划，包括我们即将推出的<strong>开发者快速推动计划！</strong>早期测试版参与者收入已增长超过<div className="over9000">400%</div>。
+            The goal of the ThunderCore Developer Jumpstart Program is to get you through the first stage of developing your crypto DApp or building your startup.
           </div>
 
           <div className="jumpStartEmail">
-            <input type="email" className="emailInput" value="" name="EMAIL" id="mce-EMAIL"/>
-            <input type="submit" className="subscribeButton orangeButton" value="订阅"/>
+            <input type="submit" className="subscribeButton orangeButton" value="[Submit Now!](https://docs.google.com/forms/d/e/1FAIpQLSeHfya9a8MqO3h015hvH6JG9t57kowIFwZFW0IdZ6XufvEOLA/viewform)"/>
           </div>
         </form>
       </div>
