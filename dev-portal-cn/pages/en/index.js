@@ -122,6 +122,7 @@ class JumpStart extends React.Component {
               The goal of the ThunderCore Developer Jumpstart Program is to get you through the first stage of developing your crypto DApp or building your startup.
           </div>
           <div className="jumpStartEmail">
+            <input type="email" className="emailInput" value="" name="EMAIL" id="mce-EMAIL"/>
             <input type="submit" className="subscribeButton orangeButton" value="Submit Now!"/>
           </div>
         </form>
