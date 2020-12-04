@@ -108,7 +108,7 @@ class JumpStart extends React.Component {
         </div>
 
         <form className="jumpStartMain"
-          action="https://forms.gle/8vcPhMKLSXGPxnJVA"
+          action="https://docs.google.com/forms/d/e/1FAIpQLSeHfya9a8MqO3h015hvH6JG9t57kowIFwZFW0IdZ6XufvEOLA/viewform"
           method="post" id="mc-embedded-subscribe-form"
           name="mc-embedded-subscribe-form" className="validate" target="_blank"
           noValidate>
@@ -123,7 +123,6 @@ class JumpStart extends React.Component {
               We want to learn about your project! Submit your application!
           </div>
           <div className="jumpStartEmail">
-            <input type="email" className="emailInput" value="" name="EMAIL" id="mce-EMAIL"/>
             <input type="submit" className="subscribeButton orangeButton" value="Submit Application"/>
           </div>
         </form>
