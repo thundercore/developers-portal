@@ -124,7 +124,7 @@ class JumpStart extends React.Component {
           </div>
 
           <div className="jumpStartEmail">
-            <input type="submit" className="subscribeButton orangeButton" value="[Submit Now!](https://docs.google.com/forms/d/e/1FAIpQLSeHfya9a8MqO3h015hvH6JG9t57kowIFwZFW0IdZ6XufvEOLA/viewform)"/>
+            <input type="submit" className="subscribeButton orangeButton" value="[Submit Now!]"/>
           </div>
         </form>
       </div>
