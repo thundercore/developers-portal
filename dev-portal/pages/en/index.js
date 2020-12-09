@@ -112,7 +112,10 @@ class JumpStart extends React.Component {
           method="post" id="mc-embedded-subscribe-form"
           name="mc-embedded-subscribe-form" className="validate" target="_blank"
           noValidate>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 58c06ab7... Dev portal bug fixes
           <div style={{position: 'absolute', left: '-5000px'}} aria-hidden="true">
             <input type="text" name="b_9e820737f58c3f0aa1940427b_3338803d92" tabIndex="-1" value="" />
           </div>
