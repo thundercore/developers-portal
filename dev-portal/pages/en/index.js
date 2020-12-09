@@ -111,7 +111,7 @@ class JumpStart extends React.Component {
           action="https://docs.google.com/forms/d/e/1FAIpQLSeHfya9a8MqO3h015hvH6JG9t57kowIFwZFW0IdZ6XufvEOLA/viewform"
           method="post" id="mc-embedded-subscribe-form"
           name="mc-embedded-subscribe-form" className="validate" target="_blank"
-          noValidate
+          noValidate>
           <div style={{position: 'absolute', left: '-5000px'}} aria-hidden="true">
             <input type="text" name="b_9e820737f58c3f0aa1940427b_3338803d92" tabIndex="-1" value="" />
           </div>
