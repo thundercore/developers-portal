@@ -32,13 +32,13 @@ _If you are a crypto holder or user_
 _If you don’t have any crypto_
 
 * If you want to start exploring the ThunderCore ecosystem with TT, 
-  1. [TTGet](https://www.appcenter.games/ttget) - To get TT with credit card (supports Visa, Mastercard, and JCB) 
-     * Refer to [TTGet](https://www.appcenter.games/ttget) and enable the Web3 wallet (such as MetaMask) to start
+  1. [TTGet](https://indacoin.io/buy-thundertoken-with-card) - To get TT with credit card (supports Visa, Mastercard, and JCB) 
+     * Refer to [TTGet](https://indacoin.io/buy-thundertoken-with-card) and enable the Web3 wallet (such as MetaMask) to start
      * Check out the `How to buy` to learn more about TTGet
      * Click `Buy now` will auto-connect with your MetaMask
      * Select the package that you want to purchase
      * Check out the [FAQ](https://ttget.appcenter.games/) if you have other questions about TTGet
-  2. [IndaCoin](https://indacoin.com/en_TW/change/buy-thundertoken-with-cardusd?amount_pay=100) - To get TT with a credit card or debit card instantly (not available for locations such as the US, China, Japan, etc.)
+  2. [IndaCoin](https://indacoin.io/buy-thundertoken-with-card) - To get TT with a credit card or debit card instantly (not available for locations such as the US, China, Japan, etc.)
 
 * If you don’t have any TT or TT-StableCoin,
 You can buy them via a crypto exchange (eg. Huobi, Upbit) or you can get them via OTC.
