@@ -32,13 +32,13 @@ _如果你是一个数字货币持有者_
 _如果你没有任何数字货币_
 
 * 如果您想开始使用 TT 探索 ThunderCore 生态系统：
-  1. [TTGet](https://www.appcenter.games/ttget) - 使用信用卡获取 TT(支持 Visa、Mastercard 和 JCB)
-     * 请参考 [TTGet](https://www.appcenter.games/ttget) 并启用 Web3 钱包(例如 MetaMask)以启动 
+  1. [TTGet](https://indacoin.io/buy-thundertoken-with-card) - 使用信用卡获取 TT(支持 Visa、Mastercard 和 JCB)
+     * 请参考 [TTGet](https://indacoin.io/buy-thundertoken-with-card) 并启用 Web3 钱包(例如 MetaMask)以启动 
      * 查看 “How to Buy” 以了解有关 TTGet 的更多信息
      * 点击 “Buy now” 将自动与您的 MetaMask 连接
      * 选择您要购买的方案
      * 如果您对 TTGet 有其他疑问，请查看 [FAQ](https://ttget.appcenter.games/)
-  2. [IndaCoin](https://indacoin.com/en_TW/change/buy-thundertoken-with-cardusd?amount_pay=100) - 立即使用信用卡或借记卡获取 TT (不适用于美国、中国、日本等国家/地区)
+  2. [IndaCoin](https://indacoin.io/buy-thundertoken-with-card) - 立即使用信用卡或借记卡获取 TT (不适用于美国、中国、日本等国家/地区)
 * 如果你没有任何 TT 或 TT-稳定币：
 您可以通过加密货币交易所(如 Huobi、Upbit 或 Pionex)购买，也可以自行透过场外交易获得。
 

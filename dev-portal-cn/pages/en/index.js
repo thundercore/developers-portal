@@ -66,12 +66,12 @@ class HelpfulLinks extends React.Component {
       <div className="helpfulLinks">
         <Block title="主网开发">
           <Link href="https://faucet.thundercore.com"  title="免费获取 Thunder Tokens (TT币)"/>
-          <Link href="https://scan.thundercore.com" title="ThunderScan (主网)"/>
+          <Link href="https://scan.thundercore.com" title="ThunderCore Scan (主网)"/>
         </Block>
 
         <Block title="测试网测试">
           <Link href="https://faucet-testnet.thundercore.com" title="免费获取 TT 测试币"/>
-          <Link href="https://scan-testnet.thundercore.com" title="ThunderScan (测试网)"/>
+          <Link href="https://scan-testnet.thundercore.com" title="ThunderCore Scan (测试网)"/>
         </Block>
 
         <Block title="开发教程">
