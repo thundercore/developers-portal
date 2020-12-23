@@ -1,7 +1,7 @@
 ---
 id: token-listing
 title: Token Listing
-
+---
 # How to add your Token to the ThunderCore Hub ⚡️
 
 
