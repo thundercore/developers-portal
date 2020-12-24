@@ -23,10 +23,11 @@ ThunderCore strives to create a platform full of opportunities, rich with conten
    * Contact information of submitter (Twitter / Telegram / Email)
    * Product / Website URL
    * Logo / Icon image (should be not larger than *256 x 256* pixels) 
+   * The token contract must be verified on [Viewblock](https://viewblock.io/thundercore)
 
 ## Decline Listing Policy
    * Miss any token information mentioned above
-   * AUpon verification, if found that the smart contract is malicious, ThunderCore reserves the right to decline/revoke listing.
+   * Upon verification, if found that the smart contract is malicious, ThunderCore reserves the right to decline/revoke listing.
 
 ## Listing Fee
    * 1,000 Thunder Token (TT) per listing 
