@@ -110,12 +110,10 @@ module.exports = function(deployer) {
 };
 ```
 
-2. Launching a local chain to test our contract. By using a local blockchain, we can test our contract without consuming real tokens. We recommend using [Ganache](https://www.trufflesuite.com/ganache). Download the Ganache GUI or install the CLI tool with the following command.
+2. Launching a local chain to test our contract. By using a local blockchain, we can test our contract without consuming real tokens. We recommend using [Ganache](https://github.com/thundercore/ganache). Refer to [thundercore/ganache](https://github.com/thundercore/ganache) and build the Ganache GUI or install the CLI tool with the following command.
 
 ```bash
-npm install -g ganache-cli
-# or 
-yarn global add ganache-cli
+npm install -g thundercore/ganache-cli#tt
 ```
 
 Then, double click the icon to launch the application or run the command `ganache-cli` to launch a local chain.
@@ -278,3 +276,5 @@ Happy Coding! 😆
 - [Building Robust Smart Contracts with openzeppelin](https://www.trufflesuite.com/tutorials/robust-smart-contracts-with-openzeppelin)
 - [Solidity](https://solidity.readthedocs.io/en/develop/)
 - [Web3](https://github.com/ethereum/web3.js/)
+- [Customized Ganache for ThunderCore](https://github.com/thundercore/ganache)
+- [Customized ganache-cli for ThunderCore](https://github.com/thundercore/ganache-cli)

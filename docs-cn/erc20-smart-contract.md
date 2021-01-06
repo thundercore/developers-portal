@@ -108,12 +108,10 @@ module.exports = function(deployer) {
 };
 ```
 
-2. 启用 local chain 来测试我们的合约。藉由使用这个方式，我们可以在不消耗正式代币的情况下测试我们的合约。我们推荐使用 [Ganache](https://www.trufflesuite.com/ganache)，或使用以下指令装载 CLI 工具。
+2. 启用 local chain 来测试我们的合约。藉由使用这个方式，我们可以在不消耗正式代币的情况下测试我们的合约。我们推荐使用 [Ganache](https://github.com/thundercore/ganache)，或使用以下指令装载 CLI 工具。
 
 ```bash
-npm install -g ganache-cli
-# or 
-yarn global add ganache-cli
+npm install -g thundercore/ganache-cli#tt
 ```
 
 接着，双击该图示以启用应用程序或运行指令 ganache-cli 以启动 local chain。
@@ -277,3 +275,5 @@ yarn install
 - [building robust smart contracts with openzeppelin](https://www.trufflesuite.com/tutorials/robust-smart-contracts-with-openzeppelin)
 - [solidity](https://solidity.readthedocs.io/en/develop/)
 - [web3](https://github.com/ethereum/web3.js/)
+- [Customized Ganache for ThunderCore](https://github.com/thundercore/ganache)
+- [Customized ganache-cli for ThunderCore](https://github.com/thundercore/ganache-cli)
