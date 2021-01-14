@@ -36,7 +36,7 @@ Through the **_TT Social Promoter_** in the ThunderCore Hub Quest System, users 
 
 ## How do I Participate?
 
-We want to learn about your project! Submit your application [here](https://forms.gle/8vcPhMKLSXGPxnJVA).
+We want to learn about your project! Submit your application [here](https://form.typeform.com/to/PhvuMI7o?utm_source=dev_portal&utm_medium=in_page&utm_campaign=dev_jumpstart).
 
 ---
 ## Case study: How effective is it?
