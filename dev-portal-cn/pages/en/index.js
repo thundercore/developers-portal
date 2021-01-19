@@ -106,13 +106,7 @@ class JumpStart extends React.Component {
         <div className="jumpStartImg">
           <img src={'/img/Jumpstart.png'}/>
         </div>
-
-        <form className="jumpStartMain"
-          action="https://thundercore.us18.list-manage.com/subscribe/post?u=9e820737f58c3f0aa1940427b&amp;id=3338803d92"
-          method="post" id="mc-embedded-subscribe-form"
-          name="mc-embedded-subscribe-form" className="validate" target="_blank"
-          noValidate>
-
+               <form className="jumpStartMain" action="https://form.typeform.com/to/PhvuMI7o?utm_source=dev_portal&utm_medium=footer&utm_campaign=dev_jumpstart" target="_blank">
           <div style={{position: 'absolute', left: '-5000px'}} aria-hidden="true">
             <input type="text" name="b_9e820737f58c3f0aa1940427b_3338803d92" tabIndex="-1" value="" />
           </div>
