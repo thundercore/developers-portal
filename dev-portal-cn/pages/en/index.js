@@ -107,7 +107,7 @@ class JumpStart extends React.Component {
           <img src={'/img/ttsocial.png'}/>
         </div>
 
-               <form className="jumpStartMain" action="https://docs.google.com/forms/d/e/1FAIpQLSeHfya9a8MqO3h015hvH6JG9t57kowIFwZFW0IdZ6XufvEOLA/viewform" target="_blank">
+               <form className="jumpStartMain" action="https://form.typeform.com/to/PhvuMI7o?utm_source=dev_portal&utm_medium=footer&utm_campaign=dev_jumpstart" target="_blank">
           <div style={{position: 'absolute', left: '-5000px'}} aria-hidden="true">
             <input type="text" name="b_9e820737f58c3f0aa1940427b_3338803d92" tabIndex="-1" value="" />
           </div>
