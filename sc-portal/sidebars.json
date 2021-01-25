@@ -9,7 +9,8 @@
       "stablecoin",
       "stblecoin-metamask",
       "stblecoin-trustwallet",
-      "faqs/tt20-withdraw"
+      "faqs/tt20-withdraw",
+      "ttswap"
     ],
     "Tokens": [
       "get-tokens",
