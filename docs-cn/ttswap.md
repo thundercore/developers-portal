@@ -1,5 +1,5 @@
 ---
-id: ttswap-tutorial
+id: ttswap
 title: TTSwap DEX
 ---
 
