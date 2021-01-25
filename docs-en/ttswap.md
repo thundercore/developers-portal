@@ -32,13 +32,14 @@ The current functions of the TTSwap Exchange can be divided into 5 categories:
 4. Create Exchange 
 5. Stats
 
-## How to use TTSwap?
+### How to use TTSwap?
 Connect your wallet
 
 ## Step 1
 Once you open the TTSwap Exchange with a Web3 enabled browser (such as MetaMask), a pop-up will ask you to connect to your wallet address as shown below: 
 
 ![alt-text](assets/img/ttswap/ttswap_1.png)
+
 
 ## Step 2
 To start using all services on TTSwap, please click Connect to proceed.
@@ -65,10 +66,13 @@ Send
 _NOTE: When you use the Send function to swap and send, you will be swapping and sending tokens on the ThunderCore Network._
 
 
+
 Add/Remove Liquidity
+
 _Note: Please note that this service can only be used after you have agreed to unlock the button._
 
 ![alt-text](assets/img/ttswap/ttswap_4.png)
+
 
 * Add Liquidity
 	*Add Liquidity will put your TT and a Token pair in a 1:1 ratio to TTSwap's contract to increase liquidity for TT-Token trading pairs.*
@@ -77,14 +81,18 @@ _Note: Please note that this service can only be used after you have agreed to u
 
 ![alt-text](assets/img/ttswap/ttswap_5.png)
 
+
 * Remove Liquidity
 	*When you Remove Liquidity, you will burn the Pool Tokens and in turn will receive the TT and Token you deserve. This amount will also include the aforementioned exchange fee profit.*
 	*You can only remove (withdraw) your own Pool Tokens.*
+
+
 
 ## Create Exchange
 To create exchange, please fill in the address of the ERC20 Token, click Create Exchange to send out the transaction. Token will be able to trade on TTSwap after the transaction is confirmed on the blockchain.
 
 ![alt-text](assets/img/ttswap/ttswap_6.png)
+
 
 ## Stats
 
@@ -99,6 +107,7 @@ To create exchange, please fill in the address of the ERC20 Token, click Create 
 	* Top Trading Pairs
 
 ![alt-text](assets/img/ttswap/ttswap_7.png)
+
 
 _Note: You may utilize the TTSwap “Stats” page to refer to the APR of adding liquidity to the liquidity pool. To learn about how to add liquidity, please refer to the add liquidity section under “Pool”._
 
