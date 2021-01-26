@@ -64,3 +64,14 @@ We're currently in the process of integrating the latest EVM changes (St. Peters
 ## Yup, that's it
 
 No need to rewrite your smart contracts or change any of your infrastructure code, you should be good to go! If you are facing any problems, post it in our [Discord](https://discordapp.com/invite/5EbxXfw) for direct access to, and immediate help from, some of our developers.
+
+
+## Resources
+
+1. [ThunderCore Developer Portal](https://developers.thundercore.com/) 
+    * [Get started tutorial](deploy-your-own-game.md)
+    * [Deploy Your Own ERC-20](erc20-smart-contract.md)
+2. [Developer Jumpstart Program](https://form.typeform.com/to/PhvuMI7o?utm_source=dev_portal&utm_medium=migrate_from_ethereum&utm_campaign=dev_jumpstart)
+3. [Submit Your DApp](https://dapps.thundercore.com/submit)
+4. [Get started with ThunderCore Hub](get-wallet.md)
+5. [Thunder Token Mainnet Faucet](https://faucet.thundercore.com/)
