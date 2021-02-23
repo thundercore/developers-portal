@@ -12,7 +12,7 @@ Your existing code supporting Ethereum has a good chance to work as-is
 Item             | References
 -----------------|----------------------------------------------------------------------------
 |Official Website |[https://www.thundercore.com](https://www.thundercore.com)
-| Block Explorer  |[https://scan.thundercore.com/](https://www.thundercore.com)
+| Block Explorer  |[https://scan.thundercore.com/](https://scan.thundercore.com/)
 | JSON-RPC        | [https://mainnet-rpc.thundercore.com](https://mainnet-rpc.thundercore.com)
 |                 | wss://mainnet-ws.thundercore.com
 |Chain ID         |thunder-mainnet: 108 (0x6c)
