@@ -60,4 +60,13 @@ And recently, Punchline is already live on the Quest System with an [Interactive
 ![alt-text](assets/img/developer-jumpstart/punchline.png)
 
 
+## Claim your ThunderCore Developer Rewards
+ThunderCore is a lightning-fast, EVM-compatible public blockchain designed to bring Blockchain to the masses. ThunderCore raised $50 million from top investors including Pantera, MetaStable, Electric Capital, Arrington XRP Capital, Hashed, Kinetic and more.
+
+ThunderCore has launched the ThunderCore Developer Rewards and is now giving away free **Thunder Tokens** to qualifying open source developers on GitHub. If you are a GitHub developer with at least 1 contribution in 2020, you may be eligible of receiving up to 5000 free Thunder Tokens! With a prize pool of up to **400,000 TT**, the prizes will be distributed on a **first-come-first basis**.
+
+Join now on [GitHub](https://github.com/ThunderCore-Developer/Jumpstart-Program/issues/1)!
+
+
+
 ___
