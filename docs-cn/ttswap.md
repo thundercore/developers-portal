@@ -7,7 +7,7 @@ title: TTSwap DEX
 TTSwap 是一个基于 Uniswap 开源协议并部署在 ThunderCore 上的分散式代币交换服务。 
 
 ## 为何要使用 TTSwap?
-* TTSwap 是您快速利用 TT 获取 TT 链上稳定币 (TT-SAI 与 TT-USDT) 的方法。
+* TTSwap 是您快速利用 TT 获取 TT 链上稳定币 (TT-USDT/TT-USDC/TT-ETH/TT-WBTC/TT-BUSD/TT-BNB) 的方法。
 * 作为 TT 链上的资金避风港，避免您的数位资产遭受过大的波动。
 * 享受比以太坊更快速的体验，安全且快速地发送您的代币。
 

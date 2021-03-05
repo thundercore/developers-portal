@@ -7,7 +7,7 @@ title: How to use TTSwap DEX
 TTSwap is a decentralized token exchange service based on the Uniswap open-source protocol and deployed on ThunderCore. 
 
 ## Why use TTSwap?
-* TTSwap is a fast way to convert your Thunder Token to TT-USDT/TT-USDC/TT-ETH/TT-WBTC on ThunderCore, and vice versa.
+* TTSwap is a fast way to convert your Thunder Token to TT-USDT/TT-USDC/TT-ETH/TT-WBTC/TT-BUSD/TT-BNB on ThunderCore, and vice versa.
 * As a safe haven on the ThunderCore blockchain, avoid undue fluctuations in your crypto assets.
 * Enjoy a faster experience than Ethereum, allowing you to send your tokens safely and quickly.
 
@@ -89,7 +89,7 @@ _Note: Please note that this service can only be used after you have agreed to u
 
 
 ## Create Exchange
-To create exchange, please fill in the address of the ERC20 Token, click Create Exchange to send out the transaction. Token will be able to trade on TTSwap after the transaction is confirmed on the blockchain.
+To create exchange, please fill in the address of the ERC20 / BEP20 Token, click Create Exchange to send out the transaction. Token will be able to trade on TTSwap after the transaction is confirmed on the blockchain.
 
 ![alt-text](assets/img/ttswap/ttswap_6.png)
 
