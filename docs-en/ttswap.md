@@ -45,7 +45,7 @@ Once you open the TTSwap Exchange with a Web3 enabled browser (such as MetaMask)
 To start using all services on TTSwap, please click Connect to proceed.
 
 Swap
-1. _“Swap”_ is a function that can exchange any two kinds of ERC-20 tokens.
+1. _“Swap”_ is a function that can exchange any two kinds of tokens.
 
 2. After selecting the input and output token to exchange, you can choose to enter an amount in either the "Input" or "Output" blank, and the other blank will immediately calculate the corresponding amount.
 
