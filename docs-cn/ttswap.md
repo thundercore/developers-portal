@@ -61,7 +61,7 @@ TTSwap Exchange 的当前功能分为 5 类：
 
 2. 显示的数字已扣除手续交换费。
 
-3. TTSwap 将为每笔 TT ⇄ TT稳定币交易收取 0.3％ 的费用。 (TT StableCoin ⇄ TT StableCoin 的交易将收取两次交易费用，总计 0.5991％) 此费用称为流动性提供者费用，该费用将支付给流动性提供者。 
+3. TTSwap 将为每笔交易收取 0.3％ 的费用。 (TT StableCoin ⇄ TT StableCoin 的交易将收取两次交易费用，总计 0.5991％) 此费用称为流动性提供者费用，该费用将支付给流动性提供者。 
 
 ![alt-text](assets/img/ttswap/ttswap_3.png)
 

@@ -59,7 +59,7 @@ Send
 
 2. The amount displayed has already deducted the exchange fee.
 
-3. TTSwap will charge a 0.3% fee for each TT ⇄ TT StableCoin transaction. (TT StableCoin ⇄ TT StableCoin's transaction fee will be taken twice, a total of 0.5991%) This fee is called the liquidity provider fee which will be paid to the liquidity providers. 
+3. TTSwap will charge a 0.3% fee for each transaction. (TT StableCoin ⇄ TT StableCoin's transaction fee will be taken twice, a total of 0.5991%) This fee is called the liquidity provider fee which will be paid to the liquidity providers. 
 
 ![alt-text](assets/img/ttswap/ttswap_3.png)
 
