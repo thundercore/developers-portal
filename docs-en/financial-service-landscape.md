@@ -13,17 +13,26 @@ Each line is bidirectional:
 ## Usage
 _If you are a crypto holder or user_
 
-* If you want to get some TT with USDT, BTC: 
+* If you want to get some TT with USDT, WBTC, ETH, BNB, BUSD, USDC: 
   1. You can get your TT via [here](https://coinmarketcap.com/currencies/thunder-token/#markets) 
   2. Clicking on `Pair` will direct you to the trading pair for the exchange
 
 * Convert your assets between ThunderCore and Ethereum / Binance Smart Chain via [ThunderCore Bridge](https://bridge.thundercore.com/)
-  1. Refer to [ThunderCore Bridge](https://bridge.thundercore.com/) and enable the Web3 wallet (such as MetaMask) to start 
+
+# Ethereum to ThunderCore
+  1. Refer to [ThunderCore Bridge](https://bridge.thundercore.com/eth/) and enable the Web3 wallet (such as MetaMask) to start 
   2. Input the amount of USDT you want to transfer 
   3. Wait for the block confirmation and then you will see the Success page if the transaction is complete 
   4. Check out the [Tutorial](https://docs.thundercore.com/docs/ThunderStableCoinTutorial.pdf) if you have other questions about [ThunderCore Bridge](https://bridge.thundercore.com/)
 
-* Exchange TT with TT-StableCoin via [TTSwap](https://ttswap.space/#/swap)
+# Binance Smart Chain to ThunderCore
+  1. Refer to [ThunderCore Bridge](https://bridge.thundercore.com/bsc/) and enable the Web3 wallet (such as MetaMask) to start 
+  2. Input the amount of BUSD you want to transfer 
+  3. Wait for the block confirmation and then you will see the Success page if the transaction is complete 
+  4. Check out the [Tutorial](https://docs.thundercore.com/docs/ThunderStableCoinTutorial.pdf) if you have other questions about [ThunderCore Bridge](https://bridge.thundercore.com/)
+
+
+* Exchange TT with TT20 tokens via [TTSwap](https://ttswap.space/#/swap)
   1. Refer to [TTSwap](https://ttswap.space/#/swap) and enable the Web3 wallet (such as MetaMask) to start 
   2. Select the Input and Output of token to start the process  
   3. Wait for the process and you will get the tokens accordingly  
@@ -40,7 +49,11 @@ _If you don’t have any crypto_
      * Check out the [FAQ](https://ttget.appcenter.games/) if you have other questions about TTGet
   2. [IndaCoin](https://indacoin.io/buy-thundertoken-with-card) - To get TT with a credit card or debit card instantly (not available for locations such as the US, China, Japan, etc.)
 
-* If you don’t have any TT or TT-StableCoin,
+* If you don’t have any TT or TT20 tokens,
 You can buy them via a crypto exchange (eg. Huobi, Upbit) or you can get them via OTC.
 
 * If you would like to learn more about WBTC, feel free to check out more information [here](https://wbtc.network/).
+
+## Learn about BEP-20 assets on ThunderCore
+
+ThunderCore supports BEP-20 assets on to the ThunderCore blockchain. Currently ThunderCore S

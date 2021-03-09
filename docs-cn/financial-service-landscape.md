@@ -13,17 +13,25 @@ title: ThunderCore 金融服务
 ## 用途
 _如果你是一个数字货币持有者_
 
-* 如果你想透过 USDT 或 BTC 获得 TT： 
+* 如果你想透过 USDT, WBTC, ETH, BNB, BUSD, USDC 获得 TT： 
   1. 你可以从 [这里](https://coinmarketcap.com/currencies/thunder-token/#markets) 获得 TT  
   2. 点击 “Pair” 将引导您到交易对进行交易
 
 * 通过 [ThunderCore Bridge](https://bridge.thundercore.com/) 将您的 ERC-20 和 BEP-20 代币到 ThunderCore.
-  1. 请参考 [ThunderCore Bridge](https://bridge.thundercore.com/) 并启用 Web3 钱包(例如 MetaMask)以启动 
+
+# ERC-20 代币到 ThunderCore
+  1. 请参考 [ThunderCore Bridge](https://bridge.thundercore.com/eth/)并启用 Web3 钱包(例如 MetaMask)以启动 
   2. 输入您要转换的 USDT 的金额 
   3. 等待区块确认，如交易完成，您将看到成功页面 
-  4. 如果您对 [ThunderCore Bridge](https://bridge.thundercore.com/) 仍有其他疑问，请查看 [教程](https://docs.thundercore.com/docs/ThunderStableCoinTutorial.pdf)
+  4. 如果您对 [ThunderCore Bridge](https://bridge.thundercore.com/eth/) 仍有其他疑问，请查看 [教程](https://docs.thundercore.com/docs/ThunderStableCoinTutorial.pdf)
 
-* 通过 [TTSwap](https://ttswap.space/#/swap) 以 TT-StableCoin 交换 TT
+# BEP-20 代币到 ThunderCore
+  1. 请参考 [ThunderCore Bridge](https://bridge.thundercore.com/bsc/)并启用 Web3 钱包(例如 MetaMask)以启动 
+  2. 输入您要转换的 USDT 的金额 
+  3. 等待区块确认，如交易完成，您将看到成功页面 
+  4. 如果您对 [ThunderCore Bridge](https://bridge.thundercore.com/bsc/) 仍有其他疑问，请查看 [教程](https://docs.thundercore.com/docs/ThunderStableCoinTutorial.pdf)
+
+* 通过 [TTSwap](https://ttswap.space/#/swap) 以 TT20 代币交换 TT
   1. 请参考 [TTSwap](https://ttswap.space/#/swap) 并启用 Web3 钱包(例如: MetaMask)以启动 
   2. 选择代币的输入额和输出额以启动  
   3. 等待该过程，您将获得你所输入金额所对应的代币 
