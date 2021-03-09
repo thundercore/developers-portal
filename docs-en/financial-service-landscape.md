@@ -19,13 +19,13 @@ _If you are a crypto holder or user_
 
 * Convert your assets between ThunderCore and Ethereum / Binance Smart Chain via [ThunderCore Bridge](https://bridge.thundercore.com/)
 
-# Ethereum to ThunderCore
+### Ethereum to ThunderCore
   1. Refer to [ThunderCore Bridge](https://bridge.thundercore.com/eth/) and enable the Web3 wallet (such as MetaMask) to start 
   2. Input the amount of USDT you want to transfer 
   3. Wait for the block confirmation and then you will see the Success page if the transaction is complete 
   4. Check out the [Tutorial](https://docs.thundercore.com/docs/ThunderStableCoinTutorial.pdf) if you have other questions about [ThunderCore Bridge](https://bridge.thundercore.com/)
 
-# Binance Smart Chain to ThunderCore
+### Binance Smart Chain to ThunderCore
   1. Refer to [ThunderCore Bridge](https://bridge.thundercore.com/bsc/) and enable the Web3 wallet (such as MetaMask) to start 
   2. Input the amount of BUSD you want to transfer 
   3. Wait for the block confirmation and then you will see the Success page if the transaction is complete 

@@ -19,13 +19,13 @@ _如果你是一个数字货币持有者_
 
 * 通过 [ThunderCore Bridge](https://bridge.thundercore.com/) 将您的 ERC-20 和 BEP-20 代币到 ThunderCore.
 
-# ERC-20 代币到 ThunderCore
+### ERC-20 代币到 ThunderCore
   1. 请参考 [ThunderCore Bridge](https://bridge.thundercore.com/eth/)并启用 Web3 钱包(例如 MetaMask)以启动 
   2. 输入您要转换的 USDT 的金额 
   3. 等待区块确认，如交易完成，您将看到成功页面 
   4. 如果您对 [ThunderCore Bridge](https://bridge.thundercore.com/eth/) 仍有其他疑问，请查看 [教程](https://docs.thundercore.com/docs/ThunderStableCoinTutorial.pdf)
 
-# BEP-20 代币到 ThunderCore
+### BEP-20 代币到 ThunderCore
   1. 请参考 [ThunderCore Bridge](https://bridge.thundercore.com/bsc/)并启用 Web3 钱包(例如 MetaMask)以启动 
   2. 输入您要转换的 USDT 的金额 
   3. 等待区块确认，如交易完成，您将看到成功页面 
