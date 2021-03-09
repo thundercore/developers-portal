@@ -32,7 +32,7 @@ _If you are a crypto holder or user_
   4. Check out the [Tutorial](https://docs.thundercore.com/docs/ThunderStableCoinTutorial.pdf) if you have other questions about [ThunderCore Bridge](https://bridge.thundercore.com/)
 
 
-* Exchange TT with TT20 tokens via [TTSwap](https://ttswap.space/#/swap)
+### Exchange TT with TT20 tokens via [TTSwap](https://ttswap.space/#/swap)
   1. Refer to [TTSwap](https://ttswap.space/#/swap) and enable the Web3 wallet (such as MetaMask) to start 
   2. Select the Input and Output of token to start the process  
   3. Wait for the process and you will get the tokens accordingly  
