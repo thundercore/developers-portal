@@ -33,7 +33,7 @@ To build or migrate DApps, visit our tutorials - [Build](deploy-your-own-game.md
 You can always review live activity and performance on [ThunderCore Scan(Mainnet)](https://scan.thundercore.com) and [ThunderCore Scan(Testnet)](https://scan-testnet.thundercore.com).
 
 ## Where can I buy Thunder Tokens?
-Currently, you can purchase Thunder Tokens (TT) via [TTGet](https://ttget.appcenter.games/) or on a few major exchanges, including Huobi and Upbit. More will be coming, please follow our [Medium](https://medium.com/thunderofficial) and [Twitter](https://twitter.com/ThunderProtocol) for announcements.
+Currently, you can purchase Thunder Tokens (TT) via [IndaCoin](https://indacoin.io/buy-thundertoken-with-card) or on a few major exchanges, including Huobi and Upbit. More will be coming, please follow our [Medium](https://medium.com/thunderofficial) and [Twitter](https://twitter.com/ThunderProtocol) for announcements.
 
 ## What type of DApps are a good fit for ThunderCore?
 Any DApp which requires some form of real time interaction with its users is a perfect match for ThunderCore. Imagine a blockchain poker game fully hosted on the ThunderCore blockchain. Check out the DApps built on ThunderCore [here](https://www.thundercore.com/products-landing-page/).

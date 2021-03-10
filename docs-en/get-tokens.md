@@ -13,4 +13,4 @@ Testnet|https://faucet-testnet.thundercore.com|1 TT per hour
 
 ## Buying tokens
 
-You can purchase Thunder Tokens (TT) via [TTGet](https://indacoin.io/buy-thundertoken-with-card) or on a few major exchanges, including Huobi and Upbit.
+You can purchase Thunder Tokens (TT) via [IndaCoin](https://indacoin.io/buy-thundertoken-with-card) or on a few major exchanges, including Huobi and Upbit.

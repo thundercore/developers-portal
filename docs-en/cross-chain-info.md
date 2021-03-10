@@ -24,6 +24,6 @@ Learn more on how to deposit your assets onto the ThunderCore blockchain [here](
 _**Note:** Please do not deposit any non-supported asset to the ThunderCore Hub wallet to prevent asset loss._
 
 ### Resources:
-1. [ThunderCore Bridge](https://bridge.thundercore.com/)
+1. ThunderCore Bridge: [ERC-20](https://bridge.thundercore.com/eth/) or [BEP-20](https://bridge.thundercore.com/)
 2. [Financial Service Landscape](https://support-center.thundercore.com/docs/financial-service-landscape/)
 
