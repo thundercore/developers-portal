@@ -12,6 +12,10 @@
       "faqs/tt20-withdraw",
       "ttswap"
     ],
+    "Cross Chain Assets": [
+      "cross-chain-info",
+      "bep20-on-thunder"
+    ],
     "Tokens": [
       "get-tokens",
       "asset-loss-policy"
