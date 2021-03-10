@@ -11,7 +11,7 @@ Please note that BEP20-TT is Thunder Token bridged onto the Binance Smart Chain.
 
 ## Frequently Asked Questions (FAQ's)
 
-### Why have Thunder Tokens (TT) been bridged on the Binance Smart Chain (BSC) blockchain?**
+### **Why have Thunder Tokens (TT) been bridged on the Binance Smart Chain (BSC) blockchain?**
 
 Thunder Tokens were bridged onto the BSC blockchain in order to promote cross-chain applicability. With a growing number of blockchains and native tokens, we believe that providing users with the ability to bridge their assets across blockchain platforms provides a better ecosystem with more access to products and services. Our goal has always been to bring blockchain to the masses.
 
