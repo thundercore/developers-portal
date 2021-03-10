@@ -17,6 +17,7 @@ Currently, ThunderCore supports the following ERC-20 and BEP-20 assets:
 ### Binance Smart Chain (BEP-20)
 * BNB
 * BUSD
+* BEP20-TT
 	
 Learn more on how to deposit your assets onto the ThunderCore blockchain [here](https://support-center.thundercore.com/docs/financial-service-landscape/)
 
