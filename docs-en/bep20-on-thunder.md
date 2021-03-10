@@ -43,6 +43,7 @@ To get BEP20-TT with your TT, please visit the (ThunderCore Bridge)[https://brid
 
 To learn how to swap assets from ThunderCore to Binance Smart Chain, kindly refer to the [tutorial](https://docs.thundercore.com/docs/TransferringCrossChainAssets-BSC.pdf).
 
+BEP-20 TT is available to [Swap](https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x990e7154bb999faa9b2fa5ed29e822703311ea85&outputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56) and [Add Liquidity](https://exchange.pancakeswap.finance/#/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0x990e7154bb999faa9b2fa5ed29e822703311ea85) on Pancake Swap!
 
 ### I keep getting a network error when I visit the ThunderCore Bridge page, how do I solve this?
 
