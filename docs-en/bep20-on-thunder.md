@@ -57,7 +57,7 @@ If you are using MetaMask wallet on your browser and encounter an network error,
 You may deposit BNB and BUSD directly to your ThunderCore Hub wallet. However, BEP20-TT is not supported on the ThunderCore Hub wallet yet. Thus, please **do not** deposit _BEP20-TT_ directly into your ThunderCore Hub wallet.
 
 #### Deposit Information:
-<pre>
+```
 BNB:
 
 You may deposit BNB directly from the Binance Smart Chain to your ThunderCore Hub wallet. When you deposit an amount of BNB that is above the minimum amount required, your BNB will automatically convert into TT-BNB and be deposited into your ThunderCore wallet.
@@ -76,10 +76,12 @@ BEP20-TT:
 
 Currently, the ThunderCore Hub wallet does not support BEP20-TT. Thus, please do not deposit BEP20-TT directly into the ThunderCore Hub wallet. 
 
-If you would like to bridge your BEP20-TT back to your ThunderCore Hub wallet, please visit the ThunderCore Bridge through MetaMask to transfer your assets to the ThunderCore Mainnet. You may refer to the <a href="https://docs.thundercore.com/docs/TransferringCrossChainAssets-BSC.pdf">tutorial</a> of <a href="https://bridge.thundercore.com/bsc/">ThunderCore Bridge</a>.
+If you would like to bridge your BEP20-TT back to your ThunderCore Hub wallet, please visit the ThunderCore Bridge through MetaMask to transfer your assets to the ThunderCore Mainnet. Please refer to the reference below.
 
 Minimum Deposit: 500 BEP20-TT
-</pre>
+```
+Reference: You may refer to the [tutorial](https://docs.thundercore.com/docs/TransferringCrossChainAssets-BSC.pdf) of [ThunderCore Bridge](https://bridge.thundercore.com/bsc/).
+
 
 ### Can I withdraw my BNB / BUSD directly to my Binance Exchange wallet?
 
