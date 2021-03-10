@@ -39,7 +39,7 @@ The token contract address for BEP20-TT is **`0x990e7154bb999faa9b2fa5ed29e82270
 
 ### How to get BEP20-TT
 
-To get BEP20-TT with your TT, please visit the (ThunderCore Bridge)[https://bridge.thundercore.com/bsc/] and connect your wallet to the interface to swap your TT to BEP20-TT on the Binance Smart Chain.
+To get BEP20-TT with your TT, please visit the [ThunderCore Bridge](https://bridge.thundercore.com/bsc/] and connect your wallet to the interface to swap your TT to BEP20-TT on the Binance Smart Chain.)
 
 To learn how to swap assets from ThunderCore to Binance Smart Chain, kindly refer to the [tutorial](https://docs.thundercore.com/docs/TransferringCrossChainAssets-BSC.pdf).
 
@@ -75,7 +75,8 @@ Minimum Deposit: 0 BUSD
 BEP20-TT:
 
 Currently, the ThunderCore Hub wallet does not support BEP20-TT. Thus, please do not deposit BEP20-TT directly into the ThunderCore Hub wallet. 
-If you would like to bridge your BEP20-TT back to your ThunderCore Hub wallet, please visit the ThunderCore Bridge through MetaMask to transfer your assets to the ThunderCore Mainnet. You may refer to the [tutorial](https://docs.thundercore.com/docs/TransferringCrossChainAssets-BSC.pdf) of [ThunderCore Bridge](https://bridge.thundercore.com/bsc/).
+
+If you would like to bridge your BEP20-TT back to your ThunderCore Hub wallet, please visit the ThunderCore Bridge through MetaMask to transfer your assets to the ThunderCore Mainnet. You may refer to the <a href="https://docs.thundercore.com/docs/TransferringCrossChainAssets-BSC.pdf">tutorial</a> of <a href="https://bridge.thundercore.com/bsc/">ThunderCore Bridge</a>.
 
 Minimum Deposit: 500 BEP20-TT
 ```
