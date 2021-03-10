@@ -20,9 +20,9 @@ Currently, ThunderCore supports the following ERC-20 and BEP-20 assets:
 	
 Learn more on how to deposit your assets onto the ThunderCore blockchain [here](https://support-center.thundercore.com/docs/financial-service-landscape/)
 
-**Note:** Please do not deposit any non-supported asset to the ThunderCore Hub wallet to prevent asset loss.
+_**Note:** Please do not deposit any non-supported asset to the ThunderCore Hub wallet to prevent asset loss._
 
 ### Resources:
-1. [ThunderCore Bridge:](https://bridge.thundercore.com/)
-2. [Financial Service Landscape:](https://support-center.thundercore.com/docs/financial-service-landscape/)
+1. [ThunderCore Bridge](https://bridge.thundercore.com/)
+2. [Financial Service Landscape](https://support-center.thundercore.com/docs/financial-service-landscape/)
 

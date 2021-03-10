@@ -41,7 +41,7 @@ The token contract address for BEP20-TT is **`0x990e7154bb999faa9b2fa5ed29e82270
 You may deposit BNB and BUSD directly to your ThunderCore Hub wallet. However, BEP20-TT is not supported on the ThunderCore Hub wallet. Thus, please **do not** deposit _BEP20-TT_ directly into your ThunderCore Hub wallet.
 
 #### Deposit Information:
----
+```
 **BNB:**
 
 You may deposit BNB directly from the Binance Smart Chain to your ThunderCore Hub wallet. When you deposit an amount of BNB that is above the minimum amount required, your BNB will automatically convert into TT-BNB and be deposited into your ThunderCore wallet.
@@ -60,8 +60,12 @@ You may deposit BUSD directly from the Binance Smart Chain to your ThunderCore H
 
 Currently, the ThunderCore Hub wallet does not support BEP20-TT. Thus, please do not deposit BEP20-TT directly into the ThunderCore Hub wallet. 
 If you would like to bridge your BEP20-TT back to your ThunderCore Hub wallet, please visit the ThunderCore Bridge through MetaMask to transfer your assets to the ThunderCore Mainnet. You may refer to the [tutorial](https://docs.thundercore.com/docs/TransferringCrossChainAssets-BSC.pdf) of [ThunderCore Bridge](https://bridge.thundercore.com/bsc/).
----
+```
 
 ### Can I withdraw my BNB / BUSD directly to my Binance Exchange wallet?
 
-We do not recommend to withdraw your assets directly from your ThunderCore Hub wallet to your Binance wallet as Binance does not support internal transactions. If you have withdrawn your assets directly to your Binance wallet, please contact Binance’s support team and provide them with the transaction for further assistance.
+As Binance does not support internal transactions, thus we do not recommend to withdraw directly from your ThunderCore Hub wallet to your Binance wallet. 
+
+If you have withdrawn directly to your Binance wallet and the assets do not show up, please provide transaction details to binance's support team [here](https://www.binance.com/en/chat).
+
+
