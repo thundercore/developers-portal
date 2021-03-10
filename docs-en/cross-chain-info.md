@@ -1,6 +1,6 @@
 ---
 id: cross-chain-info
-title: Cross Chain Info
+title: Introduction
 ---
 
 ## General Information
@@ -9,14 +9,14 @@ ThunderCore Supports various cross-chain assets between blockchains including Et
 Currently, ThunderCore supports the following ERC-20 and BEP-20 assets:
  
 ### Ethereum (ERC-20)
-	* USDT
-	* USDC
-	* ETH
-	* WBTC
+* USDT
+* USDC
+* ETH
+* WBTC
 
 ### Binance Smart Chain (BEP-20)
-	* BNB
-	* BUSD
+* BNB
+* BUSD
 	
 Learn more on how to deposit your assets onto the ThunderCore blockchain [here](https://support-center.thundercore.com/docs/financial-service-landscape/)
 
