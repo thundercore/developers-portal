@@ -24,6 +24,6 @@ ThunderCore 有支持不同区块链的跨链转帐，支持的区块链包含�
 _**注意：** 为了避免资产丢失，请不要转入不支持的资产。
 
 ### 其他资源：
-1. 代币桥:[ERC-20](https://bridge.thundercore.com/eth/) or [BEP-20](https://bridge.thundercore.com/)
+1. 代币桥: [ERC-20](https://bridge.thundercore.com/eth/) or [BEP-20](https://bridge.thundercore.com/)
 2. [ThunderCore 金融服务](https://support-center-cn.thundercore.com/docs/financial-service-landscape/)
 
