@@ -85,12 +85,12 @@ Reference: You may refer to the [tutorial](https://docs.thundercore.com/docs/Tra
 
 ### Can I withdraw my BNB / BUSD directly to my Binance Exchange wallet?
 
-As Binance does not support internal transactions, thus we do not recommend to withdraw directly from your ThunderCore Hub wallet to your Binance wallet. 
+As Binance does not support internal transactions, thus we do not recommend to withdraw directly from your ThunderCore Hub wallet to your Binance wallet. If you would like to withdraw to your Binance wallet, please first withdraw your assets through the [ThunderCore Bridge](https://bridge.thundercore.com/bsc/) to a decentralized wallet such as MetaMask or Trust Wallet and then withdraw them your Binance wallet.
 
 If you have withdrawn directly to your Binance wallet and the assets do not show up, please provide transaction details to binance's support team [here](https://www.binance.com/en/chat).
 
 
-### What is the minimum withrawal amount and fees for TT-20 to BEP-20 assets?
+### What is the minimum withdrawal amount and fees for TT-20 to BEP-20 assets?
 ```
 BNB:
 
