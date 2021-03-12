@@ -80,7 +80,7 @@ BEP20-TT:
 
 ### **我可以从我的 TT 站钱包直接出金 BNB / BUSD 到我在币安交易所的钱包地址吗？**
 
-由于币安交易所不支持智能合约的转帐，因此我们建议您，不要直接将资产从您的 TT 站钱包中出金到币安交易所的钱包。如果您想出金到币安交易所的钱包，请先通过[ThunderCore Bridge]（https://bridge.thundercore.com/bsc/）将您的资产提取到去中心化的钱包例如 MetaMask 或 Trust Wallet，再出金到您的币安钱包。
+由于币安交易所不支持智能合约的转帐，因此我们建议您，不要直接将资产从您的 TT 站钱包中出金到币安交易所的钱包。如果您想出金到币安交易所的钱包，请先通过 [ThunderCore Bridge](https://bridge.thundercore.com/bsc/) 将您的资产提取到去中心化的钱包例如 MetaMask 或 Trust Wallet，再出金到您的币安钱包。
 
 如果您已經直接出金到币安交易所的钱包，请您聯絡 [币安支持团队](https://www.binance.com/zh-CN/chat) 提供交易详细信息。
 

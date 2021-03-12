@@ -24,8 +24,15 @@ Thunder Test Tokens (TST) 可在我们的 [测试网渠道](https://faucet-testn
 
 你可以在 [ThunderCore Scan](https://scan.thundercore.com) 與 [ThunderCore Scan(Testnet)](https://scan-testnet.thundercore.com) 上看到实时活动与其表现。
 
-## 我在哪里可以购买 Thunder Token？
-目前，您可以通过 [TTGet](https://ttget.appcenter.games/) 或在包括 [Huobi](https://www.huobi.com/en-us/exchange/tt_usdt/) 和 Upbit 在内的一些主要交易所购买 Thunder Token（TT)。
+## 我在哪里可以购买 Thunder Token (TT)？
+目前，您可以通过以下几种方式买到  Thunder Token:
+* 在一些主要交易包含 [Huobi](https://www.huobi.com/en-us/exchange/tt_usdt/) 购买，完整的交易所列表可以到[这里](https://coinmarketcap.com/currencies/thunder-token/markets/)查看。
+* 到[IndaCoin](https://indacoin.io/buy-thundertoken-with-card) 刷信用卡购买。
+* 或在包括 [Huobi](https://www.huobi.com/en-us/exchange/tt_usdt/) 和 Upbit 在内的一些主要交易所购买 Thunder Token（TT)。
+* 如果您已经有 TT-20 代币 (e.g. TT-USDT, TT-USDC..) 您可以到 [TTSwap](https://ttswap.space/#/swap) 去兑换 TT。
+* 如果还没有 TT-20 代币，可以透过[代币桥](https://bridge.thundercore.com/) 的服务，把你 BEP-20 或 ERC-20 的币 (eg BEP20-BNB, ERC20-USDT)，转入到你有支援 TT-20 代币的钱包，再去TTSwap(连结)兑换。参考：[代币桥教学](https://docs.thundercore.com/docs/ThunderStableCoinTutorial.pdf) [TTSwap 教学](https://support-center-cn.thundercore.com/docs/ttswap/)。
+* 如果您有 BNB (BEP-20) 或是 BUSD(BEP-20)，你可以到 Pancake Swap 换成 [BEP20-TT](https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x990e7154bb999faa9b2fa5ed29e822703311ea85&outputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56)，再透过[代币桥](https://bridge.thundercore.com/bsc/) 转入到有支持 TT-20 的钱包。
+* 备注：有支援 TT 的钱包请查看以下[连结](https://www.thundercore.com/products-landing-page/?lang=zh-hans) 的「钱包」分类。
 
 ## 什么类型的 DApps 适合 ThunderCore？
 任何需要与用户进行某种形式的实时交互的 DApp 都是 ThunderCore 的完美搭档。 想像一个完全架构在 ThunderCore 链上的区块链扑克牌游戏。
