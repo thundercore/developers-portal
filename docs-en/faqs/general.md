@@ -32,8 +32,17 @@ To build or migrate DApps, visit our tutorials - [Build](deploy-your-own-game.md
 
 You can always review live activity and performance on [ThunderCore Scan(Mainnet)](https://scan.thundercore.com) and [ThunderCore Scan(Testnet)](https://scan-testnet.thundercore.com).
 
+
 ## Where can I buy Thunder Tokens?
 Currently, you can purchase Thunder Tokens (TT) via [TTGet](https://ttget.appcenter.games/) or on a few major exchanges, including Huobi and Upbit. More will be coming, please follow our [Medium](https://medium.com/thunderofficial) and [Twitter](https://twitter.com/ThunderProtocol) for announcements.
+
+## Where can I buy Thunder Tokens (TT)?
+Currently, there are several methods to get Thunder Tokens (TT):
+* You can get TT on a few major exchanges including [Huobi](https://www.huobi.com/en-us/exchange/tt_usdt) or Upbit. For the list of exchanges, refer [here](https://coinmarketcap.com/currencies/thunder-token/).
+* Get TT via credit card on [IndaCoin](https://indacoin.io/buy-thundertoken-with-card).
+* If you already have some TT-20 assets (e.g. TT-USDT, TT-USDC...) you can swap them for some TT on [TTSwap](https://ttswap.space/#/swap). 
+* If you don't have TT-20 assets, you can swap your BEP-20 or ERC-20 assets (e.g. BEP20-BNB, ERC20-USDT) to your wallet that supports TT-20 assets through [ThunderBridge](https://bridge.thundercore.com/), and then swap the assets for TT on [TTSwap](https://ttswap.space/#/swap). Reference: [ThunderBridge tutorial](https://docs.thundercore.com/docs/TransferringCrossChainAssets-BSC.pdf) & [TTSwap tutorial](https://support-center.thundercore.com/docs/ttswap/).
+* If you already have some BNB (BEP-20) or BUSD (BEP-20), then you can also visit Pancake Swap to Swap for some [BEP20-TT](https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x990e7154bb999faa9b2fa5ed29e822703311ea85&outputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56) and then deposit the assets to a wallet that support TT-20 wallets.For the list of wallets that support TT20 tokens, kindly refer [here](https://www.thundercore.com/products-landing-page/).
 
 ## What type of DApps are a good fit for ThunderCore?
 Any DApp which requires some form of real time interaction with its users is a perfect match for ThunderCore. Imagine a blockchain poker game fully hosted on the ThunderCore blockchain. Check out the DApps built on ThunderCore [here](https://www.thundercore.com/products-landing-page/).
