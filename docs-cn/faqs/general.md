@@ -3,7 +3,7 @@ id: general
 title: 总览
 ---
 
-## ThunderCore 是什么？
+## ThunderCore 是什么？ 
 ThunderCore 结合了高性能与分散式信任，并经过多年严谨的学术研究後，ThunderCore 成为一个与以太坊虚拟机兼容的公链，其提供了更高的吞吐量、更快的确认时间和更低的成本，也使 DApps 可以快速轻松地进行部署和扩容。
 
 ## TT 站是什么？
