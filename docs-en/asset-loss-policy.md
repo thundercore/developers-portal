@@ -3,7 +3,7 @@ id: asset-loss-policy
 title: Asset loss recovery policy 
 ---
 ## Definition
-A deposit of ERC-20 USDT to a TT20-USDT address is considered as a cross-chain deposit. 
+A deposit of ERC-20 or BEP-20 asset to a ThunderCore Hub wallet address is considered as a cross-chain deposit. _Only a transaction that matches the definition above may submit a recovery request._
 
 
 ## About token recovery
