@@ -15,7 +15,8 @@ Token recovery in a cross-chain deposit is a highly complex, manual procedure an
 ## Recovery procedures
 Asset recovery requests may be submitted for amounts exceeding **$1,000** equivalent at the time of the transaction, subject to the following procedures: 
 - ThunderCore will initially evaluate and assess if the recovery is feasible. If after this evaluation, recovery is deemed not to be viable, at ThunderCore’s sole and absolute discretion, the tokens will not be recovered. This evaluation is final. If it is decided that a recovery will be tried, ThunderCore will attempt a recovery, but a successful outcome is not and **cannot be guaranteed**. 
-- There is no time frame or time limit for any discretionary recovery process to be undertaken by ThunderCore, so please be patient. Please do not contact us; wait to be notified. There are no possible updates that ThunderCore can or will communicate before the process is completed.  
+- There is no time frame or time limit for any discretionary recovery process to be undertaken by ThunderCore, so please be patient. Please do not contact us; wait to be notified. There are no possible updates that ThunderCore can or will communicate before the process is completed.
+-For all asset recovery requests, ThunderCore will charge a **5% handling charge**, which will be deducted directly from the requested asset recovery amount.
 
 **Deposits of unsupported tokens (including tokens on the incorrect chain) are not recoverable**.
 
