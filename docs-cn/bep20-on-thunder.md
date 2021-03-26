@@ -33,20 +33,6 @@ TT 的流通量一直且将保持在 10,000,000,000 个 TT 。代币桥只是在
 代币桥目前支持币安智能链 (BEP-20) 的代币包含： BNB、BUSD 和 BEP20-TT。您如果想要把您的 BEP-20 资产跨链转帐到 TT-20 上，请参考 [代币桥](https://bridge.thundercore.com/bsc/) 的 [教学文章](https://docs.thundercore.com/docs/TransferringCrossChainAssets-BSC.pdf)
 
 
-### **BEP-20 TT 的代币合约地址是什么?**
-
-BEP-20 TT的代币合约地址是 **`0x990e7154bb999faa9b2fa5ed29e822703311ea85`**
-
-
-### 我要怎么拿到 BEP20-TT?
-
-请到 [代币桥](https://bridge.thundercore.com/bsc/) 连接到您的钱包到页面，再把你的 TT 交换成 BEP20-TT.
-
-请参阅[教学文章](https://docs.thundercore.com/docs/TransferringCrossChainAssets-BSC.pdf)
-
-BEP-20 TT 可以在 PancakeSwap [兑换](https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x990e7154bb999faa9b2fa5ed29e822703311ea85&outputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56) 和 [加流动性](https://exchange.pancakeswap.finance/#/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0x990e7154bb999faa9b2fa5ed29e822703311ea85).
-
-
 ### **我可以直接将我的 BNB、BUSD、BEP20-TT 存入我的 TT 站钱包地址吗？**
 
 您可以将 BNB 和 BUSD 直接入金到您的 TT 站钱包。但是 TT 站钱包尚不支持 BEP20-TT 的入金。因此，请勿将 BEP20-TT 直接存入您的 TT 站钱包。
@@ -107,3 +93,17 @@ BEP20-TT:
 跨连手续费: 50 TT
 每日限额: 50000000 TT
 ```
+
+### **BEP-20 TT 的代币合约地址是什么?**
+
+BEP-20 TT的代币合约地址是 **`0x990e7154bb999faa9b2fa5ed29e822703311ea85`**
+
+
+### 我要怎么拿到 BEP20-TT?
+
+请到 [代币桥](https://bridge.thundercore.com/bsc/) 连接到您的钱包到页面，再把你的 TT 交换成 BEP20-TT.
+
+请参阅[教学文章](https://docs.thundercore.com/docs/TransferringCrossChainAssets-BSC.pdf)
+
+BEP-20 TT 可以在 PancakeSwap [兑换](https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x990e7154bb999faa9b2fa5ed29e822703311ea85&outputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56) 和 [加流动性](https://exchange.pancakeswap.finance/#/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0x990e7154bb999faa9b2fa5ed29e822703311ea85).
+
