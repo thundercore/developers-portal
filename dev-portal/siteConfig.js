@@ -28,7 +28,7 @@ const siteConfig = {
   headerLinks: [
     { href: 'https://www.thundercore.com', label: 'ThunderCore.com' },
     { doc: 'deploy-your-own-game', label: 'Developers' },
-    { href: 'https://thundercore.zendesk.com/hc/en-us/categories/900001361023-English', label: 'Support Center' },
+    { href: 'https://thundercore.zendesk.com/hc/en-us', label: 'Support Center' },
     { href: 'https://developers-cn.thundercore.com/', label: '🌐  简体中文'}
   ],
 
