@@ -85,6 +85,7 @@ class HelpfulLinks extends React.Component {
           <Link href="https://solidity.readthedocs.io/en/develop/" title="Solidity"/>
           <Link href="https://support-center-cn.thundercore.com/docs/metamask/" title="如何使用 Metamask"/>
           <Link href="https://github.com/thundercore/token-list" title="上币申请"/>
+          <Link href="https://documenter.getpostman.com/view/9835955/TzJu8ch2" title="NFT SDK - Numbers"/>
         </Block>
       </div>
     )
