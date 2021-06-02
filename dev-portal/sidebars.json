@@ -11,7 +11,8 @@
     "Tools": [
       "random-number-generator",
       "develop-with-truffle",
-      "referral-contract"
+      "referral-contract",
+      "ttswap-src"
     ],
     "Get Tokens": [
       "dev-get-tokens"
