@@ -1,6 +1,6 @@
 ---
 id: ttswap-src
-title: TTSwap
+title: TTSwap Resources
 ---
 
 ### What is TTSwap?
@@ -8,4 +8,4 @@ TTSwap is a decentralized token exchange service based on the Uniswap open-sourc
 
 
 ### Documents, ABI and Source Code
-Please reference the [Github repository](https://github.com/thundercore/ttswap-contracts).
+Please refer to the [Github repository](https://github.com/thundercore/ttswap-contracts).
