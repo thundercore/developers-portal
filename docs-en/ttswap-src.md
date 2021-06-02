@@ -3,7 +3,7 @@ id: ttswap-src
 title: TTSwap Resources
 ---
 
-### What is TTSwap?
+### What is TTSwap? 
 TTSwap is a decentralized token exchange service based on the Uniswap open-source protocol and deployed on ThunderCore.
 
 
