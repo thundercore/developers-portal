@@ -51,7 +51,7 @@ const siteConfig = {
   },
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `© ThunderCore Ltd. All Rights Reserved.`,
+  copyright: `© Thunder Token Ltd. All Rights Reserved.`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
